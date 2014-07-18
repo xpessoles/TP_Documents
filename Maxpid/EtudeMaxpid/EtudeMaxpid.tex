@@ -1,0 +1,159 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\usepackage[%
+    pdftitle={Étude complète du Maxpid},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+Étude des systèmes de laboratoire}{
+Chapitre  -- }}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Bras robotisé Maxpid}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+Étude des systèmes de laboratoire\\
+Maxpid}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{
+Informatique - Cours}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+%\includegraphics[width=.95\linewidth]{images/capsuleuse_ph}
+
+\textit{Système pédagogique}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+%\includegraphics[width=.95\linewidth]{images/capsuleuse_3d}
+
+\textit{Représentation 3D du système}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+%\includegraphics[width=.75\linewidth]{images/CroixMalte_3d}
+
+%\textit{Représentation 3D de la Croix de Malte}
+\end{center}
+\end{minipage}
+
+
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+
+
+\section{Modélisation cinématique du bras Maxpid}
+\subsection{Schéma cinématique}
+
+
+\begin{center}
+ \includegraphics[width=.95\textwidth]{images/schema}
+\end{center}
+
+\subsection{Détermination de la loi Entrée / Sortie}
+
+La fermeture de chaîne cinématique s'écrit ainsi : 
+$$
+\vect{AC}+\vect{CD}+\vect{DA}=\vect{0} 
+\Longleftrightarrow
+\lambda\vect{x_1} - b \vect{x_4} - a \vect{x_0'} = \vect{0}
+$$
+
+Projetons cette relation dans le repère $\mathcal{R}_{0'}$ :
+$$
+\lambda\left(\cos\beta \vect{x_0'}+\sin \beta \vect{y_0'} \right) 
+- b \left(\cos\theta' \vect{x_0'}+\sin \theta' \vect{y_0'} \right) - a \vect{x_0'} = \vect{0}
+\Longrightarrow 
+\left\{
+\begin{array}{l}
+\lambda\cos\beta - b \cos\theta' - a  = 0 \\
+\lambda\sin \beta - b \sin \theta' = 0
+\end{array}
+\right.
+$$
+
+Pour exprimer la loi entrée sortie, commençons par déterminer $\theta'$ en fonction de $\lambda$ : 
+$$
+\lambda^2 
+=  a^2 +b^2\cos^2\theta' + 2ab\cos\theta'  + b^2\sin^2 \theta'
+=  a^2 +b^2 + 2ab\cos\theta' 
+\Longleftrightarrow 
+\theta' = \arccos \left(\dfrac{\lambda^2 - a^2 - b^2 }{2ab} \right)
+$$
+
+Une fermeture angulaire nous permet d'exprimer $\theta$ : $\theta' = \alpha + \theta$, on a donc :
+$$
+\theta = \arccos \left(\dfrac{\lambda^2 - a^2 - b^2 }{2ab} \right) - \alpha
+$$
+
+Lorsque $\theta=0$, on a $\lambda_0 = \sqrt{d^2 + (c+b)^2}$.
+
+
+Notons $\gamma$ la position angulaire du moteur et $p$ le pas de la liaison hélicoïdale. On a donc $\lambda = \lambda_0 - p \dfrac{\gamma}{2\pi}=\sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}$ .
+
+Au final, 
+$$
+\theta = \arccos \left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right) - \arctan\left( \dfrac{d}{c}\right)
+$$
+
+\subsection{Détermination de la loi en vitesse}
+%-u'\rsqcine(1-u²)
+
+On a :
+$$
+\dot{\theta} = -\dfrac{\dfrac{2\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right) \left( - p \dfrac{\dot{\gamma}}{2\pi}\right)  }{2ab} }{\sqrt{1-\left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right)^2}}
+$$
+
+\begin{thebibliography}{2}
+\bibitem{xx}{xx}
+\end{thebibliography}
+\end{document}
+
+

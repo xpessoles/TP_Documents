@@ -1,0 +1,6 @@
+\select@language {french}
+\contentsline {section}{\numberline {1}Mod\IeC {\'e}lisation cin\IeC {\'e}matique du bras Maxpid}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Sch\IeC {\'e}ma cin\IeC {\'e}matique}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}D\IeC {\'e}termination de la loi Entr\IeC {\'e}e / Sortie}{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}D\IeC {\'e}termination de la loi en vitesse}{2}{subsection.1.3}
+\contentsfinish 

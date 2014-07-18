@@ -1,0 +1,357 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\usepackage[%
+    pdftitle={Étude complète de la capsuleuse},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+Étude des systèmes de laboratoire}{
+Chapitre  -- }}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Capsuleuse de bocaux}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{
+Damien \textsc{Iceta} \\ Xavier \textsc{Pessoles}}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+Étude des systèmes de laboratoire\\
+Capsuleuse de bocaux}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{
+Informatique - Cours}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.95\linewidth]{images/capsuleuse_ph}
+
+\textit{Système pédagogique}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.95\linewidth]{images/capsuleuse_3d}
+
+\textit{Représentation 3D du système}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.75\linewidth]{images/CroixMalte_3d}
+
+\textit{Représentation 3D de la Croix de Malte}
+\end{center}
+\end{minipage}
+
+
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+
+
+\section{Modélisation cinématique de la Croix de Malte}
+\subsection{Modélisation de la transmission}
+Afin de modéliser le système à croix de malte, on propose le schéma cinématique ci-dessous. 
+
+On note :
+\begin{itemize}
+\item $\mathcal{R}=\left( O,\vect{x_0},\vect{y_0},\vect{z_0}\right)$ le repère lié au bâti $S_0$. On note $\vect{OB}=-L\vect{x_0}$ avec $L = 145\; mm$\footnote{Vérifier les valeurs numériques.};
+\item $\mathcal{R}_1=\left( O,\vect{x_1},\vect{y_1},\vect{z_1}\right)$ le repère lié à l'arbre $S_1$. On pose $\vect{OA}=R\vect{y_1}$  avec $R =141\;mm$ et $\alpha = \left( \vect{x_0}, \vect{x_1}\right)$. L'arbre $S_1$ est lié au motoréducteur de la capsuleuse. On a : $\dot{\alpha} = 10\;tr/min$;
+\item  $\mathcal{R}_2=\left( B,\vect{x_2},\vect{y_2},\vect{z_2}\right)$ le repère lié à l'arbre $S_2$. On pose $\vect{BA}=\lambda(t)\vect{x_2}$,  $\vect{AI}=r\vect{y_2}$ et $\beta = \left( \vect{x_0}, \vect{x_2}\right)$;
+\end{itemize}
+
+\begin{center}
+ \includegraphics[width=.7\textwidth]{images/schema1}
+\end{center}
+
+
+\begin{center}
+ \includegraphics[width=.4\textwidth]{images/param1}
+\end{center}
+\subsection{Détermination de la loi Entrée / Sortie}
+
+\subsubsection{Loi Entrée / Sortie -- Position angulaire}
+On a :
+
+
+$$ \vect{OA} + \vect{AB} + \vect{BO} = \vect{0} \Longleftrightarrow 
+R\vect{y_1} - \lambda(t)\vect{x_2} + L \vect{x_0} = \vect{0}
+$$
+En projetant sur $\vect{x_0}$ et $\vect{y_0}$ on a :
+$$
+\left\{
+\begin{array}{l}
+- R \sin \alpha(t) - \lambda(t) \cos\beta(t) + L = 0\\
+R\cos\alpha(t) - \lambda(t)\sin \beta(t)=0
+\end{array}
+\right.
+$$
+Suivant le cas, on peut donc avoir $\alpha$ en fonction de $\beta$ ou $\lambda$ en fonction de $\alpha$ ou $\beta$ :
+$$
+\tan \beta = \dfrac{R\cos\alpha}{L-R\sin\alpha}
+$$
+
+$$
+\lambda(t)^2 = R^2 + L^2 - 2RL \sin\alpha
+$$
+
+\subsubsection{Loi Entrée / Sortie -- Vitesse angulaire}
+
+On peut calculer : 
+$$
+\dot{\beta} = \dfrac{R^2\dot{\alpha} - LR\dot{\alpha}\sin\alpha }{L^2-2RL\sin\alpha + R^2}
+$$
+
+
+\subsection{Étude cinématique de la Croix de Malte}
+\subsubsection{Détermination de $\{\mathcal{V}(S_1/S_0)\}$}
+$$\{\mathcal{V}(S_1/S_0)\} = 
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_1/S_0)} = \dot{\alpha}\vect{z_0} \\
+\vect{V(O,S_1/S_0)} = \vect{0}
+\end{array}
+\right\}_O =
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_1/S_0)} = \dot{\alpha}\vect{z_0} \\
+\vect{V(I,S_1/S_0)} = \vect{IO} \wedge \dot{\alpha}\vect{z_0}
+\end{array}
+\right\}_I
+$$
+
+$$
+\vect{V(I,S_1/S_0)} =\left( -R\vect{y_1} - r \vect{y_2} \right) \wedge \dot{\alpha}\vect{z_0} =- R\dot{\alpha}\vect{x_1} - r\dot{\alpha}\vect{x_2}
+$$
+$$\{\mathcal{V}(S_1/S_0)\} = 
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_1/S_0)} = \dot{\alpha}\vect{z_0} \\
+\vect{V(I,S_1/S_0)} = -R\dot{\alpha}\vect{x_1} - r\dot{\alpha}\vect{x_2}
+\end{array}
+\right\}_I
+$$
+
+\subsubsection{Détermination de $\{\mathcal{V}(S_2/S_0)\}$}
+$$\{\mathcal{V}(S_2/S_0)\} = 
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_2/S_0)} = \dot{\beta}\vect{z_0} \\
+\vect{V(B,S_2/S_0)} = \vect{0}
+\end{array}
+\right\}_B =
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_2/S_0)} = \dot{\beta}\vect{z_0} \\
+\vect{V(I,S_2/S_0)} = \vect{IB} \wedge \dot{\beta}\vect{z_0}
+\end{array}
+\right\}_I
+$$
+$$
+\vect{V(I,S_2/S_0)} =\left( -\lambda(t)\vect{x_2} - r \vect{y_2} \right) \wedge \dot{\beta}\vect{z_0} = \lambda(t) \dot{\beta}\vect{y_2} - r\dot{\beta}\vect{x_2}
+$$
+
+$$\{\mathcal{V}(S_2/S_0)\} = 
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_2/S_0)} = \dot{\beta}\vect{z_0} \\
+\vect{V(I,S_2/S_0)} = \lambda(t) \dot{\beta}\vect{y_2} - r\dot{\beta}\vect{x_2}
+\end{array}
+\right\}_I
+$$
+
+\subsubsection{Détermination de $\{\mathcal{V}(S_2/S_1)\}$}
+
+D'après la composition du torseur cinématique on a :
+$$
+\{ \mathcal{V}(S_2/S_1)\} = \{ \mathcal{V}(S_2/S_0)\} + \{ \mathcal{V}(S_0/S_1)\} 
+\Longleftrightarrow \{ \mathcal{V}(S_2/S_1)\} = \{ \mathcal{V}(S_2/S_0)\} - \{ \mathcal{V}(S_1/S_0)\} 
+$$
+On a donc : 
+$$
+\{ \mathcal{V}(S_2/S_1)\} =
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_2/S_1)} = \vect{\Omega(S_2/S_0)} - \vect{\Omega(S_1/S_0)}  = \left(\dot{\beta}-\dot{\alpha} \right)\vect{z_0} \\
+\vect{V(I,S_2/S_1)} = \vect{V(I,S_2/S_0)} - \vect{V(I,S_1/S_0)} 
+=
+ \lambda(t) \dot{\beta}\vect{y_2} - r\dot{\beta}\vect{x_2} +
+ R\dot{\alpha}\vect{x_1} + r\dot{\alpha}\vect{x_2}
+\end{array}
+\right\}_I
+$$
+
+%$$
+%\{ \mathcal{V}(S_2/S_1)\} =
+%\left\{
+%\begin{array}{l}
+%\vect{\Omega(S_2/S_1)} = \left(\dot{\beta}-\dot{\alpha} \right)\vect{z_0} \\
+%\vect{V(I,S_2/S_1)} =
+ %-\lambda(t) \dot{\beta}\vect{x_2}  -  R\dot{\alpha}\vect{y_1} 
+%\end{array}
+%\right\}_I
+%$$
+
+$$ \vect{x_1} 
+=\cos(\alpha-\beta)\vect{x_2} + \sin(\alpha-\beta)\vect{y_2}
+$$
+D'où :
+$$
+\vect{V(I,S_2/S_1)} =
+ \lambda(t) \dot{\beta}\vect{y_2} - r\dot{\beta}\vect{x_2} +
+ R\dot{\alpha}\cos(\alpha-\beta)\vect{x_2} +  R\dot{\alpha}\sin(\alpha-\beta)\vect{y_2} + r\dot{\alpha}\vect{x_2}
+=\left[
+\begin{array}{l}
+- r\dot{\beta}+ R\dot{\alpha}\cos(\alpha-\beta) + r\dot{\alpha}\\
+ \lambda(t) \dot{\beta}+  R\dot{\alpha}\sin(\alpha-\beta)\\
+0\\
+\end{array}
+\right]_{\mathcal{R}_2}
+$$
+
+
+Nécessairement, la vitesse de glissement appartient au plan tangent au contact. On a donc :
+$$
+\left\{
+\begin{array}{l}
+- r\dot{\beta}+ R\dot{\alpha}\cos(\alpha-\beta)  +r\dot{\alpha} = \dot{\lambda}\\
+ \lambda(t) \dot{\beta}+  R\dot{\alpha}\sin(\alpha-\beta)=0\\
+\end{array}
+\right.
+$$
+
+
+
+\subsection{Détermination de la vitesse du galet}
+
+\begin{minipage}[c]{.4\linewidth}
+On considère maintenant l'existence d'un galet $S_3$ en bout de de l'arbre $S_1$. On fait l'hypothèse que le galet roule sans glisser dans le $S_2$. $S_3$ et $S_1$ sont en liaison pivot d'axe $\vect{z_0}$ et de centre $A$.
+
+Le galet a un diamètre extérieur de $16\;mm$. D'après la documentation constructeur, la vitesse de rotation du galet ne doit pas dépasser les $5000\; tr/min$.
+\end{minipage} \hfill
+\begin{minipage}[c]{.55\linewidth}
+\begin{center}
+ \includegraphics[width=\textwidth]{images/galet}
+\end{center}
+\end{minipage}
+
+\begin{center}
+ \includegraphics[width=.9\textwidth]{images/schema2}
+\end{center}
+
+
+On fait l'hypothèse de roulement sans glissement selon laquelle la vitesse est nulle entre le galet et la croix de Malte est nulle au point $I$ :
+$$ 
+\vect{V(I,S_3/S_2)} = \vect{0}
+$$
+
+
+Malgré l'introduction du galet, la position du point $I$ reste inchangée.
+
+Il faut identifier le torseur $\{\mathcal{V}(S_3/S_2)\}$. 
+Pour cela, la composition des vitesses donne :
+$$
+\{\mathcal{V}(S_3/S_2)\} = \{\mathcal{V}(S_3/S_1)\} + \{\mathcal{V}(S_1/S_2)\}  
+$$
+
+
+Au point $I$ on connaît déjà $\{\mathcal{V}(S_1/S_2)\}$.
+
+Calculons $\{\mathcal{V}(S_3/S_1)\}$:
+
+$$
+\{\mathcal{V}(S_3/S_1)\}
+= 
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_3/S_1)} = \dot{\gamma}\vect{z_0} \\
+\vect{V(A,S_3/S_1)} = \vect{0}
+\end{array}
+\right\}_A =
+\left\{
+\begin{array}{l}
+\vect{\Omega(S_3/S_1)} = \dot{\gamma}\vect{z_0} \\
+\vect{V(I,S_3/S_1)} = \vect{IA} \wedge \dot{\gamma}\vect{z_0}
+= -r\vect{y_2} \wedge \dot{\gamma}\vect{z_0} = -r \dot{\gamma}\vect{x_2}
+\end{array}
+\right\}_I
+$$
+
+On a donc :
+$$
+\vect{V(I,S_3/S_2)} = \vect{V(I,S_3/S_1)} + \vect{V(I,S_1/S_2)} 
+$$
+$$
+\vect{V(I,S_3/S_2)} = -r \dot{\gamma}\vect{x_2} 
++\left(-r\dot{\beta}+ R\dot{\alpha}\cos(\alpha-\beta) + r\dot{\alpha}\right)\vect{x_2}
+- \left(\lambda(t) \dot{\beta}+  R\dot{\alpha}\sin(\alpha-\beta)\right)\vect{y_2}
+$$
+
+
+$$
+\vect{V(I,S_3/S_2)} =\left[ 
+\begin{array}{l}
+ -r \dot{\gamma}+\left(-r\dot{\beta}+ R\dot{\alpha}\cos(\alpha-\beta) + r\dot{\alpha}\right)\\
+- \left(\lambda(t) \dot{\beta}+  R\dot{\alpha}\sin(\alpha-\beta)\right)\\
+0\\
+\end{array}
+\right]_{\mathcal{R}_2}  
+$$
+
+
+%De même que précédemment, les solides étant indéformable, la projection de la vitesse sur $\vect{y_2}$ est nulle. 
+
+D'après l'hypothèse de roulement sans glissement, on a :
+$$ 
+\vect{V(I,S_3/S_2)} = \vect{0} \Longrightarrow  \dot{\gamma}=-\dfrac{-r\dot{\beta}+ R\dot{\alpha}\cos(\alpha-\beta) + r\dot{\alpha}}{r}
+$$
+
+
+
+\begin{thebibliography}{2}
+\bibitem{xx}{xx}
+\end{thebibliography}
+\end{document}
+
+
