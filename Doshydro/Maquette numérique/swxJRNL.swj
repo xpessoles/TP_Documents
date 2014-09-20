@@ -1,0 +1,23 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 01/29/04 by ALEXIS
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc4 ("E:\TP Labo MPSI\Supports\Doshydro\Maquette numérique\Pompe a assembler 1.SLDASM", 2, 0, "", longstatus)
+Set Part = swApp.ActivateDoc ("Pompe a assembler 1.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameWidth = 1205
+swApp.ActiveDoc.ActiveView.FrameHeight = 896
+swApp.ExitApp
+End Sub
