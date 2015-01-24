@@ -27,25 +27,31 @@
  
  */
 
-int sensorPin = A0;    // select the input pin for the potentiometer
-int ledPin = 11;      // select the pin for the LED
-int sensorValue = 0;  // variable to store the value coming from the sensor
-float pwm;
+int sensorPin = A0;// = A0;    // select the input pin for the potentiometer
+//int ledPin = 11;      // select the pin for the LED
+//int sensorValue = 0;  // variable to store the value coming from the sensor
+int SortiePwm = 11;
+int ValeurPwm;
+
 void setup() {
   // declare the ledPin as an OUTPUT:
-  pinMode(ledPin, OUTPUT);  
+  pinMode(SortiePwm, OUTPUT);  
   Serial.begin(57600);
 }
 
 void loop() {
   // read the value from the sensor:
   sensorValue = analogRead(sensorPin);  
-  Serial.print("Entree :");
+  ValeurPwm = senserValue / 4;
+  
+  analogWrite(SortiePwm, ValeurPwm); 
+  
+  Serial.print("Entree : ");
   Serial.print(sensorValue);
-  pwm = 255.* (float) sensorValue/1000.;
-  Serial.print("   PWM ");
+  
+  Serial.print("   PWM : ");
   Serial.print(pwm);
-  //analogWrite(ledPin, sensorValue); 
+  
   Serial.println();
   // turn the ledPin on
   //digitalWrite(ledPin, HIGH);  
