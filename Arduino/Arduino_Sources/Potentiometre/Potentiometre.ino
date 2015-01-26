@@ -48,7 +48,7 @@ void loop() {
   //digitalWrite(ledPin, LOW);   
   // stop the program for for <sensorValue> milliseconds:
   //delay(sensorValue);
-  Serial.print("A0 "); // en-tete (A0) suivi d'un espace
+  Serial.print("A0 \n"); // en-tete (A0) suivi d'un espace
   Serial.print(sensorValue); // la valeur
   Serial.println();
 }
