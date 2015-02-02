@@ -38,15 +38,22 @@
 \end{minipage}
 }
 
-\ifthenelse{\boolean{prof}}{%
-\fancyfoot[R]{\footnotesize{\xxpied}}}
+\fancyfoot[R]{\footnotesize{\xxpied}}
 
 \begin{center}
+ \iftd
+ \Large\textsc{\xxtitre}
+ \else
  \huge\textsc{\xxtitre}
+ \fi
 \end{center}
 
 \begin{center}
+ \iftd
+ \large\textsc{\xxsoustitre}
+ \else
  \LARGE\textsc{\xxsoustitre}
+ \fi
 \end{center}
 
 \vspace{.5cm}
