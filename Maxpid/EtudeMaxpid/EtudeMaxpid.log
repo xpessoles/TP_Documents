@@ -1,8 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  1 FEB 2014 15:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  2 FEB 2015 23:13
 entering extended mode
 **EtudeMaxpid.tex
-
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.tex
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -31,8 +30,8 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/coursHead
-ings.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/coursHeadings.te
+x ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -603,10 +602,11 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen140
 ))
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/programHe
-adings.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/programHeadings.
+tex ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count114
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
@@ -845,10 +845,9 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/macros_SI
-I.tex)
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/macros_Ti
-tres.tex
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/macros_SII.tex)
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/macros_Titres.te
+x
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 70.47974pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <40> not available
@@ -859,8 +858,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.02492pt on input line 47.
 \oldparindent=\dimen151
 )
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/macros_Fr
-ames.tex
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/macros_Frames.te
+x
 Package color Info: Redefining color gris25 on input line 3.
 Package color Info: Redefining color bleu on input line 4.
 Package color Info: Redefining color bleuf on input line 5.
@@ -990,45 +989,45 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip78
 )
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.aux
-)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 53.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 60.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 53.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 53.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Info: Redefining \degres on input line 53.
-LaTeX Info: Redefining \dots on input line 53.
-LaTeX Info: Redefining \up on input line 53.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Info: Redefining \degres on input line 60.
+LaTeX Info: Redefining \dots on input line 60.
+LaTeX Info: Redefining \up on input line 60.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1046,7 +1045,7 @@ LaTeX Info: Redefining \up on input line 53.
 )
 \c@lstlisting=\count142
 \AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 60.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1055,182 +1054,190 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 60.
+LaTeX Info: Redefining \pageref on input line 60.
+LaTeX Info: Redefining \nameref on input line 60.
 
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.out
-)
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.out
-)
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.out)
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.out)
 \@outlinefile=\write3
 
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\style/enteteXP.
-tex
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\style/enteteXP.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 45.
+(Font)              scaled to size 13.53603pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 19.49565pt on input line 45.
+(Font)              scaled to size 13.53603pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 16.24324pt on input line 49.
+(Font)              scaled to size 11.28003pt on input line 53.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 16.24324pt on input line 49.
+(Font)              scaled to size 11.28003pt on input line 53.
 )
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 61.
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 85.
+(Font)              scaled to size 9.40002pt on input line 68.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 14.91832pt on input line 85.
+(Font)              scaled to size 14.91832pt on input line 92.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <14.4> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 85.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 92.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 14.91832pt on input line 85.
+(Font)              scaled to size 14.91832pt on input line 92.
 
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.toc
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.toc
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
 (Font)              scaled to size 10.35995pt on input line 2.
 )
 \tf@toc=\write4
-LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 93.
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
-(Font)              scaled to size 12.43195pt on input line 93.
+(Font)              scaled to size 12.43195pt on input line 100.
 LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
-(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 93.
+(Font)              Font shape `T1/cmss/bx/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
-(Font)              scaled to size 12.43195pt on input line 93.
- <images/schema.png, id=27, 1207.51125pt x 732.7375pt>
-File: images/schema.png Graphic file (type png)
+(Font)              scaled to size 12.43195pt on input line 100.
 
-<use images/schema.png>
-Package pdftex.def Info: images/schema.png used on input line 97.
+<images/schema.png, id=33, 1207.51125pt x 732.7375pt>
+File: images/schema.png Graphic file (type png)
+ <use images/schema.png>
+Package pdftex.def Info: images/schema.png used on input line 104.
 (pdftex.def)             Requested size: 500.66376pt x 303.81206pt.
-LaTeX Font Info:    Try loading font information for OT1+mdput on input line 10
-3.
+LaTeX Font Info:    Try loading font information for OT1+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\ot1mdput.fd"
 File: ot1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdput.
 )
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
-LaTeX Font Info:    Try loading font information for OML+mdput on input line 10
-3.
+(Font)              scaled to size 4.70001pt on input line 110.
+LaTeX Font Info:    Try loading font information for OML+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omlmdput.fd"
 File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 103.
-LaTeX Font Info:    Try loading font information for OMS+mdput on input line 10
-3.
+(Font)              scaled to size 4.70001pt on input line 110.
+LaTeX Font Info:    Try loading font information for OMS+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omsmdput.fd"
 File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
-LaTeX Font Info:    Try loading font information for OMX+mdput on input line 10
-3.
+(Font)              scaled to size 4.70001pt on input line 110.
+LaTeX Font Info:    Try loading font information for OMX+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\omxmdput.fd"
 File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
+(Font)              scaled to size 4.70001pt on input line 110.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
-LaTeX Font Info:    Try loading font information for MDA+mdput on input line 10
-3.
+(Font)              scaled to size 4.70001pt on input line 110.
+LaTeX Font Info:    Try loading font information for MDA+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdamdput.fd"
 File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
-LaTeX Font Info:    Try loading font information for MDB+mdput on input line 10
-3.
+(Font)              scaled to size 4.70001pt on input line 110.
+LaTeX Font Info:    Try loading font information for MDB+mdput on input line 11
+0.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdbmdput.fd"
 File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 103.
+(Font)              scaled to size 9.40002pt on input line 110.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 103.
+(Font)              scaled to size 6.58002pt on input line 110.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 103.
+(Font)              scaled to size 4.70001pt on input line 110.
 
-<png/logo_ptsi.png, id=29, 384.43625pt x 190.7125pt>
+<png/logo_ptsi.png, id=35, 384.43625pt x 190.7125pt>
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 120.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 127.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 120.
+(Font)              scaled to size 7.52002pt on input line 127.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 120.
+(Font)              scaled to size 7.52002pt on input line 127.
 LaTeX Font Info:    Font shape `T1/cmss/m/it' will be
-(Font)              scaled to size 8.28796pt on input line 120.
+(Font)              scaled to size 8.28796pt on input line 127.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
-(Font)              scaled to size 7.52002pt on input line 120.
+(Font)              scaled to size 7.52002pt on input line 127.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 120.
+(Font)              scaled to size 7.52002pt on input line 127.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <C:/Enseignements/GitHub/TP_PTSI/DocumentsTP/Maxpid/EtudeMaxpid/png/logo_ptsi.
-png> <C:/Enseignements/GitHub/TP_PTSI/DocumentsTP/Maxpid/EtudeMaxpid/images/sch
-ema.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+ <C:/Enseignements/GitHub/TP_Documents/Maxpid/EtudeMaxpid/png/logo_ptsi.png> <C
+:/Enseignements/GitHub/TP_Documents/Maxpid/EtudeMaxpid/images/schema.png>]
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 6.58002pt on input line 164.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.70001pt on input line 164.
+
+<images/LoiTheorique.png, id=54, 578.16pt x 431.4519pt>
+File: images/LoiTheorique.png Graphic file (type png)
+
+<use images/LoiTheorique.png>
+Package pdftex.def Info: images/LoiTheorique.png used on input line 171.
+(pdftex.def)             Requested size: 237.15567pt x 176.97542pt.
+File: png/logo_ptsi.png Graphic file (type png)
+ <use png/logo_ptsi.png>
+Package pdftex.def Info: png/logo_ptsi.png used on input line 173.
+(pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
 File: png/logo_ptsi.png Graphic file (type png)
 
 <use png/logo_ptsi.png>
-Package pdftex.def Info: png/logo_ptsi.png used on input line 157.
+Package pdftex.def Info: png/logo_ptsi.png used on input line 179.
 (pdftex.def)             Requested size: 56.9055pt x 28.22733pt.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
+ [3 <C:/Enseignements/GitHub/TP_Documents/Maxpid/EtudeMaxpid/images/LoiTheoriqu
+e.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
 
-(C:\Enseignements\GitHub\TP_PTSI\DocumentsTP\Maxpid\EtudeMaxpid\EtudeMaxpid.aux
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
+(C:\Enseignements\GitHub\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `EtudeMaxpid.out' has not changed.
-(rerunfilecheck)             Checksum: 72BB7913075DBA5069346C4B003F63B3;337.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 157.
+(rerunfilecheck)             Checksum: 8453D5F13BD3EAF9250F09003C1096A2;407.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 12391 strings out of 493921
- 175676 string characters out of 3147279
- 302146 words of memory out of 3000000
- 15404 multiletter control sequences out of 15000+200000
- 122905 words of font info for 85 fonts, out of 3000000 for 9000
+ 12418 strings out of 493921
+ 175749 string characters out of 3147279
+ 303479 words of memory out of 3000000
+ 15426 multiletter control sequences out of 15000+200000
+ 123578 words of font info for 87 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,18n,72p,301b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,72p,301b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users
 \Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsx1200.pk
 > <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\
@@ -1244,9 +1251,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/P
 rogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/adobe/utopia/putri8a.pfb>
-Output written on EtudeMaxpid.pdf (2 pages, 194595 bytes).
+Output written on EtudeMaxpid.pdf (3 pages, 229890 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

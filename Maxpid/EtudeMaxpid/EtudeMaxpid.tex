@@ -20,6 +20,13 @@
     linkcolor=blue,
     citecolor=magenta]{hyperref}
 
+\newif\ifprof
+\proftrue
+%\proffalse
+
+\newif\iftd
+\tdtrue
+%\tdfalse
 
 \def\discipline{Sciences Industrielles de l'Ingénieur}
 \def\xxtitre{\ifthenelse{\boolean{xp}}{
@@ -150,6 +157,21 @@ On a :
 $$
 \dot{\theta} = -\dfrac{\dfrac{2\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right) \left( - p \dfrac{\dot{\gamma}}{2\pi}\right)  }{2ab} }{\sqrt{1-\left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right)^2}}
 $$
+
+\subsection{Tracé des courbes} 
+Application numérique : 
+\begin{itemize}
+\item $a = 106,3\; \text{mm}$;
+\item $b = 59 \; \text{mm}$;
+\item $c = 70 \; \text{mm}$;
+\item $d = 80 \; \text{mm}$.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=.45\textwidth]{images/LoiTheorique}
+
+\textit{Loi Entrée Sortie -- Position angulaire du bras en fonction de la position du moteur} 
+\end{center}
 
 \begin{thebibliography}{2}
 \bibitem{xx}{xx}
