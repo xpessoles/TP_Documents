@@ -1,0 +1,149 @@
+\documentclass[10pt]{article}
+\input{style/coursHeadings}
+\input{style/programHeadings}
+\input{style/macros_SII}
+\input{style/macros_Titres}
+\input{style/macros_Frames}
+
+%Si le boolen xp est vrai : compilation pour xabi
+%Sinon compilation Damien
+\newboolean{xp}
+\setboolean{xp}{true}
+
+\newboolean{prof}
+\setboolean{prof}{true}
+
+\usepackage[%
+    pdftitle={Étude complète de la pompe Doshydro},
+    pdfauthor={Xavier Pessoles},
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=magenta]{hyperref}
+
+\newif\ifprof
+\proftrue
+%\proffalse
+
+\newif\iftd
+\tdtrue
+%\tdfalse
+
+\def\discipline{Sciences Industrielles de l'Ingénieur}
+\def\xxtitre{\ifthenelse{\boolean{xp}}{
+Étude des systèmes de laboratoire}{
+Chapitre  -- }}
+
+\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
+Pompe Doshydro}{
+Partie  -- }}
+
+\def\xxauteur{\ifthenelse{\boolean{xp}}{
+Xavier \textsc{Pessoles}}{}}
+
+\def\xxpied{\ifthenelse{\boolean{xp}}{
+\textit{Étude des systèmes de laboratoire}\\
+\textit{Maxpid}}{
+\xxtitre}}
+
+\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
+2013 -- 2014 \\
+Xavier \textsc{Pessoles}}{
+Informatique - Cours}}
+
+
+
+
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+
+\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.95\linewidth]{images/Doshydro_labo}
+
+\textit{Système pédagogique}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+\includegraphics[width=.95\linewidth]{images/Doshydro_SW}
+
+\textit{Représentation 3D du système}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[b]{.3\linewidth}
+\begin{center}
+%\includegraphics[width=.75\linewidth]{images/CroixMalte_3d}
+
+%\textit{Représentation 3D de la Croix de Malte}
+\end{center}
+\end{minipage}
+
+
+
+\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
+ \renewcommand{\contentsname}{}
+ \renewcommand{\baselinestretch}{1}
+
+\tableofcontents
+
+ \renewcommand{\baselinestretch}{1.2}
+\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+
+
+
+\section{Modélisation cinématique de la pompe}
+\subsection{Schéma cinématique}
+
+
+\begin{center}
+ \includegraphics[width=.95\textwidth]{images/SchemaCinematique}
+\end{center}
+
+On a : 
+\begin{itemize}
+\item $\vect{O_0 O_2} = R \vect{x_2}$ avec $R= \text{mm}$;
+\item $\vect{O_2 A} = \lambda(t) \vect{y_0}$;
+\item $\vect{BA} = a \vect{x_0}+b \vect{y_0}$ avec $a= \text{mm}$ et $b= \text{mm}$;
+\item $\vect{B O_0} = \mu(t) \vect{x_0}$;
+\item la vis a $n$ filets;
+\item la roue a $Z$ dents. 
+\end{itemize}
+\subsection{Détermination de la loi Entrée / Sortie}
+On cherche d'abord à établir la loi entre la rotation de la pièce 2 ($\varphi$) et la translation du piston ($\mu$) . On peut écrire la fermeture de chaîne suivante : 
+\begin{eqnarray*}
+\vect{O_0 O_2} + \vect{O_2 A} + \vect{AB} + \vect{B O_0} &= &\vect{0}\\
+\Longleftrightarrow 
+ R \vect{x_2} + \lambda(t) \vect{y_0} - a \vect{x_0} - b \vect{y_0} + \mu(t) \vect{x_0} &=& \vect{0}  \\
+ \Longleftrightarrow
+ R \left(\cos \varphi(t) \vect{x_0} + \sin\varphi(t) \vect{y_0} \right) + \lambda(t) \vect{y_0} - a \vect{x_0} - b \vect{y_0} + \mu(t) \vect{x_0} &=& \vect{0}
+\end{eqnarray*}
+
+Grâce à la projection sur $\vect{x_0}$ on obtient directement : 
+$$
+ R \cos \varphi (t) - a + \mu(t)  = 0 \Longleftrightarrow
+ \mu(t)= a - R \cos\varphi (t)
+$$
+
+On peut alors exprimer la position du piston en fonction de la position angulaire du moteur : 
+$$  \mu(t)= a - R \cos\left(\dfrac{n}{Z} \cdot \theta (t)\right) $$
+
+\subsection{Détermination de la loi en vitesse}
+$$
+ \dfrac{d\mu(t)}{dt}=  R  \dfrac{d\varphi(t)}{dt}\sin\varphi (t) 
+ \quad \text{et} \quad
+ \dfrac{d\mu(t)}{dt}=  R  \dfrac{n}{Z} \dfrac{d\theta(t)}{dt}\sin\theta (t) 
+$$
+
+\subsection{Tracé des courbes} 
+
+\begin{thebibliography}{2}
+\bibitem{xx}{xx}
+\end{thebibliography}
+\end{document}
+
+
