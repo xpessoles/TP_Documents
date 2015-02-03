@@ -1,0 +1,22 @@
+0x150
+Cinématique
+1
+Uniforme
+5
+1
+ 0.00000000000000e+000     Position initiale
+ 0.00000000000000e+000     Position finale
+ 3.82000000000000e+002     Vitesse initiale
+
+1000
+3.920000
+2
+1
+5
+ 0.00000000000000e+000
+1
+5
+ 0.00000000000000e+000
+Scénario 1
+
+0
