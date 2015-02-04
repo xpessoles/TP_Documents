@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.1.15)  3 FEB 2015 22:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.29)  4 FEB 2015 11:33
 entering extended mode
 **EtudeDoshydro.tex
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.tex
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -30,8 +30,8 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/coursHeading
-s.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/coursHeadings.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -602,8 +602,8 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen140
 ))
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/programHeadi
-ngs.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/programHeadings.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count114
 
@@ -668,24 +668,24 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \lst@maxwidth=\dimen150
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 \c@lstnumber=\count124
 \lst@skipnumbers=\count125
 \lst@framebox=\box67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2013/08/26 1.5b listings configuration
+File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+File: lstlang2.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+File: lstlang3.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
@@ -845,10 +845,8 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/macros_SII.t
-ex)
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/macros_Titre
-s.tex
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/macros_SII.tex)
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/macros_Titres.tex
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 (Font)              scaled to size 70.47974pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <40> not available
@@ -859,8 +857,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 22.02492pt on input line 47.
 \oldparindent=\dimen151
 )
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/macros_Frame
-s.tex
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/macros_Frames.tex
 Package color Info: Redefining color gris25 on input line 3.
 Package color Info: Redefining color bleu on input line 4.
 Package color Info: Redefining color bleuf on input line 5.
@@ -872,7 +869,8 @@ Package color Info: Redefining color vertc on input line 10.
 Package color Info: Redefining color violetf on input line 11.
 Package color Info: Redefining color violetc on input line 12.
 Package color Info: Redefining color jaunec on input line 13.
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
@@ -990,7 +988,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip78
 )
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.aux)
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
@@ -1005,6 +1003,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 60.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 60.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
 File: mdacmr.fd 
 )
@@ -1058,11 +1057,11 @@ LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
 LaTeX Info: Redefining \nameref on input line 60.
 
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.out)
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.out)
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.out)
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.out)
 \@outlinefile=\write3
 
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\style/enteteXP.tex
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\style/enteteXP.tex
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 13.53603pt on input line 45.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
@@ -1071,7 +1070,8 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 11.28003pt on input line 53.
 LaTeX Font Info:    Font shape `T1/mdput/m/fsc' will be
 (Font)              scaled to size 11.28003pt on input line 53.
-) <images/Doshydro_labo.png, id=23, 451.6875pt x 482.80376pt>
+)
+<images/Doshydro_labo.png, id=23, 451.6875pt x 482.80376pt>
 File: images/Doshydro_labo.png Graphic file (type png)
 
 <use images/Doshydro_labo.png>
@@ -1093,7 +1093,7 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 14.91832pt on input line 92.
 
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.toc
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.toc
 LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
 (Font)              scaled to size 10.35995pt on input line 2.
 )
@@ -1104,6 +1104,7 @@ LaTeX Font Info:    Font shape `T1/cmss/b/n' in size <12> not available
 (Font)              Font shape `T1/cmss/bx/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/cmss/bx/n' will be
 (Font)              scaled to size 12.43195pt on input line 100.
+
 <images/SchemaCinematique.png, id=36, 959.585pt x 443.6575pt>
 File: images/SchemaCinematique.png Graphic file (type png)
 
@@ -1211,11 +1212,10 @@ LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <C:/Enseignements/GitHub/TP_Documents/Doshydro/EtudeDoshydro/png/logo_ptsi.png
-> <C:/Enseignements/GitHub/TP_Documents/Doshydro/EtudeDoshydro/images/Doshydro_
-labo.png> <C:/Enseignements/GitHub/TP_Documents/Doshydro/EtudeDoshydro/images/D
-oshydro_SW.png> <C:/Enseignements/GitHub/TP_Documents/Doshydro/EtudeDoshydro/im
-ages/SchemaCinematique.png>]
+ <D:/Github/TP_Documents/Doshydro/EtudeDoshydro/png/logo_ptsi.png> <D:/Github/T
+P_Documents/Doshydro/EtudeDoshydro/images/Doshydro_labo.png> <D:/Github/TP_Docu
+ments/Doshydro/EtudeDoshydro/images/Doshydro_SW.png> <D:/Github/TP_Documents/Do
+shydro/EtudeDoshydro/images/SchemaCinematique.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
 File: png/logo_ptsi.png Graphic file (type png)
  <use png/logo_ptsi.png>
@@ -1224,7 +1224,7 @@ Package pdftex.def Info: png/logo_ptsi.png used on input line 147.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
 
-(C:\Enseignements\GitHub\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.aux)
+(D:\Github\TP_Documents\Doshydro\EtudeDoshydro\EtudeDoshydro.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `EtudeDoshydro.out' has not changed.
@@ -1232,27 +1232,27 @@ Package rerunfilecheck Info: File `EtudeDoshydro.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 147.
  ) 
 Here is how much of TeX's memory you used:
- 12419 strings out of 493921
- 176037 string characters out of 3147279
- 305494 words of memory out of 3000000
- 15430 multiletter control sequences out of 15000+200000
+ 12423 strings out of 493921
+ 175727 string characters out of 3147258
+ 305526 words of memory out of 3000000
+ 15434 multiletter control sequences out of 15000+200000
  122592 words of font info for 84 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,19n,72p,303b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc} <C:\Users
-\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsx1200.pk
-> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\
-ecsx1440.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi622\ecss1000.pk> <C:\Users\Xavier\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi622\ecsi0800.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/math
-design/mdput/md-utr7t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/m
-dput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-
-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr8t.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/adobe/utopia/putri8a.pfb>
-Output written on EtudeDoshydro.pdf (2 pages, 892795 bytes).
+\CPGE Rouviere\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsx
+1200.pk> <C:\Users\CPGE Rouviere\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi622\ecsx1440.pk> <C:\Users\CPGE Rouviere\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi622\ecss1000.pk> <C:\Users\CPGE Rouviere\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi622\ecsi0800.pk><C:/Program Files
+/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7t.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/mathdesign/mdput/md-utr7v.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/mathdesign/mdput/md-utr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+mathdesign/mdput/md-utr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathdesi
+gn/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/pu
+tb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on EtudeDoshydro.pdf (2 pages, 892912 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
