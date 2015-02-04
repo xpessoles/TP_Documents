@@ -1,0 +1,18 @@
+
+===============Init Logging================
+
+04/02/2015 - 09:36:03 	===== Ouverture de session =====
+04/02/2015 - 10:00:17 	Début du calcul
+04/02/2015 - 10:00:17 	Nombre de positions : 1000
+04/02/2015 - 10:00:17 	Simulation inactivée
+04/02/2015 - 10:00:17 	Lecture des conditions initiales
+04/02/2015 - 10:00:21 	Fin du calcul
+04/02/2015 - 10:16:18 	Début du calcul
+04/02/2015 - 10:16:18 	Nombre de positions : 1000
+04/02/2015 - 10:16:18 	Simulation inactivée
+04/02/2015 - 10:16:18 	Lecture des conditions initiales
+04/02/2015 - 10:16:22 	Fin du calcul
+04/02/2015 - 10:20:31 	===== Fermeture de session =====
+
+===============Finish Logging================
+
