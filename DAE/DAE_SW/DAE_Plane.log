@@ -1,0 +1,28 @@
+
+===============Init Logging================
+
+05/02/2015 - 09:52:16 	===== Ouverture de session =====
+05/02/2015 - 10:00:50 	Début du calcul
+05/02/2015 - 10:00:50 	Nombre de positions : 200
+05/02/2015 - 10:00:50 	Simulation inactivée
+05/02/2015 - 10:00:50 	Lecture des conditions initiales
+05/02/2015 - 10:00:52 	Fin du calcul
+05/02/2015 - 10:00:58 	Début du calcul
+05/02/2015 - 10:00:58 	Nombre de positions : 200
+05/02/2015 - 10:00:58 	Simulation inactivée
+05/02/2015 - 10:00:58 	Lecture des conditions initiales
+05/02/2015 - 10:00:58 	Fin du calcul
+05/02/2015 - 10:03:00 	Début du calcul
+05/02/2015 - 10:03:00 	Nombre de positions : 200
+05/02/2015 - 10:03:00 	Simulation inactivée
+05/02/2015 - 10:03:00 	Lecture des conditions initiales
+05/02/2015 - 10:03:01 	Fin du calcul
+05/02/2015 - 10:03:26 	Début du calcul
+05/02/2015 - 10:03:26 	Nombre de positions : 200
+05/02/2015 - 10:03:26 	Simulation inactivée
+05/02/2015 - 10:03:26 	Lecture des conditions initiales
+05/02/2015 - 10:03:27 	Fin du calcul
+05/02/2015 - 10:04:02 	===== Fermeture de session =====
+
+===============Finish Logging================
+
