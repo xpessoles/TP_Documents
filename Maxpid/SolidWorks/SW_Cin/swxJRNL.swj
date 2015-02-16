@@ -1,0 +1,21 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 01/25/09 by Mary
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("C:\Users\Mary\Documents\0 PREPA PTSI\TP\0 systeme web\MAXPID\Maquette 3D SolidWorks\Maquette 3D SolidWorks\MécanismeMaxpid.SLDASM", 2, 0, "", longstatus, longwarnings)
+' MSGBOX
+' Ne peut pas ouvrir C:\Users\Mary\Documents\0 PREPA PTSI\TP\0 systeme web\MAXPID\Maquette 3D SolidWorks\Maquette 3D SolidWorks\MécanismeMaxpid.SLDASM.
+' Version future
+
+swApp.ExitApp
+End Sub
