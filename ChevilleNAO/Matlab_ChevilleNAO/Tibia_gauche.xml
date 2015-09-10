@@ -1,0 +1,2255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/02/15||14:54:38" using="SimMechanics Link Version 4.5" from="SolidWorks 22.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Tibia_gauche" uid="Tibia_gauche" version="945">
+<AssemblyFile name="Tibia_gauche.sldasm" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Tibia-1" uid="Tibia-1" entityUid="Tibia" rigid="true">
+<Transform>
+<Rotation>0.97814760073380513 0.20791169081776256 0 -0.20791169081776267 0.97814760073380502 0 0 1.1102230246251565e-016 1</Rotation>
+<Translation>0.0076869398046446637 0.08884447373612557 -0.0057428045130636807</Translation>
+</Transform>
+<Instance name="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche-1" uid="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche-1" grounded="true" entityUid="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche*:*Default">
+<Transform>
+<Rotation>5.7454041524351835e-015 1 0 -1 5.7454041524351835e-015 0 0 0 1</Rotation>
+<Translation>0.0028538051849544555 0.0097275185716916845 0.00523528852492499</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche-1" uid="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche-1" entityUid="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche*:*Default">
+<Transform>
+<Rotation>5.6621374255882968e-015 1 0 -1 5.6621374255882968e-015 -1.1392991241113341e-016 -1.1392991241113354e-016 0 1</Rotation>
+<Translation>0.0028538051849544641 0.0097275185716916845 0.0052352885249249909</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx-1" uid="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx-1" entityUid="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx*:*Default">
+<Transform>
+<Rotation>1.0352829704629585e-014 1 0 -1 1.0241807402167069e-014 0 -1.208218792981659e-016 0 1</Rotation>
+<Translation>0.0028538051849545058 0.0097275185716917539 -0.012464711475075016</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx-1" uid="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx-1" entityUid="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx*:*Default">
+<Transform>
+<Rotation>-0.010504662706131179 0.99994482450854794 0 -0.99994482450854782 -0.010504662706131263 -1.0759907709491798e-016 -2.1986512214623237e-016 0 1</Rotation>
+<Translation>0.0032066842548334534 0.0096772221447677803 0.024535288524924988</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_E000183__P_Left_Tibia_Card_Default-1" uid="ALD_E000183__P_Left_Tibia_Card_Default-1" entityUid="ALD_E000183__P_Left_Tibia_Card_Default*:*Default">
+<Transform>
+<Rotation>-0.25073881740121151 0.96805477399176221 0 -0.96805477399176221 -0.25073881740121157 -1.4137590632461262e-016 -1.3353516149161218e-016 0 1</Rotation>
+<Translation>-0.0045706552875565479 -0.075221858688208784 0.031335288524924933</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700013__PZ99_KA22x5_KA22 x 6-1" uid="STD_M700013__PZ99_KA22x5_KA22 x 6-1" entityUid="STD_M700013__PZ99_KA22x5_KA22 x 6*:*Default">
+<Transform>
+<Rotation>0 -0.35404680430786645 -0.93522770508544462 2.0425767048711248e-016 0.93522770508544462 -0.35404680430786645 1 -1.5828424508140784e-016 1.588091137225839e-016</Rotation>
+<Translation>-0.0016211803053146276 -0.014911806226377958 0.0017352885249249887</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700013__PZ99_KA22x5_KA22 x 6-2" uid="STD_M700013__PZ99_KA22x5_KA22 x 6-2" entityUid="STD_M700013__PZ99_KA22x5_KA22 x 6*:*Default">
+<Transform>
+<Rotation>0 -0.94132084259767923 0.3375130683265391 2.0425767048711743e-016 -0.3375130683265391 -0.94132084259767923 1 1.5599548084169508e-016 1.6105789890382783e-016</Rotation>
+<Translation>0.016963624108627666 -0.010961484100840371 0.0017352885249249852</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50-1" uid="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50-1" entityUid="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50*:*Default">
+<Transform>
+<Rotation>-3.6348303338815161e-016 0.99800597194761409 0.063119568731877407 0 -0.063119568731877407 0.99800597194761409 1 3.6890522875550372e-016 0</Rotation>
+<Translation>-0.001757632888916066 -0.023889315982537698 -0.020564711475075</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710002__P_ecrou_M3-1" uid="STD_M710002__P_ecrou_M3-1" entityUid="STD_M710002__P_ecrou_M3*:*Default">
+<Transform>
+<Rotation>0.73422098704640304 0.67891055536101819 0 -0.67891055536101808 0.73422098704640271 0 0 0 1</Rotation>
+<Translation>0.025832367706575449 -0.043066173575500397 0.029935288524924969</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50-2" uid="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50-2" entityUid="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50*:*Default">
+<Transform>
+<Rotation>-3.9455061621750249e-016 -0.3541692307425941 -0.93518134925542618 1.066976091435182e-016 0.93518134925542606 -0.35416923074259393 1 -1.2446027685560295e-016 -3.449207032055114e-016</Rotation>
+<Translation>0.025832367706575467 -0.04306617357550041 -0.020564711475075013</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710002__P_ecrou_M3-2" uid="STD_M710002__P_ecrou_M3-2" entityUid="STD_M710002__P_ecrou_M3*:*Default">
+<Transform>
+<Rotation>-0.84782664568366828 -0.53027349440527349 0 0.53027349440527349 -0.84782664568366828 -1.2086744824087619e-016 0 0 1</Rotation>
+<Translation>-0.0017576328889162014 -0.023889315982537698 0.031435288524924984</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700003__PZ99_KA22x6_KA22 x 6-1" uid="STD_M700003__PZ99_KA22x6_KA22 x 6-1" entityUid="STD_M700003__PZ99_KA22x6_KA22 x 6*:*Default">
+<Transform>
+<Rotation>-6.174593638769147e-016 0.89371861933600016 0.44862794100697034 6.5133685925284797e-016 0.44862794100697034 -0.89371861933600016 -1 -2.5962701611160913e-016 -8.5912140164567586e-016</Rotation>
+<Translation>0.0021457133215133789 -0.091317205130629173 0.043085288524924568</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-1" uid="STD_M700005__PZ99_KA22x12_Default-1" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 0.22029370716388785 0.97543358696735039 -1.124649796264821e-016 0.97543358696735016 -0.22029370716388796 -1 0 0</Rotation>
+<Translation>0.014353805184955002 -0.074472481428308271 0.034035288524924975</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700006__PZ99_KA18x6_Default-1" uid="STD_M700006__PZ99_KA18x6_Default-1" entityUid="STD_M700006__PZ99_KA18x6_Default*:*Default">
+<Transform>
+<Rotation>-3.5436954823076279e-016 0.60838780229447209 0.79363989442271787 2.919309864040356e-015 -0.79363989442271776 0.60838780229447198 1 2.4262397839822513e-015 -1.4485566526585995e-015</Rotation>
+<Translation>-0.00088313142740175342 -0.076231090697440246 -0.03906471147507478</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-2" uid="STD_M700005__PZ99_KA22x12_Default-2" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 0.8225499721323366 -0.56869283743079868 -1.124649796264821e-016 -0.56869283743079868 -0.82254997213233638 -1 0 0</Rotation>
+<Translation>-0.015146194815044967 -0.08487248142830843 0.034035288524924968</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-3" uid="STD_M700005__PZ99_KA22x12_Default-3" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 0.16029714258717542 -0.98706880513892603 1.124649796264821e-016 0.98706880513892592 0.16029714258717548 1 0 0</Rotation>
+<Translation>-0.012146194815045131 -0.06187248142830841 -0.022664711475075018</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-4" uid="STD_M700005__PZ99_KA22x12_Default-4" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 0.99023659174233292 0.13939688796572255 1.124649796264821e-016 -0.13939688796572255 0.99023659174233292 1 0 -1.0747676029474544e-016</Rotation>
+<Translation>0.0058538051849550991 -0.10727248142830835 -0.022664711475075018</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-1" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-1" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>3.3643438566982113e-016 0.91524874446981408 0.40288923508382435 1.3306843060480994e-016 0.40288923508382424 -0.91524874446981397 -1 3.8130188066040226e-016 -1.0042186646127678e-016</Rotation>
+<Translation>0.0058538051849550228 -0.10727248142830836 0.030535288524924965</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-5" uid="STD_M700005__PZ99_KA22x12_Default-5" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 0.50008096862452933 0.86597865148025033 1.124649796264821e-016 -0.86597865148025033 0.50008096862452911 1 0 0</Rotation>
+<Translation>0.01435380518495495 -0.074472481428308285 -0.022664711475075025</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010292__P_Motor_Ring_Default-1" uid="ALD_M010292__P_Motor_Ring_Default-1" entityUid="ALD_M010292__P_Motor_Ring_Default*:*Default">
+<Transform>
+<Rotation>0.56593371151507144 -0.82445074696477527 -2.1296616394483586e-016 0.82445074696477527 0.56593371151507144 -1.4108071585488374e-016 2.3683883315731227e-016 0 1</Rotation>
+<Translation>0.012037367408829665 -0.03347774477901904 -0.011264711475075009</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-1" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-1" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 0.71128685689265414 0.70290184749491791 0 -0.70290184749491791 0.71128685689265414 1 0 0</Rotation>
+<Translation>0.010484453138214512 -0.02768218982128464 -0.014664711475064649</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-2" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-2" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 0.94341808753569512 0.33160565753691762 0 -0.33160565753691762 0.94341808753569512 1 0 0</Rotation>
+<Translation>0.017832922366564061 -0.035030659049634219 -0.014664711475075016</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-3" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-3" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 0.52524683726346655 -0.85094991623756877 1.0377087152970169e-016 0.85094991623756877 0.52524683726346655 1 0 0</Rotation>
+<Translation>0.0062418124510952196 -0.031924830508403938 -0.014664711475075016</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M840031-1" uid="ALD_M840031-1" grounded="true" entityUid="ALD_M840031*:*Default">
+<Transform>
+<Rotation>-0.70710678118655168 0 0.70710678118654369 -0.70710678118654358 0 -0.70710678118655157 0 -1 0</Rotation>
+<Translation>0.012037367408829725 -0.03347774477901902 0.018735288524924985</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100018__P_axe_3x20_2-1" uid="ALD_M100018__P_axe_3x20_2-1" entityUid="ALD_M100018__P_axe_3x20_2*:*Default">
+<Transform>
+<Rotation>-0.8987213481849704 0.43852016865429277 0 -0.43852016865429261 -0.8987213481849704 0 0 -1.1331255127577627e-016 0.99999999999999989</Rotation>
+<Translation>-0.0022449752222316998 -0.07458004890943834 -0.029564711475075021</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100021__P_axe_3x11_7-1" uid="ALD_M100021__P_axe_3x11_7-1" entityUid="ALD_M100021__P_axe_3x11_7*:*Default">
+<Transform>
+<Rotation>-0.97961339527104618 -0.20089200035226118 0 0.20089200035226118 -0.97961339527104629 -1.124649796264821e-016 0 -1.0456586588329065e-016 1</Rotation>
+<Translation>0.0066022520236571087 -0.04735108326511752 -0.022764711475075007</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100017__P_axe_2x19_7-1" uid="ALD_M100017__P_axe_2x19_7-1" entityUid="ALD_M100017__P_axe_2x19_7*:*Default">
+<Transform>
+<Rotation>-0.6615971713867107 0.74985944203770849 0 -0.74985944203770849 -0.6615971713867107 -1.124649796264821e-016 0 0 1</Rotation>
+<Translation>0.0012275818844175532 -0.060656549092902995 -0.029264711475075013</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Coques-1" uid="Coques-1" entityUid="Coques" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche-1" uid="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche-1" entityUid="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche*:*Default">
+<Transform>
+<Rotation>-1.131971693129312e-016 0.084333938833630995 -0.99643754784773408 2.0034119692961545e-016 0.99643754784773408 0.084333938833630995 1 -1.900811278484491e-016 -1.2968947206120055e-016</Rotation>
+<Translation>-0.0013015584475418712 -0.1108190209452726 0.0056352885249249685</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M010155__P_Coque_Tibia_Interieur_Gauche-1" uid="ALD_M010155__P_Coque_Tibia_Interieur_Gauche-1" entityUid="ALD_M010155__P_Coque_Tibia_Interieur_Gauche*:*Default">
+<Transform>
+<Rotation>0 0.084333938833629316 -0.9964375478477342 1.124649796264821e-016 0.9964375478477342 0.084333938833629316 1 -1.0971080382153249e-016 0</Rotation>
+<Translation>-0.0013015584475412345 -0.11081902094530402 0.0052852885249244806</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M010158__P_Goutte_Tibia_Gauche_Default-1" uid="ALD_M010158__P_Goutte_Tibia_Gauche_Default-1" entityUid="ALD_M010158__P_Goutte_Tibia_Gauche_Default*:*Default">
+<Transform>
+<Rotation>-9.0872524736012879e-016 0.08433393883363248 -0.99643754784773397 2.0199947414168426e-015 0.99643754784773397 0.08433393883363248 1 -1.9361622273752695e-015 -1.0758420701137594e-015</Rotation>
+<Translation>-0.0013015584475419423 -0.1108190209452726 0.0053352885249250423</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M010157__P_Coque_Tibia_Arr_Gauche-1" uid="ALD_M010157__P_Coque_Tibia_Arr_Gauche-1" entityUid="ALD_M010157__P_Coque_Tibia_Arr_Gauche*:*Default">
+<Transform>
+<Rotation>2.8274476343621423e-015 0.084333938833619851 -0.99643754784773508 1.2151445902905525e-014 0.99643754784773508 0.084333938833619851 1 -1.2346606754147149e-014 1.7925956919360177e-015</Rotation>
+<Translation>-0.0009624011977674117 -0.11089010767325935 0.0052852885250105073</Translation>
+</Transform>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-1" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-1" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-2.5202728935370595e-016 -0.52222550811423085 0.85280743352461097 -5.4710559485163038e-016 0.85280743352461097 0.52222550811423074 -1 -2.244758129287333e-016 -4.6571063560504232e-016</Rotation>
+<Translation>0.039819009385867472 -0.0044077954986203594 0.0097352885249249888</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="STD_M700005__PZ99_KA22x12_Default-6" uid="STD_M700005__PZ99_KA22x12_Default-6" entityUid="STD_M700005__PZ99_KA22x12_Default*:*Default">
+<Transform>
+<Rotation>0 -0.50008096862453921 -0.86597865148024455 1.124649796264821e-016 0.86597865148024455 -0.5000809686245391 1 0 0</Rotation>
+<Translation>-0.015146194815045005 -0.084872481428308444 -0.022664711475075025</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M510002__P_palier_GSM_0405-04-1" uid="STD_M510002__P_palier_GSM_0405-04-1" entityUid="STD_M510002__P_palier_GSM_0405-04*:*Default">
+<Transform>
+<Rotation>0.4095519065668477 0.91228681664674949 0 -0.91228681664674949 0.40955190656684776 -1.1246497962648208e-016 -1.140297681206777e-016 0 0.99999999999999978</Rotation>
+<Translation>0.0028538051849548701 -0.090272481428307932 -0.028764711475075019</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_E000030__P_carte_MRE-1" uid="ALD_E000030__P_carte_MRE-1" entityUid="ALD_E000030__P_carte_MRE*:*Default">
+<Transform>
+<Rotation>-6.1339822110539883e-015 1 0 1 6.1339822110539883e-015 1.2612640538946708e-016 1.2612640538946728e-016 0 -1</Rotation>
+<Translation>-0.0071461948150403666 -0.10027248142830386 0.030935288524924977</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Barre-1" uid="Barre-1" entityUid="Barre*:*Défaut">
+<Transform>
+<Rotation>0.97814760073380513 1.1432939964367625e-016 -0.20791169081776248 0.2079116908177624 0 0.97814760073380491 1.0710771887061922e-016 -0.99999999999999989 0</Rotation>
+<Translation>-5.6958486494087385e-005 0.023421584981964991 0.0052352885249249926</Translation>
+</Transform>
+</Instance>
+<Instance name="Rotor_moteur_tangage-1" uid="Rotor_moteur_tangage-1" entityUid="Rotor_moteur_tangage" rigid="true">
+<Transform>
+<Rotation>0.95589782901043008 -0.29369940499283725 0 0.29369940499283731 0.95589782901043008 -2.1957978315709466e-016 0 2.2705360547790323e-016 1</Rotation>
+<Translation>-0.0093015196863715233 -0.0050118088702429814 -0.0034999999999999892</Translation>
+</Transform>
+<Instance name="ALD6667-1" uid="ALD6667-1" entityUid="ALD6667*:*Default">
+<Transform>
+<Rotation>-0.19186739865384525 0 0.98142085841590221 -0.98142085841590221 1.09575831947847e-016 -0.19186739865384525 -1.147709415383397e-016 -1 0</Rotation>
+<Translation>0.012037367408829731 -0.033477744779019027 -0.012664711475075011</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M010053__P_support_aimant-1" uid="ALD_M010053__P_support_aimant-1" entityUid="ALD_M010053__P_support_aimant*:*Default">
+<Transform>
+<Rotation>0.9993198150838144 3.0518959838489226e-015 -0.03687691935141673 -0.03687691935141673 -3.601941947115842e-016 -0.9993198150838144 -3.0631029825041686e-015 1 -2.4740467398813441e-016</Rotation>
+<Translation>0.012037367408829262 -0.033477744779019436 0.02048528852492492</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor-1" uid="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor-1" entityUid="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor*:*Default">
+<Transform>
+<Rotation>0.99534570825078983 0 -0.096368672641755151 0.096368672641754957 -1.0598600958895343e-016 0.99534570825078983 0 -1 0</Rotation>
+<Translation>0.012037367408829724 -0.033477744779018999 0.017234700996564593</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Cheville-1" uid="Cheville-1" entityUid="Cheville" rigid="true">
+<Transform>
+<Rotation>0 1.5265566588595856e-016 -1 -2.7755575615628904e-016 1 1.5265566588595853e-016 1 2.7755575615628904e-016 0</Rotation>
+<Translation>0.061009678251195569 0.0026513231534703052 -0.00010751598813871754</Translation>
+</Transform>
+<Instance name="ALD_M010035__P_couvercle_X_AR_Axx-1" uid="ALD_M010035__P_couvercle_X_AR_Axx-1" grounded="true" entityUid="ALD_M010035__P_couvercle_X_AR_Axx*:*Default">
+<Transform>
+<Rotation>-1 -1.110223024625157e-016 0 -1.110223024625157e-016 1 0 0 0 -1</Rotation>
+<Translation>0 0 0.04270000000000003</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx-1" uid="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx-1" grounded="true" entityUid="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010033__P_couvercle_X_AV_cheville_A02-1" uid="ALD_M010033__P_couvercle_X_AV_cheville_A02-1" grounded="true" entityUid="ALD_M010033__P_couvercle_X_AV_cheville_A02*:*Default">
+<Transform>
+<Rotation>0 -3.8857805861880479e-016 -1 0 1 -3.8857805861880479e-016 1 0 0</Rotation>
+<Translation>-0.014100000000000005 0 0.081000000000000044</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010055__P_cache_fut_moteur_cheville_A-1" uid="ALD_M010055__P_cache_fut_moteur_cheville_A-1" grounded="true" entityUid="ALD_M010055__P_cache_fut_moteur_cheville_A*:*Default">
+<Transform>
+<Rotation>0 -2.7755575615628904e-016 1 1.5265566588595856e-016 1 2.7755575615628904e-016 -1 1.5265566588595853e-016 0</Rotation>
+<Translation>0.014100000000006899 -1.2101430968414206e-014 -1.0755285551056204e-013</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010292__P_Motor_Ring_Default-1" uid="ALD_M010292__P_Motor_Ring_Default-1" entityUid="ALD_M010292__P_Motor_Ring_Default*:*Default">
+<Transform>
+<Rotation>0.93068643951909913 -0.36581792095967935 0 0.36581792095967935 0.93068643951909913 0 0 0 1</Rotation>
+<Translation>0 -0.00059999999999999117 0.05404102289708676</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-1" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-1" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.5225543378095102e-016 0.64443507355717156 0.76465903249053624 0 0.76465903249053624 -0.64443507355717156 -1 -3.958904812895964e-016 -3.8857805861880459e-016</Rotation>
+<Translation>0.011349999999999964 0.024800000000000006 0.098900000000000071</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-2" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-2" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.6666596046227785e-016 -0.94169736028109807 0.33646111460258216 -6.2280630838559313e-016 0.33646111460258216 0.94169736028109807 -1 3.240777344275438e-016 -7.7715611723760918e-016</Rotation>
+<Translation>0.011349999999999992 -0.011200000000000015 0.098900000000000057</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-3" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-3" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-6.7778974081451324e-016 0.12212931312733231 0.99251419681284458 -1.6752663812898042e-016 0.99251419681284458 -0.12212931312733231 -1 -2.4905056217777016e-016 -6.5225602696727907e-016</Rotation>
+<Translation>0 -0.014200000000000032 0.098900000000000057</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-4" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-4" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.8775160687499649e-016 -0.93596269053268388 0.35209919331179862 -6.6853135082163541e-016 0.35209919331179862 0.93596269053268388 -1 3.147242260076851e-016 -8.3266726846886711e-016</Rotation>
+<Translation>-0.011350000000000008 -0.011200000000000015 0.098900000000000057</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700002__P_KA22x14-1" uid="STD_M700002__P_KA22x14-1" grounded="true" entityUid="STD_M700002__P_KA22x14*:*Default">
+<Transform>
+<Rotation>0 -3.7973813418553264e-016 -1 0 1 -3.7973813418553264e-016 1 0 0</Rotation>
+<Translation>0.011099999999999983 0.0089612955438671815 0.030200000000007651</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-5" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-5" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.6686674075921046e-016 -0.81185979013844611 0.5838524481034213 0 -0.5838524481034213 -0.81185979013844611 1 -4.5870582090935869e-016 3.3306690738754711e-016</Rotation>
+<Translation>0.011349999999999987 -0.011199999999999991 0.034700000000000036</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-6" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-6" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.9206338464744384e-016 0.17938467595001772 0.98377900873839907 -3.8908840422892901e-016 -0.98377900873839907 0.17938467595001772 1 -2.7656990622708891e-016 6.5225602696727976e-016</Rotation>
+<Translation>-0.011350000000000011 -0.011199999999999991 0.034700000000000022</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700002__P_KA22x14-2" uid="STD_M700002__P_KA22x14-2" grounded="true" entityUid="STD_M700002__P_KA22x14*:*Default">
+<Transform>
+<Rotation>0 0.094916964802958151 0.99548519315587713 0 -0.99548519315587713 0.094916964802958151 1 0 0</Rotation>
+<Translation>-0.0111 0.0089612955438669872 0.030200000000007669</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-7" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-7" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-6.7878562986914713e-016 -0.37021324071463546 0.9289467995528955 -2.0378586673785459e-016 -0.9289467995528955 -0.37021324071463546 1 -4.4060165648462493e-016 5.5511151231257857e-016</Rotation>
+<Translation>0 -0.01419999999999999 0.034700000000000009</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-8" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-8" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.518994971730598e-016 0.64285772232256955 0.76598560616387434 0 0.76598560616387434 -0.64285772232256955 -1 -3.9550632833865998e-016 -3.8857805861880459e-016</Rotation>
+<Translation>-0.011350000000000034 0.024799999999999992 0.098900000000000071</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default-1" uid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default-1" entityUid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default*:*Default">
+<Transform>
+<Rotation>-0.90630778703664794 0 -0.4226182617407041 -0.42261826174070405 0 0.90630778703664794 0 1.0000000000000002 0</Rotation>
+<Translation>0 -0.00059999999999999117 0.05404102289708676</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100016__P_axe_3x27_3-1" uid="ALD_M100016__P_axe_3x27_3-1" grounded="true" entityUid="ALD_M100016__P_axe_3x27_3*:*Default">
+<Transform>
+<Rotation>0.9741122732520956 0.22606476748851145 0 0.22606476748851145 -0.9741122732520956 0 0 0 -1</Rotation>
+<Translation>0 0.01380000000000001 0.10825000000000004</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100015__P_axe_2x13-1" uid="ALD_M100015__P_axe_2x13-1" grounded="true" entityUid="ALD_M100015__P_axe_2x13*:*Default">
+<Transform>
+<Rotation>-0.26336620179800807 -0.9646959333129228 5.5511151231257847e-016 -0.9646959333129228 0.26336620179800807 -2.7755575615628899e-016 1.2155929865945329e-016 -6.0861262374918694e-016 -1</Rotation>
+<Translation>0 -0.00059999999999998943 0.10010000000000002</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-1" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-1" grounded="true" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 -0.57773021817887305 -0.8162277837730052 0 -0.8162277837730052 0.57773021817887305 -1 0 0</Rotation>
+<Translation>0.0049149122657339561 -0.0034414586181062547 0.08390000000000003</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-2" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-2" grounded="true" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 -0.14522623461232931 -0.98939847421568461 0 -0.98939847421568461 0.14522623461232931 -1 0 0</Rotation>
+<Translation>-0.0049149122657339674 0.0034414586181062828 0.08390000000000003</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-3" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5-3" grounded="true" entityUid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default">
+<Transform>
+<Rotation>0 0.047489668796980744 0.99887172918125633 0 0.99887172918125633 -0.047489668796980744 -1 0 0</Rotation>
+<Translation>0.0054378467222198912 0.0025357095704442315 0.08390000000000003</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M100004__P_axe_Y_B00-1" uid="ALD_M100004__P_axe_Y_B00-1" grounded="true" entityUid="ALD_M100004__P_axe_Y_B00*:*Default">
+<Transform>
+<Rotation>3.4456666591392806e-015 -1 0 -0.99949879709685596 -3.4438937425632443e-015 0.031656825518963087 -0.031656825518963087 -1.1052927956508899e-016 -0.99949879709685596</Rotation>
+<Translation>-0.015400000000000035 -0.0026999999999999941 0.069300000000000028</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M510004__P_palier_GFM_1517-05_stabdard-1" uid="STD_M510004__P_palier_GFM_1517-05_stabdard-1" entityUid="STD_M510004__P_palier_GFM_1517-05_stabdard*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.53948501711674068 -0.84199519969329406 0 0.84199519969329406 0.53948501711674068</Rotation>
+<Translation>0.014300000000000035 -0.0027000000000000496 0.069300000000000125</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M510004__P_palier_GFM_1517-05_stabdard-2" uid="STD_M510004__P_palier_GFM_1517-05_stabdard-2" entityUid="STD_M510004__P_palier_GFM_1517-05_stabdard*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.86959005659175925 -0.49377437507098443 0 -0.49377437507098443 -0.86959005659175925</Rotation>
+<Translation>-0.014300000000000044 -0.0027000000000002439 0.069300000000000056</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010016__P_roue_sortie_inf-1" uid="ALD_M010016__P_roue_sortie_inf-1" entityUid="ALD_M010016__P_roue_sortie_inf*:*Default">
+<Transform>
+<Rotation>1.5536143852796382e-016 -1 0 0.70710678118654979 1.510866149223096e-016 -0.70710678118654524 0.70710678118654524 0 0.70710678118654979</Rotation>
+<Translation>-0.019900000000000456 -0.0026999999999999802 0.069300000000000112</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010053__P_support_aimant-1" uid="ALD_M010053__P_support_aimant-1" grounded="true" entityUid="ALD_M010053__P_support_aimant*:*Default">
+<Transform>
+<Rotation>-0.50000000000000522 -1.7523198058204746e-015 -0.86602540378443571 -0.86602540378443571 -3.0808688933348094e-015 0.50000000000000522 -3.5665914666083154e-015 1 0</Rotation>
+<Translation>0 -0.0027000000000001051 0.10080000000000008</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Rotor_moteur_roulis-1" uid="Rotor_moteur_roulis-1" entityUid="Rotor_moteur_roulis" rigid="true">
+<Transform>
+<Rotation>0.99479430765399557 -0.10190331426998779 0 0.10190331426998779 0.99479430765399557 1.2490009027032962e-016 0 -1.2424989882639402e-016 1</Rotation>
+<Translation>0 -0.00060000000000000374 0.0065951572871169317</Translation>
+</Transform>
+<Instance name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor-1" uid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor-1" entityUid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor*:*Default">
+<Transform>
+<Rotation>-0.94938464870528005 0 -0.31411588435281651 -0.31411588435281651 0 0.94938464870528005 0 1 0</Rotation>
+<Translation>0 0 0.051445865609969825</Translation>
+</Transform>
+</Instance>
+<Instance name="ALD_M010053__P_support_aimant-1" uid="ALD_M010053__P_support_aimant-1" grounded="true" entityUid="ALD_M010053__P_support_aimant*:*Default">
+<Transform>
+<Rotation>-0.94184423814836327 -3.3199614791990551e-015 -0.33604974492882611 0.33604974492882611 1.1845612714600741e-015 -0.94184423814836327 3.5249581031848712e-015 -1 0</Rotation>
+<Translation>0 0 0.048900000000000131</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="Left_Foot_jambe droite-1" uid="Left_Foot_jambe droite-1" grounded="true" entityUid="Left_Foot_jambe droite" rigid="true">
+<Transform>
+<Rotation>3.6036838363069492e-016 3.0531133177191805e-016 -1.0000000000000002 0 1 2.7755575615628914e-016 1 0 3.4863459036013553e-016</Rotation>
+<Translation>-2.5653108819686382e-005 -4.8676846529821006e-005 -0.00010751598813965912</Translation>
+</Transform>
+<Instance name="STD_M850001__P_Scotch_double_Face_3M_5419_Default-1" uid="STD_M850001__P_Scotch_double_Face_3M_5419_Default-1" grounded="true" entityUid="STD_M850001__P_Scotch_double_Face_3M_5419_Default*:*Default">
+<Transform>
+<Rotation>4.1160125304628514e-016 -1 1.7588055249762593e-016 0 1.7588055249762598e-016 1 -1 -4.1160125304628518e-016 0</Rotation>
+<Translation>-0.023900152328043062 -0.040844233125445668 -0.061999847671956168</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-1" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-1" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>1.3830978954119811e-016 0.33113369023540201 -0.94358384852173305 1 0 1.5165460157030617e-016 0 -0.94358384852173305 -0.33113369023540201</Rotation>
+<Translation>-0.016400000001150973 -0.030084233125445725 0.045099999999838672</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M850001__P_Scotch_double_Face_3M_5419_Default-2" uid="STD_M850001__P_Scotch_double_Face_3M_5419_Default-2" grounded="true" entityUid="STD_M850001__P_Scotch_double_Face_3M_5419_Default*:*Default">
+<Transform>
+<Rotation>-2.9260082443693235e-016 -1 -1.3971258795852978e-015 -3.7433493660812738e-016 1.397125879585298e-015 -1 1 -2.9260082443693185e-016 -3.7433493660812777e-016</Rotation>
+<Translation>0.027100152328044722 -0.040594233125445675 -0.07499984767195611</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_E990013__P_FSR_4P-1" uid="STD_E990013__P_FSR_4P-1" grounded="true" entityUid="STD_E990013__P_FSR_4P*:*Default">
+<Transform>
+<Rotation>1.970045568076943e-016 -1 -1.4812497688199704e-016 -1.52290331683096e-016 1.4812497688199702e-016 -1 1 1.9700455680769433e-016 -1.5229033168309597e-016</Rotation>
+<Translation>0.019095636233768743 -0.040844233125445717 0.030904363766232103</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-2" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-2" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>1.3511033512585983e-016 0.73678381924821656 -0.67612839290626703 1 0 1.9428902930940244e-016 0 -0.67612839290626714 -0.73678381924821668</Rotation>
+<Translation>0.013200000000118998 -0.030084233125445711 0.045100000000057025</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M830010__P_Axial_Magnet_6x3_Default-1" uid="STD_M830010__P_Axial_Magnet_6x3_Default-1" grounded="true" entityUid="STD_M830010__P_Axial_Magnet_6x3_Default*:*Default">
+<Transform>
+<Rotation>0.49578514705908244 -0.86844521298444832 1.7588055249762593e-016 0 2.2824590836280341e-016 1 -0.86844521298444843 -0.4957851470590825 1.52290331683096e-016</Rotation>
+<Translation>-4.3637662319558209e-005 -0.043334233125445681 -0.016480137222642462</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010097__P_semelle_gauche_default-1" uid="ALD_M010097__P_semelle_gauche_default-1" grounded="true" entityUid="ALD_M010097__P_semelle_gauche_default*:*Default">
+<Transform>
+<Rotation>2.2341272742597114e-016 -1 1.4812497688199702e-016 2.0780148291435373e-016 1.4812497688199707e-016 1 -1 -2.2341272742597109e-016 2.0780148291435375e-016</Rotation>
+<Translation>8.041256462781865e-016 -0.045084233125445718 0.021600000000000008</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M850001__P_Scotch_double_Face_3M_5419_Default-3" uid="STD_M850001__P_Scotch_double_Face_3M_5419_Default-3" grounded="true" entityUid="STD_M850001__P_Scotch_double_Face_3M_5419_Default*:*Default">
+<Transform>
+<Rotation>0.087155742747651796 -0.9961946980917461 0 0 1.5599617797959688e-016 1 -0.99619469809174632 -0.087155742747651782 0</Rotation>
+<Translation>-0.024445904740060521 -0.040844233125445689 0.037999937620382902</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M510003__P_palier_GFM_1012-07_stabdard-1" uid="STD_M510003__P_palier_GFM_1012-07_stabdard-1" grounded="true" entityUid="STD_M510003__P_palier_GFM_1012-07_stabdard*:*Default">
+<Transform>
+<Rotation>0 0.97554589026841776 -0.21979585068968036 -7.2273463808434917e-016 0.21979585068968036 0.97554589026841776 1 2.4762219997466249e-016 6.8506085942034528e-016</Rotation>
+<Translation>1.0127125917372415e-015 0 0.03140000000000015</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M850001__P_Scotch_double_Face_3M_5419_Default-4" uid="STD_M850001__P_Scotch_double_Face_3M_5419_Default-4" grounded="true" entityUid="STD_M850001__P_Scotch_double_Face_3M_5419_Default*:*Default">
+<Transform>
+<Rotation>1 -1.1671422094355343e-016 1.7588055249762593e-016 -1.7588055249762593e-016 0 1 -1.1671422094355343e-016 -1 0</Rotation>
+<Translation>0.013100152328044706 -0.04084423312544571 0.03689984767195615</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_E990012__P_FSR_2P_pli 4-1" uid="STD_E990012__P_FSR_2P_pli 4-1" grounded="true" entityUid="STD_E990012__P_FSR_2P_pli 4*:*Default">
+<Transform>
+<Rotation>-1.4578804385185578e-016 1 -1.4803926064321848e-015 0 -1.4803926064321848e-015 -1 -1 -1.4578804385185593e-016 0</Rotation>
+<Translation>0.023095636233768799 -0.040844233125445675 -0.069004363766232063</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010101__P_bumper_pied_gauche_A-1" uid="ALD_M010101__P_bumper_pied_gauche_A-1" grounded="true" entityUid="ALD_M010101__P_bumper_pied_gauche_A*:*Default">
+<Transform>
+<Rotation>2.2953830707598202e-016 -1 1.4812497688199702e-016 2.0780148291435373e-016 1.4812497688199707e-016 1 -1 -2.2953830707598198e-016 2.0780148291435375e-016</Rotation>
+<Translation>-1.1600076337066426e-005 -0.045294233125445699 0.021607810288631461</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010133__P_coque_interieure_pied_gauche-1" uid="ALD_M010133__P_coque_interieure_pied_gauche-1" grounded="true" entityUid="ALD_M010133__P_coque_interieure_pied_gauche*:*Default">
+<Transform>
+<Rotation>3.5560650803892432e-008 -0.99999999999999933 0 3.188237860314865e-016 0 0.99999999999999989 -0.99999999999999933 -3.5560650803892432e-008 3.1882378537686931e-016</Rotation>
+<Translation>8.3567576391273789e-010 -0.045084233125445718 0.02159999953059933</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-3" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-3" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-4.1227455550268851e-016 -0.99977212594777998 0.021347041430986188 1.8512021810114443e-016 -0.021347041430986188 -0.99977212594777998 1 -4.082288398635806e-016 1.9387887602415515e-016</Rotation>
+<Translation>-0.0042499999999993689 -0.031211976867863599 0.018335244636588484</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010099__P_structure_pied_gauche_default-1" uid="ALD_M010099__P_structure_pied_gauche_default-1" grounded="true" entityUid="ALD_M010099__P_structure_pied_gauche_default*:*Default">
+<Transform>
+<Rotation>0 1 2.5657448731599738e-016 1 0 1.4088618298999297e-016 1.4088618298999297e-016 2.5657448731599738e-016 -1</Rotation>
+<Translation>-0.0066116000763370465 -0.04159423312544569 -0.017959598103634289</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-4" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-4" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>-5.0479891445047381e-016 -0.98293514165843598 0.18395245932824733 2.597129076828305e-016 -0.18395245932824733 -0.98293514165843598 1 -4.4840976439685437e-016 3.4813994548314149e-016</Rotation>
+<Translation>0.0042500000000006404 -0.031211976867860276 0.018352099011558497</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010018__P_support_dente_A08-1" uid="ALD_M010018__P_support_dente_A08-1" grounded="true" entityUid="ALD_M010018__P_support_dente_A08*:*Default">
+<Transform>
+<Rotation>0 -3.0160106432997e-015 -1 7.9815273563959409e-016 -1 3.0160106432997e-015 -1 -7.9815273563959438e-016 0</Rotation>
+<Translation>9.9537890950462948e-016 0 0.031200000000000019</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-5" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-5" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>0 0.25955006281897314 -0.96572965414274559 1 0 1.3877787807814457e-016 0 -0.96572965414274581 -0.25955006281897319</Rotation>
+<Translation>0.026699999999995793 -0.030084233125445701 -0.081800000000060574</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M700004__PZ99_KA22x8_KA22 x 8-6" uid="STD_M700004__PZ99_KA22x8_KA22 x 8-6" grounded="true" entityUid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default">
+<Transform>
+<Rotation>0 0.54038518067610397 -0.84141776574164062 1 0 1.5247301934675517e-016 1.2992193876333039e-016 -0.84141776574164062 -0.54038518067610397</Rotation>
+<Translation>-0.031699999999411622 -0.035084233125445681 -0.081799999999332046</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_M830010__P_Axial_Magnet_6x3_Default-2" uid="STD_M830010__P_Axial_Magnet_6x3_Default-2" grounded="true" entityUid="STD_M830010__P_Axial_Magnet_6x3_Default*:*Default">
+<Transform>
+<Rotation>-0.91924785449370972 0.3936792882648405 1.110223024625156e-016 1.2357786165147668e-016 -1.582045847169041e-016 0.99999999999999989 0.39367928826484061 0.91924785449370983 0</Rotation>
+<Translation>-4.3637662319560188e-005 -0.039094233125445695 -0.01648013722264248</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010131__P_coque_exterieure_pied_gauche_A02-1" uid="ALD_M010131__P_coque_exterieure_pied_gauche_A02-1" grounded="true" entityUid="ALD_M010131__P_coque_exterieure_pied_gauche_A02*:*Default">
+<Transform>
+<Rotation>-3.7954023200935825e-016 -1 0 1.5229033168309595e-016 0 1 -1 3.7954023200935821e-016 1.5229033168309592e-016</Rotation>
+<Translation>8.7177986184128198e-016 -0.045084233125445704 0.02160000000000006</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_E990013__P_FSR_4P-2" uid="STD_E990013__P_FSR_4P-2" grounded="true" entityUid="STD_E990013__P_FSR_4P*:*Default">
+<Transform>
+<Rotation>-0.087155742747651699 -0.9961946980917461 0 0 1.5599617797959688e-016 -1 0.99619469809174632 -0.087155742747651685 0</Rotation>
+<Translation>-0.029896033166502248 -0.040844233125445717 0.031504727488071232</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_E000030__P_carte_MRE-1" uid="ALD_E000030__P_carte_MRE-1" grounded="true" entityUid="ALD_E000030__P_carte_MRE*:*Default">
+<Transform>
+<Rotation>6.1710848854734712e-015 -1 1.7544482765591773e-016 -1 -6.1710848854734712e-015 6.6708013921428572e-016 -6.6708013921428464e-016 -1.7544482765592185e-016 -1</Rotation>
+<Translation>0.0099999999999963798 0.0099999999999955541 0.041900000000000034</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="STD_E990012__P_FSR_2P_pli 4-2" uid="STD_E990012__P_FSR_2P_pli 4-2" grounded="true" entityUid="STD_E990012__P_FSR_2P_pli 4*:*Default">
+<Transform>
+<Rotation>2.2611907684480653e-016 1 -3.1465843057577045e-016 0 -3.1465843057577045e-016 -1 -1 2.2611907684480648e-016 0</Rotation>
+<Translation>-0.029895636233767096 -0.040844233125445661 -0.069006807475322091</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_E000032__P_Carte_Moteur_Pied_A00-1" uid="ALD_E000032__P_Carte_Moteur_Pied_A00-1" grounded="true" entityUid="ALD_E000032__P_Carte_Moteur_Pied_A00*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019957584259669366 -0.032494233125445665 -0.054207390184659469</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="FOOT_06-1" uid="FOOT_06-1" grounded="true" entityUid="FOOT_06*:*Default">
+<Transform>
+<Rotation>-1 0 -5.2868138911164824e-016 0 1 0 5.2868138911164824e-016 0 -1</Rotation>
+<Translation>8.3512027588411586e-016 -0.024830066814585945 -0.072241439756541362</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M010201__P_magnet_wires_support-1" uid="ALD_M010201__P_magnet_wires_support-1" grounded="true" entityUid="ALD_M010201__P_magnet_wires_support*:*Default">
+<Transform>
+<Rotation>-3.2105150633563587e-015 0.99679607716296137 0.079984877023919529 2.6367796834847488e-016 0.07998487702391946 -0.99679607716296137 -1.0000000000000002 -3.1930547963586248e-015 -4.928976941287695e-016</Rotation>
+<Translation>0.016247776057789938 0.0013037534954178631 0.0015000000000393438</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_M080003__P_rondelle_flex_X_cheville_A00-1" uid="ALD_M080003__P_rondelle_flex_X_cheville_A00-1" grounded="true" entityUid="ALD_M080003__P_rondelle_flex_X_cheville_A00*:*Default">
+<Transform>
+<Rotation>0.99679607716296137 -0.079984877023919473 -2.5066129990063309e-016 0.079984877023919404 0.99679607716296137 -4.3778537805210438e-016 2.7095818465920844e-016 3.896055113531447e-016 1</Rotation>
+<Translation>3.365410977240052e-014 -7.2010736403785996e-014 -0.039849999999960695</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="ALD_E000030__P_carte_MRE-2" uid="ALD_E000030__P_carte_MRE-2" entityUid="ALD_E000030__P_carte_MRE*:*Default">
+<Transform>
+<Rotation>-1 -1.0706969474383006e-014 -2.7443342719846554e-016 1.0771827724418117e-014 -1 -1.2490009027033088e-016 -2.6269963392790507e-016 0 1.0000000000000002</Rotation>
+<Translation>0.010000000000000949 0.010000000000000434 -0.036032263643894141</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxiale137">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cheville-1</Uid>
+<Uid>ALD_M010033__P_couvercle_X_AV_cheville_A02-1</Uid>
+</InstancePath>
+<Position>0.025700000000000001 -0.0026999999999999993 -0.014100000000000001</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Left_Foot_jambe droite-1</Uid>
+<Uid>ALD_M010099__P_structure_pied_gauche_default-1</Uid>
+</InstancePath>
+<Position>0.041594233125445863 0.0066116000763380006 0.021040401896365732</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Left_Foot_jambe droite-1</Uid>
+<Uid>ALD_M010131__P_coque_exterieure_pied_gauche_A02-1</Uid>
+</InstancePath>
+<Position>-0.019064668639984725 0.014100000000000005 0.064374830130871863</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cheville-1</Uid>
+<Uid>ALD_M010033__P_couvercle_X_AV_cheville_A02-1</Uid>
+</InstancePath>
+<Position>0.018200000000000001 -0.0026999999999999984 -0.014100000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Coaxiale138">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Tibia-1</Uid>
+<Uid>ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche-1</Uid>
+</InstancePath>
+<Position>0.10000000000000001 0 0.0195</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cone">
+<InstancePath>
+<Uid>Cheville-1</Uid>
+<Uid>ALD_M010016__P_roue_sortie_inf-1</Uid>
+</InstancePath>
+<Position>0 0.0061738320219433263 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Tibia-1</Uid>
+<Uid>ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche-1</Uid>
+</InstancePath>
+<Position>0.075423356009311895 -0.076470473393538407 0.014500000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cheville-1</Uid>
+<Uid>ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx-1</Uid>
+</InstancePath>
+<Position>0.0141 0.02480000000000001 0.093300000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="Tibia" uid="Tibia" version="142">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Tibia.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Coques" uid="Coques" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Coques.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rotor_moteur_tangage" uid="Rotor_moteur_tangage" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rotor_moteur_tangage.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Cheville" uid="Cheville" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Cheville.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Rotor_moteur_roulis" uid="Rotor_moteur_roulis" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Rotor_moteur_roulis.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Left_Foot_jambe droite" uid="Left_Foot_jambe droite" version="181">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Left_Foot_jambe droite.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="ALD6667" uid="ALD6667*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD6667.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.9614536069737306e-005</Mass>
+<CenterOfMass>1.1097325443821551e-009 0.0017000000000006298 1.2972369984665279e-005</CenterOfMass>
+<Inertia>3.1257247578209901e-010 4.5286473118975275e-010 3.1269729085955805e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD6667_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_E000030__P_carte_MRE" uid="ALD_E000030__P_carte_MRE*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_E000030__P_carte_MRE.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00044149362256938032</Mass>
+<CenterOfMass>0.0097656846777960798 0.009994211698228497 0.00040460143002092299</CenterOfMass>
+<Inertia>6.8258190052039384e-009 1.0423443684083198e-008 1.6319359278511769e-008 2.1946422040833332e-012 1.6473037578481539e-010 -8.1510816442540662e-011</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_E000030__P_carte_MRE_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_E000032__P_Carte_Moteur_Pied_A00" uid="ALD_E000032__P_Carte_Moteur_Pied_A00*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_E000032__P_Carte_Moteur_Pied_A00.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027303197485926576</Mass>
+<CenterOfMass>-0.022546713682464917 -0.00089897064401212056 -0.015081029687661998</CenterOfMass>
+<Inertia>2.227783391956884e-007 7.2256300399531974e-007 5.0251283901180483e-007 -3.5641735497464402e-009 4.5699809883118869e-009 1.0326978056086459e-009</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_E000032__P_Carte_Moteur_Pied_A00_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_E000183__P_Left_Tibia_Card_Default" uid="ALD_E000183__P_Left_Tibia_Card_Default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_E000183__P_Left_Tibia_Card_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0033404191825284028</Mass>
+<CenterOfMass>-0.022568914745588031 0.0026874124970358089 -0.0009978929473383742</CenterOfMass>
+<Inertia>1.6491970328900743e-007 7.6257288859274479e-007 9.163237158129265e-007 1.402893847095394e-009 5.2305160961319259e-009 5.3407944636596498e-008</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_E000183__P_Left_Tibia_Card_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010016__P_roue_sortie_inf" uid="ALD_M010016__P_roue_sortie_inf*:*Default" version="293">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010016__P_roue_sortie_inf.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023945451340152291</Mass>
+<CenterOfMass>-1.0216524983544435e-005 0.0028690394713850715 -3.4574182383588421e-007</CenterOfMass>
+<Inertia>1.1737984413960182e-007 2.1507856556007348e-007 1.1786992141955931e-007 -3.951646251554599e-012 -3.2894424177612729e-012 -2.5052223728393913e-011</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010016__P_roue_sortie_inf_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010018__P_support_dente_A08" uid="ALD_M010018__P_support_dente_A08*:*Default" version="292">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010018__P_support_dente_A08.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0049048220263383062</Mass>
+<CenterOfMass>-0.0027325500473279517 0.012723224778142321 -1.8333273002013712e-008</CenterOfMass>
+<Inertia>1.2546596540924085e-006 2.2980675311331145e-007 1.127976644149279e-006 8.2307195341528245e-011 -2.4218317406675256e-013 -8.678205738653005e-008</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010018__P_support_dente_A08_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx" uid="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.021786612375520882</Mass>
+<CenterOfMass>-0.00048063644708846304 0.0033440176485896034 0.07270812478652916</CenterOfMass>
+<Inertia>1.0854356273072504e-005 6.6360511437864212e-006 9.2933118632556947e-006 -2.0213689572901026e-006 -5.5664471484382781e-008 -7.2556511625395982e-008</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010030__P_cage_fut_moteur_cheville_gauche_Axx_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010033__P_couvercle_X_AV_cheville_A02" uid="ALD_M010033__P_couvercle_X_AV_cheville_A02*:*Default" version="287">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010033__P_couvercle_X_AV_cheville_A02.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0060717651914404648</Mass>
+<CenterOfMass>0.018650769911177322 0.0084690334885069475 -0.014100046983126256</CenterOfMass>
+<Inertia>1.7184091631997931e-006 5.5741180881731798e-007 1.3484409189428816e-006 4.692031923135045e-012 2.1555351245318892e-012 -8.9443480749071995e-008</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010033__P_couvercle_X_AV_cheville_A02_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010035__P_couvercle_X_AR_Axx" uid="ALD_M010035__P_couvercle_X_AR_Axx*:*Default" version="300">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010035__P_couvercle_X_AR_Axx.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0042496059276059634</Mass>
+<CenterOfMass>1.0844054899858606e-006 -0.0020955445163733126 0.0071937935466000148</CenterOfMass>
+<Inertia>3.9825157639100529e-007 3.2937049868317744e-007 6.4729647043837718e-007 -3.4298600108975202e-008 3.2372351107540582e-011 -1.0113641407582998e-010</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010035__P_couvercle_X_AR_Axx_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche" uid="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche*:*Default" version="321">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016735407542600309</Mass>
+<CenterOfMass>0.047516714462198857 0.0033380115456365825 -0.011075053754749401</CenterOfMass>
+<Inertia>2.7987023532841363e-006 2.0619139514625432e-005 2.2139343165893213e-005 -1.2176352278646537e-007 2.5527814185436186e-006 6.9584469334088332e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010044__P_boitier_tibia_meca_gauche_ALD_M010044__PAxx_boitier_tibia_meca_gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche" uid="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche*:*Default" version="294">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.016967882851311063</Mass>
+<CenterOfMass>0.04820991263937139 0.0032643949951007777 0.010883168532631939</CenterOfMass>
+<Inertia>2.8912832494233986e-006 2.1764163387282518e-005 2.320303001909813e-005 1.6866083690429178e-007 -2.8570066384958201e-006 7.3908383291482677e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010046__P_boitier_tibia_elec_gauche_ALD_M010046__PAxx_boitier_elec_gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx" uid="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx*:*Default" version="297">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.010892414397816689</Mass>
+<CenterOfMass>0.077961996400960951 0.00059347537864351953 -0.0087011259674990068</CenterOfMass>
+<Inertia>1.766782555200208e-006 6.6634953567873547e-006 7.9601902744553087e-006 -1.3629646086420277e-007 3.6257558275158596e-007 7.1165418416239033e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010048__P_couvercle_tibia_meca_gauche_Axx_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx" uid="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx*:*Default" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0075598574284726806</Mass>
+<CenterOfMass>0.07760558196513391 0.0015216267380800971 0.0062413510386244431</CenterOfMass>
+<Inertia>1.3125358130160457e-006 5.9464056615356929e-006 7.1005667298113154e-006 2.7090988359335266e-008 1.5055780299309302e-010 4.8328360370926708e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010050__P_couvercle_tibia_elec_gauche_Axx_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010053__P_support_aimant" uid="ALD_M010053__P_support_aimant*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010053__P_support_aimant.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00020823859118937753</Mass>
+<CenterOfMass>7.8383573332581684e-011 0.0037735833496217097 -3.8617765418953959e-011</CenterOfMass>
+<Inertia>1.2019959640855004e-009 1.3411032416173898e-009 1.2019959014937053e-009 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010053__P_support_aimant_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010055__P_cache_fut_moteur_cheville_A" uid="ALD_M010055__P_cache_fut_moteur_cheville_A*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010055__P_cache_fut_moteur_cheville_A.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0073057026000001649</Mass>
+<CenterOfMass>-0.048863244902450358 0.025698004304686314 -0.014099941157457411</CenterOfMass>
+<Inertia>1.4924044936977353e-006 1.9837412786896095e-006 1.7566884186676404e-006 1.7000647147472645e-010 -1.7783793624111294e-010 5.0049796365892052e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010055__P_cache_fut_moteur_cheville_A_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010097__P_semelle_gauche_default" uid="ALD_M010097__P_semelle_gauche_default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010097__P_semelle_gauche_default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.033715427176081246</Mass>
+<CenterOfMass>0.041039042578628171 0.0042882642511296466 0.0022002597749427419</CenterOfMass>
+<Inertia>1.8590090985993394e-005 7.2456749664744926e-005 9.0489701357404249e-005 9.5628607452895685e-008 7.3658483323061499e-007 2.5483599577454525e-006</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010097__P_semelle_gauche_default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010099__P_structure_pied_gauche_default" uid="ALD_M010099__P_structure_pied_gauche_default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010099__P_structure_pied_gauche_default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029407310937270968</Mass>
+<CenterOfMass>0.0092533388587225218 0.004627733428077453 0.0058420831687454487</CenterOfMass>
+<Inertia>4.6834093684425986e-005 4.463163191541765e-005 9.9993427216384362e-006 -7.7110944105228709e-007 -8.9892381598239736e-007 -3.6797716668730369e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010099__P_structure_pied_gauche_default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010101__P_bumper_pied_gauche_A" uid="ALD_M010101__P_bumper_pied_gauche_A*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010101__P_bumper_pied_gauche_A.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0037833889626883309</Mass>
+<CenterOfMass>0.11603933217484108 -0.0031336284348707603 0.011084891250146271</CenterOfMass>
+<Inertia>2.2896407345145211e-006 2.179792722107999e-007 2.3693909723750382e-006 8.1731440846480947e-009 2.3530218806155951e-008 -1.4845192303105117e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010101__P_bumper_pied_gauche_A_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010131__P_coque_exterieure_pied_gauche_A02" uid="ALD_M010131__P_coque_exterieure_pied_gauche_A02*:*Default" version="291">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010131__P_coque_exterieure_pied_gauche_A02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029413342756670437</Mass>
+<CenterOfMass>0.057225210134265861 0.013147092669619361 0.020826967443166967</CenterOfMass>
+<Inertia>2.2136274713889237e-005 6.2646810549177293e-005 8.0760388856115242e-005 1.314924595393507e-006 -7.5024970775075816e-007 1.1938901281619125e-005</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010131__P_coque_exterieure_pied_gauche_A02_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010133__P_coque_interieure_pied_gauche" uid="ALD_M010133__P_coque_interieure_pied_gauche*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010133__P_coque_interieure_pied_gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.008489088613333997</Mass>
+<CenterOfMass>0.0048167109328685663 -0.021263995306323068 0.018142578022317599</CenterOfMass>
+<Inertia>1.7693204416262043e-006 8.2391098692264608e-006 7.9742756418178358e-006 -6.0326573821174206e-007 1.0334318419101518e-006 1.4715833651989589e-006</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010133__P_coque_interieure_pied_gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010155__P_Coque_Tibia_Interieur_Gauche" uid="ALD_M010155__P_Coque_Tibia_Interieur_Gauche*:*Default" version="285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010155__P_Coque_Tibia_Interieur_Gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019998567142971855</Mass>
+<CenterOfMass>0.027221556205503913 0.061034437626026047 -0.010460947985534869</CenterOfMass>
+<Inertia>3.3814501855726028e-005 1.0271177932262332e-005 2.8044230130617685e-005 6.3728581021495626e-006 -3.1951128981790896e-006 2.7931613861243708e-006</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010155__P_Coque_Tibia_Interieur_Gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche" uid="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche*:*Default" version="285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.02109001351459152</Mass>
+<CenterOfMass>-0.029985319210671883 0.06299881364933449 -0.011293814254949356</CenterOfMass>
+<Inertia>3.6413397130899541e-005 1.178956451374605e-005 3.1278473662681093e-005 7.2514080667433036e-006 3.8786640911279766e-006 -3.1237969885982222e-006</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010156__P_Coque_Tibia_Exterieur_Gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010157__P_Coque_Tibia_Arr_Gauche" uid="ALD_M010157__P_Coque_Tibia_Arr_Gauche*:*Default" version="285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010157__P_Coque_Tibia_Arr_Gauche.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01557184038472571</Mass>
+<CenterOfMass>-0.0040898702046086137 0.065546012580721263 0.01554232825038721</CenterOfMass>
+<Inertia>1.8724689063276831e-005 1.3734977083014047e-005 2.5814132847812588e-005 5.5527297008017404e-006 -7.8770978276109921e-008 4.9772313798561663e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010157__P_Coque_Tibia_Arr_Gauche_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010158__P_Goutte_Tibia_Gauche_Default" uid="ALD_M010158__P_Goutte_Tibia_Gauche_Default*:*Default" version="285">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010158__P_Goutte_Tibia_Gauche_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0034780915927668998</Mass>
+<CenterOfMass>-0.042734063809029527 0.043672507409449286 0.00091203290113977436</CenterOfMass>
+<Inertia>1.1980463837590701e-006 6.2140678117828267e-007 8.4749881596104642e-007 6.4786129792312792e-008 1.4088537559796105e-007 -2.0400612631661714e-007</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010158__P_Goutte_Tibia_Gauche_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.22588235294117645" g="0.22588235294117645" b="0.22588235294117645" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010201__P_magnet_wires_support" uid="ALD_M010201__P_magnet_wires_support*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010201__P_magnet_wires_support.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00029836986766624125</Mass>
+<CenterOfMass>1.5587264744844719e-008 0.0040395633067418935 -0.00034275451231781238</CenterOfMass>
+<Inertia>2.7544447141013165e-009 4.1797352205117995e-009 2.6251833448300844e-009 1.4186856926594926e-010 2.1395514744183342e-013 -2.2000344711018947e-015</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010201__P_magnet_wires_support_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M010292__P_Motor_Ring_Default" uid="ALD_M010292__P_Motor_Ring_Default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M010292__P_Motor_Ring_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0022807805585429294</Mass>
+<CenterOfMass>0 0 0.014749999999999994</CenterOfMass>
+<Inertia>3.1650581875946789e-007 3.165058187594681e-007 3.0220342400693839e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M010292__P_Motor_Ring_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M080003__P_rondelle_flex_X_cheville_A00" uid="ALD_M080003__P_rondelle_flex_X_cheville_A00*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M080003__P_rondelle_flex_X_cheville_A00.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.9654929372659895e-005</Mass>
+<CenterOfMass>0 6.6586136643172244e-005 0.00012500000000000003</CenterOfMass>
+<Inertia>7.9646156432429766e-010 8.0522396037091957e-010 1.601272452514252e-009 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M080003__P_rondelle_flex_X_cheville_A00_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100004__P_axe_Y_B00" uid="ALD_M100004__P_axe_Y_B00*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100004__P_axe_Y_B00.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00024701452917699296</Mass>
+<CenterOfMass>0 0.0093000000000719452 0</CenterOfMass>
+<Inertia>7.1982469481910498e-009 4.8970812491012308e-010 7.1982469481910498e-009 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100004__P_axe_Y_B00_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100015__P_axe_2x13" uid="ALD_M100015__P_axe_2x13*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100015__P_axe_2x13.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.3448561500964819e-005</Mass>
+<CenterOfMass>0 0 0.0065000000001604477</CenterOfMass>
+<Inertia>6.1586538641823237e-010 6.1586538641823237e-010 2.1629477369604779e-011 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100015__P_axe_2x13_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100016__P_axe_3x27_3" uid="ALD_M100016__P_axe_3x27_3*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100016__P_axe_3x27_3.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00020609493928872027</Mass>
+<CenterOfMass>0 0 0.0136500000002468</CenterOfMass>
+<Inertia>1.2868617524358083e-008 1.2868617524358083e-008 2.3149599629262938e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100016__P_axe_3x27_3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100017__P_axe_2x19_7" uid="ALD_M100017__P_axe_2x19_7*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100017__P_axe_2x19_7.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.5970639235869905e-005</Mass>
+<CenterOfMass>0 0 0.009850000000145763</CenterOfMass>
+<Inertia>2.1340899075091377e-009 2.1340899075091377e-009 3.2890516237185623e-011 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100017__P_axe_2x19_7_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100018__P_axe_3x20_2" uid="ALD_M100018__P_axe_3x20_2*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100018__P_axe_3x20_2.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015088223379404822</Mass>
+<CenterOfMass>0 0 0.0099999999998669053</CenterOfMass>
+<Inertia>5.088919107901924e-009 5.088919107901924e-009 1.6938170260960135e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100018__P_axe_3x20_2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M100021__P_axe_3x11_7" uid="ALD_M100021__P_axe_3x11_7*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M100021__P_axe_3x11_7.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.8106143993404399e-005</Mass>
+<CenterOfMass>0 0 0.0058500000000820587</CenterOfMass>
+<Inertia>1.0459575715902267e-009 1.0459575715902267e-009 9.8758601584222083e-011 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M100021__P_axe_3x11_7_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default" uid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default*:*Default" version="296">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0078144055028614694</Mass>
+<CenterOfMass>-8.0695019661055083e-008 0.013452706923423707 -1.7399517431055529e-005</CenterOfMass>
+<Inertia>1.1461169255851187e-006 6.204916864403278e-007 1.1462459025558904e-006 -3.6924351887137668e-009 -3.5325647325636098e-012 -9.555002245909268e-012</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor" uid="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor*:*Default" version="353">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0046021669665876237</Mass>
+<CenterOfMass>0 0.015266490493979847 0</CenterOfMass>
+<Inertia>3.023259473442282e-007 1.2381865408201843e-007 3.023259473442282e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M840030__P_Portescap_22NT_82_213P_Z13_Rotor_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M840031" uid="ALD_M840031*:*Default" version="404">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M840031.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0055959355587908068</Mass>
+<CenterOfMass>-1.1268990283417712e-007 0.012428113949179477 -2.0032455402517055e-005</CenterOfMass>
+<Inertia>9.1754194110800421e-007 4.6233676565099624e-007 9.1752943354754872e-007 -3.2266756089791424e-009 -3.1268448086006443e-012 -8.9093143385351521e-012</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M840031_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor" uid="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor*:*Default" version="318">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0065208136602872609</Mass>
+<CenterOfMass>0 0.014322535487402029 0</CenterOfMass>
+<Inertia>4.4018810867037294e-007 2.6150446686226234e-007 4.4018810867037294e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="ALD_M840031__P_Portescap_22NT_82_213P_Z20_Rotor_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Barre" uid="Barre*:*Défaut" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Barre.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13260000000000002</Mass>
+<CenterOfMass>0 0 0.050000000000000003</CenterOfMass>
+<Inertia>0.00011160500000000003 0.00011369345000000004 4.2984500000000003e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Barre_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.83529411764705885" g="0.82745098039215681" b="0.78431372549019607" a="1"/>
+<Diffuse r="0.83529411764705885" g="0.82745098039215681" b="0.78431372549019607" a="1"/>
+<Specular r="0.41764705882352943" g="0.4137254901960784" b="0.39215686274509803" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FOOT_06" uid="FOOT_06*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FOOT_06.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035260516461743299</Mass>
+<CenterOfMass>-3.1467384846529145e-005 0.0053234124680214398 -0.002138121297737691</CenterOfMass>
+<Inertia>2.7369217472323194e-007 5.169087703390329e-007 2.9900103412993418e-007 3.165629028432191e-008 9.60583259062816e-010 -9.5661045566512968e-011</Inertia>
+</MassProperties>
+<GeometryFile name="FOOT_06_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_E990012__P_FSR_2P_pli 4" uid="STD_E990012__P_FSR_2P_pli 4*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_E990012__P_FSR_2P_pli 4.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010844786131653299</Mass>
+<CenterOfMass>-0.014469133686610061 0.0014848813914692637 -0.0012886054663648516</CenterOfMass>
+<Inertia>2.2427294207097409e-009 1.9525282694010094e-008 2.0993010743957374e-008 4.3037740038965642e-010 -2.2070435347932826e-011 -4.124368493088478e-010</Inertia>
+</MassProperties>
+<GeometryFile name="STD_E990012__P_FSR_2P_pli 4_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_E990013__P_FSR_4P" uid="STD_E990013__P_FSR_4P*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_E990013__P_FSR_4P.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00022508843103241746</Mass>
+<CenterOfMass>-0.045224628659969963 0 8.5000000000000006e-005</CenterOfMass>
+<Inertia>2.4273939666215172e-009 2.223457592122687e-007 2.2477183509871413e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_E990013__P_FSR_4P_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M510002__P_palier_GSM_0405-04" uid="STD_M510002__P_palier_GSM_0405-04*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M510002__P_palier_GSM_0405-04.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.7262748198941112e-005</Mass>
+<CenterOfMass>0 0 0.0020033854907797102</CenterOfMass>
+<Inertia>1.9804993300161019e-010 1.9804993300161019e-010 2.7314116179976039e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M510002__P_palier_GSM_0405-04_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M510003__P_palier_GFM_1012-07_stabdard" uid="STD_M510003__P_palier_GFM_1012-07_stabdard*:*Default" version="291">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M510003__P_palier_GFM_1012-07_stabdard.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00041010350499959524</Mass>
+<CenterOfMass>0.0023934426229482385 0 0</CenterOfMass>
+<Inertia>1.6743652118056698e-008 1.0300594676428243e-008 1.030059467642824e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M510003__P_palier_GFM_1012-07_stabdard_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M510004__P_palier_GFM_1517-05_stabdard" uid="STD_M510004__P_palier_GFM_1517-05_stabdard*:*Default" version="291">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M510004__P_palier_GFM_1517-05_stabdard.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00047061057950773243</Mass>
+<CenterOfMass>0.0016428571428422855 0 0</CenterOfMass>
+<Inertia>3.7900959171070288e-008 1.998854408368322e-008 1.9988544083683224e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M510004__P_palier_GFM_1517-05_stabdard_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700002__P_KA22x14" uid="STD_M700002__P_KA22x14*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700002__P_KA22x14.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.0577268993876041e-005</Mass>
+<CenterOfMass>0.0070351077594120433 3.3167106246700389e-009 1.629432683638769e-008</CenterOfMass>
+<Inertia>6.1886854523264438e-011 1.5953666096771409e-009 1.5953576603429014e-009 0 6.1153185871160243e-015 1.2163016412026429e-015</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700002__P_KA22x14_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700003__PZ99_KA22x6_KA22 x 6" uid="STD_M700003__PZ99_KA22x6_KA22 x 6*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700003__PZ99_KA22x6_KA22 x 6.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.8039705554141464e-005</Mass>
+<CenterOfMass>0.003215651097370219 3.2529166851185279e-009 1.5055968437479417e-008</CenterOfMass>
+<Inertia>4.2195217799110166e-011 2.0838963783288967e-010 2.0837834219653364e-010 -9.0116724519906462e-016 1.3211449281550489e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700003__PZ99_KA22x6_KA22 x 6_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700004__PZ99_KA22x8_KA22 x 8" uid="STD_M700004__PZ99_KA22x8_KA22 x 8*:*Default" version="289">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700004__PZ99_KA22x8_KA22 x 8.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.6174096414065881e-005</Mass>
+<CenterOfMass>0.0041466389286902812 3.277294013470147e-009 1.5529177232072916e-008</CenterOfMass>
+<Inertia>4.7114572963870072e-011 4.0070209961324506e-010 4.0068632606275499e-010 -1.2397543818963061e-015 2.175391242960779e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700004__PZ99_KA22x8_KA22 x 8_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700005__PZ99_KA22x12_Default" uid="STD_M700005__PZ99_KA22x12_Default*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700005__PZ99_KA22x12_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.2442878133944055e-005</Mass>
+<CenterOfMass>0.006062587966856315 3.3069949592560877e-009 1.6105727318268125e-008</CenterOfMass>
+<Inertia>5.6953283174987922e-011 1.0778312782387734e-009 1.0778065487416829e-009 -1.916928653448001e-015 4.5718424114521045e-015 9.1394105841271564e-016</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700005__PZ99_KA22x12_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700006__PZ99_KA18x6_Default" uid="STD_M700006__PZ99_KA18x6_Default*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700006__PZ99_KA18x6_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.381519100851646e-005</Mass>
+<CenterOfMass>0.0031060638281060829 1.9381106102316243e-009 1.1353092793204187e-008</CenterOfMass>
+<Inertia>1.7005406293111581e-011 1.2042421540726226e-010 1.2042247575181132e-010 0 6.2258466676502273e-016 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700006__PZ99_KA18x6_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M700013__PZ99_KA22x5_KA22 x 6" uid="STD_M700013__PZ99_KA22x5_KA22 x 6*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M700013__PZ99_KA22x5_KA22 x 6.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.3972510124169861e-005</Mass>
+<CenterOfMass>0.0027625578438546603 3.2363503249529516e-009 1.4734385062922379e-008</CenterOfMass>
+<Inertia>3.9735540236448286e-011 1.4159485656276577e-010 1.4158579990321375e-010 -7.3187367626573908e-016 9.7943888781454507e-016 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M700013__PZ99_KA22x5_KA22 x 6_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M710002__P_ecrou_M3" uid="STD_M710002__P_ecrou_M3*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M710002__P_ecrou_M3.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.383144323509524e-005</Mass>
+<CenterOfMass>-3.169773340587157e-013 -7.6696119564669079e-013 -0.0011987978636538248</CenterOfMass>
+<Inertia>1.5945763759918876e-010 1.5945754787582506e-010 2.6861037254973865e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M710002__P_ecrou_M3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5" uid="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.1552668881292719e-005</Mass>
+<CenterOfMass>0.0024274054047355993 2.3991285114869929e-010 0</CenterOfMass>
+<Inertia>3.4037108033104728e-011 1.3175937223284784e-010 1.3297381394995942e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M710004__P_vis_M2x5_ALD_M710004__PZ99_vis_M2x5_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50" uid="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00042624369307339358</Mass>
+<CenterOfMass>0.024472585409398385 5.495419406159293e-009 2.8409927926356445e-008</CenterOfMass>
+<Inertia>6.1344583281242475e-010 1.0784088983425518e-007 1.078407712400794e-007 -7.0503769934329457e-015 2.2948738979648478e-013 4.4025394638113246e-014</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M710005__PZ99_Vis_M3x50_ISO 7045 - M3 x 50_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M830010__P_Axial_Magnet_6x3_Default" uid="STD_M830010__P_Axial_Magnet_6x3_Default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M830010__P_Axial_Magnet_6x3_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.0418185030884536e-005</Mass>
+<CenterOfMass>3.4057248995913042e-010 1.7593250646068026e-007 0.0014999987716850674</CenterOfMass>
+<Inertia>2.700631702339957e-010 2.7016498635440527e-010 4.0553701952367398e-010 0 1.4204793413259266e-015 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M830010__P_Axial_Magnet_6x3_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="STD_M850001__P_Scotch_double_Face_3M_5419_Default" uid="STD_M850001__P_Scotch_double_Face_3M_5419_Default*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="STD_M850001__P_Scotch_double_Face_3M_5419_Default.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.4775000000000012e-005</Mass>
+<CenterOfMass>0.0065000000000000006 0.005000000000000001 0.000125</CenterOfMass>
+<Inertia>2.8997278645833357e-010 4.8992903645833361e-010 7.7953958333333383e-010 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="STD_M850001__P_Scotch_double_Face_3M_5419_Default_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
