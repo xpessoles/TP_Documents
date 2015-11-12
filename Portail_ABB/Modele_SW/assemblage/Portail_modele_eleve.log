@@ -6,3 +6,47 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+12/11/2015 - 08:57:02 	===== Ouverture de session =====
+12/11/2015 - 08:57:17 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+12/11/2015 - 08:57:48 	===== Ouverture de session =====
+12/11/2015 - 08:59:42 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+12/11/2015 - 10:02:16 	===== Ouverture de session =====
+12/11/2015 - 10:04:19 	Début du calcul
+12/11/2015 - 10:04:19 	Nombre de positions : 1
+12/11/2015 - 10:04:19 	Simulation activée
+12/11/2015 - 10:04:19 	Lecture des conditions initiales
+12/11/2015 - 10:04:19 	Fin du calcul
+12/11/2015 - 10:04:37 	Début du calcul
+12/11/2015 - 10:04:37 	Nombre de positions : 100
+12/11/2015 - 10:04:37 	Simulation activée
+12/11/2015 - 10:04:37 	Lecture des conditions initiales
+12/11/2015 - 10:04:39 	Fin du calcul
+12/11/2015 - 10:04:44 	Début du calcul
+12/11/2015 - 10:04:44 	Nombre de positions : 100
+12/11/2015 - 10:04:44 	Simulation activée
+12/11/2015 - 10:04:44 	Lecture des conditions initiales
+12/11/2015 - 10:04:47 	Fin du calcul
+12/11/2015 - 10:04:53 	Début du calcul
+12/11/2015 - 10:04:53 	Nombre de positions : 100
+12/11/2015 - 10:04:53 	Simulation activée
+12/11/2015 - 10:04:53 	Lecture des conditions initiales
+12/11/2015 - 10:04:56 	Fin du calcul
+12/11/2015 - 11:26:05 	===== Fermeture de session =====
+
+===============Finish Logging================
+
