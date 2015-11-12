@@ -1,4 +1,7 @@
+
+# Import du module d'optiomisation 
 from scipy.optimize import fsolve
+# Import de fonctions mathématiques
 from math import cos,sin,pi
 
 
