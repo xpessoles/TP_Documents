@@ -26,3 +26,16 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+17/11/2015 - 13:58:50 	===== Ouverture de session =====
+17/11/2015 - 14:00:28 	Début du calcul
+17/11/2015 - 14:00:28 	Nombre de positions : 200
+17/11/2015 - 14:00:28 	Simulation activée
+17/11/2015 - 14:00:28 	Lecture des conditions initiales
+17/11/2015 - 14:00:32 	Fin du calcul
+17/11/2015 - 14:05:10 	===== Fermeture de session =====
+
+===============Finish Logging================
+
