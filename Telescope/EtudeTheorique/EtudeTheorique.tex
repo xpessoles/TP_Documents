@@ -1,0 +1,121 @@
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
+\usepackage[%
+    pdftitle={CIN : Cinématique du solide},
+    pdfauthor={Xavier Pessoles}]{hyperref}
+
+\input{style/new_style}
+\input{style/macros_SII}
+
+%\fichetrue
+%\fichefalse
+
+%\proftrue
+\proffalse
+
+%\tdtrue
+\tdfalse
+
+\courstrue
+%\coursfalse
+
+% -------------------------------------
+% Déclaration des titres
+% -------------------------------------
+
+\def\discipline{Sciences \\Industrielles de \\ l'Ingénieur}
+\def\xxtete{Sciences Industrielles de l'Ingénieur}
+
+\def\classe{PTSI -- PT}
+\def\xxnumpartie{Doc. TP}
+\def\xxpartie{Étude cinématique des systèmes de solides de la chaîne d'énergie  \\
+Analyser, Modéliser, Résoudre}
+
+\def\xxnumchapitre{Télescope}
+\def\xxchapitre{\hspace{.12cm} }
+
+\def\xxposongletx{2}
+\def\xxposonglettext{1.45}
+\def\xxposonglety{20}
+\def\xxonglet{Télescope}
+
+\def\xxactivite{TP}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+\def\xxcompetences{%
+\textsl{%
+\textbf{Savoirs et compétences :}
+\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+\item Mod-C11 : Modélisation géométrique et cinématique des mouvements entre solides indéformables 
+\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+\item Mod-C11.2 : Champ des vecteurs vitesses des points d'un solide
+\end{itemize}
+\end{itemize}
+%
+}}
+
+\def\xxfigures{
+\includegraphics[width=\textwidth]{images/prot_01}
+
+\textit{Modélisation cinématique} 
+
+}%figues de la page de garde
+\def\xxpied{%
+Partie 3 -- Étude cinématique des systèmes  \\
+Ch 5 : Cinématique du solide -- \xxactivite%
+}
+
+%---------------------------------------------------------------------------
+
+
+\begin{document}
+\chapterimage{png/Fond_Cin}
+\input{style/new_pagegarde}
+
+%\newpage
+
+%%%%%%%%%%%%%%%%%  FIN DE LA COPIE *****************
+
+
+
+\section{Modélisation et paramétrage}
+
+\begin{minipage}[c]{.47\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{images/Schema}
+\end{center}
+\end{minipage} \hfill
+\begin{minipage}[c]{.47\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{images/parametrage}
+\end{center}
+\end{minipage}
+\section{Cinématique}
+\subsection{Trajectoire du point $B$}
+On a : $\vect{OB} = a \vz{1} + R \vx{1} + L \vz{2}$. En exprimant $\vect{OB}$ dans le repère $\mathcal{R}_0$, on a : 
+$$
+\begin{array}{ccl}
+\vect{OB} &=& a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta \vz{1} - \sin \beta \vy{1} \right) \\
+ & = & a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta \vz{0} - \sin \beta \left( \cos\alpha \vy{0} - \sin \alpha \vx{0} \right) \right). \\
+\end{array}
+$$
+
+Au final, 
+$$
+\vect{OB} = \left[
+\begin{array}{c}
+R  \cos\alpha + L\sin \beta\sin \alpha\\ 
+R  \sin \alpha -L\sin \beta\cos\alpha\\
+a + L\cos \beta 
+\end{array}
+\right]_{\mathcal{R}_0}
+$$
+
+
+%\begin{thebibliography}{2}
+%\bibitem[1]{cite1} Centrifugeuse humaine -- CNRS Photothèque/Sébastien Godefroy et MEDES, \textit{Avio et Tiger}, \url{http://www.medes.fr/home_fr/fiche-centrifugeuse/mainColumnParagraphs/0/document/Presentation%20centrifugeuse%2018.12.07.pdf}.
+%\bibitem[2]{cite4} Wallace et Gromit, \url{http://www.wallaceandgromit.com/goodies/}.
+%\bibitem[3]{JPP} Jean-Pierre Pupier -- Vitesse et accélération -- Dérivée vectorielle -- Mouvement de solides -- PTSI -- Lycée Rouvière Toulon.
+%\bibitem[4]{FM} Florestan Mathurin, \textit{Champs des Vecteurs Vitesse des Points d’un Solide}, cours de PCSI / MPSI du lycée Bellevue de Toulouse, \url{http://florestan.mathurin.free.fr} .
+%\end{thebibliography}
+\end{document}
+
