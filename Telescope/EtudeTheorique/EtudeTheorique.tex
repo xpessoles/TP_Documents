@@ -54,9 +54,9 @@ Analyser, Modéliser, Résoudre}
 }}
 
 \def\xxfigures{
-\includegraphics[width=\textwidth]{images/prot_01}
+\includegraphics[width=.5\textwidth]{images/tel_01_bis}
 
-\textit{Modélisation cinématique} 
+\includegraphics[width=.5\textwidth]{images/tel_02}
 
 }%figues de la page de garde
 \def\xxpied{%
@@ -68,7 +68,7 @@ Ch 5 : Cinématique du solide -- \xxactivite%
 
 
 \begin{document}
-\chapterimage{png/Fond_Cin}
+\chapterimage{png/Fond_SET}
 \input{style/new_pagegarde}
 
 %\newpage
@@ -91,11 +91,11 @@ Ch 5 : Cinématique du solide -- \xxactivite%
 \end{minipage}
 \section{Cinématique}
 \subsection{Trajectoire du point $B$}
-On a : $\vect{OB} = a \vz{1} + R \vx{1} + L \vz{2}$. En exprimant $\vect{OB}$ dans le repère $\mathcal{R}_0$, on a : 
+On a : $\vect{OB} = a \vz{1} + R \vx{1} + L \vy{2}$. En exprimant $\vect{OB}$ dans le repère $\mathcal{R}_0$, on a : 
 $$
 \begin{array}{ccl}
-\vect{OB} &=& a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta \vz{1} - \sin \beta \vy{1} \right) \\
- & = & a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta \vz{0} - \sin \beta \left( \cos\alpha \vy{0} - \sin \alpha \vx{0} \right) \right). \\
+\vect{OB} &=& a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta \vy{1} + \sin \beta \vz{1} \right) \\
+ & = & a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0} \right) + L \left( \cos \beta\left( \cos\alpha \vy{0} - \sin \alpha \vx{0} \right) + \sin \beta \vz{0} \right)\\
 \end{array}
 $$
 
@@ -103,12 +103,162 @@ Au final,
 $$
 \vect{OB} = \left[
 \begin{array}{c}
-R  \cos\alpha + L\sin \beta\sin \alpha\\ 
-R  \sin \alpha -L\sin \beta\cos\alpha\\
-a + L\cos \beta 
+R  \cos\alpha - L\cos \beta\sin \alpha\\ 
+R  \sin \alpha +L\cos \beta\cos\alpha\\
+a + L\sin \beta 
 \end{array}
 \right]_{\mathcal{R}_0}
 $$
+
+
+\section{Lois de commande des moteurs}
+\subsection{Transformée géométrique inverse}
+\begin{center}
+\includegraphics[width=\linewidth]{images/visee}
+\end{center}
+
+Soit $P$ le point à suivre sur le segment $[CD]$. En considérant que les points $A$, $B$ et $P$ sont alignés. On peut écrire la fermeture géométrique suivante :
+$$ 
+\begin{array}{lcl}
+\vect{0} &=& \vect{OA} + \vect{AP} + \vect{PO}\\
+\vect{0} &=& a \vz{1} + R \vx{1} + \lambda (t)\vy{2} - x(t) \vx{0} - y(t) \vy{0}- z(t) \vz{0} \\
+%\vect{0} &=& a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0}\right) + \lambda(t) \left( u_x \vect{x_0} +  u_y \vect{y_0} + u_y \vect{z_0} \right) - x(t) \vx{0} - y(t) \vy{0} \\
+\vect{0} &=& a \vz{0} + R \left( \cos\alpha \vx{0} + \sin \alpha \vy{0}\right) + \lambda (t)\left( \cos \beta\left( \cos\alpha \vy{0} - \sin \alpha \vx{0} \right) + \sin \beta \vz{0} \right) - x(t) \vx{0} - y(t) \vy{0} - z(t) \vz{0}\\
+\end{array}
+$$
+
+$$
+\left[
+\begin{array}{c}
+0 \\
+0 \\
+0 
+\end{array}
+\right]
+ = \left[
+\begin{array}{c}
+R  \cos\alpha(t) - \lambda(t) \cos \beta \sin\alpha- x(t)\\ 
+R  \sin \alpha(t) + \lambda(t) \cos \beta \cos\alpha  - y(t)\\
+a + \lambda (t)\sin \beta (t)- z(t)
+\end{array}
+\right]_{\mathcal{R}_0}
+\Leftrightarrow 
+\left\{
+\begin{array}{l}
+\lambda(t) \cos \beta \sin\alpha =  -x(t) + R  \cos\alpha(t)\\ 
+\lambda(t) \cos \beta \cos\alpha =  y(t) - R  \sin \alpha(t) \\
+\lambda (t)\sin \beta (t)  = -a +  z(t) 
+\end{array}
+\right.
+$$
+
+$$
+\left\{
+\begin{array}{l}
+\dfrac{z(t)-a }{\sin \beta (t)} \cos \beta \sin\alpha =  -x(t) + R  \cos\alpha(t)\\ 
+\dfrac{z(t)-a }{\sin \beta (t)} \cos \beta \cos\alpha =  y(t) - R  \sin \alpha(t) \\
+\lambda (t)  = \dfrac{z(t)-a }{\sin \beta (t)}
+\end{array}
+\right.
+\Leftrightarrow
+\left\{
+\begin{array}{l}
+\dfrac{z(t)-a }{\tan \beta (t)}  \sin\alpha(t) =  -x(t) + R  \cos\alpha(t)\\ 
+\dfrac{z(t)-a }{\tan \beta (t)}  \cos\alpha(t) =  y(t) - R  \sin \alpha(t) \\
+\lambda (t)  = \dfrac{z(t)-a }{\sin \beta (t)}
+\end{array}
+\right.
+$$
+
+On pose $R=0$ :
+$$
+\left\{
+\begin{array}{l}
+\dfrac{z(t)-a}{\tan \beta (t)}  \sin\alpha(t) =  -x(t)\\ 
+\dfrac{z(t)-a}{\tan \beta (t)}  \cos\alpha(t) =  y(t)\\
+\lambda (t)  = \dfrac{z(t)-a}{\sin \beta (t)}
+\end{array}
+\right.
+\Leftrightarrow
+\left\{
+\begin{array}{l}
+\sin\alpha(t) =  -x(t) \dfrac{\tan \beta (t)}{z(t)-a}\\ 
+\cos\alpha(t) =  y(t) \dfrac{\tan \beta (t)}{z(t)-a}\\
+\lambda (t)  = \dfrac{z(t)-a}{\sin \beta (t)}
+\end{array}
+\right.
+$$
+
+$$
+\cos^2\alpha(t) + \sin^2\alpha(t) =   \dfrac{\tan^2 \beta (t)x(t)^2 }{\left(z(t)-a\right)^2}+  \dfrac{ y(t)^2 \tan^2 \beta (t)}{\left(z(t)-a\right)^2}
+\Leftrightarrow
+\left(z(t)-a\right)^2 = \tan^2 \beta (t)\left( x(t)^2  + y(t)^2\right)
+$$
+
+$$
+ \tan^2 \beta (t) =\dfrac{\left(z(t)-a\right)^2}{\left( x(t)^2  + y(t)^2\right)}
+$$
+Au final : 
+$$
+\left\{
+\begin{array}{l}
+\tan \beta (t) =\sqrt{\dfrac{\left(z(t)-a\right)^2}{\left( x(t)^2  + y(t)^2\right)}} \\
+\cos\alpha(t) =  y(t) \dfrac{\tan \beta (t)}{z(t)-a}\\ 
+\end{array}
+\right.
+$$
+%$$
+%\left[
+%\begin{array}{c}
+%0 \\
+%0 \\
+%0 
+%\end{array}
+%\right]
+% = \left[
+%\begin{array}{c}
+%R  \cos\alpha + \lambda(t) u_x - x(t)\\ 
+%R  \sin \alpha + \lambda(t) u_y - y(t)\\
+%a + \lambda (t)u_z 
+%\end{array}
+%\right]_{\mathcal{R}_0}
+%\Leftrightarrow 
+%\left\{
+%\begin{array}{l}
+%\lambda (t) u_x = x(t) - R  \cos\alpha \\ 
+%\lambda (t) u_y = y(t)- R  \sin \alpha  \\
+%\lambda (t)u_z  = -a
+%\end{array}
+%\right.
+%$$
+
+
+%On a $\lambda (t)^2  u_x^2  + \lambda (t)^2  u_y^2  + \lambda (t)^2  u_z^2 = \lambda (t)^2 $
+
+
+
+\subsection{Équation paramétrique de la trajectoire}
+On note $\left(x_C, y_C, z_C\right)$ et $\left(x_D,y_D,z_D\right)$ les coordonnées des points $C$ et $D$. 
+On note $\left(u_x, u_z, u_z\right)$ les coordonnées du vecteur $\vect{BC}$.
+On a alors :
+$$
+\left[ \begin{array}{c} x(u) \\ y(u) \\ z(u) \end{array} \right]
+= \left[ \begin{array} {c} u_x u  + x_C \\ u_y u  + y_C  \\ u_z u  + z_C  \end{array} \right]
+$$
+avec :
+$$
+\vect{u}
+= \left[ \begin{array} {c} \dfrac{x_D - x_C}{L} \\ \dfrac{y_D - y_C}{L} \\ \dfrac{z_D - z_C}{L} \end{array} \right]
+\quad \text{et} \quad L = \sqrt{\left( x_D - x_C\right) ^2+\left( y_D - y_C\right) ^2+\left( z_D - z_C\right) ^2}
+$$
+
+\subsection*{Recherche du domaine paramétrique}
+$u_0 =0$. $u_f$ est tel que : $x(u_f)=x_D= u_x u_f  + x_C \Leftrightarrow u_f = \dfrac{x_D-x_C}{u_x}$.
+
+Recherchons $u$ en fonction du temps. On note $v$ la vitesse de déplacement. En supposant que le déplacement se fait à vitesse constante, $T_f = \dfrac{L}{v}$.
+On a donc : $u(t)= \dfrac{u_f}{T_f} t$.
+
+
 
 
 %\begin{thebibliography}{2}

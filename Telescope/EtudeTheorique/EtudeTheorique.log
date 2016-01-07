@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  5 JAN 2016 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  7 JAN 2016 21:15
 entering extended mode
 **EtudeTheorique.tex
 (EtudeTheorique.tex
@@ -1720,12 +1720,12 @@ Package biblatex Info: ... file 'EtudeTheorique.bbl' not found.
 No file EtudeTheorique.bbl.
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
-(style/new_pagegarde.tex <png/Fond_Cin.png, id=6, 597.432pt x 284.7438pt>
-File: png/Fond_Cin.png Graphic file (type png)
+(style/new_pagegarde.tex <png/Fond_SET.png, id=6, 1185.42876pt x 593.21625pt>
+File: png/Fond_SET.png Graphic file (type png)
 
-<use png/Fond_Cin.png>
-Package pdftex.def Info: png/Fond_Cin.png used on input line 9.
-(pdftex.def)             Requested size: 597.50787pt x 284.80392pt.
+<use png/Fond_SET.png>
+Package pdftex.def Info: png/Fond_SET.png used on input line 9.
+(pdftex.def)             Requested size: 597.50787pt x 299.01515pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 19.08076pt on input line 11.
 LaTeX Font Info:    Try loading font information for T1+pag on input line 11.
@@ -1887,13 +1887,18 @@ LaTeX Font Info:    Font shape `T1/mdput/b/sl' will be
 (Font)              scaled to size 9.19998pt on input line 63.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 64.
-<images/prot_01.png, id=8, 270.00874pt x 294.09875pt>
-File: images/prot_01.png Graphic file (type png)
- <use images/prot_01.png>
-Package pdftex.def Info: images/prot_01.png used on input line 72.
-(pdftex.def)             Requested size: 145.11053pt x 158.06152pt.
-LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.19998pt on input line 72.
+<images/tel_01_bis.png, id=8, 532.99126pt x 1090.0725pt>
+File: images/tel_01_bis.png Graphic file (type png)
+
+<use images/tel_01_bis.png>
+Package pdftex.def Info: images/tel_01_bis.png used on input line 72.
+(pdftex.def)             Requested size: 72.55527pt x 148.3843pt.
+
+<images/tel_02.png, id=9, 679.53876pt x 998.73125pt>
+File: images/tel_02.png Graphic file (type png)
+ <use images/tel_02.png>
+Package pdftex.def Info: images/tel_02.png used on input line 72.
+(pdftex.def)             Requested size: 72.55527pt x 106.63002pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
@@ -1969,7 +1974,7 @@ LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 10.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 10.
-) <png/logoCC.png, id=15, 88.33pt x 31.11626pt>
+) <png/logoCC.png, id=22, 88.33pt x 31.11626pt>
 File: png/logoCC.png Graphic file (type png)
 
 <use png/logoCC.png>
@@ -1978,17 +1983,17 @@ Package pdftex.def Info: png/logoCC.png used on input line 85.
  [1
 
 {C:/Users/Xavier/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./png/Fond
-_Cin.png> <./images/prot_01.png (PNG copy)> <./png/logoCC.png>])
+_SET.png> <./images/tel_01_bis.png> <./images/tel_02.png> <./png/logoCC.png>])
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 11.03998pt on input line 80.
- <images/Schema.png, id=35, 471.7625pt x 302.12875pt>
+ <images/Schema.png, id=47, 471.7625pt x 302.12875pt>
 File: images/Schema.png Graphic file (type png)
 
 <use images/Schema.png>
 Package pdftex.def Info: images/Schema.png used on input line 84.
 (pdftex.def)             Requested size: 227.3381pt x 145.5964pt.
 
-<images/parametrage.png, id=36, 448.67625pt x 214.8025pt>
+<images/parametrage.png, id=48, 448.67625pt x 214.8025pt>
 File: images/parametrage.png Graphic file (type png)
 
 <use images/parametrage.png>
@@ -2003,18 +2008,23 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 93.
 
-\tf@ptc=\write6
-<png/logo_lycee.png, id=37, 329.23pt x 265.99374pt>
+<images/visee.png, id=49, 790.955pt x 508.90125pt>
+File: images/visee.png Graphic file (type png)
+ <use images/visee.png>
+Package pdftex.def Info: images/visee.png used on input line 117.
+(pdftex.def)             Requested size: 483.69687pt x 311.2136pt.
+
+<png/logo_lycee.png, id=50, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
  <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png used on input line 120.
+Package pdftex.def Info: png/logo_lycee.png used on input line 128.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 120.
+(Font)              scaled to size 7.35999pt on input line 128.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.35999pt on input line 120.
+(Font)              scaled to size 7.35999pt on input line 128.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
-(Font)              Font shape `T1/pag/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 128.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2023,31 +2033,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.35999pt on input line 120.
+(Font)              scaled to size 7.35999pt on input line 128.
 LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <8> not available
-(Font)              Font shape `T1/mdput/b/n' tried instead on input line 120.
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 120.
-[2 <./png/logo_lycee.png> <./images/Schema.png> <./images/parametrage.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+(Font)              scaled to size 7.35999pt on input line 128.
+[2 <./png/logo_lycee.png> <./images/Schema.png> <./images/parametrage.png> <./i
+mages/visee.png>]
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 252.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 252.
+\tf@ptc=\write6
+File: png/logo_lycee.png Graphic file (type png)
+ <use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png used on input line 268.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 
-(EtudeTheorique.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 120.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <12> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 268.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 268.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
+ (EtudeTheorique.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 268.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'EtudeTheorique.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 33339 strings out of 493675
- 619739 string characters out of 3143992
- 1157733 words of memory out of 3000000
- 36038 multiletter control sequences out of 15000+200000
- 200125 words of font info for 184 fonts, out of 3000000 for 9000
+ 33362 strings out of 493675
+ 620092 string characters out of 3143992
+ 1168729 words of memory out of 3000000
+ 36057 multiletter control sequences out of 15000+200000
+ 216494 words of font info for 188 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  57i,20n,75p,10427b,1929s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}{C:/Progra
@@ -2065,9 +2096,9 @@ pia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on EtudeTheorique.pdf (2 pages, 1045247 bytes).
+Output written on EtudeTheorique.pdf (3 pages, 2692021 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 63555 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 58981 words of extra memory for PDF output out of 61914 (max. 10000000)
 
