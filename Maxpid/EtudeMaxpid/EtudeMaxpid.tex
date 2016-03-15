@@ -1,98 +1,77 @@
-\documentclass[10pt]{article}
-\input{style/coursHeadings}
-\input{style/programHeadings}
-\input{style/macros_SII}
-\input{style/macros_Titres}
-\input{style/macros_Frames}
-
-%Si le boolen xp est vrai : compilation pour xabi
-%Sinon compilation Damien
-\newboolean{xp}
-\setboolean{xp}{true}
-
-\newboolean{prof}
-\setboolean{prof}{true}
-
+\documentclass[10pt,fleqn]{article} % Default font size and left-justified equations
 \usepackage[%
-    pdftitle={Étude complète du Maxpid},
-    pdfauthor={Xavier Pessoles},
-    colorlinks=true,
-    linkcolor=blue,
-    citecolor=magenta]{hyperref}
+    pdftitle={TP : Étude du MaxPID},
+    pdfauthor={Xavier Pessoles}]{hyperref}
 
-\newif\ifprof
-\proftrue
-%\proffalse
+\input{style/new_style}
+\input{style/macros_SII}
 
-\newif\iftd
-\tdtrue
-%\tdfalse
+%\fichetrue
+%\fichefalse
 
-\def\discipline{Sciences Industrielles de l'Ingénieur}
-\def\xxtitre{\ifthenelse{\boolean{xp}}{
-Étude des systèmes de laboratoire}{
-Chapitre  -- }}
+%\proftrue
+\proffalse
 
-\def\xxsoustitre{\ifthenelse{\boolean{xp}}{
-Bras robotisé Maxpid}{
-Partie  -- }}
+%\tdtrue
+\tdfalse
 
-\def\xxauteur{\ifthenelse{\boolean{xp}}{
-Xavier \textsc{Pessoles}}{}}
+\courstrue
+%\coursfalse
 
-\def\xxpied{\ifthenelse{\boolean{xp}}{
-\textit{Étude des systèmes de laboratoire}\\
-\textit{Maxpid}}{
-\xxtitre}}
+% -------------------------------------
+% Déclaration des titres
+% -------------------------------------
 
-\def\xxcathegorie{\ifthenelse{\boolean{xp}}{
-2013 -- 2014 \\
-Xavier \textsc{Pessoles}}{
-Informatique - Cours}}
+\def\discipline{Sciences \\Industrielles de \\ l'Ingénieur}
+\def\xxtete{Sciences Industrielles de l'Ingénieur}
+
+\def\classe{PTSI -- PT}
+\def\xxnumpartie{Doc. TP}
+\def\xxpartie{Étude des systèmes de laboratoire}
+
+\def\xxnumchapitre{Étude du robot MaxPID}
+\def\xxchapitre{\hspace{.12cm} }
+
+\def\xxposongletx{2}
+\def\xxposonglettext{1.45}
+\def\xxposonglety{20}
+\def\xxonglet{Doc. TP}
+
+\def\xxactivite{Doc. TP}
+\def\xxauteur{\textsl{Xavier Pessoles}}
+
+\def\xxcompetences{%
+\textsl{%
+%\textbf{Savoirs et compétences :}
+%\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+%\item Mod-C11 : Modélisation géométrique et cinématique des mouvements entre solides indéformables 
+%\begin{itemize}[label=\ding{112},font=\color{ocre}] 
+%\item Mod-C11.2 : Champ des vecteurs vitesses des points d'un solide
+%\end{itemize}
+%\end{itemize}
+%
+}}
+
+\def\xxfigures{
+\includegraphics[width=.5\textwidth]{images/maxpid_04}
 
 
-
-
+}%figues de la page de garde
+\def\xxpied{%
+Étude des systèmes de laboratoire \\
+Robot MaxPID%
+}
 
 %---------------------------------------------------------------------------
 
 
 \begin{document}
+\chapterimage{images/maxpid_01}
+\input{style/new_pagegarde}
 
-\ifthenelse{\boolean{xp}}{\input{style/enteteXP}}{\input{style/enteteDI}}
+%\newpage
 
-\begin{minipage}[b]{.3\linewidth}
-\begin{center}
-%\includegraphics[width=.95\linewidth]{images/capsuleuse_ph}
-
-\textit{Système pédagogique}
-\end{center}
-\end{minipage} \hfill
-\begin{minipage}[b]{.3\linewidth}
-\begin{center}
-%\includegraphics[width=.95\linewidth]{images/capsuleuse_3d}
-
-\textit{Représentation 3D du système}
-\end{center}
-\end{minipage} \hfill
-\begin{minipage}[b]{.3\linewidth}
-\begin{center}
-%\includegraphics[width=.75\linewidth]{images/CroixMalte_3d}
-
-%\textit{Représentation 3D de la Croix de Malte}
-\end{center}
-\end{minipage}
-
-
-
-\setlength{\parskip}{0ex plus 0.2ex minus 0ex}
- \renewcommand{\contentsname}{}
- \renewcommand{\baselinestretch}{1}
-
-\tableofcontents
-
- \renewcommand{\baselinestretch}{1.2}
-\setlength{\parskip}{2ex plus 0.5ex minus 0.2ex}
+%%%%%%%%%%%%%%%%%  FIN DE LA COPIE *****************
 
 
 
@@ -173,9 +152,5 @@ Application numérique :
 \textit{Loi Entrée Sortie -- Position angulaire du bras en fonction de la position du moteur} 
 \end{center}
 
-\begin{thebibliography}{2}
-\bibitem{xx}{xx}
-\end{thebibliography}
 \end{document}
-
 

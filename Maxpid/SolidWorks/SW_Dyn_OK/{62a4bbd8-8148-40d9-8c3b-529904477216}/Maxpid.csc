@@ -1,13 +1,13 @@
 0x150
-Dynamique
+Géométrique
 1
-Vit. Variable
+Uniforme
 1
 1
  0.00000000000000e+000     Position initiale
- 0.00000000000000e+000     Position finale
+ 9.00000000000000e+001     Position finale
 -2.90000000000000e+001     Vitesse initiale
-L:\ELEVES-TSI2\GM\TP MAXPID SW dynamique\trapeze_vitesse_bras.crb
+C:\Enseignement\GitHub\TP_Documents\Maxpid\SolidWorks\SW_Dyn_OK\trapeze_vitesse_bras.crb
 100
 1.350000
 1

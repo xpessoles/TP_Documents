@@ -310,3 +310,21 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+15/03/2016 - 20:11:31 	===== Ouverture de session =====
+15/03/2016 - 20:14:09 	Début du calcul
+15/03/2016 - 20:14:09 	Nombre de positions : 100
+15/03/2016 - 20:14:09 	Simulation inactivée
+15/03/2016 - 20:14:09 	Lecture des conditions initiales
+15/03/2016 - 20:14:09 	Fin du calcul
+15/03/2016 - 20:14:12 	Début du calcul
+15/03/2016 - 20:14:12 	Nombre de positions : 100
+15/03/2016 - 20:14:12 	Simulation activée
+15/03/2016 - 20:14:12 	Lecture des conditions initiales
+15/03/2016 - 20:14:15 	Fin du calcul
+15/03/2016 - 20:37:30 	===== Fermeture de session =====
+
+===============Finish Logging================
+

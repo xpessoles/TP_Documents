@@ -94,9 +94,44 @@ Galet Freineur%
 \end{center}
 \end{minipage}
 \section{Cinématique}
-\subsection{Étude du train 3 -- 9 -- 10 -- 12}
+\subsection{Étude du train complet}
+On cherche $\dfrac{\omega\left( 18/3 \right)}{\omega\left( 12/3\right)}$.
 
-\subsection{Étude du train 3 -- 9' -- 12 -- 18}
+\subsection{Étude du train 3 -- 9 -- 10 -- 12}
+Le porte satellite 3 est bloqué. Le train épicycloïdal se comporte don comme un train simple. On a donc : $\dfrac{\omega\left( 12/3 \right)}{\omega\left( 10/3\right)} =-\dfrac{Z_{10} Z_9}{Z_{12} Z_9}=-\dfrac{Z_{10}}{Z_{12} }$.
+
+\subsection{Étude du train 3 -- 9' -- 10 -- 12 -- 18}
+On bloque le porte satellite 10 et on libère la pièce 3. On a donc : 
+$\dfrac{\omega\left( 12/10 \right)}{\omega\left( 18/10\right)}=-\dfrac{Z_{18}}{Z_{12}}$.
+
+On libère le porte satellite :
+$\dfrac{\omega\left( 12/10 \right)}{\omega\left( 18/10\right)} = \dfrac{\omega\left( 12/3 \right)+\omega\left( 3/10 \right)}{\omega\left( 18/3\right)+\omega\left( 3/10\right)}=-\dfrac{Z_{18}}{Z_{12}}$.
+
+On a donc : 
+$$
+\dfrac{\omega\left( 12/3 \right)+\omega\left( 3/10 \right)}{\omega\left( 18/3\right)+\omega\left( 3/10\right)}=-\dfrac{Z_{18}}{Z_{12}} 
+\Leftrightarrow  \omega\left( 12/3 \right)+\omega\left( 3/10 \right)=-\dfrac{Z_{18}}{Z_{12}} \left(\omega\left( 18/3\right)+\omega\left( 3/10\right)\right)
+\Leftrightarrow  \omega\left( 3/10 \right) \left(1+ \dfrac{Z_{18}}{Z_{12}}\right)=-\dfrac{Z_{18}}{Z_{12}} \omega\left( 18/3\right) - \omega\left( 12/3 \right)
+$$
+
+$$
+\omega\left( 10/3 \right) \left(1+ \dfrac{Z_{18}}{Z_{12}}\right)=\dfrac{Z_{18}}{Z_{12}} \omega\left( 18/3\right) + \omega\left( 12/3 \right)
+$$
+
+Or $\omega\left( 10/3 \right)  = -\omega\left( 12/3 \right) \dfrac{Z_{12}}{Z_{10}}$. On a donc : 
+$$
+-\omega\left( 12/3 \right) \dfrac{Z_{12}}{Z_{10}} \left(1+ \dfrac{Z_{18}}{Z_{12}}\right)=\dfrac{Z_{18}}{Z_{12}} \omega\left( 18/3\right) + \omega\left( 12/3 \right)
+\Leftrightarrow 
+-\omega\left( 12/3 \right)\left(  \dfrac{Z_{12}}{Z_{10}} \left(1+ \dfrac{Z_{18}}{Z_{12}}\right) +1\right)=\dfrac{Z_{18}}{Z_{12}} \omega\left( 18/3\right) 
+$$
+
+$$
+\Leftrightarrow 
+\dfrac{\omega\left( 18/3 \right)}{\omega\left( 12/3\right)}
+= -\dfrac{Z_{10}+Z_{12}+Z_{18}}{Z_{10}} \cdot \dfrac{Z_{12}}{Z_{18}}
+$$
+Avec : 
+$Z_{10}=11$, $Z_{12}=43$
 
 
 %\begin{thebibliography}{2}
