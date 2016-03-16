@@ -122,11 +122,11 @@ $$
 Lorsque $\theta=0$, on a $\lambda_0 = \sqrt{d^2 + (c+b)^2}$.
 
 
-Notons $\gamma$ la position angulaire du moteur et $p$ le pas de la liaison hélicoïdale. On a donc $\lambda = \lambda_0 - p \dfrac{\gamma}{2\pi}=\sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}$ .
+Notons $\gamma$ la position angulaire du moteur et $p$ le pas de la liaison hélicoïdale. On a donc $\lambda = \lambda_0 + p \dfrac{\gamma}{2\pi}=\sqrt{d^2 + (c+b)^2} + p \dfrac{\gamma}{2\pi}$ .
 
 Au final, 
 $$
-\theta = \arccos \left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right) - \arctan\left( \dfrac{d}{c}\right)
+\theta = \arccos \left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} + p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right) - \arctan\left( \dfrac{d}{c}\right)
 $$
 
 \subsection{Détermination de la loi en vitesse}
@@ -134,14 +134,14 @@ $$
 
 On a :
 $$
-\dot{\theta} = -\dfrac{\dfrac{2\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right) \left( - p \dfrac{\dot{\gamma}}{2\pi}\right)  }{2ab} }{\sqrt{1-\left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} - p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right)^2}}
+\dot{\theta} = -\dfrac{\dfrac{2\left( \sqrt{d^2 + (c+b)^2} + p \dfrac{\gamma}{2\pi}\right) \left( + p \dfrac{\dot{\gamma}}{2\pi}\right)  }{2ab} }{\sqrt{1-\left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} + p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right)^2}}
 $$
 
 \subsection{Tracé des courbes} 
 Application numérique : 
 \begin{itemize}
 \item $a = 106,3\; \text{mm}$;
-\item $b = 59 \; \text{mm}$;
+\item $b = 80 \; \text{mm}$;
 \item $c = 70 \; \text{mm}$;
 \item $d = 80 \; \text{mm}$.
 \end{itemize}
@@ -151,6 +151,112 @@ Application numérique :
 
 \textit{Loi Entrée Sortie -- Position angulaire du bras en fonction de la position du moteur} 
 \end{center}
+\section{Étude statique}
+\subsection{Modélisation}
+\begin{center}
+\includegraphics[width=.45\textwidth]{images/graphe_structure}
+\end{center}
+
+\subsection{Bilan des actions mécaniques}
+
+\textbf{Liaison pivot entre 0 et 1 :}
+$$
+\torseurstat{T}{0}{1}=\torseurcol{X_{01}}{Y_{01}}{Z_{01}}{L_{01}}{M_{01}}{0}{A,\mathcal{R}_1}
+$$
+
+\textbf{Liaison pivot entre 1 et 2 :}
+$$
+\torseurstat{T}{1}{2}=\torseurcol{X_{12}}{Y_{12}}{Z_{12}}{0}{M_{12}}{N_{12}}{B,\mathcal{R}_1}
+$$
+
+\textbf{Liaison glissière hélicoïdale entre 2 et 3 :}
+$$
+\torseurstat{T}{2}{3}
+=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}}{N_{23}}{C,\mathcal{R}_1}
+=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}}{N_{23}}{D,\mathcal{R}_1}
+$$
+On a :
+$$
+\vectm{D}{2}{3}
+ = \vectm{C}{2}{3} + \vect{DC} \wedge \vectf{2}{3}
+  = \vectm{C}{2}{3} + d\vect{x_4} \wedge \left( X_{23} \vect{x_1} +Y_{23} \vect{y_1} +Z_{23} \vect{z_1} + \right)
+  $$
+  
+  $$
+  = \vectm{C}{2}{3} +  \left(d\vect{x_4} \wedge X_{23} \vect{x_1} +d\vect{x_4} \wedge Y_{23} \vect{y_1} +d\vect{x_4} \wedge Z_{23} \vect{z_1} + \right)
+  = 
+  $$
+%M_D = M_C + DC ^ R
+
+Par ailleurs, $|L_{23}|=p|X_{23}|$.
+
+
+
+\textbf{Liaison pivot entre 3 et 4 :}
+$$
+\torseurstat{T}{3}{4}=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}}{M_{34}}{0}{C,\mathcal{R}_1}
+$$
+
+\textbf{Liaison pivot entre 0 et 4 :}
+$$
+\torseurstat{T}{0}{4}=\torseurcol{X_{04}}{Y_{04}}{Z_{04}}{L_{04}}{M_{04}}{0}{D,\mathcal{R}_1}
+$$
+
+\textbf{Actions de pesanteur sur 4 :}
+$$
+\torseurstat{T}{\text{pes}}{4}=\torseurcol{0}{-mg}{0}{0}{0}{0}{G,\mathcal{R}_0}
+=\torseurcol{-mg\cos\left(\alpha + \beta \right)}{-mg\sin\left(\alpha + \beta \right)}{0}{0}{0}{0}{G,\mathcal{R}_0}
+$$
+
+On a: $\vect{y_0} = \cos\alpha \vect{y_0'} +\sin \alpha \vect{x_0'} $ avec $\alpha=\arctan \dfrac{d}{c}$. On a ensuite : 
+\begin{itemize}
+\item  $\vect{x_0'}= \cos\beta \vect{x_1} -\sin \beta \vect{y_1}$;
+\item  $\vect{y_0'}= \cos\beta \vect{y_1} +\sin \beta \vect{x_1}$.
+\end{itemize}
+
+En conséquences, 
+$$
+\vect{y_0} =\cos\left( \alpha + \beta \right) \vect{x_1}+\sin\left( \alpha + \beta \right) \vect{y_1}
+$$
+
+%Signe $ \alpha + \beta $ à revoir... On le note $\varphi$ en attendant...
+
+\textbf{Couple moteur sur 2 :}
+$$
+\torseurstat{T}{\text{m}}{2}=\torseurcol{0}{0}{0}{C_m}{0}{0}{B,\mathcal{R}_1}
+$$
+
+\subsection{Recherche du couple moteur en fonction de la masse}
+
+On isole \textbf{3+4} et on fait un théorème du moment statique en $C$ en projection sur $\vect{z}$.
+
+
+\subsection{Calcul divers}
+
+$\vect{x_4}  
+= \cos \theta \vect{x_0} + \sin \theta \vect{y_0} 
+= \cos \theta \left( \cos \alpha \vect{x_0'} + \sin \alpha \vect{y_0'} \right) + \sin \theta \left(
+-\sin \alpha \vect{x_0'} + \cos \alpha \vect{y_0'} 
+ \right)
+ = \left(\cos \theta \cos \alpha -\sin \theta \sin \alpha \right)\vect{x_0'} + \left(\cos \theta \sin \alpha  + \sin \theta \cos \alpha \right)\vect{y_0'} 
+  = \cos \left(\theta + \alpha \right)\vect{x_0'} + \sin \left(\theta + \alpha \right)\vect{y_0'} 
+$
+
+
+
+$\vect{x_4} \wedge \vect{x_1} 
+= \left( \cos \left(\theta + \alpha \right)\vect{x_0'} + \sin \left(\theta + \alpha \right)\vect{y_0'} \right)\wedge \vect{x_1}
+= \cos \left(\theta + \alpha \right)\sin\beta  \vect{z_1} - \sin \left(\theta + \alpha \right)\cos\beta \vect{z_1}
+= \sin \left(\theta + \alpha -\beta\right) \vect{z_1} $
+
+
+$\vect{x_4} \wedge \vect{y_1} = \left( \cos \left(\theta + \alpha \right)\vect{x_0'} + \sin \left(\theta + \alpha \right)\vect{y_0'} \right)\wedge \vect{y_1}
+=  \cos \left(\theta + \alpha \right)\cos\beta\vect{z_1} + \sin \left(\theta + \alpha \right)\sin \beta  \vect{z_1}
+=  \cos \left(\theta + \alpha -\beta\right)\vect{z_1}$
+
+$\vect{x_4} \wedge \vect{z_1} = \left( \cos \left(\theta + \alpha \right)\vect{x_0'} + \sin \left(\theta + \alpha \right)\vect{y_0'} \right)\wedge \vect{z_1} 
+=  -\cos \left(\theta + \alpha \right)\vect{y_0'} + \sin \left(\theta + \alpha \right)\vect{x_0'}$
+
 
 \end{document}
 

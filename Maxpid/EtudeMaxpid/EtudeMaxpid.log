@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  15 MAR 2016 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  16 MAR 2016 16:44
 entering extended mode
 **EtudeMaxpid.tex
 (EtudeMaxpid.tex
@@ -1938,7 +1938,7 @@ LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 6.
 )
-<png/logoCC.png, id=19, 88.33pt x 31.11626pt>
+<png/logoCC.png, id=29, 88.33pt x 31.11626pt>
 File: png/logoCC.png Graphic file (type png)
  <use png/logoCC.png>
 Package pdftex.def Info: png/logoCC.png used on input line 85.
@@ -1950,13 +1950,13 @@ axpid_01.png> <./images/maxpid_04.png> <./png/logoCC.png>])
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 11.03998pt on input line 78.
 
-<images/schema.png, id=39, 1207.51125pt x 732.7375pt>
+<images/schema.png, id=54, 1207.51125pt x 732.7375pt>
 File: images/schema.png Graphic file (type png)
  <use images/schema.png>
 Package pdftex.def Info: images/schema.png used on input line 83.
 (pdftex.def)             Requested size: 459.51054pt x 278.83447pt.
 
-<png/logo_lycee.png, id=40, 329.23pt x 265.99374pt>
+<png/logo_lycee.png, id=55, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
  <use png/logo_lycee.png>
 Package pdftex.def Info: png/logo_lycee.png used on input line 138.
@@ -1986,7 +1986,7 @@ LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
 (Font)              scaled to size 4.59999pt on input line 143.
 
-<images/LoiTheorique.png, id=54, 578.16pt x 431.4519pt>
+<images/LoiTheorique.png, id=69, 578.16pt x 431.4519pt>
 File: images/LoiTheorique.png Graphic file (type png)
 
 <use images/LoiTheorique.png>
@@ -1994,10 +1994,16 @@ Package pdftex.def Info: images/LoiTheorique.png used on input line 150.
 (pdftex.def)             Requested size: 217.66211pt x 162.42607pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
 (Font)              scaled to size 9.19998pt on input line 152.
-\tf@ptc=\write6
+
+<images/graphe_structure.png, id=70, 571.13374pt x 386.44376pt>
+File: images/graphe_structure.png Graphic file (type png)
+
+<use images/graphe_structure.png>
+Package pdftex.def Info: images/graphe_structure.png used on input line 157.
+(pdftex.def)             Requested size: 217.66211pt x 147.2747pt.
 File: png/logo_lycee.png Graphic file (type png)
  <use png/logo_lycee.png>
-Package pdftex.def Info: png/logo_lycee.png used on input line 155.
+Package pdftex.def Info: png/logo_lycee.png used on input line 170.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 
 
@@ -2007,46 +2013,62 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <12> not available
-(Font)              Font shape `T1/mdput/b/n' tried instead on input line 155.
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 170.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 155.
-[3 <./images/LoiTheorique.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+(Font)              scaled to size 11.03998pt on input line 170.
+[3 <./images/LoiTheorique.png> <./images/graphe_structure.png>]
+\tf@ptc=\write6
+File: png/logo_lycee.png Graphic file (type png)
+
+<use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png used on input line 261.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 261.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 261.
  (EtudeMaxpid.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 155.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 261.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 261.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'EtudeMaxpid.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 155.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 261.
  ) 
 Here is how much of TeX's memory you used:
- 33312 strings out of 493675
- 619161 string characters out of 3143992
- 1158308 words of memory out of 3000000
- 36015 multiletter control sequences out of 15000+200000
- 205278 words of font info for 170 fonts, out of 3000000 for 9000
+ 33333 strings out of 493675
+ 619443 string characters out of 3143992
+ 1179308 words of memory out of 3000000
+ 36024 multiletter control sequences out of 15000+200000
+ 206799 words of font info for 175 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  57i,18n,75p,10424b,1929s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}{C:/Progra
 m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Enseignement/Livre_Exo_V
-uibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7t.pfb>
+uibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utb8t.pfb>
 <C:/Enseignement/Livre_Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/ma
-thdesign/mdput/md-utr7v.pfb><C:/Enseignement/Livre_Exo_Vuibert/Installation/MAT
-HDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7y.pfb><C:/Enseignement/Livre_
-Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utri7
-m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avan
-tgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
-Output written on EtudeMaxpid.pdf (3 pages, 704599 bytes).
+thdesign/mdput/md-utr7t.pfb><C:/Enseignement/Livre_Exo_Vuibert/Installation/MAT
+HDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7v.pfb><C:/Enseignement/Livre_
+Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7y
+.pfb><C:/Enseignement/Livre_Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/typ
+e1/mathdesign/mdput/md-utri7m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
+e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avan
+tgar/uagko8a.pfb>
+Output written on EtudeMaxpid.pdf (4 pages, 744840 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 62035 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 62080 words of extra memory for PDF output out of 74296 (max. 10000000)
 
