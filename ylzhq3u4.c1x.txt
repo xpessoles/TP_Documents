@@ -1,0 +1,23 @@
+﻿MAJ
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.aux
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.log
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.pdf
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.ptc
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.synctex.gz
+#	modified:   Maxpid/EtudeMaxpid/EtudeMaxpid.tex
+#	modified:   Maxpid/EtudeMaxpid/images/Figures.pptx
+#	modified:   Maxpid/SolidWorks/SW_Dyn_OK/Maxpid.log
+#	modified:   Maxpid/SolidWorks/SW_Dyn_OK/{62a4bbd8-8148-40d9-8c3b-529904477216}/Maxpid.mrs
+#
+# Untracked files:
+#	Maxpid/EtudeMaxpid/images/Courbes.xlsx
+#	Maxpid/EtudeMaxpid/images/graphe_structure.png
+#	Maxpid/SolidWorks/SW_Dyn_OK/Bati Maxpid.log
+#
+
