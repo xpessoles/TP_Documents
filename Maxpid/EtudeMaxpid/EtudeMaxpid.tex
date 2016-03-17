@@ -104,7 +104,7 @@ $$
 \end{array}
 \right.
 $$
-
+\subsubsection{Expression de $\lambda$ en fonction de $\theta$}
 Pour exprimer la loi entrée sortie, commençons par déterminer $\theta'$ en fonction de $\lambda$ : 
 $$
 \lambda^2 
@@ -128,6 +128,17 @@ Au final,
 $$
 \theta = \arccos \left(\dfrac{\left( \sqrt{d^2 + (c+b)^2} + p \dfrac{\gamma}{2\pi}\right)^2 - a^2 - b^2 }{2ab} \right) - \arctan\left( \dfrac{d}{c}\right)
 $$
+
+\subsubsection{Expression de $\beta$ en fonction de $\theta'$}
+$$
+\left\{
+\begin{array}{l}
+\lambda\cos\beta = b \cos\theta' + a \\
+\lambda\sin \beta = b \sin \theta' 
+\end{array}
+\right.
+\Rightarrow
+\tan\beta = \dfrac{ b \sin \theta' }{b \cos\theta' + a}$$
 
 \subsection{Détermination de la loi en vitesse}
 %-u'\rsqcine(1-u²)
@@ -157,80 +168,216 @@ Application numérique :
 \includegraphics[width=.45\textwidth]{images/graphe_structure}
 \end{center}
 
+Calcul d'hyperstatisme : 
+\begin{itemize}
+\item nombre d'ensembles : $n_p=4$;
+\item nombres d'inconnues statiques : $n_s = 5+5+5+5+5 = 25$;
+\item nombre de mobilités : $m=1$. 
+\end{itemize}
+$$h = 1-24+25=2$$. Pour lever l'hyperstatisme il faudrait ajouter deux mobilités pour résoudre toutes les inconnues de liaison. 
 \subsection{Bilan des actions mécaniques}
 
-\textbf{Liaison pivot entre 0 et 1 :}
+\subsubsection*{Liaison pivot entre 0 et 1 :}
 $$
-\torseurstat{T}{0}{1}=\torseurcol{X_{01}}{Y_{01}}{Z_{01}}{L_{01}}{M_{01}}{0}{A,\mathcal{R}_1}
+\torseurstat{T}{0}{1}
+=\torseurcol{X_{01}}{Y_{01}=0}{Z_{01}}{L_{01}}{M_{01}}{0}{A,\mathcal{R}_1}
+=\torseurcol{X_{01}}{Y_{01}}{Z_{01}}{L_{01}}{M_{01}+\lambda Z_{01}}{-\lambda Y_{01}}{C,\mathcal{R}_1}
+=\torseurcol{X_{01}}{0}{Z_{01}}{L_{01}}{M_{01}+\lambda Z_{01}}{0}{C,\mathcal{R}_1}
 $$
 
-\textbf{Liaison pivot entre 1 et 2 :}
+
+On a :
+$$
+\begin{array}{lcl}
+\vectm{C}{0}{1} &=& \vectm{A}{0}{1} + \vect{CA} \wedge \vectf{0}{1} \\
+&=& \vectm{A}{0}{1} -\lambda \vect{x_1} \wedge \left( X_{01} \vect{x_1} +Y_{01} \vect{y_1} +Z_{01} \vect{z_1}  \right) \\
+&=& \vectm{A}{0}{1} - \left( Y_{01} \lambda \vect{z_1} - Z_{01} \lambda \vect{y_1} \right) \\
+\end{array}
+$$
+
+
+
+\subsubsection*{Liaison pivot entre 1 et 2 :}
 $$
 \torseurstat{T}{1}{2}=\torseurcol{X_{12}}{Y_{12}}{Z_{12}}{0}{M_{12}}{N_{12}}{B,\mathcal{R}_1}
 $$
 
-\textbf{Liaison glissière hélicoïdale entre 2 et 3 :}
+\subsubsection*{Liaison glissière hélicoïdale entre 2 et 3 :}
 $$
 \torseurstat{T}{2}{3}
-=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}}{N_{23}}{C,\mathcal{R}_1}
-=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}}{N_{23}}{D,\mathcal{R}_1}
+=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}}{N_{23}}{E,\mathcal{R}_1}
+=\torseurcol{X_{23}}{Y_{23}}{Z_{23}}{L_{23}}{M_{23}+eZ_{23}}{N_{23}-eY_{23}}{C,\mathcal{R}_1}
 $$
-On a :
-$$
-\vectm{D}{2}{3}
- = \vectm{C}{2}{3} + \vect{DC} \wedge \vectf{2}{3}
-  = \vectm{C}{2}{3} + d\vect{x_4} \wedge \left( X_{23} \vect{x_1} +Y_{23} \vect{y_1} +Z_{23} \vect{z_1} + \right)
-  $$
-  
-  $$
-  = \vectm{C}{2}{3} +  \left(d\vect{x_4} \wedge X_{23} \vect{x_1} +d\vect{x_4} \wedge Y_{23} \vect{y_1} +d\vect{x_4} \wedge Z_{23} \vect{z_1} + \right)
-  = 
-  $$
-%M_D = M_C + DC ^ R
 
 Par ailleurs, $|L_{23}|=p|X_{23}|$.
 
-
-
-\textbf{Liaison pivot entre 3 et 4 :}
+On a :
 $$
-\torseurstat{T}{3}{4}=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}}{M_{34}}{0}{C,\mathcal{R}_1}
+\begin{array}{lcl}
+\vectm{C}{2}{3} &=& \vectm{E}{2}{3} + \vect{CE} \wedge \vectf{2}{3} \\
+&=& \vectm{E}{2}{3} - e\vect{x_1} \wedge \left( X_{23} \vect{x_1} +Y_{23} \vect{y_1} +Z_{23} \vect{z_1}  \right) \\
+&=& \vectm{E}{2}{3} - e \left( Y_{23} \vect{z_1} -Z_{23} \vect{y_1}  \right) \\
+\end{array}
 $$
 
-\textbf{Liaison pivot entre 0 et 4 :}
+
+On a :
+$$
+\begin{array}{lcl}
+\vectm{D}{2}{3} &=& \vectm{E}{2}{3} + \vect{DE} \wedge \vectf{2}{3} \\
+&=& \vectm{E}{2}{3} + \left( b\vect{x_4}- e\vect{x_1} \right)\wedge \left( X_{23} \vect{x_1} +Y_{23} \vect{y_1} +Z_{23} \vect{z_1}  \right) \\
+&=& \vectm{E}{2}{3} +  \left( b X_{23}\vect{x_4}  \wedge  \vect{x_1} +Y_{23}\left( b\vect{x_4}\wedge  \vect{y_1} - e\vect{z_1} \right) +Z_{23}\left( b\vect{x_4}\wedge  \vect{z_1}+e\vect{y_1}\right)  \right) \\
+&=& \vectm{E}{2}{3} +  \left( b X_{23}\sin \left(\theta + \alpha -\beta\right) \vect{z_1} +Y_{23}\left( b\cos \left(\theta + \alpha -\beta\right)\vect{z_1}- e\vect{z_1} \right) +Z_{23}\left( b\vect{x_4}\wedge  \vect{z_1}+e\vect{y_1}\right)  \right) \\
+\end{array}
+$$
+
+
+
+%$\vect{x_4} \wedge \vect{x_1} =  $
+
+
+%$\vect{x_4} \wedge \vect{y_1} =  $
+
+%$\vect{x_4} \wedge \vect{z_1}  =  -\cos \left(\theta + \alpha \right)\vect{y_0'} + \sin \left(\theta + \alpha \right)\vect{x_0'}$
+
+
+  %M_D = M_C + DC ^ R
+
+
+
+
+\subsubsection*{Liaison pivot entre 3 et 4 :}
+$$
+\torseurstat{T}{3}{4}
+=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}}{M_{34}}{0}{C,\mathcal{R}_1}
+=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}+...}{M_{34}+...}{ b \left( X_{34} \sin \left(\theta + \alpha -\beta\right)   +Y_{34} \cos \left(\theta + \alpha -\beta\right)  \right)}{D,\mathcal{R}_1}
+$$
+
+$$
+\begin{array}{lcl}
+\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + \vect{DC} \wedge \vectf{3}{4} \\
+\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b\vect{x_4} \wedge \left( X_{34} \vect{x_1} +Y_{34} \vect{y_1} +Z_{34} \vect{z_1}  \right)  \\
+\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b \left( X_{34} \sin \left(\theta + \alpha -\beta\right) \vect{z_1}  +Y_{34} \cos \left(\theta + \alpha -\beta\right)\vect{z_1} +Z_{34} \vect{x_4} \wedge\vect{z_1}  \right)  \\
+\end{array}
+$$
+
+%$\vect{x_4} \wedge \vect{x_1} =  $
+%$\vect{x_4} \wedge \vect{y_1} =  $
+%$\vect{x_4} \wedge \vect{z_1} = -\cos \left(\theta + \alpha \right)\vect{y_0'} + \sin \left(\theta + \alpha \right)\vect{x_0'}$
+ 
+ 
+ 
+\subsubsection*{Liaison pivot entre 0 et 4 :}
 $$
 \torseurstat{T}{0}{4}=\torseurcol{X_{04}}{Y_{04}}{Z_{04}}{L_{04}}{M_{04}}{0}{D,\mathcal{R}_1}
 $$
 
-\textbf{Actions de pesanteur sur 4 :}
+\subsubsection*{Actions de pesanteur sur 4 :}
 $$
-\torseurstat{T}{\text{pes}}{4}=\torseurcol{0}{-mg}{0}{0}{0}{0}{G,\mathcal{R}_0}
-=\torseurcol{-mg\cos\left(\alpha + \beta \right)}{-mg\sin\left(\alpha + \beta \right)}{0}{0}{0}{0}{G,\mathcal{R}_0}
+\torseurstat{T}{\text{pes}}{4}
+=\torseurcol{0}{-mg}{0}{0}{0}{0}{G,\mathcal{R}_0}
+=\torseurcol{0}{-mg}{0}{0}{0}{-Lmg \cos \theta }{G,\mathcal{R}_0}
 $$
 
-On a: $\vect{y_0} = \cos\alpha \vect{y_0'} +\sin \alpha \vect{x_0'} $ avec $\alpha=\arctan \dfrac{d}{c}$. On a ensuite : 
-\begin{itemize}
-\item  $\vect{x_0'}= \cos\beta \vect{x_1} -\sin \beta \vect{y_1}$;
-\item  $\vect{y_0'}= \cos\beta \vect{y_1} +\sin \beta \vect{x_1}$.
-\end{itemize}
+%$\alpha=\arctan \dfrac{d}{c}$
 
-En conséquences, 
+
+On a :
 $$
-\vect{y_0} =\cos\left( \alpha + \beta \right) \vect{x_1}+\sin\left( \alpha + \beta \right) \vect{y_1}
+\begin{array}{lcl}
+\vectm{D}{\text{pes}}{4} &=& \vect{0} + \vect{DG} \wedge \left( -mg\vect{y_0}\right) \\
+&=& L\vect{x_4} \wedge \left( -mg\vect{y_0}\right) \\
+&=& -Lmg \cos \theta \vect{z_0} \\
+\end{array}
 $$
 
 %Signe $ \alpha + \beta $ à revoir... On le note $\varphi$ en attendant...
 
-\textbf{Couple moteur sur 2 :}
+\subsubsection*{Couple moteur sur 2 :}
 $$
 \torseurstat{T}{\text{m}}{2}=\torseurcol{0}{0}{0}{C_m}{0}{0}{B,\mathcal{R}_1}
 $$
 
 \subsection{Recherche du couple moteur en fonction de la masse}
+\subsubsection*{Isolement de 2}
+Le solide \textbf{2} est soumis à trois actions mécaniques. On réalise le torseur du moment statique en $B$ en projection sur $\vect{x_1}$. 
 
-On isole \textbf{3+4} et on fait un théorème du moment statique en $C$ en projection sur $\vect{z}$.
+$$
+\torseurstat{T}{1}{2} + \torseurstat{T}{3}{2} + \torseurstat{T}{\text{mot}}{2}  =\{0\} 
+$$
+On a donc : 
+$$
+C_m + L_{32}=0
+$$
 
 
+
+
+
+\subsubsection*{Isolement de 3}
+On isole le solide \textbf{3} soumis à 2 torseurs et on applique le PFS :
+
+$$
+\torseurstat{T}{4}{3} + \torseurstat{T}{2}{3} =\{0\} \Longleftrightarrow 
+-\torseurstat{T}{3}{4} + \torseurstat{T}{2}{3} =\{0\} 
+$$
+
+$$
+\left\{
+\begin{array}{l}
+X_{23} - X_{34}=0\\
+Y_{23} - Y_{34}=0 \Rightarrow  Y_{23} = 0\\
+Z_{23} - Z_{34}=0\\
+L_{23} - L_{34}=0\\
+M_{23}+eZ_{23} - M_{34} =0\\
+N_{23}-eY_{23} =0 \Rightarrow  N_{23} = 0 \\
+\end{array}
+\right.
+$$
+
+$|L_{23}|=p|X_{23}|$
+
+
+\subsubsection*{Isolement de 1 -- 2 -- 3}
+
+$$
+\torseurstat{T}{0}{1}+\torseurstat{T}{4}{3}+\torseurstat{T}{\text{mot}}{2} = \{0\}
+$$
+
+
+$$
+\left\{
+\begin{array}{l}
+X_{01} +  X_{43}= 0\\
+Y_{01} + Y_{43} = 0 \Rightarrow  Y_{43} = 0  \\
+Z_{01} + Z_{43} = 0\\
+L_{01} + C_{\text{mot}} + L_{43} = 0\\
+M_{01}+\lambda Z_{01} + M_{43} = 0\\
+-\lambda Y_{01}  + 0= 0 \Rightarrow Y_{01} = 0\\
+\end{array}
+\right.
+$$
+
+
+\subsubsection*{Isolement de 4}
+
+Application du théorème du moment statique en $D$ en projection sur $\vect{z}$ :
+
+$$ b  X_{34} \sin \left(\theta + \alpha -\beta\right)    -Lmg \cos \theta = 0
+$$
+
+$$ b  X_{34}   = Lmg \dfrac{\cos \theta}{\sin \left(\theta + \alpha -\beta\right)} 
+$$
+
+On a alors :
+
+$$   L_{23}   = \pm p Lmg \dfrac{\cos \theta}{b \sin \left(\theta + \alpha -\beta\right)} 
+$$
+
+$\tan\beta = \dfrac{ b \sin \theta' }{b \cos\theta' + a}$, 
+$\theta' = \alpha + \theta$
+$$\theta=0 \Rightarrow \theta' = \alpha $$
+ $\tan\beta = \dfrac{ b \sin \alpha}{b \cos\alpha + a}$, 
 \subsection{Calcul divers}
 
 $\vect{x_4}  
@@ -257,6 +404,18 @@ $\vect{x_4} \wedge \vect{y_1} = \left( \cos \left(\theta + \alpha \right)\vect{x
 $\vect{x_4} \wedge \vect{z_1} = \left( \cos \left(\theta + \alpha \right)\vect{x_0'} + \sin \left(\theta + \alpha \right)\vect{y_0'} \right)\wedge \vect{z_1} 
 =  -\cos \left(\theta + \alpha \right)\vect{y_0'} + \sin \left(\theta + \alpha \right)\vect{x_0'}$
 
+
+Au bilan : 
+
+$\vect{x_4} \wedge \vect{x_1} 
+= \sin \left(\theta + \alpha -\beta\right) \vect{z_1} $
+
+
+$\vect{x_4} \wedge \vect{y_1}
+=  \cos \left(\theta + \alpha -\beta\right)\vect{z_1}$
+
+$\vect{x_4} \wedge \vect{z_1} =
+ -\cos \left(\theta + \alpha \right)\vect{y_0'} + \sin \left(\theta + \alpha \right)\vect{x_0'}$
 
 \end{document}
 

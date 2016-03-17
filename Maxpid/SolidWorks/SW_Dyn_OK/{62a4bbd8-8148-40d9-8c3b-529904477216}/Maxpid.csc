@@ -1,5 +1,5 @@
 0x150
-Géométrique
+Statique
 1
 Uniforme
 1
