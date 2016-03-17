@@ -249,15 +249,15 @@ $$
 \subsubsection*{Liaison pivot entre 3 et 4 :}
 $$
 \torseurstat{T}{3}{4}
-=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}}{M_{34}}{0}{C,\mathcal{R}_1}
-=\torseurcol{X_{34}}{Y_{34}}{Z_{34}}{L_{34}+...}{M_{34}+...}{ b \left( X_{34} \sin \left(\theta + \alpha -\beta\right)   +Y_{34} \cos \left(\theta + \alpha -\beta\right)  \right)}{D,\mathcal{R}_1}
+=\torseurcol{X_{34}}{Y_{34}=0}{Z_{34}}{L_{34}}{M_{34}}{0}{C,\mathcal{R}_1}
+=\torseurcol{X_{34}}{0}{Z_{34}}{L_{34}+...}{M_{34}+...}{ b \left( X_{34} \sin \left(\theta + \alpha -\beta\right)    \right)}{D,\mathcal{R}_1}
 $$
 
 $$
 \begin{array}{lcl}
 \vectm{D}{3}{4} &=& \vectm{C}{3}{4} + \vect{DC} \wedge \vectf{3}{4} \\
-\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b\vect{x_4} \wedge \left( X_{34} \vect{x_1} +Y_{34} \vect{y_1} +Z_{34} \vect{z_1}  \right)  \\
-\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b \left( X_{34} \sin \left(\theta + \alpha -\beta\right) \vect{z_1}  +Y_{34} \cos \left(\theta + \alpha -\beta\right)\vect{z_1} +Z_{34} \vect{x_4} \wedge\vect{z_1}  \right)  \\
+\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b\vect{x_4} \wedge \left( X_{34} \vect{x_1}  +Z_{34} \vect{z_1}  \right)  \\
+\vectm{D}{3}{4} &=& \vectm{C}{3}{4} + b \left( X_{34} \sin \left(\theta + \alpha -\beta\right) \vect{z_1}+Z_{34} \vect{x_4} \wedge\vect{z_1}  \right)  \\
 \end{array}
 $$
 
@@ -326,7 +326,7 @@ $$
 \left\{
 \begin{array}{l}
 X_{23} - X_{34}=0\\
-Y_{23} - Y_{34}=0 \Rightarrow  Y_{23} = 0\\
+Y_{23} - Y_{34}=0 \Rightarrow  Y_{23} = 0 \text{ car } Y_{43} = 0 \quad \text{cf isolement suivant}\\
 Z_{23} - Z_{34}=0\\
 L_{23} - L_{34}=0\\
 M_{23}+eZ_{23} - M_{34} =0\\
@@ -335,7 +335,7 @@ N_{23}-eY_{23} =0 \Rightarrow  N_{23} = 0 \\
 \right.
 $$
 
-$|L_{23}|=p|X_{23}|$
+$|L_{23}|=\dfrac{p}{2\pi}|X_{23}|$
 
 
 \subsubsection*{Isolement de 1 -- 2 -- 3}
@@ -371,7 +371,7 @@ $$
 
 On a alors :
 
-$$   L_{23}   = \pm p Lmg \dfrac{\cos \theta}{b \sin \left(\theta + \alpha -\beta\right)} 
+$$   L_{23}   = \pm \dfrac{p}{2\pi} Lmg \dfrac{\cos \theta}{b \sin \left(\theta + \alpha -\beta\right)} 
 $$
 
 $\tan\beta = \dfrac{ b \sin \theta' }{b \cos\theta' + a}$, 

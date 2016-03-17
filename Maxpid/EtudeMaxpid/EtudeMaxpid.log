@@ -1,26 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.25)  17 MAR 2016 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  17 MAR 2016 18:33
 entering extended mode
 **EtudeMaxpid.tex
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fleqn.clo"
-File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+(EtudeMaxpid.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fleqn.clo"
+File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -34,14 +31,14 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -82,29 +79,29 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen104
 \Hy@linkcounter=\count87
 \Hy@pagecounter=\count88
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count89
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -116,7 +113,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count90
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -141,20 +138,20 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count95
 \c@bookmark@seq@number=\count96
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip43
 )
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\style/new_style.tex
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(style/new_style.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count97
 \Gm@cntv=\count98
@@ -169,65 +166,73 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen115
 \Gm@dimlist=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count100
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count101
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.te
-x"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\fronte
+ndlayer\tikz.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\basicl
+ayer\pgf.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\utilit
+ies\pgfrcs.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfutil-common.tex
 \pgfutil@everybye=\toks16
 \pgfutil@tempdima=\dimen118
 \pgfutil@tempdimb=\dimen119
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-li
-sts.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def
-"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfutil-common-lists.tex))
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfutil-latex.def
 \pgfutil@abb=\box26
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2015/08/07 v3.0.1 (rcs-revision 1.31)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-Package: pgf 2015/08/07 v3.0.1 (rcs-revision 1.15)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex
-"
-Package: pgfsys 2014/07/09 v3.0.1 (rcs-revision 1.48)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex
-"
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\basicl
+ayer\pgfcore.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\system
+layer\pgfsys.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgfsys.code.tex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.c
-ode.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks19
 ))
 \pgf@x=\dimen120
@@ -248,32 +253,34 @@ ode.tex"
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.d
-ef"
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-p
-df.def"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.
-code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count106
 \pgfsyssoftpath@bigbuffer@items=\count107
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.
-code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\syst
+emlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -287,14 +294,18 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex
-"
-Package: pgfcore 2010/04/11 v3.0.1 (rcs-revision 1.7)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex
-"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmath.code.tex
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathcalc.code.tex
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathutil.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen128
 \pgfmath@count=\count108
 \pgfmath@box=\box27
@@ -302,29 +313,30 @@ Package: pgfcore 2010/04/11 v3.0.1 (rcs-revision 1.7)
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.
-tex"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigo
-nometric.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.rando
-m.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.compa
-rison.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.
-code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round
-.code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.
-code.tex")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integ
-erarithmetics.code.tex")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.code.tex
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.basic.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.trigonometric.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.random.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.comparison.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.base.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.round.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.misc.code.tex)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfunctions.integerarithmetics.code.tex)))
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count109
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.co
-de.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@picminx=\dimen129
 \pgf@picmaxx=\dimen130
@@ -341,122 +353,129 @@ File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
 \pgf@zx=\dimen141
 \pgf@zy=\dimen142
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconst
-ruct.code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen143
 \pgf@path@lasty=\dimen144
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage
-.code.tex"
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 \pgf@shorten@end@additional=\dimen145
 \pgf@shorten@start@additional=\dimen146
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.co
-de.tex"
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
 \pgf@picture@serial@count=\count110
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicst
-ate.code.tex"
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
 \pgflinewidth=\dimen147
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransform
-ations.code.tex"
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
 \pgf@pt@x=\dimen148
 \pgf@pt@y=\dimen149
 \pgf@pt@temp=\dimen150
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.cod
-e.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.c
-ode.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathproce
-ssing.code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.co
-de.tex"
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 \pgfarrowsep=\dimen151
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.cod
-e.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen152
 \pgf@sys@shading@range@num=\count111
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.cod
-e.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.
-code.tex"
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box31
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.co
-de.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretranspare
-ncy.code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.
-code.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\basi
+clayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.cod
-e.tex"
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\modu
+les\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box32
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.
-tex"
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\modu
+les\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--0-65.sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1 (rcs-revision 1.7)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\compat
+ibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen153
 \pgf@nodesepend=\dimen154
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version
--1-18.sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1 (rcs-revision 1.1)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\compat
+ibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1 (rcs-revision 1.25)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\utilit
+ies\pgffor.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\utilit
+ies\pgfkeys.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgfkeys.code.tex))
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\latex\pgf\math\p
+gfmath.sty
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmath.code.tex))
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\util
+ities\pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\math
+\pgfmath.code.tex)
 \pgffor@iter=\dimen155
 \pgffor@skip=\dimen156
 \pgffor@stack=\toks26
 \pgffor@toks=\toks27
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.cod
-e.tex"
-Package: tikz 2015/08/07 v3.0.1 (rcs-revision 1.151)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\fron
+tendlayer\tikz\tikz.code.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothan
-dlers.code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1 (rcs-revision 1.20)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\libr
+aries\pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count112
 \pgfplotmarksize=\dimen157
 )
@@ -475,8 +494,8 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1 (rcs-revision 1.20)
 \tikznumberofcurrentchild=\count115
 \tikz@fig@count=\count116
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.cod
-e.tex"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\modu
+les\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count117
 \pgfmatrixcurrentcolumn=\count118
@@ -484,50 +503,56 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 )
 \tikz@expandcount=\count120
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
-s\tikzlibrarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1 (rcs-revision 1.2)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\TIKZ\texmf\tex\generic\pgf\fron
+tendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2008/07/08 v3.8m The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
+Package: babel 2014/09/25 3.9l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.ldf"
-Language: frenchb 2009/03/16 v2.3d French support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-french\frenchb.ldf"
+Language: frenchb 2015/06/26 v3.1g French support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2008/07/08 v3.8m Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count121
 \U@D=\dimen164
 )
-Package babel Info: Making : an active character on input line 120.
-Package babel Info: Making ; an active character on input line 121.
-Package babel Info: Making ! an active character on input line 122.
-Package babel Info: Making ? an active character on input line 123.
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FBcolonskip=\skip44
+\FBthinskip=\skip45
+\FB@interchartokenstateORI=\count122
+Package babel Info: Making : an active character on input line 353.
+Package babel Info: Making ; an active character on input line 354.
+Package babel Info: Making ! an active character on input line 355.
+Package babel Info: Making ? an active character on input line 356.
+\FBguillskip=\skip46
+\FBguill@level=\count123
 \FB@Mht=\dimen165
-\std@mcc=\count122
-\dec@mcc=\count123
+\std@mcc=\count124
+\dec@mcc=\count125
+\listindentFB=\skip47
+\labelwidthFB=\skip48
+\leftmarginFB=\skip49
 \parindentFFN=\dimen166
-
-*************************************
-* Local config file frenchb.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\frenchb.cfg")))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip44
+\labelindent=\skip50
 \enit@outerparindent=\dimen167
 \enit@toks=\toks28
 \enit@inbox=\box37
-\enitdp@description=\count124
+\enitdp@description=\count126
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen168
 \lightrulewidth=\dimen169
@@ -539,44 +564,45 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen175
 \cmidrulekern=\dimen176
 \defaultaddspace=\dimen177
-\@cmidla=\count125
-\@cmidlb=\count126
+\@cmidla=\count127
+\@cmidlb=\count128
 \@aboverulesep=\dimen178
 \@belowrulesep=\dimen179
-\@thisruleclass=\count127
-\@lastruleclass=\count128
+\@thisruleclass=\count129
+\@lastruleclass=\count130
 \@thisrulewidth=\dimen180
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count129
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+\c@tracingmulticols=\count131
 \mult@box=\box38
 \multicol@leftmargin=\dimen181
-\c@unbalance=\count130
-\c@collectmore=\count131
-\doublecol@number=\count132
-\multicoltolerance=\count133
-\multicolpretolerance=\count134
+\c@unbalance=\count132
+\c@collectmore=\count133
+\doublecol@number=\count134
+\multicoltolerance=\count135
+\multicolpretolerance=\count136
 \full@width=\dimen182
 \page@free=\dimen183
 \premulticols=\dimen184
 \postmulticols=\dimen185
-\multicolsep=\skip45
-\multicolbaselineskip=\skip46
+\multicolsep=\skip51
+\multicolbaselineskip=\skip52
 \partial@page=\box39
 \last@line=\box40
+\maxbalancingoverflow=\dimen186
 \mult@rightbox=\box41
 \mult@grightbox=\box42
 \mult@gfirstbox=\box43
@@ -598,71 +624,87 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box59
 \@tempa=\box60
 \@tempa=\box61
-\c@columnbadness=\count135
-\c@finalcolumnbadness=\count136
-\last@try=\dimen186
-\multicolovershoot=\dimen187
-\multicolundershoot=\dimen188
+\c@columnbadness=\count137
+\c@finalcolumnbadness=\count138
+\last@try=\dimen187
+\multicolovershoot=\dimen188
+\multicolundershoot=\dimen189
 \mult@nat@firstbox=\box62
 \colbreak@box=\box63
-\multicol@sort@counter=\count137
+\mc@col@check@num=\count139
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\avant.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\avant.sty"
 Package: avant 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mathdesign.sty"
-Package: mathdesign 2013/08/29 v2.31 Math Design Project
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mathdesign.sty
+Package: mathdesign 2006/01/29 v1.55 Math Design Project
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\mdput.cfg)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\mdput.sty
+Package: mdput 2006/01/29 v1.55 adobe utopia + mdput (Math Design Project)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdfont.def
+File: mdfont.def 2006/01/29 v1.55 (Math Design Project)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdput.cfg")
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdput.sty"
-Package: mdput 2013/08/29 v2.31 adobe utopia + mdput (Math Design Project)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdfont.def"
-File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdsffont.def
+File: mdsffont.def 2006/01/29 v1.55 (Math Design Project)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdsffont.def"
-File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdttfont.def"
-File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdttfont.def
+File: mdttfont.def 2006/01/29 v1.55 (Math Design Project)
 )
 \symmdcal=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mdcal' in version `bold'
-(Font)                  OMS/mdput/m/n --> OMS/mdput/b/n on input line 97.
+(Font)                  OMS/mdput/m/n --> OMS/mdput/b/n on input line 89.
 \symmdscr=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `mdscr' in version `bold'
-(Font)                  OMS/mdput/m/n --> OMS/mdput/b/n on input line 103.
+(Font)                  OMS/mdput/m/n --> OMS/mdput/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/xmdeuf/m/n --> U/xmdeuf/b/n on input line 110.
+(Font)                  U/xmdeuf/m/n --> U/xmdeuf/b/n on input line 102.
+LaTeX Font Info:    Try loading font information for OT1+mdput on input line 11
+1.
+
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\ot1mdput.fd
+File: ot1mdput.fd 2006/01/29 Fontinst v1.928 font definitions for OT1/mdput.
+)
+LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 111.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/mdput/m/n on input line 121.
+(Font)                  OT1/cmr/m/n --> OT1/mdput/m/n on input line 114.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/mdput/m/it on input line 122.
+(Font)                  OML/cmm/m/it --> OML/mdput/m/it on input line 115.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/mdput/m/n on input line 123.
+(Font)                  OMS/cmsy/m/n --> OMS/mdput/m/n on input line 116.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/mdput/m/n on input line 124.
+(Font)                  OMX/cmex/m/n --> OMX/mdput/m/n on input line 117.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/mdput/b/n on input line 126.
+(Font)                  OT1/cmr/bx/n --> OT1/mdput/b/n on input line 119.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/mdput/b/it on input line 127.
+(Font)                  OML/cmm/b/it --> OML/mdput/b/it on input line 120.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/mdput/b/n on input line 128.
+(Font)                  OMS/cmsy/b/n --> OMS/mdput/b/n on input line 121.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/mdput/b/n on input line 129.
+(Font)                  OMX/cmex/m/n --> OMX/mdput/b/n on input line 122.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/mdput/m/n --> OT1/mdput/m/n on input line 131.
+(Font)                  OT1/mdput/m/n --> OT1/mdput/m/n on input line 124.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/mdput/b/n on input line 132.
+(Font)                  OT1/cmr/bx/n --> OT1/mdput/b/n on input line 125.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/mdput/m/it on input line 133.
+(Font)                  OT1/cmr/m/it --> OT1/mdput/m/it on input line 126.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/pag/m/n on input line 134.
+(Font)                  OT1/cmss/m/n --> OT1/pag/m/n on input line 127.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 135.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 128.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  OMS/mdput/m/n --> OMS/mdput/m/n on input line 132.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  OT1/mdput/b/n --> OT1/mdput/b/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
@@ -673,94 +715,74 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> OT1/pag/b/n on input line 140.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 141.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 153.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 154.
 \symlettersupright=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
-(Font)                  OML/mdput/m/n --> OML/mdput/b/n on input line 144.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
-(Font)                  OMS/mdput/m/n --> OMS/mdput/m/n on input line 167.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks29
-\XKV@tempa@toks=\toks30
-\XKV@depth=\count138
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
-))
-LaTeX Font Info:    Try loading font information for OT1+mdput on input line 18
-6.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\ot1mdput.fd"
-File: ot1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdput.
-)
-LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 186.
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 449.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 450.
+(Font)                  OML/mdput/m/n --> OML/mdput/b/n on input line 190.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 193.
 \symmathdesignA=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
-(Font)                  MDA/mdput/m/n --> MDA/mdput/b/n on input line 491.
+(Font)                  MDA/mdput/m/n --> MDA/mdput/b/n on input line 382.
+\@emptytoks=\toks29
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 421.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 422.
 \symmathdesignB=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
-(Font)                  MDB/mdput/m/n --> MDB/mdput/b/n on input line 498.
-\@emptytoks=\toks31
-LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
-LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
-\rulethickness=\skip47
+(Font)                  MDB/mdput/m/n --> MDB/mdput/b/n on input line 685.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
-LaTeX Font Info:    Try loading font information for T1+mdput on input line 100
+LaTeX Font Info:    Try loading font information for T1+mdput on input line 105
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\t1mdput.fd"
-File: t1mdput.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdput.
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\t1mdput.fd
+File: t1mdput.fd 2006/01/29 Fontinst v1.928 font definitions for T1/mdput.
 )
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 100.
+(Font)              scaled to size 9.19998pt on input line 105.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
-\MT@toks=\toks32
-\MT@count=\count139
+\MT@toks=\toks30
+\MT@count=\count140
 LaTeX Info: Redefining \textls on input line 766.
-\MT@outer@kern=\dimen189
+\MT@outer@kern=\dimen190
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
-\MT@listname@count=\count140
+\MT@listname@count=\count141
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip48
+\MT@outer@space=\skip53
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks33
-\inpenc@posthook=\toks34
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -909,8 +931,8 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -940,8 +962,8 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -970,34 +992,29 @@ Now handling font encoding MDB ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
 Package: biblatex 2015/04/19 v3.0 programmable bibliographies (PK/JW/AB)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
 Package: biblatex2 2015/04/19 v3.0 programmable bibliographies (biber) (PK/JW/A
 B)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count141
-)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count142
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count143
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
 \c@tabx@nest=\count144
@@ -1038,14 +1055,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@parenlevel@text=\count179
 \blx@parenlevel@foot=\count180
 \blx@sectionciteorder@0=\count181
-\labelnumberwidth=\skip49
-\labelalphawidth=\skip50
-\biblabelsep=\skip51
-\bibitemsep=\skip52
-\bibnamesep=\skip53
-\bibinitsep=\skip54
-\bibparsep=\skip55
-\bibhang=\skip56
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
 \blx@bcfin=\read2
 \blx@bcfout=\write4
 \c@mincomprange=\count182
@@ -1054,7 +1071,7 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'alphabetic.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
@@ -1108,66 +1125,65 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@listd=\count231
 \c@savedlistd=\count232
 \c@liste=\count233
-Normal \count register pool exhausted, switching to extended pool.
-\c@savedliste=\count277
-\c@listf=\count278
-\c@savedlistf=\count279
-\c@location=\count280
-\c@savedlocation=\count281
-\c@organization=\count282
-\c@savedorganization=\count283
-\c@origlocation=\count284
-\c@savedoriglocation=\count285
-\c@origpublisher=\count286
-\c@savedorigpublisher=\count287
-\c@publisher=\count288
-\c@savedpublisher=\count289
-\c@language=\count290
-\c@savedlanguage=\count291
-\c@pageref=\count292
-\c@savedpageref=\count293
-\shorthandwidth=\skip57
-\shortjournalwidth=\skip58
-\shortserieswidth=\skip59
-\shorttitlewidth=\skip60
-\shortauthorwidth=\skip61
-\shorteditorwidth=\skip62
+\c@savedliste=\count266
+\c@listf=\count267
+\c@savedlistf=\count268
+\c@location=\count269
+\c@savedlocation=\count270
+\c@organization=\count271
+\c@savedorganization=\count272
+\c@origlocation=\count273
+\c@savedoriglocation=\count274
+\c@origpublisher=\count275
+\c@savedorigpublisher=\count276
+\c@publisher=\count277
+\c@savedpublisher=\count278
+\c@language=\count279
+\c@savedlanguage=\count280
+\c@pageref=\count281
+\c@savedpageref=\count282
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
 File: blx-compat.def 2015/04/19 v3.0 biblatex compatibility (PK/JW/AB)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
 File: biblatex.def 
-\c@textcitecount=\count294
-\c@textcitetotal=\count295
-\c@textcitemaxnames=\count296
-\c@biburlnumpenalty=\count297
-\c@biburlucpenalty=\count298
-\c@biburllcpenalty=\count299
-\c@smartand=\count300
+\c@textcitecount=\count283
+\c@textcitetotal=\count284
+\c@textcitemaxnames=\count285
+\c@biburlnumpenalty=\count286
+\c@biburlucpenalty=\count287
+\c@biburllcpenalty=\count288
+\c@smartand=\count289
 )
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\alphabetic.bbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\alphabetic.bbx"
 File: alphabetic.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
 File: standard.bbx 2015/04/19 v3.0 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count301
-\c@bbx:relatedtotal=\count302
+\c@bbx:relatedcount=\count290
+\c@bbx:relatedtotal=\count291
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
 File: numeric.cbx 2015/04/19 v3.0 biblatex citation style (PK/JW/AB)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -1184,197 +1200,196 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
 File: biblatex.cfg 
 )
 
 Package biblatex Warning: 'babel' option is deprecated, use 'autolang' instead.
 
 
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count303
-\calc@Bcount=\count304
-\calc@Adimen=\dimen190
-\calc@Bdimen=\dimen191
-\calc@Askip=\skip63
-\calc@Bskip=\skip64
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count305
-\calc@Cskip=\skip65
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count292
+\calc@Bcount=\count293
+\calc@Adimen=\dimen191
+\calc@Bdimen=\dimen192
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count294
+\calc@Cskip=\skip70
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
-Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 \@indexfile=\write5
 
 Writing index file EtudeMaxpid.idx
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen192
+\ttl@leftsep=\dimen193
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-\fancy@headwidth=\skip66
-\f@ncyO@elh=\skip67
-\f@ncyO@erh=\skip68
-\f@ncyO@olh=\skip69
-\f@ncyO@orh=\skip70
-\f@ncyO@elf=\skip71
-\f@ncyO@erf=\skip72
-\f@ncyO@olf=\skip73
-\f@ncyO@orf=\skip74
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip71
+\f@ncyO@elh=\skip72
+\f@ncyO@erh=\skip73
+\f@ncyO@olh=\skip74
+\f@ncyO@orh=\skip75
+\f@ncyO@elf=\skip76
+\f@ncyO@erf=\skip77
+\f@ncyO@olf=\skip78
+\f@ncyO@orf=\skip79
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip75
+\@mathmargin=\skip80
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks35
-\ex@=\dimen193
+\@emptytoks=\toks33
+\ex@=\dimen194
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen194
+\pmbraise@=\dimen195
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count306
+\inf@bad=\count295
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count307
-\leftroot@=\count308
+\uproot@=\count296
+\leftroot@=\count297
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count309
-\DOTSCASE@=\count310
+\classnum@=\count298
+\DOTSCASE@=\count299
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box64
 \strutbox@=\box65
-\big@size=\dimen195
+\big@size=\dimen196
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count311
-\c@MaxMatrixCols=\count312
+\macc@depth=\count300
+\c@MaxMatrixCols=\count301
 \dotsspace@=\muskip11
-\c@parentequation=\count313
-\dspbrk@lvl=\count314
-\tag@help=\toks36
-\row@=\count315
-\column@=\count316
-\maxfields@=\count317
-\andhelp@=\toks37
-\eqnshift@=\dimen196
-\alignsep@=\dimen197
-\tagshift@=\dimen198
-\tagwidth@=\dimen199
-\totwidth@=\dimen200
-\lineht@=\dimen201
-\@envbody=\toks38
-\multlinegap=\skip76
-\multlinetaggap=\skip77
-\mathdisplay@stack=\toks39
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks34
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks35
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen200
+\totwidth@=\dimen201
+\lineht@=\dimen202
+\@envbody=\toks36
+\multlinegap=\skip81
+\multlinetaggap=\skip82
+\mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
-\thm@preskip=\skip78
-\thm@postskip=\skip79
-\thm@headsep=\skip80
-\dth@everypar=\toks45
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip83
+\thm@postskip=\skip84
+\thm@headsep=\skip85
+\dth@everypar=\toks43
 )
-\c@notation=\count318
-\c@dummy=\count319
-\c@problem=\count320
-\c@exerciseT=\count321
-\c@exempleT=\count322
-\c@vocabulary=\count323
-\c@definitionT=\count324
-\c@demoT=\count325
-\c@hypoT=\count326
-\c@titrepartieT=\count327
-\c@titrechapitreT=\count328
+\c@notation=\count307
+\c@dummy=\count308
+\c@problem=\count309
+\c@exerciseT=\count310
+\c@exempleT=\count311
+\c@vocabulary=\count312
+\c@definitionT=\count313
+\c@demoT=\count314
+\c@hypoT=\count315
+\c@titrepartieT=\count316
+\c@titrechapitreT=\count317
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2015/07/30 v5724 L3 programming layer (loader) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2015/06/15 v5630 L3 programming layer (loader) 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2015/07/30 v5724 L3 programming layer (code) 
-L3 Module: l3bootstrap 2015/07/30 v5721 L3 Bootstrap code
-L3 Module: l3names 2015/07/28 v5705 L3 Namespace for primitives
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2015/06/15 v5630 L3 programming layer (code) 
+L3 Module: l3bootstrap 2015/05/20 v5608 L3 Bootstrap code
+L3 Module: l3names 2015/02/24 v5535 L3 Namespace for primitives
 L3 Module: l3basics 2015/01/27 v5500 L3 Basic definitions
 L3 Module: l3expan 2014/11/27 v5472 L3 Argument expansion
-L3 Module: l3tl 2015/07/14 v5659 L3 Token lists
-L3 Module: l3str 2015/07/14 v5659 L3 Strings
-L3 Module: l3seq 2015/07/24 v5681 L3 Sequences and stacks
-L3 Module: l3int 2015/07/14 v5659 L3 Integers
-\c_max_int=\count329
-\l_tmpa_int=\count330
-\l_tmpb_int=\count331
-\g_tmpa_int=\count332
-\g_tmpb_int=\count333
-L3 Module: l3quark 2015/07/14 v5659 L3 Quarks
-L3 Module: l3prg 2015/07/30 v5722 L3 Control structures
-\g__prg_map_int=\count334
+L3 Module: l3tl 2015/01/27 v5500 L3 Token lists
+L3 Module: l3str 2015/03/01 v5545 L3 Strings
+L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
+L3 Module: l3int 2015/02/21 v5529 L3 Integers
+\c_max_int=\count318
+\l_tmpa_int=\count319
+\l_tmpb_int=\count320
+\g_tmpa_int=\count321
+\g_tmpb_int=\count322
+L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
+L3 Module: l3prg 2015/04/13 v5566 L3 Control structures
+\g__prg_map_int=\count323
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2015/02/26 v5537 L3 Messages
-L3 Module: l3file 2015/07/30 v5714 L3 File and I/O operations
-\l_iow_line_count_int=\count335
-\l__iow_target_count_int=\count336
-\l__iow_current_line_int=\count337
-\l__iow_current_word_int=\count338
-\l__iow_current_indentation_int=\count339
-L3 Module: l3skip 2015/07/14 v5659 L3 Dimensions and skips
-Normal \dimen register pool exhausted, switching to extended pool.
-\c_zero_dim=\dimen256
-\c_max_dim=\dimen257
-\l_tmpa_dim=\dimen258
-\l_tmpb_dim=\dimen259
-\g_tmpa_dim=\dimen260
-\g_tmpb_dim=\dimen261
-\c_zero_skip=\skip81
-\c_max_skip=\skip82
-\l_tmpa_skip=\skip83
-\l_tmpb_skip=\skip84
-\g_tmpa_skip=\skip85
-\g_tmpb_skip=\skip86
+L3 Module: l3file 2015/06/07 v5627 L3 File and I/O operations
+\l_iow_line_count_int=\count324
+\l__iow_target_count_int=\count325
+\l__iow_current_line_int=\count326
+\l__iow_current_word_int=\count327
+\l__iow_current_indentation_int=\count328
+L3 Module: l3skip 2015/05/18 v5607 L3 Dimensions and skips
+\c_zero_dim=\dimen203
+\c_max_dim=\dimen204
+\l_tmpa_dim=\dimen205
+\l_tmpb_dim=\dimen206
+\g_tmpa_dim=\dimen207
+\g_tmpb_dim=\dimen208
+\c_zero_skip=\skip86
+\c_max_skip=\skip87
+\l_tmpa_skip=\skip88
+\l_tmpb_skip=\skip89
+\g_tmpa_skip=\skip90
+\g_tmpb_skip=\skip91
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-L3 Module: l3keys 2015/07/26 v5684 L3 Key-value interfaces
-\g__keyval_level_int=\count340
-\l_keys_choice_int=\count341
-L3 Module: l3fp 2015/07/09 v5652 L3 Floating points
-\c__fp_leading_shift_int=\count342
-\c__fp_middle_shift_int=\count343
-\c__fp_trailing_shift_int=\count344
-\c__fp_big_leading_shift_int=\count345
-\c__fp_big_middle_shift_int=\count346
-\c__fp_big_trailing_shift_int=\count347
-\c__fp_Bigg_leading_shift_int=\count348
-\c__fp_Bigg_middle_shift_int=\count349
-\c__fp_Bigg_trailing_shift_int=\count350
+L3 Module: l3keys 2015/06/14 v5629 L3 Key-value interfaces
+\g__keyval_level_int=\count329
+\l_keys_choice_int=\count330
+L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
+\c__fp_leading_shift_int=\count331
+\c__fp_middle_shift_int=\count332
+\c__fp_trailing_shift_int=\count333
+\c__fp_big_leading_shift_int=\count334
+\c__fp_big_middle_shift_int=\count335
+\c__fp_big_trailing_shift_int=\count336
+\c__fp_Bigg_leading_shift_int=\count337
+\c__fp_Bigg_middle_shift_int=\count338
+\c__fp_Bigg_trailing_shift_int=\count339
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \c_empty_box=\box66
 \l_tmpa_box=\box67
@@ -1383,13 +1398,13 @@ L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
 \g_tmpb_box=\box70
 L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_internal_box=\box71
-\l__coffin_internal_dim=\dimen262
-\l__coffin_offset_x_dim=\dimen263
-\l__coffin_offset_y_dim=\dimen264
-\l__coffin_x_dim=\dimen265
-\l__coffin_y_dim=\dimen266
-\l__coffin_x_prime_dim=\dimen267
-\l__coffin_y_prime_dim=\dimen268
+\l__coffin_internal_dim=\dimen209
+\l__coffin_offset_x_dim=\dimen210
+\l__coffin_offset_y_dim=\dimen211
+\l__coffin_x_dim=\dimen212
+\l__coffin_y_dim=\dimen213
+\l__coffin_x_prime_dim=\dimen214
+\l__coffin_y_prime_dim=\dimen215
 \c_empty_coffin=\box72
 \l__coffin_aligned_coffin=\box73
 \l__coffin_aligned_internal_coffin=\box74
@@ -1398,101 +1413,100 @@ L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
 \l__coffin_display_coffin=\box77
 \l__coffin_display_coord_coffin=\box78
 \l__coffin_display_pole_coffin=\box79
-\l__coffin_display_offset_dim=\dimen269
-\l__coffin_display_x_dim=\dimen270
-\l__coffin_display_y_dim=\dimen271
+\l__coffin_display_offset_dim=\dimen216
+\l__coffin_display_x_dim=\dimen217
+\l__coffin_display_y_dim=\dimen218
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
-L3 Module: l3candidates 2015/07/22 v5677 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen272
-\l__box_bottom_dim=\dimen273
-\l__box_left_dim=\dimen274
-\l__box_right_dim=\dimen275
-\l__box_top_new_dim=\dimen276
-\l__box_bottom_new_dim=\dimen277
-\l__box_left_new_dim=\dimen278
-\l__box_right_new_dim=\dimen279
+L3 Module: l3candidates 2015/05/21 v5613 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen219
+\l__box_bottom_dim=\dimen220
+\l__box_left_dim=\dimen221
+\l__box_right_dim=\dimen222
+\l__box_top_new_dim=\dimen223
+\l__box_bottom_new_dim=\dimen224
+\l__box_left_new_dim=\dimen225
+\l__box_right_new_dim=\dimen226
 \l__box_internal_box=\box80
-\l__coffin_bounding_shift_dim=\dimen280
-\l__coffin_left_corner_dim=\dimen281
-\l__coffin_right_corner_dim=\dimen282
-\l__coffin_bottom_corner_dim=\dimen283
-\l__coffin_top_corner_dim=\dimen284
-\l__coffin_scaled_total_height_dim=\dimen285
-\l__coffin_scaled_width_dim=\dimen286
-L3 Module: l3luatex 2015/06/30 v5646 L3 Experimental LuaTeX-specific functions
+\l__coffin_bounding_shift_dim=\dimen227
+\l__coffin_left_corner_dim=\dimen228
+\l__coffin_right_corner_dim=\dimen229
+\l__coffin_bottom_corner_dim=\dimen230
+\l__coffin_top_corner_dim=\dimen231
+\l__coffin_scaled_total_height_dim=\dimen232
+\l__coffin_scaled_width_dim=\dimen233
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3unicode-data.def"
-File: l3unicode-data.def 2015/07/20 v-1 L3 Unicode data
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3unicode-data.def"
+File: l3unicode-data.def 2015/03/01 v5544 L3 Unicode data
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
-File: l3pdfmode.def 2015/06/30 v5646 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count351
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2015/05/21 v5613 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count340
 ))
-Package: xparse 2015/07/28 v5700 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count352
-\l__xparse_m_args_int=\count353
-\l__xparse_mandatory_args_int=\count354
-\l__xparse_processor_int=\count355
-\l__xparse_v_nesting_int=\count356
+Package: xparse 2015/06/15 v5630 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count341
+\l__xparse_m_args_int=\count342
+\l__xparse_mandatory_args_int=\count343
+\l__xparse_processor_int=\count344
+\l__xparse_v_nesting_int=\count345
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
 Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
 Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count357
+\c@abspage=\count346
 Package zref Info: New property: abspage on input line 62.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip87
-\c@mdf@globalstyle@cnt=\count358
-\mdf@skipabove@length=\skip88
-\mdf@skipbelow@length=\skip89
-\mdf@leftmargin@length=\skip90
-\mdf@rightmargin@length=\skip91
-\mdf@innerleftmargin@length=\skip92
-\mdf@innerrightmargin@length=\skip93
-\mdf@innertopmargin@length=\skip94
-\mdf@innerbottommargin@length=\skip95
-\mdf@splittopskip@length=\skip96
-\mdf@splitbottomskip@length=\skip97
-\mdf@outermargin@length=\skip98
-\mdf@innermargin@length=\skip99
-\mdf@linewidth@length=\skip100
-\mdf@innerlinewidth@length=\skip101
-\mdf@middlelinewidth@length=\skip102
-\mdf@outerlinewidth@length=\skip103
-\mdf@roundcorner@length=\skip104
-\mdf@footenotedistance@length=\skip105
-\mdf@userdefinedwidth@length=\skip106
-\mdf@needspace@length=\skip107
-\mdf@frametitleaboveskip@length=\skip108
-\mdf@frametitlebelowskip@length=\skip109
-\mdf@frametitlerulewidth@length=\skip110
-\mdf@frametitleleftmargin@length=\skip111
-\mdf@frametitlerightmargin@length=\skip112
-\mdf@shadowsize@length=\skip113
-\mdf@extratopheight@length=\skip114
-\mdf@subtitleabovelinewidth@length=\skip115
-\mdf@subtitlebelowlinewidth@length=\skip116
-\mdf@subtitleaboveskip@length=\skip117
-\mdf@subtitlebelowskip@length=\skip118
-\mdf@subtitleinneraboveskip@length=\skip119
-\mdf@subtitleinnerbelowskip@length=\skip120
-\mdf@subsubtitleabovelinewidth@length=\skip121
-\mdf@subsubtitlebelowlinewidth@length=\skip122
-\mdf@subsubtitleaboveskip@length=\skip123
-\mdf@subsubtitlebelowskip@length=\skip124
-\mdf@subsubtitleinneraboveskip@length=\skip125
-\mdf@subsubtitleinnerbelowskip@length=\skip126
+\mdf@templength=\skip92
+\c@mdf@globalstyle@cnt=\count347
+\mdf@skipabove@length=\skip93
+\mdf@skipbelow@length=\skip94
+\mdf@leftmargin@length=\skip95
+\mdf@rightmargin@length=\skip96
+\mdf@innerleftmargin@length=\skip97
+\mdf@innerrightmargin@length=\skip98
+\mdf@innertopmargin@length=\skip99
+\mdf@innerbottommargin@length=\skip100
+\mdf@splittopskip@length=\skip101
+\mdf@splitbottomskip@length=\skip102
+\mdf@outermargin@length=\skip103
+\mdf@innermargin@length=\skip104
+\mdf@linewidth@length=\skip105
+\mdf@innerlinewidth@length=\skip106
+\mdf@middlelinewidth@length=\skip107
+\mdf@outerlinewidth@length=\skip108
+\mdf@roundcorner@length=\skip109
+\mdf@footenotedistance@length=\skip110
+\mdf@userdefinedwidth@length=\skip111
+\mdf@needspace@length=\skip112
+\mdf@frametitleaboveskip@length=\skip113
+\mdf@frametitlebelowskip@length=\skip114
+\mdf@frametitlerulewidth@length=\skip115
+\mdf@frametitleleftmargin@length=\skip116
+\mdf@frametitlerightmargin@length=\skip117
+\mdf@shadowsize@length=\skip118
+\mdf@extratopheight@length=\skip119
+\mdf@subtitleabovelinewidth@length=\skip120
+\mdf@subtitlebelowlinewidth@length=\skip121
+\mdf@subtitleaboveskip@length=\skip122
+\mdf@subtitlebelowskip@length=\skip123
+\mdf@subtitleinneraboveskip@length=\skip124
+\mdf@subtitleinnerbelowskip@length=\skip125
+\mdf@subsubtitleabovelinewidth@length=\skip126
+\mdf@subsubtitlebelowlinewidth@length=\skip127
+\mdf@subsubtitleaboveskip@length=\skip128
+\mdf@subsubtitlebelowskip@length=\skip129
+\mdf@subsubtitleinneraboveskip@length=\skip130
+\mdf@subsubtitleinnerbelowskip@length=\skip131
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mdframed\md-frame-1.mdf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-1.mdf"
 File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 )
 \mdf@frametitlebox=\box81
@@ -1500,34 +1514,34 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 \mdf@splitbox@one=\box83
 \mdf@splitbox@two=\box84
 \mdf@splitbox@save=\box85
-\mdfsplitboxwidth=\skip127
-\mdfsplitboxtotalwidth=\skip128
-\mdfsplitboxheight=\skip129
-\mdfsplitboxdepth=\skip130
-\mdfsplitboxtotalheight=\skip131
-\mdfframetitleboxwidth=\skip132
-\mdfframetitleboxtotalwidth=\skip133
-\mdfframetitleboxheight=\skip134
-\mdfframetitleboxdepth=\skip135
-\mdfframetitleboxtotalheight=\skip136
-\mdffootnoteboxwidth=\skip137
-\mdffootnoteboxtotalwidth=\skip138
-\mdffootnoteboxheight=\skip139
-\mdffootnoteboxdepth=\skip140
-\mdffootnoteboxtotalheight=\skip141
-\mdftotallinewidth=\skip142
-\mdfboundingboxwidth=\skip143
-\mdfboundingboxtotalwidth=\skip144
-\mdfboundingboxheight=\skip145
-\mdfboundingboxdepth=\skip146
-\mdfboundingboxtotalheight=\skip147
-\mdf@freevspace@length=\skip148
-\mdf@horizontalwidthofbox@length=\skip149
-\mdf@verticalmarginwhole@length=\skip150
-\mdf@horizontalspaceofbox=\skip151
-\mdfsubtitleheight=\skip152
-\mdfsubsubtitleheight=\skip153
-\c@mdfcountframes=\count359
+\mdfsplitboxwidth=\skip132
+\mdfsplitboxtotalwidth=\skip133
+\mdfsplitboxheight=\skip134
+\mdfsplitboxdepth=\skip135
+\mdfsplitboxtotalheight=\skip136
+\mdfframetitleboxwidth=\skip137
+\mdfframetitleboxtotalwidth=\skip138
+\mdfframetitleboxheight=\skip139
+\mdfframetitleboxdepth=\skip140
+\mdfframetitleboxtotalheight=\skip141
+\mdffootnoteboxwidth=\skip142
+\mdffootnoteboxtotalwidth=\skip143
+\mdffootnoteboxheight=\skip144
+\mdffootnoteboxdepth=\skip145
+\mdffootnoteboxtotalheight=\skip146
+\mdftotallinewidth=\skip147
+\mdfboundingboxwidth=\skip148
+\mdfboundingboxtotalwidth=\skip149
+\mdfboundingboxheight=\skip150
+\mdfboundingboxdepth=\skip151
+\mdfboundingboxtotalheight=\skip152
+\mdf@freevspace@length=\skip153
+\mdf@horizontalwidthofbox@length=\skip154
+\mdf@verticalmarginwhole@length=\skip155
+\mdf@horizontalspaceofbox=\skip156
+\mdfsubtitleheight=\skip157
+\mdfsubsubtitleheight=\skip158
+\c@mdfcountframes=\count348
 
 ****** mdframed patching \endmdf@trivlist
 
@@ -1543,10 +1557,10 @@ File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
 . 
 . Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
 .................................................
-\mdf@envdepth=\count360
-\c@mdf@env@i=\count361
-\c@mdf@env@ii=\count362
-\c@mdf@zref@counter=\count363
+\mdf@envdepth=\count349
+\c@mdf@env@i=\count350
+\c@mdf@env@ii=\count351
+\c@mdf@zref@counter=\count352
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 
@@ -1568,27 +1582,27 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 641.
 
 Package hyperref Info: Option `bookmarksopen' set `false' on input line 641.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
-\BKM@id=\count364
+\BKM@id=\count353
 )))
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\style/macros_SII.tex)
+(style/macros_SII.tex)
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx"
+("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx"
 File: french.lbx 2015/04/19 v3.0 biblatex localization (PK/JW/AB)
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count365
-\@quotereset=\count366
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.aux)
+\@quotelevel=\count354
+\@quotereset=\count355
+(EtudeMaxpid.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
@@ -1606,27 +1620,27 @@ LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 68.
 LaTeX Font Info:    Try loading font information for MDA+cmr on input line 68.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdacmr.fd"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdacmr.fd
 File: mdacmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 68.
 LaTeX Font Info:    Try loading font information for MDB+cmr on input line 68.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdbcmr.fd"
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdbcmr.fd
 File: mdbcmr.fd 
 )
 LaTeX Font Info:    ... okay on input line 68.
 \AtBeginShipoutBox=\box86
 Package hyperref Info: Link coloring OFF on input line 68.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count367
+\c@section@level=\count356
 )
 LaTeX Info: Redefining \ref on input line 68.
 LaTeX Info: Redefining \pageref on input line 68.
@@ -1666,19 +1680,19 @@ LaTeX Info: Redefining \nameref on input line 68.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen287
+\scratchcounter=\count357
+\scratchdimen=\dimen256
 \scratchbox=\box87
-\nofMPsegments=\count369
-\nofMParguments=\count370
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen288
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
-\everyMPtoPDFconversion=\toks47
+\nofMPsegments=\count358
+\nofMParguments=\count359
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count360
+\MPscratchDim=\dimen257
+\MPnumerator=\count361
+\makeMPintoPDFobject=\count362
+\everyMPtoPDFconversion=\toks45
 ) ABD: EveryShipout initializing macros
 LaTeX Info: Redefining \degres on input line 68.
 LaTeX Info: Redefining \dots on input line 68.
@@ -1706,7 +1720,7 @@ Package biblatex Info: ... file 'EtudeMaxpid.bbl' not found.
 No file EtudeMaxpid.bbl.
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\style/new_pagegarde.tex
+(style/new_pagegarde.tex
 <images/maxpid_01.png, id=6, 940.51375pt x 274.02374pt>
 File: images/maxpid_01.png Graphic file (type png)
 
@@ -1714,135 +1728,161 @@ File: images/maxpid_01.png Graphic file (type png)
 Package pdftex.def Info: images/maxpid_01.png used on input line 9.
 (pdftex.def)             Requested size: 597.50787pt x 174.08676pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 11.
+(Font)              scaled to size 19.08076pt on input line 11.
 LaTeX Font Info:    Try loading font information for T1+pag on input line 11.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pag.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pag.fd"
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `pag' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <20.74> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 13.
 
 
-LaTeX Font Warning: Font shape `T1/pag/b/fsc' undefined
-(Font)              using `T1/pag/b/n' instead on input line 13.
+LaTeX Font Warning: Font shape `T1/pag/bx/fsc' undefined
+(Font)              using `T1/pag/bx/n' instead on input line 13.
 
-LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <17.28> not available
+LaTeX Font Info:    Font shape `T1/pag/bx/fsc' in size <17.28> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 13.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <17.28> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `mdput' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Try loading font information for OML+mdput on input line 14
 .
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\omlmdput.fd"
-File: omlmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdput.
+
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\omlmdput.fd
+File: omlmdput.fd 2006/01/29 Fontinst v1.928 font definitions for OML/mdput.
 )
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Try loading font information for OMS+mdput on input line 14
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\omsmdput.fd"
-File: omsmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdput.
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\omsmdput.fd
+File: omsmdput.fd 2006/01/29 Fontinst v1.928 font definitions for OMS/mdput.
 )
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Try loading font information for OMX+mdput on input line 14
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\omxmdput.fd"
-File: omxmdput.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdput.
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\omxmdput.fd
+File: omxmdput.fd 2006/01/29 Fontinst v1.928 font definitions for OMX/mdput.
 )
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Try loading font information for MDA+mdput on input line 14
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdamdput.fd"
-File: mdamdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdput.
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\mdamdput.fd
+File: mdamdput.fd 2006/01/29 Fontinst v1.928 font definitions for MDA/mdput.
 )
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 LaTeX Font Info:    Try loading font information for MDB+mdput on input line 14
 .
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\mathdesign\mdput\mdbmdput.fd"
-File: mdbmdput.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdput.
+(C:\Enseignement\Livre_Exo_Vuibert\Installation\MATHDESIGN\texmf\tex\latex\math
+design\mdput\mdbmdput.fd
+File: mdbmdput.fd 2006/01/29 Fontinst v1.928 font definitions for MDB/mdput.
 )
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 19.49565pt on input line 14.
+(Font)              scaled to size 19.08076pt on input line 14.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 14.
+(Font)              scaled to size 13.24796pt on input line 14.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 14.
+(Font)              scaled to size 11.03998pt on input line 14.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 16.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 17.
+(Font)              scaled to size 8.27998pt on input line 17.
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <9> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 8.46002pt on input line 17.
+(Font)              scaled to size 8.27998pt on input line 17.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <9> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <9> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 13.53603pt on input line 19.
+(Font)              scaled to size 13.24796pt on input line 19.
 
 
 LaTeX Font Warning: Font shape `T1/pag/m/fsc' undefined
 (Font)              using `T1/pag/m/n' instead on input line 19.
 
-LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <14.4> not available
+LaTeX Font Info:    Font shape `T1/pag/bx/fsc' in size <14.4> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <14.4> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 19.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 22.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 25.
-LaTeX Font Info:    Font shape `T1/pag/b/fsc' in size <12> not available
+LaTeX Font Info:    Font shape `T1/pag/bx/fsc' in size <12> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <10> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 9.40002pt on input line 40.
+(Font)              scaled to size 9.19998pt on input line 40.
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 13.53603pt on input line 40.
+(Font)              scaled to size 13.24796pt on input line 40.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 54.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 9.40002pt on input line 63.
+(Font)              scaled to size 9.19998pt on input line 63.
 Package mdframed Info: mdframed inside a box 
  mdframed uses option nobreak mdframed on input line 64.
 <images/maxpid_04.png, id=8, 289.08pt x 229.85875pt>
@@ -1852,48 +1892,49 @@ File: images/maxpid_04.png Graphic file (type png)
 Package pdftex.def Info: images/maxpid_04.png used on input line 72.
 (pdftex.def)             Requested size: 72.55527pt x 57.68901pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
+(Font)              scaled to size 4.59999pt on input line 74.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 9.40002pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 74.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 74.
+(Font)              scaled to size 6.43999pt on input line 74.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 74.
-\c@ttl@toc@default=\count374
-
-(E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.ptc
+(Font)              scaled to size 4.59999pt on input line 74.
+\c@ttl@toc@default=\count363
+ (EtudeMaxpid.ptc
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 6.
 )
@@ -1904,13 +1945,10 @@ Package pdftex.def Info: png/logoCC.png used on input line 85.
 (pdftex.def)             Requested size: 56.9055pt x 20.04631pt.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <E:/GitHub_Clef/TP_Documents/Maxpid/EtudeMaxpid/images/maxpid_01.png> <E:/G
-itHub_Clef/TP_Documents/Maxpid/EtudeMaxpid/images/maxpid_04.png> <E:/GitHub_Cle
-f/TP_Documents/Maxpid/EtudeMaxpid/png/logoCC.png>])
+{C:/Users/Xavier/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/m
+axpid_01.png> <./images/maxpid_04.png> <./png/logoCC.png>])
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 78.
+(Font)              scaled to size 11.03998pt on input line 78.
 
 <images/schema.png, id=54, 1207.51125pt x 732.7375pt>
 File: images/schema.png Graphic file (type png)
@@ -1918,33 +1956,33 @@ File: images/schema.png Graphic file (type png)
 Package pdftex.def Info: images/schema.png used on input line 83.
 (pdftex.def)             Requested size: 459.51054pt x 278.83447pt.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `OT1/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `OML/mdput/m/it' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `OMS/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `OMX/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `OML/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `MDA/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 8.46002pt on input line 107.
+(Font)              scaled to size 8.27998pt on input line 107.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
-(Font)              scaled to size 5.64001pt on input line 107.
+(Font)              scaled to size 5.51999pt on input line 107.
 
 <png/logo_lycee.png, id=55, 329.23pt x 265.99374pt>
 File: png/logo_lycee.png Graphic file (type png)
@@ -1952,9 +1990,9 @@ File: png/logo_lycee.png Graphic file (type png)
 Package pdftex.def Info: png/logo_lycee.png used on input line 149.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 149.
+(Font)              scaled to size 7.35999pt on input line 149.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 7.52002pt on input line 149.
+(Font)              scaled to size 7.35999pt on input line 149.
 LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
 (Font)              Font shape `T1/pag/m/sl' tried instead on input line 149.
 
@@ -1965,17 +2003,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.52002pt on input line 149.
+(Font)              scaled to size 7.35999pt on input line 149.
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <8> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 149.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.52002pt on input line 149.
-[2
-design size mismatch in local font md-utro8t in virtual font mdputro8t.vf ignor
-ed. <E:/GitHub_Clef/TP_Documents/Maxpid/EtudeMaxpid/png/logo_lycee.png> <E:/Git
-Hub_Clef/TP_Documents/Maxpid/EtudeMaxpid/images/schema.png>]
+(Font)              scaled to size 7.35999pt on input line 149.
+[2 <./png/logo_lycee.png> <./images/schema.png>]
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 6.58002pt on input line 154.
+(Font)              scaled to size 6.43999pt on input line 154.
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 4.70001pt on input line 154.
+(Font)              scaled to size 4.59999pt on input line 154.
 
 <images/LoiTheorique.png, id=71, 578.16pt x 431.4519pt>
 File: images/LoiTheorique.png Graphic file (type png)
@@ -1984,7 +2021,7 @@ File: images/LoiTheorique.png Graphic file (type png)
 Package pdftex.def Info: images/LoiTheorique.png used on input line 161.
 (pdftex.def)             Requested size: 217.66211pt x 162.42607pt.
 LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
-(Font)              scaled to size 9.40002pt on input line 163.
+(Font)              scaled to size 9.19998pt on input line 163.
 
 <images/graphe_structure.png, id=72, 571.13374pt x 386.44376pt>
 File: images/graphe_structure.png Graphic file (type png)
@@ -2003,12 +2040,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <12> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 186.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 186.
-[3 <E:/GitHub_Clef/TP_Documents/Maxpid/EtudeMaxpid/images/LoiTheorique.png> <E:
-/GitHub_Clef/TP_Documents/Maxpid/EtudeMaxpid/images/graphe_structure.png>]
-File: png/logo_lycee.png Graphic file (type png)
+(Font)              scaled to size 11.03998pt on input line 186.
+[3 <./images/LoiTheorique.png> <./images/graphe_structure.png>]
+Overfull \hbox (7.17256pt too wide) detected at line 232
+[]
+ []
 
+File: png/logo_lycee.png Graphic file (type png)
 <use png/logo_lycee.png>
 Package pdftex.def Info: png/logo_lycee.png used on input line 292.
 (pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
@@ -2047,7 +2088,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 420.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 420.
- (E:\GitHub_Clef\TP_Documents\Maxpid\EtudeMaxpid\EtudeMaxpid.aux)
+ (EtudeMaxpid.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 420.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 420.
 
@@ -2058,29 +2099,29 @@ Package logreq Info: Writing requests to 'EtudeMaxpid.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 420.
  ) 
 Here is how much of TeX's memory you used:
- 34032 strings out of 493921
- 629873 string characters out of 3144870
- 1176765 words of memory out of 3000000
- 36618 multiletter control sequences out of 15000+200000
- 220366 words of font info for 207 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 57i,20n,75p,10424b,1898s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}{C:/
-Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7t.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7v.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utr7y.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/mathdesign/mdput/md-utri7m.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/adobe/utopia/putr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-adobe/utopia/putri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/ava
-ntgar/uagd8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/avantgar/ua
-gk8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pf
-b>
-Output written on EtudeMaxpid.pdf (6 pages, 750582 bytes).
+ 33391 strings out of 493675
+ 620271 string characters out of 3143992
+ 1181308 words of memory out of 3000000
+ 36052 multiletter control sequences out of 15000+200000
+ 219780 words of font info for 201 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 57i,20n,75p,10424b,1929s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}{C:/Progra
+m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Enseignement/Livre_Exo_V
+uibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7t.pfb>
+<C:/Enseignement/Livre_Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/ma
+thdesign/mdput/md-utr7v.pfb><C:/Enseignement/Livre_Exo_Vuibert/Installation/MAT
+HDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7y.pfb><C:/Enseignement/Livre_
+Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utri7
+m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avan
+tgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.pfb>
+Output written on EtudeMaxpid.pdf (6 pages, 748577 bytes).
 PDF statistics:
  177 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
- 68736 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 64640 words of extra memory for PDF output out of 74296 (max. 10000000)
 
