@@ -62,7 +62,7 @@ plot(t1_res,t4_res,label="$\\theta_4$")
 # Détermination du couple moteur :
 # ================================
 Cm = []
-F,L = 40,450
+F,L = 40,950
 for i in range(len(t3_res)):
     aa = -c*F*L*sin(radians(t3_res[i]))
     bb = a*sin(radians(t2_res[i]))+ffff*cos(radians(t2_res[i]))
