@@ -6,3 +6,29 @@
 
 ===============Finish Logging================
 
+
+===============Init Logging================
+
+18/03/2016 - 16:16:57 	===== Ouverture de session =====
+18/03/2016 - 16:19:36 	Début du calcul
+18/03/2016 - 16:19:36 	Nombre de positions : 100
+18/03/2016 - 16:19:36 	Simulation activée
+18/03/2016 - 16:19:36 	Lecture des conditions initiales
+18/03/2016 - 16:19:37 	Fin du calcul
+18/03/2016 - 16:27:07 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+18/03/2016 - 21:02:03 	===== Ouverture de session =====
+18/03/2016 - 22:59:45 	Début du calcul
+18/03/2016 - 22:59:45 	Nombre de positions : 91
+18/03/2016 - 22:59:45 	Simulation activée
+18/03/2016 - 22:59:45 	Lecture des conditions initiales
+18/03/2016 - 22:59:48 	Fin du calcul
+18/03/2016 - 23:57:34 	===== Fermeture de session =====
+
+===============Finish Logging================
+

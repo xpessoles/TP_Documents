@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  11 NOV 2015 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.16)  19 MAR 2016 01:13
 entering extended mode
 **EtudeTheorique.tex
 (EtudeTheorique.tex
@@ -2197,41 +2197,83 @@ LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 88.
 LaTeX Font Info:    Font shape `MDB/mdput/m/n' will be
 (Font)              scaled to size 4.59999pt on input line 88.
+
+Overfull \hbox (46.55296pt too wide) in alignment at lines 98--116
+ [][][] []
+ []
+
 LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 134.
+(Font)              scaled to size 7.35999pt on input line 149.
 LaTeX Font Info:    Font shape `T1/mdput/m/sl' will be
-(Font)              scaled to size 7.35999pt on input line 134.
+(Font)              scaled to size 7.35999pt on input line 149.
 LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <8> not available
-(Font)              Font shape `T1/mdput/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 149.
 LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 134.
- [1
+(Font)              scaled to size 7.35999pt on input line 149.
+[1
 
 {C:/Users/Xavier/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/S
 chema.png> <./images/Parametrage.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 196.
+LaTeX Font Info:    Font shape `T1/mdput/m/n' will be
+(Font)              scaled to size 4.59999pt on input line 196.
 
-(EtudeTheorique.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
+<png/logo_lycee.png, id=28, 329.23pt x 265.99374pt>
+File: png/logo_lycee.png Graphic file (type png)
+ <use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png used on input line 218.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+LaTeX Font Info:    Font shape `T1/mdput/m/it' will be
+(Font)              scaled to size 7.35999pt on input line 218.
+LaTeX Font Info:    Font shape `T1/pag/m/it' in size <8> not available
+(Font)              Font shape `T1/pag/m/sl' tried instead on input line 218.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./png/logo_lycee.png>]
+File: png/logo_lycee.png Graphic file (type png)
+ <use png/logo_lycee.png>
+Package pdftex.def Info: png/logo_lycee.png used on input line 226.
+(pdftex.def)             Requested size: 56.9055pt x 45.97325pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 45.97325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/mdput/bx/n' in size <12> not available
+(Font)              Font shape `T1/mdput/b/n' tried instead on input line 226.
+LaTeX Font Info:    Font shape `T1/mdput/b/n' will be
+(Font)              scaled to size 11.03998pt on input line 226.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+ (EtudeTheorique.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 226.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'EtudeTheorique.run.xml'.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 36621 strings out of 493675
- 665757 string characters out of 3143992
- 1254732 words of memory out of 3000000
- 39348 multiletter control sequences out of 15000+200000
- 120556 words of font info for 123 fonts, out of 3000000 for 9000
+ 36691 strings out of 493675
+ 666591 string characters out of 3143992
+ 1256724 words of memory out of 3000000
+ 39375 multiletter control sequences out of 15000+200000
+ 161066 words of font info for 146 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  57i,20n,75p,10427b,1931s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}{C:/Progra
-m Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Enseignement/Livre_Exo_V
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program File
+s/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}<C:/Enseignement/Livre_Exo_V
 uibert/Installation/MATHDESIGN/texmf/fonts/type1/mathdesign/mdput/md-utr7t.pfb>
 <C:/Enseignement/Livre_Exo_Vuibert/Installation/MATHDESIGN/texmf/fonts/type1/ma
 thdesign/mdput/md-utr7v.pfb><C:/Enseignement/Livre_Exo_Vuibert/Installation/MAT
@@ -2241,10 +2283,11 @@ m.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avan
-tgar/uagd8a.pfb>
-Output written on EtudeTheorique.pdf (1 page, 106971 bytes).
+tgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagko8a.p
+fb>
+Output written on EtudeTheorique.pdf (3 pages, 197982 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 39975 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 49756 words of extra memory for PDF output out of 51595 (max. 10000000)
 
