@@ -8,6 +8,7 @@ Created on Mon Feb  2 21:49:38 2015
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
+import math
 
 a,b,c,d = 106.3, 59, 70, 80
 p = 4
@@ -32,3 +33,5 @@ plt.xlabel("$\\gamma$")
 plt.ylabel("$\\theta$")
 plt.legend(("Modèle","Régression linéaire - $0,696 \gamma + 6,098$"),'best')
 plt.grid()
+
+from matplotlib2tikz import save as tikz_save
