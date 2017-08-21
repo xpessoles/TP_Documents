@@ -1,0 +1,479 @@
+%ENTETE / INCLUDES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,10pt]{article}
+\newcommand{\pathpackage}{../../../latex/}
+
+\input{\pathpackage/notations/notations_math.tex}
+%\input{../../../../latex/packages.tex}	%Liste des packages
+%\import{../../../latex/}{notations.tex}	%Notations et commandes
+%\input{../../../latex/notations.tex}	%Notations et commandes
+
+%\import{pathpackage}{notations/notations_math.tex}
+%\input{../../../../latex/notations/notations_math.tex}
+\input{../../../../latex/notations/notations_unites.tex}
+\input{../../../../latex/notations/notations_AF.tex}
+\input{../../../../latex/notations/notations_asservissement.tex}
+\input{../../../../latex/notations/notations_vecteurs.tex}
+\input{../../../../latex/notations/notations_torseurs.tex}
+\input{../../../../latex/notations/notations_cinematique.tex}
+\input{../../../../latex/notations/notations_cotation.tex}
+\input{../../../../latex/notations/notations_fab.tex}
+\input{../../../../latex/notations/notations_statique.tex}
+\input{../../../../latex/notations/boites.tex}
+
+\input{../../../../latex/style.tex}		%Style, mise en page
+
+% Commandes générales
+%===============================
+
+
+%Lettres grecques oubliees
+\newcommand{\Mu}{M} %mu majuscule
+
+%Mise en forme
+\newcommand{\gras}[1]	{\textbf{#1}}
+\newcommand{\bouton}[1]	{\fbox{\footnotesize{\textsc{#1}}}}
+\newcommand{\toutpetit}[1]	{{\tiny{1}}}
+\newcommand{\PETIT}[1]		{{\scriptsize{#1}}}
+\newcommand{\Petit}[1]		{\footnotesize{#1}}
+\newcommand{\petit}[1]		{{\small{#1}}}
+\newcommand{\normal}[1]		{{\normalsize{#1}}}
+\newcommand{\grand}[1]		{{\large{#1}}}
+\newcommand{\Grand}[1]		{{\Large{#1}}}
+\newcommand{\GRAND}[1]		{{\LARGE{#1}}}
+\newcommand{\enorme}[1]		{{\huge{#1}}}
+\newcommand{\Enorme}[1]		{{\Huge{#1}}}
+
+\newcommand{\oeuvre}		{\oe uvre}
+\newcommand{\oeuvres}		{\oe uvres}
+
+\newcommand{\fig}[1]		{(fig.\ref{#1})}
+
+\newcommand{\miniCentre}[2][\linewidth]	{\begin{minipage}{#1}\begin{center}#2\end{center}\end{minipage}}
+
+%\graphicspath{{../../../latex/notations/notations_cotation/}}
+\renewcommand	{\cycle}		{TIPE}
+\renewcommand	{\cycleresume}		{TIPE}
+\renewcommand	{\titre}		{Réaliser d'une chaine structurelle avec Scilab et Arduino}
+\renewcommand	{\titreresume}		{Scilab/Arduino}
+\renewcommand	{\numero}		{TIPE}
+\renewcommand	{\auteur}		{Emilien DURIF}
+\renewcommand	{\etablissement}	{Lycée La Martinière Monplaisir Lyon}
+\renewcommand	{\discipline}		{Sciences Industrielles pour l'Ingénieur}
+\renewcommand	{\classe}		{Classe préparatoire P.S.I.}
+\renewcommand	{\annee}		{2016 - 2017}
+\renewcommand	{\icone}		{../../../../latex/images/logo_martiniere.jpg}
+\renewcommand	{\competences}		{}
+\renewcommand	{\date}		{7 décembre 2016}
+
+\setTexteATrouOn				%Active le texte à trou
+
+
+\begin{document}
+
+%	\begin{center}
+%		\huge {\textsc{\titre}}
+%	\end{center}
+
+	\input{../../../../latex/page_de_garde_fiche.tex}
+
+\subsection{Introduction}
+
+La simulation numérique est aujourd'hui incontournable dans le processus de conception de systèmes. Simuler
+des phénomènes complexes (physiques, mécaniques, électroniques, etc.) permet d'en étudier les
+comportements et d'obtenir des résultats sans avoir besoin de recourir à l'expérience réelle. Largement utilisée dans le monde de l'industrie, les ingénieurs et les chercheurs de demain sont formés dès le secondaire aux concepts de modélisation et de simulation.
+Xcos est l'outil de Scilab dédié à la modélisation et à la simulation de systèmes dynamiques hybrides incluant
+à la fois des modèles continus et discrets. Il permet aussi de simuler des systèmes régis par des équations
+explicites (simulation causale) et implicites (simulation acausale). Xcos inclut un éditeur graphique permettant de représenter facilement des modèles sous forme de schémas fonctionnels (diagrammes) en connectant des blocs entre eux. Chaque bloc représente une fonction de base prédéfinie ou une fonction définie par
+l'utilisateur.
+
+Distribué librement et gratuitement avec Scilab, Xcos est l'outil idéal pour l'enseignement et l'apprentissage
+des sciences de l'ingénieur en classe comme à la maison.
+
+\subsection{Installation de Scilab}
+
+\textbf{Ce document fait référence à la version 5.4.1}
+
+Scilab est un logiciel open source de calcul numérique que chacun peut télécharger gratuitement. Disponible
+sous Windows, Linux et Mac OS X, Scilab est téléchargeable à l'adresse suivante : http://www.scilab.org
+Une fois Scilab téléchargé (\textbf{Bien choisir la version 5.4.1}) et installé, il faut ajouter les modules externes complémentaires, listés ci-dessous :
+
+			\begin{center}
+				\includegraphics[width=0.6\textwidth]{./images/scilab_structure.jpg}
+			\end{center}
+			
+			Pour cela, il suffit :
+			\begin{itemize}
+\item D'être connecté à Internet
+\item De lancer Scilab
+\item De cliquer dans la barre de menus sur \textbf{Applications/Gestionnaire de modules - ATOMS} puis d'aller chercher les différents modules dans les catégories indiquées ci-dessous :
+\begin{itemize}
+\item CPGE (catégorie Éducation),
+\item SIMM (catégorie Éducation),
+\item Arduino (catégorie Instruments Control ou contrôle d'instrument).
+\end{itemize}
+\end{itemize}
+
+Pour chaque module, cliquez sur le bouton Installer, quittez
+Scilab et relancez-le. Les modules sont alors installés et se
+chargeront automatiquement à chaque démarrage de Scilab.
+Pour supprimer un module ou le mettre à jour, il suffit de retourner dans le \textbf{Gestionnaire de modules - ATOMS}
+et de cliquer cette fois sur le bouton correspondant Supprimer ou mettre à jour.
+
+\subsection{Description de Scilab : environnement général}
+
+Après avoir lancé Scilab, l'environnement par défaut est constitué d'une console, d'un navigateur de fichiers,
+d'un navigateur de variables et d'un historique des commandes.
+
+
+			\begin{center}
+				\includegraphics[width=0.8\textwidth]{./images/environnement.jpg}
+			\end{center}
+			
+Dans la console, après ``$-->$'', il suffit de saisir une commande et d'appuyer sur la touche entrée du clavier
+pour obtenir le résultat correspondant.
+Xcos peut être ouvert :
+\begin{itemize}
+\item Depuis la barre d'outils, via l'icône 
+
+			\begin{center}
+				\includegraphics[width=0.05\textwidth]{./images/xcos.jpg} ;
+			\end{center}
+
+\item Depuis la barre de menus, dans applications / Xcos ;
+\item Depuis la console, en tapant :
+\end{itemize}
+\begin{align*}
+-->xcos
+\end{align*}
+
+Xcos s'ouvre, par défaut, avec deux fenêtres :
+\begin{itemize}
+\item Le navigateur de palettes qui met à disposition un ensemble de blocs prédéfinis,
+\item Une fenêtre d'édition qui est la zone de construction d'un diagramme.
+\end{itemize}
+			
+
+	\begin{tabular}{cc}
+    \resizebox{0.6\columnwidth}{!}{\includegraphics{images/xcos_palette.jpg}} &
+\resizebox{0.4\columnwidth}{!}{\includegraphics{images/xcos_fenetre.jpg}}\\
+Navigateur de palette - Xcos & Fenêtre d'édition\\
+    \end{tabular}
+
+Pour construire un diagramme, l'utilisateur sélectionne les blocs dans le navigateur de palettes et les positionne dans la fenêtre d'édition (cliquer / glisser / déposer). Il peut ensuite connecter les blocs entre eux en utilisant leurs différents ports (entrée / sortie / événement) pour pouvoir simuler le modèle créé.
+
+
+\subsection{Déclaration des variables}
+
+Dans Xcos, il est possible de créer des variables qui seront utiles pour faciliter la construction d'un diagramme. Nous utilisons ici un ``contexte'' pour fixer des valeurs de référence lors de la simulation du diagramme.
+Pour cela, il suffit de cliquer sur \textbf{Simulation / modifier le contexte} dans la barre de menus et de déclarer les variables. 
+
+Par exemple si on souhaite simuler le comportement d'un premier ordre, nous serons amenés à définir le gain statique $K$ ainsi que la constante de temps $\tau$ :
+
+\begin{center}
+\begin{tabular}{p{4cm}c}
+\begin{minipage}{4cm}
+\begin{itemize}
+\item $K = 1$
+\item $\tau = 1$
+\end{itemize}
+\end{minipage}
+&
+\includegraphics[width=8.cm]{./images/contexte.jpg}
+\end{tabular}
+\end{center}
+
+
+
+Vous pouvez maintenant utiliser ces variables pour le paramétrage des blocs
+du diagramme.
+
+\subsection{Exemple de fonctions élémentaires}
+
+Pour construire un diagramme de simulation on utilise des blocs qui permettent de créer des entrées (échelon, Dirac, sinus, etc..), des opérateur linéaires (fonction de transfert) mais aussi des outils d'analyse (générateur de variables, oscillocope, base de temps, etc...).
+Le tableau suivant dresse une liste non exhaustive des fonctions que l'on rencontre habituellement. 
+
+Une fois que l'on met en place un bloc il ne faut pas hésiter à double-cliquer dessus pour éditer les réglages associés.
+
+\newcommand{\lintab}[3]{\hline \begin{minipage}{5cm}\begin{center}#1\end{center}\end{minipage} & \begin{minipage}{3cm}\begin{center}#2\end{center}\end{minipage} &  \begin{minipage}{7cm}\begin{center}#3\end{center}\end{minipage} \\}
+
+
+\begin{table}[ht!]
+	\begin{center}
+	\begin{tabular}{|c|c|c|}
+		\lintab	{	\textbf{Désignation}	}
+			{	\textbf{Représentation}	}
+			{	\textbf{Sous-palette standard}	}
+
+		\lintab	{	\textbf{Echelon}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}
+			\includegraphics[height=1.5cm]{./images/step.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/entrées/STEP$\_$FUNCTION}
+		\lintab	{	\textbf{Sinus}	}
+			{\vspace{\arrayrulewidth}	
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}
+			\includegraphics[height=1.5cm]{./images/sinus.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/entrées/GENSIN$\_$f}	
+		\lintab	{	\textbf{Gain proportionnel}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/gain.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Opérateurs linéaires/GAINBLK$\_$f}
+		\lintab	{	\textbf{Fonction de transfert continue}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/FT.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Opérateurs linéaires/ CLR}
+		\lintab	{	\textbf{Intégrateur $H(p)=\frac{1}{p}$}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/int.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Opérateurs linéaires/INTEGRAL$\_$f}			
+		\lintab	{	\textbf{Sommateur/comparateur}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/somme.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Opérateurs linéaires/BIGSOM$\_$f}
+		\lintab	{	\textbf{Visualisation}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/scope.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Sorties/SCOPE}	
+		\lintab	{	\textbf{Définition de la base de temps}	}
+			{\vspace{\arrayrulewidth}	
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}
+			\includegraphics[height=1.5cm]{./images/rep_temp.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Analyses/REP$\_$TEMP}	
+		\lintab	{	\textbf{Tracer du diagramme de Bode}	}
+			{\vspace{\arrayrulewidth}	
+			\vspace{\arrayrulewidth}
+			\includegraphics[height=1.5cm]{./images/bode.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Analyses/REP$\_$FREQ}
+		\lintab	{	\textbf{Affectation d'une variable}	}
+			{\vspace{\arrayrulewidth}	
+			\vspace{\arrayrulewidth}
+			\includegraphics[height=1.5cm]{./images/variable.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Analyses/GRANDEUR$\_$PHYSIQUE}
+		\lintab	{	\textbf{Étude paramétrique}	}
+			{\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	
+			\includegraphics[height=1.5cm]{./images/param_var.jpg}
+			\vspace{\arrayrulewidth}
+			\vspace{\arrayrulewidth}	}
+			{	CPGE/Analyses/PARAM$\_$VAR}		
+		\hline
+	\end{tabular}
+	\end{center}
+\end{table}
+\FloatBarrier
+
+\begin{remarque}[Notation de la variable de Laplace dans Xcos]
+la notation ``s'' (variable de Laplace) est souvent utilisée dans les pays anglo-saxons alors que la notation ``p'' est utilisée notamment en France et en Allemagne.
+Dans les logiciels de simulation, on utilise donc à la place de $p$, la notation $s$.
+\end{remarque}
+
+\subsection{Exemple de construction d'une simulation}
+
+On se propose ici de créer une simulation d'un système du premier ordre sollicité par un échelon.
+\begin{enumerate}
+\item Disposez les blocs dans la fenêtre d'édition : échelon, fonction continu et oscilloscope (les faire glisser depuis le navigateur de palette) 
+\item Relier les ports d'entrée et de sortie entre eux :  cliquez sur la sortie (flèche noire) d'un bloc et en maintenant le bouton de la souris appuyé, reliez au port d'entrée du bloc correspondant, un carré vert apparaît en surbrillance pour indiquer que le lien est correct. Relâchez pour finaliser le lien. Complétez ensuite les connexions des blocs entre eux.
+
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/premier_ordre1.jpg} ;
+			\end{center}
+
+\item Modifier le bloc ``\textbf{Fonction de transfert continue}'' pour faire apparaître $\frac{K}{1+\tau\;s}$ en double cliquant dessus.	
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/premier_ordre2.jpg} ;
+			\end{center}
+\item Configurer la durée de simulation en mettant en place un bloc de ``\textbf{Définition de la base de temps}''. Dans cet exemple on peut effectuer une simulation durant $5\;s$
+
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/premier_ordre3.jpg} ;
+			\end{center}
+\item Configurer l'échelon en double cliquant sur le bloc associé et en réglant l'instant initial à $0$ pour que l'échelon ne soit pas retardé. L'amplitude de l'échelon peut être réglé dans la case valeur finale.
+
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/premier_ordre4.jpg} ;
+			\end{center}
+
+  
+\item Lancer la simulation depuis le menu ``Simulation / démarrer'' ou en cliquant sur l'icône :
+			\begin{center}
+				\includegraphics[width=0.05\textwidth]{./images/icone_executer.jpg} ;
+			\end{center}
+
+\item Une nouvelle fenêtre (scope) apparaît, montrant l'évolution de la simulation. 
+\end{enumerate}
+
+
+\begin{remarque}[Compléments de syntaxe]
+\begin{itemize}
+\item Pour tracer plusieurs courbes en faisant varier un paramètre, il faut utiliser le bloc d'étude paramétrique (``PARAM$\_$VAR''). L'exemple suivant montrer la définition de trois valeurs paramétriques pour la variable $K$.
+
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/param_var_editeur.jpg}
+			\end{center}
+
+\item Pour tracer un diagramme de Bode, il faut dans un premier temps associer respectivement à l'entrée et à la sortie les noms de variables $E$ et $S$ à l'aide du bloc d'\textbf{Affectation d'une variable} physique (GRANDEUR$\_$PHYSIQUE).
+
+
+\item Il suffit ensuite d'utiliser le bloc ``Bode'' (REP$\_$FREQ). En double cliquant dessus, on peut définir la plage de pulsation d'étude (en $rad/s$).
+
+			\begin{center}
+				\includegraphics[width=0.7\textwidth]{./images/bode_methode.jpg}
+			\end{center}
+			
+\item On peut alors fixer la plage d'étude des pulsation.
+
+			\begin{center}
+				\includegraphics[width=0.3\textwidth]{./images/bode_reglage.jpeg}
+			\end{center}
+
+\item Enfin on peut lancer la simulation qui aboutira au tracé des diagrammes de Bode.			
+\end{itemize}
+
+
+\end{remarque}
+
+\subsection{Scilab et arduino}
+
+\subsubsection{Préparation de la carte}
+\begin{itemize}
+\item Brancher la carte arduino via un port usb
+\item Repérer le port de communication  :  dans le menu Démarrer , Périphérique et imprimante
+\item Ouvrir le logiciel arduino (icone)
+\begin{itemize}
+\item Verifier dans outil le type de carte et le port 
+\end{itemize}
+\item ouvrir la fonction $toolbox\_arduino\_v3$
+\item téléverser le programme vers la carte.
+\end{itemize}
+
+\subsubsection{Câblage de la carte}
+
+Ce schéma ci-dessous représente le cablage d'un capteur vers une carte Arduin Méga.
+Les fonctions données ci-dessous sont à aller chercher dans la navigateur de palette et dans la rubrique arduino.
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/arduino/cablage.pdf}\\
+\end{center}
+
+On dispose d'un accéléromètre analogique. Il faut connecter : 
+\begin{itemize}
+\item la borne \textbf{VCC ou 3V3} du capteur vers \textbf{3V3} de la carte Arduino ;
+\item La borne \textbf{"x"} (par exemple) vers une entrée analogique (\textbf{A1} par exemple) ; 
+\item La borne \textbf{GND} du capteur vers la \textbf{GND} de la carte Arduino ;
+\end{itemize}
+\subsubsection{Câblage de la carte et Mise en place du programme}
+
+\begin{itemize}
+\item Lecture d'une entrée analogique : 
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/arduino/Arduino1.png}\\
+\includegraphics[width=0.5\textwidth]{images/arduino/Arduino2.png}
+\end{center}
+
+
+\item Réglage de l'offset et d'un gain d'une entrée analogique : ici on souhaite que l'accélération mesurée selon $\overrightarrow{x}$ soit centrée en $0$ et soit comprise entre $\pm 9,81m\cdot s^{-2}$.
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/arduino/arduino_offset_gain.png}\\
+\includegraphics[width=0.5\textwidth]{images/arduino/graph_offset_gain.png}
+\end{center}
+
+\item Conversion d'une accélération en angle : 
+La manipulation consiste à faire pivoter l'accéléromètre selon son axe \couple{O}{\overrightarrow{y}_a}.
+La borne \textbf{X} du capteur recueille en réalité la projection selon $\overrightarrow{x}_a$ (direction horizontale associée au capteur) du champ d'accélération (notée $g_x$). En régime quasi-statique on mesure alors la projection de l'accélération de la pesanteur $\overrightarrow{g}$. On se donne un repère $R_0{O}{\overrightarrow{x}_0}{\overrightarrow{y}_0}{\overrightarrow{z}_0}$ associé au référentiel terrestre supposé galiléen avec $\overrightarrow{g}=-g\cdot \overrightarrow{z}_0$. On se donne un autre repère $R_a{O}{\overrightarrow{x_{a}}}{\overrightarrow{y}_{0,a}}{\overrightarrow{z}_a}$. Pour obtenir l'angle d'inclinaison du capteur on a alors :
+\begin{align*}
+\theta=arcin\left(\frac{g_x}{g}\right)
+\end{align*}
+
+\begin{minipage}{0.5\textwidth}
+\includegraphics[width=1.0\textwidth]{images/arduino/parametrage_capteur.pdf}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\scFigCalc[y_{0,a}]{z_0}{x_0}{z_a}{x_a}{\theta}
+\end{minipage}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/arduino/arduino_theta_deg_temps.png}\\
+\includegraphics[width=0.5\textwidth]{images/arduino/theta_deg_temps.png}
+\end{center}
+
+\item Test de la commande d'un moteur avec une commande sinusoïdale : 
+On peut câbler le servomoteur sur la carte arduino pour le commander : 
+
+\begin{itemize}
+\item fil noir du servo-moteur vers GND de la carte ; 
+\item fil rouge du servo-moteur vers 5V de la carte ; 
+\item fil jaune ou blanc (commande) su servo moteur vers pin 9 ou 10 (associés respectivement aux servo1 et servo2 dans scilab)
+\item le servo moteur est commandé avec une entrée comprise entre 0 et 180.
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=0.7\textwidth]{images/arduino/cablage2.pdf}
+\end{center}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=1.0\textwidth]{images/arduino/reglage_sinus.png}
+\end{minipage}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[width=1.0\textwidth]{images/arduino/arduino_commande_moteur.png}
+\end{minipage}
+
+
+\item Commande d'un moteur avec accéléromètre : 
+
+\begin{center}
+\includegraphics[width=1.0\textwidth]{images/arduino/arduino_commande_moteur_accelerometre.png}
+\end{center}
+
+\item Mise en place d'un filtre (avec un premier ordre) : 
+
+\begin{center}
+\includegraphics[width=1.0\textwidth]{images/arduino/arduino_commande_moteur_accelerometre_filtre.png}
+\end{center}
+
+\end{itemize}
+
+\subsection{Référence}
+
+\begin{itemize}
+\item Le site Internet de Scilab dispose d'une rubrique consacrée à l'utilisation de Scilab pour l'enseignement
+\cite{scilabweb} (http://www.scilab.org/fr/community/education), avec des liens et des documents utiles, dont le présent livret
+au format PDF, un livret destiné à l'enseignement des mathématiques, des exercices et des corrigés d'épreuves
+pratiques, le tout pouvant être téléchargé et imprimé librement.
+\item Le site de professeurs ayant largement contribué à l'écriture du livret d'utilisation de \textbf{Scilab/Xcos} \cite{scilab2013} est également une source
+riche d'informations et d'exemples d'utilisation : http://www.demosciences.fr/ \cite{demoscience}
+\end{itemize}
+
+\pagebreak
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+\end{document}
