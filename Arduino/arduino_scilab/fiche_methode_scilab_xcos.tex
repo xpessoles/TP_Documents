@@ -1,27 +1,22 @@
 %ENTETE / INCLUDES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[a4paper,10pt]{article}
-\newcommand{\pathpackage}{../../../latex/}
+\newcommand{\pathpackage}{../../../../latex}
 
 \input{\pathpackage/notations/notations_math.tex}
-%\input{../../../../latex/packages.tex}	%Liste des packages
-%\import{../../../latex/}{notations.tex}	%Notations et commandes
-%\input{../../../latex/notations.tex}	%Notations et commandes
+\input{\pathpackage/packages.tex}	%Liste des packages
+\input{\pathpackage/notations/notations_unites.tex}
+\input{\pathpackage/notations/notations_AF.tex}
+\input{\pathpackage/notations/notations_asservissement.tex}
+\input{\pathpackage/notations/notations_vecteurs.tex}
+\input{\pathpackage/notations/notations_torseurs.tex}
+\input{\pathpackage/notations/notations_cinematique.tex}
+\input{\pathpackage/notations/notations_cotation.tex}
+\input{\pathpackage/notations/notations_fab.tex}
+\input{\pathpackage/notations/notations_statique.tex}
+\input{\pathpackage/notations/boites.tex}
 
-%\import{pathpackage}{notations/notations_math.tex}
-%\input{../../../../latex/notations/notations_math.tex}
-\input{../../../../latex/notations/notations_unites.tex}
-\input{../../../../latex/notations/notations_AF.tex}
-\input{../../../../latex/notations/notations_asservissement.tex}
-\input{../../../../latex/notations/notations_vecteurs.tex}
-\input{../../../../latex/notations/notations_torseurs.tex}
-\input{../../../../latex/notations/notations_cinematique.tex}
-\input{../../../../latex/notations/notations_cotation.tex}
-\input{../../../../latex/notations/notations_fab.tex}
-\input{../../../../latex/notations/notations_statique.tex}
-\input{../../../../latex/notations/boites.tex}
-
-\input{../../../../latex/style.tex}		%Style, mise en page
+\input{\pathpackage/style.tex}		%Style, mise en page
 
 % Commandes générales
 %===============================
@@ -62,11 +57,11 @@
 \renewcommand	{\discipline}		{Sciences Industrielles pour l'Ingénieur}
 \renewcommand	{\classe}		{Classe préparatoire P.S.I.}
 \renewcommand	{\annee}		{2016 - 2017}
-\renewcommand	{\icone}		{../../../../latex/images/logo_martiniere.jpg}
+\renewcommand	{\icone}		{\pathpackage/images/logo_martiniere.jpg}
 \renewcommand	{\competences}		{}
 \renewcommand	{\date}		{7 décembre 2016}
 
-\setTexteATrouOn				%Active le texte à trou
+%\setTexteATrouOn				%Active le texte à trou
 
 
 \begin{document}
@@ -75,7 +70,7 @@
 %		\huge {\textsc{\titre}}
 %	\end{center}
 
-	\input{../../../../latex/page_de_garde_fiche.tex}
+	\input{\pathpackage/page_de_garde_fiche.tex}
 
 \subsection{Introduction}
 
