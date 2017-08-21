@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<magicdraw>
+<model humanType="Modèle" icon="zesapelem_files/icon_898702.jpg" name="Data" refid="eee_1045467100313_135436_1">
+<ownedDiagram>
+<diagram humanType="Diagramme" icon="zesapelem_files/icon_11278987.jpg" name="Diagramme des cas d'utilisation du robot collaboratif ZE SAPELEM" refid="_17_0_1_2_a9602c5_1375348614502_746675_7176">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375348614627_569782_7187">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875543_253197_51">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875543_500543_52" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_713715_53">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_124725_54" text="01/08/13 11:16"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_535979_55">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_782150_56" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_155350_57">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_590686_58" text="01/08/13 11:16"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</diagram>
+<diagram humanType="Diagramme" icon="zesapelem_files/icon_2894626.jpg" name="Diagramme des exigences du robot collaboratif ZE SAPELEM" refid="_17_0_1_2_a9602c5_1375351496686_285836_7529">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375351496701_544714_7540">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875539_796379_31">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875539_212690_32" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875540_671876_33">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875540_17413_34" text="01/08/13 12:04"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875540_120966_35">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875540_291079_36" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875541_219939_37">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875541_498855_38" text="01/08/13 12:04"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</diagram>
+</ownedDiagram>
+<ownedElement>
+<derivereqt humanType="DeriveReqt" icon="zesapelem_files/icon_26358582.jpg" isRelationship="true" name="" refid="_17_0_1_2_a9602c5_1375354093225_51486_8152">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375354093225_470574_8153"/>
+</ownedElement>
+</derivereqt>
+<derivereqt humanType="DeriveReqt" icon="zesapelem_files/icon_26358582.jpg" isRelationship="true" name="" refid="_17_0_1_2_a9602c5_1375354221254_592783_8257">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375354221254_656643_8258"/>
+</ownedElement>
+</derivereqt>
+<comment humanType="Commentaire" icon="zesapelem_files/icon_24928981.jpg" refid="_17_0_1_2_a9602c5_1375348256465_780305_1662"/>
+<diagram humanType="Diagramme" icon="zesapelem_files/icon_11278987.jpg" name="Diagramme des cas d'utilisation du robot collaboratif ZE SAPELEM" refid="_17_0_1_2_a9602c5_1375348614502_746675_7176">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375348614627_569782_7187">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875543_253197_51">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875543_500543_52" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_713715_53">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_124725_54" text="01/08/13 11:16"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_535979_55">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_782150_56" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875544_155350_57">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875544_590686_58" text="01/08/13 11:16"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</diagram>
+<diagram humanType="Diagramme" icon="zesapelem_files/icon_2894626.jpg" name="Diagramme des exigences du robot collaboratif ZE SAPELEM" refid="_17_0_1_2_a9602c5_1375351496686_285836_7529">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375351496701_544714_7540">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875539_796379_31">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875539_212690_32" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875540_671876_33">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875540_17413_34" text="01/08/13 12:04"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875540_120966_35">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875540_291079_36" text="Brandon"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875541_219939_37">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875541_498855_38" text="01/08/13 12:04"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</diagram>
+<model humanType="Modèle" icon="zesapelem_files/icon_898702.jpg" name="ZE Solution SAPELEM" refid="_17_0_1_2_a9602c5_1375350484430_18647_7517">
+<ownedElement>
+<usecase humanType="Cas d'Utilisation" icon="zesapelem_files/icon_11483028.jpg" name="Détecter les informations sur l'environnement" refid="_17_0_1_2_a9602c5_1375352897755_416940_7933"/>
+<association humanType="Association" icon="zesapelem_files/icon_27120347.jpg" isRelationship="true" name="" refid="_17_0_1_2_a9602c5_1375353065097_199726_7950">
+<ownedElement>
+<property humanType="Propriété" icon="zesapelem_files/icon_32731152.jpg" name="" refid="_17_0_1_2_a9602c5_1375353065097_225690_7951"/>
+<property humanType="Propriété" icon="zesapelem_files/icon_32731152.jpg" name="" refid="_17_0_1_2_a9602c5_1375353065097_269651_7952"/>
+</ownedElement>
+</association>
+</ownedElement>
+</model>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="" refid="_17_0_1_2_a9602c5_1375353971155_982311_8120">
+<ownedElement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Détection" refid="_17_0_1_2_a9602c5_1375353167535_16474_7996">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375353167535_417904_7997">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875534_803706_4">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875534_423355_5" text="1.2.1"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875534_210881_6">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875534_40446_7" text="La poignée devra posséder un système de détection de la présence de la main de l'utilisateur "/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875534_549398_8">
+<ownedElement>
+<elementvalue humanType="Valeur de l'Elément" icon="zesapelem_files/icon_9387946.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875534_635640_9" text="Normes de sécurité"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375353971155_795077_8121">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875541_413983_39">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875541_413679_40" text="4"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875541_256783_41">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875541_259370_42" text=" "/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Assister l'utilisateur en effort" refid="_17_0_1_2_a9602c5_1375351701654_651263_7602">
+<ownedElement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Espace d'assistance" refid="_17_0_1_2_a9602c5_1375352583851_373107_7844">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375352583851_70599_7845">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875543_788276_47">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875543_721214_48" text="2.3"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875543_956611_49">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875543_325659_50" text="Le robot doit posséder une portée allant jusqu'à 5 m. "/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Masse des objets manipulés" refid="_17_0_1_2_a9602c5_1375352105665_687592_7641">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375352105665_197324_7642">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875539_635795_27">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875539_20950_28" text="2.2"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875539_200604_29">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875539_250993_30" text="La masse des objets manipulés peut atteindre 300 kg. "/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Paramétrage" refid="_17_0_1_2_a9602c5_1375354186747_721414_8225">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375354186747_839405_8226">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875535_872833_10">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875535_943819_11" text="2.4"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875535_600775_12">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875535_194463_13" text="Permettre le réglage du logiciel"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630883609_268400_11148">
+<ownedElement>
+<elementvalue humanType="Valeur de l'Elément" icon="zesapelem_files/icon_9387946.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630883628_724474_11150" text="Informations"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Rapidité de déplacement" refid="_17_0_1_2_a9602c5_1375352180307_108634_7713">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375352180307_664330_7714">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875533_977936_0">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875533_112262_1" text="2.1"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875533_271712_2">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875533_415235_3" text="Le déplacement se fait à une vitesse maximale de 2 m/s. Les accélérations peuvent atteindre 10 m/s^2"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375351701670_349298_7603">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875546_638012_67">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875546_206275_68" text="2"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875546_645363_69">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875547_669713_70" text="Le mécanisme assiste l'utilisateur dans ses mouvements. "/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Détecter les intentions de l'utilisateur" refid="_17_0_1_2_a9602c5_1375351677381_245109_7559">
+<ownedElement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Normes de sécurité" refid="_17_0_1_2_a9602c5_1375352743034_538490_7885">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375352743034_880360_7886">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875545_313383_59">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875545_86160_60" text="1.2"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875545_64865_61">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875545_523556_62" text="Le système doit respecter les normes de sécurité"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630883644_253488_11151">
+<ownedElement>
+<elementvalue humanType="Valeur de l'Elément" icon="zesapelem_files/icon_9387946.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630883666_521296_11153" text="Détection"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="sensibilité" refid="_17_0_1_2_a9602c5_1375352490329_237256_7805">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375352490329_637193_7806">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875537_936326_20">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875537_274154_21" text="1.1"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875537_898444_22">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875537_225335_23" text="Les intentions sont détectées à partir d'un effort de 0,2 N."/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Support d'objet" refid="_17_0_1_2_a9602c5_1375353520641_78967_8036">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375353520641_660677_8037">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875542_258455_43">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875542_637485_44" text="1.3"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875542_242256_45">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875542_952373_46" text=" La poignée devra s'adapter au support d'objet."/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375351677381_617589_7560">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875546_866175_63">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875546_981667_64" text="1"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875546_717536_65">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875546_687260_66" text=" Le système doit détecter les intentions de l'utilisateur et les transmettre au mécanisme de mise en mouvement"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<requirement humanType="Requirement" icon="zesapelem_files/icon_9086013.jpg" name="Informations" refid="_17_0_1_2_a9602c5_1375354105861_559935_8173">
+<ownedElement>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375354105861_529_8174">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875536_202784_14">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875536_991880_15" text="2.4.1"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875536_378326_16">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875536_840917_17" text="Informer l'utilisateur sur les paramètres choisis "/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_e00095_1377630875536_51003_18">
+<ownedElement>
+<elementvalue humanType="Valeur de l'Elément" icon="zesapelem_files/icon_9387946.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875536_99114_19" text="Paramétrage"/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+</ownedElement>
+</requirement>
+<actor humanType="Acteur" icon="zesapelem_files/icon_3793228.jpg" name="Environnement" refid="_17_0_1_2_a9602c5_1375352856407_23457_7915"/>
+<actor humanType="Acteur" icon="zesapelem_files/icon_3793228.jpg" name="Utilisateur" refid="_17_0_1_2_a9602c5_1375350004471_441894_7395"/>
+<usecase humanType="Cas d'Utilisation" icon="zesapelem_files/icon_11483028.jpg" name="Détecter les intentions de l'utilisateur et l'assister en terme d'effort" refid="_17_0_1_2_a9602c5_1375350088391_997735_7414"/>
+<instancespecification humanType="Spécification d'Instance" icon="zesapelem_files/icon_32796972.jpg" isHidden="true" name="" refid="_17_0_1_2_a9602c5_1375351677584_961586_7583">
+<ownedElement>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_a9602c5_1375351677584_978095_7584">
+<ownedElement>
+<instancevalue humanType="Valeur d'Instance" icon="zesapelem_files/icon_2389583.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875538_665027_26" text="nested"/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_a9602c5_1375351677599_781316_7586">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875538_986324_25" text=""/>
+</ownedElement>
+</slot>
+<slot humanType="Emplacement" icon="zesapelem_files/icon_6338817.jpg" isHidden="true" refid="_17_0_1_2_a9602c5_1375351677599_178751_7588">
+<ownedElement>
+<literalstring humanType="Littéral Chaîne de Caractères" icon="zesapelem_files/icon_9659838.jpg" isHidden="true" name="" refid="_17_0_1_2_e00095_1377630875538_635119_24" text="."/>
+</ownedElement>
+</slot>
+</ownedElement>
+</instancespecification>
+<association humanType="Association" icon="zesapelem_files/icon_27120347.jpg" isRelationship="true" name="" refid="_17_0_1_2_a9602c5_1375350398941_435452_7449">
+<ownedElement>
+<property humanType="Propriété" icon="zesapelem_files/icon_32731152.jpg" name="" refid="_17_0_1_2_a9602c5_1375350398941_129920_7450"/>
+<property humanType="Propriété" icon="zesapelem_files/icon_32731152.jpg" name="" refid="_17_0_1_2_a9602c5_1375350398941_13629_7451"/>
+</ownedElement>
+</association>
+</ownedElement>
+</model>
+</magicdraw>

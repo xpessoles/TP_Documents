@@ -1,0 +1,42 @@
+
+===============Init Logging================
+
+14/01/2011 - 07:20:49 	===== Ouverture de session =====
+14/01/2011 - 07:29:01 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+14/01/2011 - 07:30:16 	===== Ouverture de session =====
+14/01/2011 - 07:32:21 	Début du calcul
+14/01/2011 - 07:32:21 	Nombre de positions : 1000
+14/01/2011 - 07:32:21 	Simulation inactivée
+14/01/2011 - 07:32:21 	Lecture des conditions initiales
+14/01/2011 - 07:32:23 	Fin du calcul
+14/01/2011 - 07:35:43 	Début du calcul
+14/01/2011 - 07:35:43 	Nombre de positions : 1000
+14/01/2011 - 07:35:43 	Simulation inactivée
+14/01/2011 - 07:35:43 	Lecture des conditions initiales
+14/01/2011 - 07:35:45 	Fin du calcul
+14/01/2011 - 07:36:18 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+09/11/2011 - 13:09:47 	===== Ouverture de session =====
+09/11/2011 - 14:19:12 	===== Fermeture de session =====
+
+===============Finish Logging================
+
+
+===============Init Logging================
+
+09/11/2011 - 14:35:52 	===== Ouverture de session =====
+09/11/2011 - 14:36:43 	===== Fermeture de session =====
+
+===============Finish Logging================
+

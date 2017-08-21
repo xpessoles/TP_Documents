@@ -1,0 +1,76 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 03/10/10 by jsilvestr
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("C:\Documents and Settings\jsilvestr\Bureau\SolidWorks\Assemblage Maxpid.SLDASM", 2, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc2 ("Assemblage Maxpid.SLDASM", False, longstatus)
+Part.WindowRedraw
+Part.WindowRedraw
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ActiveView().RotateAboutCenter 0.00697394, 0
+Part.ActiveView().RotateAboutCenter 0.0418436, 0.0222133
+Part.ActiveView().RotateAboutCenter 0, 0.00740443
+Part.ActiveView().RotateAboutCenter 0.00697394, 0
+Part.ActiveView().RotateAboutCenter 0, 0.00740443
+Part.ActiveView().RotateAboutCenter 0, 0.0222133
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.051831
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.0296177
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.0444266
+Part.ActiveView().RotateAboutCenter -0.0348697, 0.103662
+Part.ActiveView().RotateAboutCenter -0.0278957, 0.170302
+Part.ActiveView().RotateAboutCenter -0.0209218, 0.118471
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.0444266
+Part.ActiveView().RotateAboutCenter -0.00697394, 0.0222133
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.0666398
+Part.ActiveView().RotateAboutCenter 0, 0.0814487
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.051831
+Part.ActiveView().RotateAboutCenter -0.00697394, 0.00740443
+Part.ActiveView().RotateAboutCenter 0, 0.00740443
+Part.ActiveView().RotateAboutCenter -0.0139479, 0.00740443
+Part.ActiveView().RotateAboutCenter -0.00697394, 0.00740443
+Part.ActiveView().RotateAboutCenter -0.00697394, 0
+Part.ActiveView().RotateAboutCenter 0, -0.00740443
+Part.ActiveView().RotateAboutCenter -0.00697394, 0
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ViewRotateplusy
+Part.ViewRotateplusy
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial5", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.WindowRedraw
+' MSGBOX
+' Enregistrer les modifications apportées à Assemblage Maxpid.SLDASM?
+
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ClearSelection2 True
+Part.WindowRedraw
+swApp.ExitApp
+End Sub

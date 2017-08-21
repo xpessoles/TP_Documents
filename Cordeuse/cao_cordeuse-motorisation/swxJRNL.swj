@@ -1,0 +1,108 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 06/04/13 by jean.silvestre
+' *****************************************************************************
+Dim swApp As Object
+Dim Part As Object
+Dim SelMgr As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+Dim Feature As Object
+Sub main()
+
+Set swApp = Application.SldWorks
+
+Set Part = swApp.OpenDoc6 ("C:\JL\cordeuse\cordeuse-motorisation-V2\cordeuse_meca_v2.SLDASM", 2, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActivateDoc2 ("cordeuse_meca_v2.SLDASM", False, longstatus)
+Part.WindowRedraw
+Part.WindowRedraw
+Part.WindowRedraw
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Tangent2", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial2", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Tangent2", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Tangent2", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+boolstatus = Part.Extension.SelectByID2("Coaxial1", "MATE", 0, 0, 0, True, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+' MSGBOX
+' Un modèle ne peut pas faire référence à lui-même. Veuillez sélectionner un autre modèle.
+
+Set Part = swApp.OpenDoc6 ("C:\JL\cordeuse\Cordeuse-motorisation\SW\cordeusemeca-1.SLDASM", 2, 0, "", longstatus, longwarnings)
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Set Part = swApp.ActivateDoc2 ("cordeusemeca-1.SLDASM", False, longstatus)
+Part.WindowRedraw
+Part.WindowRedraw
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.WindowRedraw
+Part.WindowRedraw
+swApp.ExitApp
+End Sub
