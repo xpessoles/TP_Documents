@@ -1,0 +1,70 @@
+001:'ATTENTION!!!  L''application doit être exécutée dans un mode écran > 800*600 '
+002:'Si vous continuez, une partie des écrans et des menus ne sera pas visible'
+003:'Mécanisme non défini.....Fichier/Nouveau ou Fichier/Ouvrir''Ce fichier existe...'
+004:'Dessin du vérin'
+005:'Ce Fichier existe..., Souhaitez-vous le remplacer ?  Oui  Non '
+006:'Fichier .sgn non trouvé... '
+007:'Courbes résultants du pilotage'
+008:'Pilotage si: '
+009:'N° de la position'
+010:'Position en mm'
+011:'Essai no '
+012:'Essai no 1: Position en mm en fonction du temps'
+013:'Signal carré'
+014:'Signal sinus'
+015:'Signal rampe'
+016:''Signal trapèze'
+017:'Calcul terminé: '
+018:' pas de calcul'
+019:'Fichier .acq non trouvé.... abandon'
+020:'Consigne, position, vitesse, couple en fonction du temps; échelles différentes'
+021:'Le signal lg du verin est hors limites '
+022:'carré'
+023:'sinus'
+024:'trapèze'
+025:'rampe'
+026:'Signal '
+027:'Recopie consigne'
+028:'Consigne de position en mm'
+029:'Position'
+030:'Position en mm'
+031:'Vitesse'
+032:'Vitesse moteur en tr/min'
+033:'Couple'
+034:'Couple moteur en mNm'
+035:'Puissance'
+036:'Puissance moteur en mW'
+037:'Rendement'
+038:'Rendement du moteur'
+039:' en fonction du temps'
+040:'Essai'
+041:'No de la position';
+042:'Temps en secondes';
+043:'Consigne en mm';
+044:'Position en mm';
+045:'Vitesse moteur en tr/min';
+046:'Couple moteur en mNm';
+047:'Puissance moteur en mW';
+048:'Rendement du moteur';
+049:'Composantes identiquement nulles'
+050:'en fonction de'
+051:'5 essais maxi......'
+052:'C''est fini.......'
+053:'Fichier '
+054:' inaccessible en lecture'
+055:' inaccessible en écriture'
+056:'Il faut disposer de la carte d''acquisitions.....'
+057:'Attendre l''arrêt et OK pour commencer'
+058:'Lg en mm'
+059:'ESSAI UNIQUE'
+060:'CONSECUTIFS'
+061:'Tempo forcée'
+062:'Tempo auto'
+063:'Erreur d''ouverture du fichier '
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+

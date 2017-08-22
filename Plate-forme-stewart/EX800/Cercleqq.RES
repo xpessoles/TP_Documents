@@ -1,0 +1,2403 @@
+Plateforme 6 axes Version 3 PCI
+ Résolution à partir de la donnée des qi
+60     Nb de positions de calcul 
+*********************************** Position nø1
+ 0.00000000000000E+0000   qAct[1] rd
+ 0.00000000000000E+0000   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.80000000000000E+0001   qAct[4] mm
+ 1.80000000000000E+0001   qAct[5] mm
+ 9.00000000000000E+0001   qAct[6] mm
+ 4.20459656316639E+0002   Lg vérin 1
+ 4.26779846879956E+0002   Lg vérin 2
+ 4.10573134321513E+0002   Lg vérin 3
+ 4.28018285094562E+0002   Lg vérin 4
+ 4.32245209286898E+0002   Lg vérin 5
+ 4.08475032394641E+0002   Lg vérin 6
+ 0.00000000000000E+0000   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.80000000000000E+0001   dOrig[1] mm
+ 1.80000000000000E+0001   dOrig[2] mm
+ 9.00000000000000E+0001   dOrig[3] mm
+ 3.50380139965460E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.75190069982730E-0001   Tor_CinF[1] base fixe
+ 3.03438102191635E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-5.42421295506311E-0003   Tor_CinF[4] base fixe
+-2.70640011530566E-0003   Tor_CinF[5] base fixe
+ 6.17954228391393E+0000   Tor_CinF[6] base fixe
+ 3.50380139965460E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-5.05591773019139E-0003   Tor_CinM[4] base mobile
+ 3.34430615696849E-0003   Tor_CinM[5] base mobile
+ 6.17954228391393E+0000   Tor_CinM[6] base mobile
+-6.58487790625200E-0001   Lø[1]  vites allongt v‚rin
+ 1.05316741560931E+0001   Lø[2]  vites allongt v‚rin
+ 5.47636595409528E+0001   Lø[3]  vites allongt v‚rin
+ 4.91634212904789E+0001   Lø[4]  vites allongt v‚rin
+-3.92935450936419E+0001   Lø[5]  vites allongt v‚rin
+-4.48834687898864E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø2
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.71023358243088E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.78980324129319E+0001   qAct[4] mm
+ 1.79876121712584E+0001   qAct[5] mm
+ 9.06543620111599E+0001   qAct[6] mm
+ 4.20418825835608E+0002   Lg vérin 1
+ 4.27933402987054E+0002   Lg vérin 2
+ 4.17081082870277E+0002   Lg vérin 3
+ 4.33563346884353E+0002   Lg vérin 4
+ 4.27759936288503E+0002   Lg vérin 5
+ 4.03215833946455E+0002   Lg vérin 6
+ 3.71023358243088E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.78980324129319E+0001   dOrig[1] mm
+ 1.79876121712584E+0001   dOrig[2] mm
+ 9.06543620111599E+0001   dOrig[3] mm
+ 3.46432788136767E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.73216394068383E-0001   Tor_CinF[1] base fixe
+ 3.00019595230313E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.90961243737669E+0000   Tor_CinF[4] base fixe
+-2.29947394489638E-0001   Tor_CinF[5] base fixe
+ 6.10992410424974E+0000   Tor_CinF[6] base fixe
+ 3.46432788136767E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-1.15394650385041E+0000   Tor_CinM[4] base mobile
+ 1.76438061313308E+0000   Tor_CinM[5] base mobile
+ 6.04863923069974E+0000   Tor_CinM[6] base mobile
+ 2.68424168498183E-0001   Lø[1]  vites allongt v‚rin
+ 9.51632231685928E+0000   Lø[2]  vites allongt v‚rin
+ 5.49108069736732E+0001   Lø[3]  vites allongt v‚rin
+ 4.78655662341168E+0001   Lø[4]  vites allongt v‚rin
+-4.07628283834800E+0001   Lø[5]  vites allongt v‚rin
+-4.29654857922847E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø3
+ 0.00000000000000E+0000   qAct[1] rd
+ 7.37843121309959E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.75932849171511E+0001   qAct[4] mm
+ 1.79510251023871E+0001   qAct[5] mm
+ 9.13013102761702E+0001   qAct[6] mm
+ 4.20449603016413E+0002   Lg vérin 1
+ 4.28988298189010E+0002   Lg vérin 2
+ 4.23594308943211E+0002   Lg vérin 3
+ 4.38999985688934E+0002   Lg vérin 4
+ 4.23167655454925E+0002   Lg vérin 5
+ 3.98156909334708E+0002   Lg vérin 6
+ 7.37843121309959E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.75932849171511E+0001   dOrig[1] mm
+ 1.79510251023871E+0001   dOrig[2] mm
+ 9.13013102761702E+0001   dOrig[3] mm
+ 3.40534121612688E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.70267060806344E-0001   Tor_CinF[1] base fixe
+ 2.94911200172007E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-3.79758947781176E+0000   Tor_CinF[4] base fixe
+-4.49205524144574E-0001   Tor_CinF[5] base fixe
+ 6.00589121240877E+0000   Tor_CinF[6] base fixe
+ 3.40534121612688E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-2.28781813433539E+0000   Tor_CinM[4] base mobile
+ 3.49860759779280E+0000   Tor_CinM[5] base mobile
+ 5.76366495912715E+0000   Tor_CinM[6] base mobile
+ 1.19506756825376E+0000   Lø[1]  vites allongt v‚rin
+ 8.43582823857411E+0000   Lø[2]  vites allongt v‚rin
+ 5.46622509473947E+0001   Lø[3]  vites allongt v‚rin
+ 4.62776398758949E+0001   Lø[4]  vites allongt v‚rin
+-4.19080054314159E+0001   Lø[5]  vites allongt v‚rin
+-4.07641550302364E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø4
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.09630331963074E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.70892102200809E+0001   qAct[4] mm
+ 1.78919390082686E+0001   qAct[5] mm
+ 9.19335150446373E+0001   qAct[6] mm
+ 4.20552750550250E+0002   Lg vérin 1
+ 4.29931852056746E+0002   Lg vérin 2
+ 4.30024230422846E+0002   Lg vérin 3
+ 4.44264587032877E+0002   Lg vérin 4
+ 4.18525928640460E+0002   Lg vérin 5
+ 3.93366225019465E+0002   Lg vérin 6
+ 1.09630331963074E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.70892102200809E+0001   dOrig[1] mm
+ 1.78919390082686E+0001   dOrig[2] mm
+ 9.19335150446373E+0001   dOrig[3] mm
+ 3.30777294789141E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.65388647394570E-0001   Tor_CinF[1] base fixe
+ 2.86461540282490E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-5.64254084761045E+0000   Tor_CinF[4] base fixe
+-6.47621758726716E-0001   Tor_CinF[5] base fixe
+ 5.83381318333188E+0000   Tor_CinF[6] base fixe
+ 3.30777294789141E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-3.38212731890612E+0000   Tor_CinM[4] base mobile
+ 5.17366325371943E+0000   Tor_CinM[5] base mobile
+ 5.29957363880980E+0000   Tor_CinM[6] base mobile
+ 2.11019355908835E+0000   Lø[1]  vites allongt v‚rin
+ 7.24031127327560E+0000   Lø[2]  vites allongt v‚rin
+ 5.37012052574601E+0001   Lø[3]  vites allongt v‚rin
+ 4.41821705963352E+0001   Lø[4]  vites allongt v‚rin
+-4.24715615937553E+0001   Lø[5]  vites allongt v‚rin
+-3.80826446468177E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø5
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.44234269526291E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.63915193528950E+0001   qAct[4] mm
+ 1.78130926444183E+0001   qAct[5] mm
+ 9.25438136060309E+0001   qAct[6] mm
+ 4.20728209330129E+0002   Lg vérin 1
+ 4.30752373816454E+0002   Lg vérin 2
+ 4.36283142878622E+0002   Lg vérin 3
+ 4.49298087119996E+0002   Lg vérin 4
+ 4.13894656326440E+0002   Lg vérin 5
+ 3.88905663090124E+0002   Lg vérin 6
+ 1.44234269526291E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.63915193528950E+0001   dOrig[1] mm
+ 1.78130926444183E+0001   dOrig[2] mm
+ 9.25438136060309E+0001   dOrig[3] mm
+ 3.17272849898197E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.58636424949098E-0001   Tor_CinF[1] base fixe
+ 2.74766347942925E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-7.42356374239084E+0000   Tor_CinF[4] base fixe
+-8.16082769720595E-0001   Tor_CinF[5] base fixe
+ 5.59563961495381E+0000   Tor_CinF[6] base fixe
+ 3.17272849898197E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-4.41853028136422E+0000   Tor_CinM[4] base mobile
+ 6.76272091601742E+0000   Tor_CinM[5] base mobile
+ 4.67211605052176E+0000   Tor_CinM[6] base mobile
+ 2.99990805327211E+0000   Lø[1]  vites allongt v‚rin
+ 5.93925157869510E+0000   Lø[2]  vites allongt v‚rin
+ 5.20372019272548E+0001   Lø[3]  vites allongt v‚rin
+ 4.16450391916224E+0001   Lø[4]  vites allongt v‚rin
+-4.24354090600799E+0001   Lø[5]  vites allongt v‚rin
+-3.49825898498705E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø6
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.77204071485493E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.55081169660651E+0001   qAct[4] mm
+ 1.77181272102293E+0001   qAct[5] mm
+ 9.31252914412736E+0001   qAct[6] mm
+ 4.20974999734206E+0002   Lg vérin 1
+ 4.31439393717202E+0002   Lg vérin 2
+ 4.42286299717925E+0002   Lg vérin 3
+ 4.54046822030031E+0002   Lg vérin 4
+ 4.09334769856686E+0002   Lg vérin 5
+ 3.84829323319282E+0002   Lg vérin 6
+ 1.77204071485493E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.55081169660651E+0001   dOrig[1] mm
+ 1.77181272102293E+0001   dOrig[2] mm
+ 9.31252914412736E+0001   dOrig[3] mm
+ 3.00173788679880E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.50086894339940E-0001   Tor_CinF[1] base fixe
+ 2.59958126546998E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-9.12047965025366E+0000   Tor_CinF[4] base fixe
+-9.46952589863385E-0001   Tor_CinF[5] base fixe
+ 5.29406894994915E+0000   Tor_CinF[6] base fixe
+ 3.00173788679880E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-5.38032482412799E+0000   Tor_CinM[4] base mobile
+ 8.24204535450253E+0000   Tor_CinM[5] base mobile
+ 3.90228490325235E+0000   Tor_CinM[6] base mobile
+ 3.85046148277857E+0000   Lø[1]  vites allongt v‚rin
+ 4.54473052197633E+0000   Lø[2]  vites allongt v‚rin
+ 4.96944638390976E+0001   Lø[3]  vites allongt v‚rin
+ 3.87359015687356E+0001   Lø[4]  vites allongt v‚rin
+-4.17959711644477E+0001   Lø[5]  vites allongt v‚rin
+-3.15316779332835E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø7
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.08166198823803E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.44490117717908E+0001   qAct[4] mm
+ 1.76114077928212E+0001   qAct[5] mm
+ 9.36713605623884E+0001   qAct[6] mm
+ 4.21291148728404E+0002   Lg vérin 1
+ 4.31983877173518E+0002   Lg vérin 2
+ 4.47953734762569E+0002   Lg vérin 3
+ 4.58463129675860E+0002   Lg vérin 4
+ 4.04906891842487E+0002   Lg vérin 5
+ 3.81182187590299E+0002   Lg vérin 6
+ 2.08166198823803E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.44490117717908E+0001   dOrig[1] mm
+ 1.76114077928212E+0001   dOrig[2] mm
+ 9.36713605623884E+0001   dOrig[3] mm
+ 2.79673838913476E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.39836919456738E-0001   Tor_CinF[1] base fixe
+ 2.42204649272987E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.07140629689120E+0001   Tor_CinF[4] base fixe
+-1.03442158676912E+0000   Tor_CinF[5] base fixe
+ 4.93251790310017E+0000   Tor_CinF[6] base fixe
+ 2.79673838913476E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-6.25286685682108E+0000   Tor_CinM[4] base mobile
+ 9.59167787876565E+0000   Tor_CinM[5] base mobile
+ 3.01534039973198E+0000   Tor_CinM[6] base mobile
+ 4.64869917316528E+0000   Lø[1]  vites allongt v‚rin
+ 3.07128930868412E+0000   Lø[2]  vites allongt v‚rin
+ 4.67102591291979E+0001   Lø[3]  vites allongt v‚rin
+ 3.55245257535534E+0001   Lø[4]  vites allongt v‚rin
+-4.05634070187438E+0001   Lø[5]  vites allongt v‚rin
+-2.78002637786181E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø8
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.36769858939534E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.32262031479733E+0001   qAct[4] mm
+ 1.74978129448167E+0001   qAct[5] mm
+ 9.41758341526361E+0001   qAct[6] mm
+ 4.21673651411347E+0002   Lg vérin 1
+ 4.32378410402544E+0002   Lg vérin 2
+ 4.53211758689087E+0002   Lg vérin 3
+ 4.62505688797379E+0002   Lg vérin 4
+ 4.00670040464624E+0002   Lg vérin 5
+ 3.77999267039486E+0002   Lg vérin 6
+ 2.36769858939534E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.32262031479733E+0001   dOrig[1] mm
+ 1.74978129448167E+0001   dOrig[2] mm
+ 9.41758341526361E+0001   dOrig[3] mm
+ 2.56005259533728E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.28002629766864E-0001   Tor_CinF[1] base fixe
+ 2.21707058258637E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.21862588266108E+0001   Tor_CinF[4] base fixe
+-1.07474997523371E+0000   Tor_CinF[5] base fixe
+ 4.51508275083457E+0000   Tor_CinF[6] base fixe
+ 2.56005259533728E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-7.02389019457449E+0000   Tor_CinM[4] base mobile
+ 1.07958641044629E+0001   Tor_CinM[5] base mobile
+ 2.03966877649977E+0000   Tor_CinM[6] base mobile
+ 5.38250267905270E+0000   Lø[1]  vites allongt v‚rin
+ 1.53566749737201E+0000   Lø[2]  vites allongt v‚rin
+ 4.31327191305543E+0001   Lø[3]  vites allongt v‚rin
+ 3.20773210515773E+0001   Lø[4]  vites allongt v‚rin
+-3.87602047384866E+0001   Lø[5]  vites allongt v‚rin
+-2.38579714778290E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø9
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.62690980032318E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.18535451884812E+0001   qAct[4] mm
+ 1.73825042641975E+0001   qAct[5] mm
+ 9.46329966614904E+0001   qAct[6] mm
+ 4.22118472448916E+0002   Lg vérin 1
+ 4.32617348869518E+0002   Lg vérin 2
+ 4.57994095324450E+0002   Lg vérin 3
+ 4.66139598168423E+0002   Lg vérin 4
+ 3.96680446481250E+0002   Lg vérin 5
+ 3.75305312021722E+0002   Lg vérin 6
+ 2.62690980032318E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.18535451884812E+0001   dOrig[1] mm
+ 1.73825042641975E+0001   dOrig[2] mm
+ 9.46329966614904E+0001   dOrig[3] mm
+ 2.29436209199380E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.14718104599690E-0001   Tor_CinF[1] base fixe
+ 1.98697585714664E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.35203876389832E+0001   Tor_CinF[4] base fixe
+-1.06639840732163E+0000   Tor_CinF[5] base fixe
+ 4.04649292151165E+0000   Tor_CinF[6] base fixe
+ 2.29436209199380E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-7.68372193078741E+0000   Tor_CinM[4] base mobile
+ 1.18432044871714E+0001   Tor_CinM[5] base mobile
+ 1.00554323662979E+0000   Tor_CinM[6] base mobile
+ 6.04118997962583E+0000   Lø[1]  vites allongt v‚rin
+-4.35535821994598E-0002   Lø[2]  vites allongt v‚rin
+ 3.90183643118490E+0001   Lø[3]  vites allongt v‚rin
+ 2.84543228090626E+0001   Lø[4]  vites allongt v‚rin
+-3.64193472681310E+0001   Lø[5]  vites allongt v‚rin
+-1.97705622035193E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø10
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.85635882749718E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.03465897399810E+0001   qAct[4] mm
+ 1.72706881586063E+0001   qAct[5] mm
+ 9.50376685602928E+0001   qAct[6] mm
+ 4.22620589182984E+0002   Lg vérin 1
+ 4.32696923134599E+0002   Lg vérin 2
+ 4.62242655929354E+0002   Lg vérin 3
+ 4.69336217046154E+0002   Lg vérin 4
+ 3.92990537884303E+0002   Lg vérin 5
+ 3.73115111335960E+0002   Lg vérin 6
+ 2.85635882749718E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.03465897399810E+0001   dOrig[1] mm
+ 1.72706881586063E+0001   dOrig[2] mm
+ 9.50376685602928E+0001   dOrig[3] mm
+ 2.00267708127463E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.00133854063731E-0001   Tor_CinF[1] base fixe
+ 1.73436922796070E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.47013340842697E+0001   Tor_CinF[4] base fixe
+-1.01004674113415E+0000   Tor_CinF[5] base fixe
+ 3.53205741226714E+0000   Tor_CinF[6] base fixe
+ 2.00267708127463E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.22539317896673E+0000   Tor_CinM[4] base mobile
+ 1.27265314591919E+0001   Tor_CinM[5] base mobile
+-5.61418715685316E-0002   Tor_CinM[6] base mobile
+ 6.61584613585283E+0000   Lø[1]  vites allongt v‚rin
+-1.64637147166096E+0000   Lø[2]  vites allongt v‚rin
+ 3.44295926221054E+0001   Lø[3]  vites allongt v‚rin
+ 2.47068504942810E+0001   Lø[4]  vites allongt v‚rin
+-3.35822768752914E+0001   Lø[5]  vites allongt v‚rin
+-1.55973171399532E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø11
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.05344607495555E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 8.72241020368424E+0000   qAct[4] mm
+ 1.71673814277722E+0001   qAct[5] mm
+ 9.53852650249238E+0001   qAct[6] mm
+ 4.23174074484905E+0002   Lg vérin 1
+ 4.32615300255551E+0002   Lg vérin 2
+ 4.65907977026503E+0002   Lg vérin 3
+ 4.72072803377955E+0002   Lg vérin 4
+ 3.89648127654648E+0002   Lg vérin 5
+ 3.71434346895295E+0002   Lg vérin 6
+ 3.05344607495555E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 8.72241020368424E+0000   dOrig[1] mm
+ 1.71673814277722E+0001   dOrig[2] mm
+ 9.53852650249238E+0001   dOrig[3] mm
+ 1.68830227614943E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 8.44151138074715E-0002   Tor_CinF[1] base fixe
+ 1.46211266041250E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.57157183558612E+0001   Tor_CinF[4] base fixe
+-9.08509295618249E-0001   Tor_CinF[5] base fixe
+ 2.97760463949877E+0000   Tor_CinF[6] base fixe
+ 1.68830227614943E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.64465130751032E+0000   Tor_CinM[4] base mobile
+ 1.34425400730834E+0001   Tor_CinM[5] base mobile
+-1.11509736133188E+0000   Tor_CinM[6] base mobile
+ 7.09956223579805E+0000   Lø[1]  vites allongt v‚rin
+-3.25181432448201E+0000   Lø[2]  vites allongt v‚rin
+ 2.94323654270069E+0001   Lø[3]  vites allongt v‚rin
+ 2.08759939667811E+0001   Lø[4]  vites allongt v‚rin
+-3.02968784060486E+0001   Lø[5]  vites allongt v‚rin
+-1.13891303855428E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø12
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.21593859702437E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 6.99940809828871E+0000   qAct[4] mm
+ 1.70771910771022E+0001   qAct[5] mm
+ 9.56718478806311E+0001   qAct[6] mm
+ 4.23772214069925E+0002   Lg vérin 1
+ 4.32372602335618E+0002   Lg vérin 2
+ 4.68949368584942E+0002   Lg vérin 3
+ 4.74331998395256E+0002   Lg vérin 4
+ 3.86695817123357E+0002   Lg vérin 5
+ 3.70260911712985E+0002   Lg vérin 6
+ 3.21593859702437E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 6.99940809828871E+0000   dOrig[1] mm
+ 1.70771910771022E+0001   dOrig[2] mm
+ 9.56718478806311E+0001   dOrig[3] mm
+ 1.35479945887528E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 6.77399729437639E-0002   Tor_CinF[1] base fixe
+ 1.17329074841940E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.65520477519205E+0001   Tor_CinF[4] base fixe
+-7.66560063213210E-0001   Tor_CinF[5] base fixe
+ 2.38941640447110E+0000   Tor_CinF[6] base fixe
+ 1.35479945887528E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.93988436422949E+0000   Tor_CinM[4] base mobile
+ 1.39912192695146E+0001   Tor_CinM[5] base mobile
+-2.14276941664123E+0000   Tor_CinM[6] base mobile
+ 7.48756836354425E+0000   Lø[1]  vites allongt v‚rin
+-4.83839287914276E+0000   Lø[2]  vites allongt v‚rin
+ 2.40942819039865E+0001   Lø[3]  vites allongt v‚rin
+ 1.69920108396837E+0001   Lø[4]  vites allongt v‚rin
+-2.66156699413984E+0001   Lø[5]  vites allongt v‚rin
+-7.18743763440868E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø13
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.34199539699343E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 5.19710457570567E+0000   qAct[4] mm
+ 1.70041171268511E+0001   qAct[5] mm
+ 9.58941702204933E+0001   qAct[6] mm
+ 4.24407650327432E+0002   Lg vérin 1
+ 4.31970886747510E+0002   Lg vérin 2
+ 4.71334833723796E+0002   Lg vérin 3
+ 4.76101214305992E+0002   Lg vérin 4
+ 3.84170603883737E+0002   Lg vérin 5
+ 3.69586551115183E+0002   Lg vérin 6
+ 3.34199539699343E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 5.19710457570567E+0000   dOrig[1] mm
+ 1.70041171268511E+0001   dOrig[2] mm
+ 9.58941702204933E+0001   dOrig[3] mm
+ 1.00594712695859E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 5.02973563479297E-0002   Tor_CinF[1] base fixe
+ 8.71175766810113E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.72008468846131E+0001   Tor_CinF[4] base fixe
+-5.90684189826106E-0001   Tor_CinF[5] base fixe
+ 1.77415672219181E+0000   Tor_CinF[6] base fixe
+ 1.00594712695859E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-9.11197095630981E+0000   Tor_CinM[4] base mobile
+ 1.43751463681573E+0001   Tor_CinM[5] base mobile
+-3.11333031018759E+0000   Tor_CinM[6] base mobile
+ 7.77725500996937E+0000   Lø[1]  vites allongt v‚rin
+-6.38452732640309E+0000   Lø[2]  vites allongt v‚rin
+ 1.84831700934482E+0001   Lø[3]  vites allongt v‚rin
+ 1.30746445436266E+0001   Lø[4]  vites allongt v‚rin
+-2.25943381214676E+0001   Lø[5]  vites allongt v‚rin
+-3.02403023527353E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø14
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.43018828511535E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 3.33591925164202E+0000   qAct[4] mm
+ 1.69513853562656E+0001   qAct[5] mm
+ 9.60497131920052E+0001   qAct[6] mm
+ 4.25072542976613E+0002   Lg vérin 1
+ 4.31414094726873E+0002   Lg vérin 2
+ 4.73040828415032E+0002   Lg vérin 3
+ 4.77371985524489E+0002   Lg vérin 4
+ 3.82103662148645E+0002   Lg vérin 5
+ 3.69398656027589E+0002   Lg vérin 6
+ 3.43018828511535E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 3.33591925164202E+0000   dOrig[1] mm
+ 1.69513853562656E+0001   dOrig[2] mm
+ 9.60497131920052E+0001   dOrig[3] mm
+ 6.45697683791461E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 3.22848841895731E-0002   Tor_CinF[1] base fixe
+ 5.59190597328177E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.76547650337111E+0001   Tor_CinF[4] base fixe
+-3.88772667755519E-0001   Tor_CinF[5] base fixe
+ 1.13879631990786E+0000   Tor_CinF[6] base fixe
+ 6.45697683791461E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-9.16406952342886E+0000   Tor_CinM[4] base mobile
+ 1.45987167941620E+0001   Tor_CinM[5] base mobile
+-4.00450088957301E+0000   Tor_CinM[6] base mobile
+ 7.96808595023157E+0000   Lø[1]  vites allongt v‚rin
+-7.86893168653466E+0000   Lø[2]  vites allongt v‚rin
+ 1.26662500065284E+0001   Lø[3]  vites allongt v‚rin
+ 9.13430452736830E+0000   Lø[4]  vites allongt v‚rin
+-1.82906916197004E+0001   Lø[5]  vites allongt v‚rin
+ 1.07827149622599E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø15
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.47951805961254E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.43693885682902E+0000   qAct[4] mm
+ 1.69213151379864E+0001   qAct[5] mm
+ 9.61367145350012E+0001   qAct[6] mm
+ 4.25758736127717E+0002   Lg vérin 1
+ 4.30707976230553E+0002   Lg vérin 2
+ 4.74051930284500E+0002   Lg vérin 3
+ 4.78139343237885E+0002   Lg vérin 4
+ 3.80520247884939E+0002   Lg vérin 5
+ 3.69682026484074E+0002   Lg vérin 6
+ 3.47951805961254E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.43693885682902E+0000   dOrig[1] mm
+ 1.69213151379864E+0001   dOrig[2] mm
+ 9.61367145350012E+0001   dOrig[3] mm
+ 2.78132658980806E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.39066329490403E-0002   Tor_CinF[1] base fixe
+ 2.40869948299492E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.79086594282820E+0001   Tor_CinF[4] base fixe
+-1.69776092795160E-0001   Tor_CinF[5] base fixe
+ 4.90533660634661E-0001   Tor_CinF[6] base fixe
+ 2.78132658980806E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-9.10136012345688E+0000   Tor_CinM[4] base mobile
+ 1.46673837385870E+0001   Tor_CinM[5] base mobile
+-4.79819006295862E+0000   Tor_CinM[6] base mobile
+ 8.06141344929538E+0000   Lø[1]  vites allongt v‚rin
+-9.27094745907363E+0000   Lø[2]  vites allongt v‚rin
+ 6.70984980122687E+0000   Lø[3]  vites allongt v‚rin
+ 5.17399149631431E+0000   Lø[4]  vites allongt v‚rin
+-1.37640383812977E+0001   Lø[5]  vites allongt v‚rin
+ 5.10418083198380E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø16
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.48942582736543E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-4.78321669983450E-0001   qAct[4] mm
+ 1.69152259260611E+0001   qAct[5] mm
+ 9.61541885475906E+0001   qAct[6] mm
+ 4.26457921600636E+0002   Lg vérin 1
+ 4.29859999129913E+0002   Lg vérin 2
+ 4.74360480242144E+0002   Lg vérin 3
+ 4.78401268358616E+0002   Lg vérin 4
+ 3.79439673305900E+0002   Lg vérin 5
+ 3.70420433252378E+0002   Lg vérin 6
+ 3.48942582736543E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-4.78321669983450E-0001   dOrig[1] mm
+ 1.69152259260611E+0001   dOrig[2] mm
+ 9.61541885475906E+0001   dOrig[3] mm
+-9.25835342877543E-0003   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-4.62917671438771E-0003   Tor_CinF[1] base fixe
+-8.01796926653428E-0003   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.79596535129056E+0001   Tor_CinF[4] base fixe
+ 5.66687887765329E-0002   Tor_CinF[5] base fixe
+-1.63286613499765E-0001   Tor_CinF[6] base fixe
+-9.25835342877543E-0003   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.93075014577060E+0000   Tor_CinM[4] base mobile
+ 1.45869784314707E+0001   Tor_CinM[5] base mobile
+-5.48094793325179E+0000   Tor_CinM[6] base mobile
+ 8.06021322737709E+0000   Lø[1]  vites allongt v‚rin
+-1.05708273525818E+0001   Lø[2]  vites allongt v‚rin
+ 6.79587940757609E-0001   Lø[3]  vites allongt v‚rin
+ 1.19180417707725E+0000   Lø[4]  vites allongt v‚rin
+-9.07492839053709E+0000   Lø[5]  vites allongt v‚rin
+ 9.04389595310218E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø17
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.45979933602168E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-2.38816294051475E+0000   qAct[4] mm
+ 1.69333846295079E+0001   qAct[5] mm
+ 9.61019372538955E+0001   qAct[6] mm
+ 4.27161789516497E+0002   Lg vérin 1
+ 4.28879250002835E+0002   Lg vérin 2
+ 4.73966250301490E+0002   Lg vérin 3
+ 4.78158269528378E+0002   Lg vérin 4
+ 3.78875296610511E+0002   Lg vérin 5
+ 3.71597832916347E+0002   Lg vérin 6
+ 3.45979933602168E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-2.38816294051475E+0000   dOrig[1] mm
+ 1.69333846295079E+0001   dOrig[2] mm
+ 9.61019372538955E+0001   dOrig[3] mm
+-4.62250780934807E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-2.31125390467403E-0002   Tor_CinF[1] base fixe
+-4.00320919208738E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.78071695382746E+0001   Tor_CinF[4] base fixe
+ 2.80628392514359E-0001   Tor_CinF[5] base fixe
+-8.15256894080938E-0001   Tor_CinF[6] base fixe
+-4.62250780934807E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.66055345219666E+0000   Tor_CinM[4] base mobile
+ 1.43631715884008E+0001   Tor_CinM[5] base mobile
+-6.04423683244500E+0000   Tor_CinM[6] base mobile
+ 7.96876161733184E+0000   Lø[1]  vites allongt v‚rin
+-1.17499776517111E+0001   Lø[2]  vites allongt v‚rin
+-5.35912099055142E+0000   Lø[3]  vites allongt v‚rin
+-2.81616939934240E+0000   Lø[4]  vites allongt v‚rin
+-4.28515096109311E+0000   Lø[5]  vites allongt v‚rin
+ 1.28906367167408E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø18
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.39097424578527E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-4.27094696520495E+0000   qAct[4] mm
+ 1.69749950172533E+0001   qAct[5] mm
+ 9.59805526470647E+0001   qAct[6] mm
+ 4.27862159060382E+0002   Lg vérin 1
+ 4.27776332143860E+0002   Lg vérin 2
+ 4.72876176755335E+0002   Lg vérin 3
+ 4.77413121461713E+0002   Lg vérin 4
+ 3.78834483125413E+0002   Lg vérin 5
+ 3.73199132390715E+0002   Lg vérin 6
+ 3.39097424578527E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-4.27094696520495E+0000   dOrig[1] mm
+ 1.69749950172533E+0001   dOrig[2] mm
+ 9.59805526470647E+0001   dOrig[3] mm
+-8.26680850164937E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-4.13340425082468E-0002   Tor_CinF[1] base fixe
+-7.15926617064953E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.74529351069401E+0001   Tor_CinF[4] base fixe
+ 4.92268024835734E-0001   Tor_CinF[5] base fixe
+-1.45799053262544E+0000   Tor_CinF[6] base fixe
+-8.26680850164937E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-8.30015093849151E+0000   Tor_CinM[4] base mobile
+ 1.40011214081335E+0001   Tor_CinM[5] base mobile
+-6.48452787499033E+0000   Tor_CinM[6] base mobile
+ 7.79228062058878E+0000   Lø[1]  vites allongt v‚rin
+-1.27911732660458E+0001   Lø[2]  vites allongt v‚rin
+-1.13404166148580E+0001   Lø[3]  vites allongt v‚rin
+-6.85279393205084E+0000   Lø[4]  vites allongt v‚rin
+ 5.42160672496125E-0001   Lø[5]  vites allongt v‚rin
+ 1.66379918763236E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø19
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.28373032647630E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-6.10534230583538E+0000   qAct[4] mm
+ 1.70382293752721E+0001   qAct[5] mm
+ 9.57914099821500E+0001   qAct[6] mm
+ 4.28551084702070E+0002   Lg vérin 1
+ 4.26563264152463E+0002   Lg vérin 2
+ 4.71104181156731E+0002   Lg vérin 3
+ 4.76170785306218E+0002   Lg vérin 4
+ 3.79318511729290E+0002   Lg vérin 5
+ 3.75210447535319E+0002   Lg vérin 6
+ 3.28373032647630E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-6.10534230583538E+0000   dOrig[1] mm
+ 1.70382293752721E+0001   dOrig[2] mm
+ 9.57914099821500E+0001   dOrig[3] mm
+-1.18174484699876E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-5.90872423499383E-0002   Tor_CinF[1] base fixe
+-1.02342105829228E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.69009636000377E+0001   Tor_CinF[4] base fixe
+ 6.82245504608195E-0001   Tor_CinF[5] base fixe
+-2.08420552932776E+0000   Tor_CinF[6] base fixe
+-1.18174484699876E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-7.85963986141043E+0000   Tor_CinM[4] base mobile
+ 1.35053345470848E+0001   Tor_CinM[5] base mobile
+-6.80323028032152E+0000   Tor_CinM[6] base mobile
+ 7.53657805528191E+0000   Lø[1]  vites allongt v‚rin
+-1.36787620751052E+0001   Lø[2]  vites allongt v‚rin
+-1.71973956320740E+0001   Lø[3]  vites allongt v‚rin
+-1.09168887946001E+0001   Lø[4]  vites allongt v‚rin
+ 5.34248076146198E+0000   Lø[5]  vites allongt v‚rin
+ 2.02773140543753E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø20
+ 0.00000000000000E+0000   qAct[1] rd
+ 3.13928262294808E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-7.87056575500458E+0000   qAct[4] mm
+ 1.71203017462517E+0001   qAct[5] mm
+ 9.55366521948351E+0001   qAct[6] mm
+ 4.29220935828068E+0002   Lg vérin 1
+ 4.25253379861337E+0002   Lg vérin 2
+ 4.68671083659157E+0002   Lg vérin 3
+ 4.74438517687210E+0002   Lg vérin 4
+ 3.80322422900667E+0002   Lg vérin 5
+ 3.77618852314973E+0002   Lg vérin 6
+ 3.13928262294808E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-7.87056575500458E+0000   dOrig[1] mm
+ 1.71203017462517E+0001   dOrig[2] mm
+ 9.55366521948351E+0001   dOrig[3] mm
+-1.52341999154607E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-7.61709995773036E-0002   Tor_CinF[1] base fixe
+-1.31932041331197E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.61575087067551E+0001   Tor_CinF[4] base fixe
+ 8.42093840848778E-0001   Tor_CinF[5] base fixe
+-2.68680703616558E+0000   Tor_CinF[6] base fixe
+-1.52341999154607E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-7.34947969483209E+0000   Tor_CinM[4] base mobile
+ 1.28797452262132E+0001   Tor_CinM[5] base mobile
+-7.00645793667097E+0000   Tor_CinM[6] base mobile
+ 7.20770967233878E+0000   Lø[1]  vites allongt v‚rin
+-1.43988745461199E+0001   Lø[2]  vites allongt v‚rin
+-2.28617580300504E+0001   Lø[3]  vites allongt v‚rin
+-1.50005135328828E+0001   Lø[4]  vites allongt v‚rin
+ 1.00500561317688E+0001   Lø[5]  vites allongt v‚rin
+ 2.37953958530600E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø21
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.95926768895465E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-9.54661780429613E+0000   qAct[4] mm
+ 1.72175810905960E+0001   qAct[5] mm
+ 9.52191656225488E+0001   qAct[6] mm
+ 4.29864450451854E+0002   Lg vérin 1
+ 4.23861227734413E+0002   Lg vérin 2
+ 4.65604595533438E+0002   Lg vérin 3
+ 4.72226159577124E+0002   Lg vérin 4
+ 3.81834828388372E+0002   Lg vérin 5
+ 3.80411665369275E+0002   Lg vérin 6
+ 2.95926768895465E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-9.54661780429613E+0000   dOrig[1] mm
+ 1.72175810905960E+0001   dOrig[2] mm
+ 9.52191656225488E+0001   dOrig[3] mm
+-1.84783519602345E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-9.23917598011726E-0002   Tor_CinF[1] base fixe
+-1.60027222176331E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.52309935717101E+0001   Tor_CinF[4] base fixe
+ 9.64582668328525E-0001   Tor_CinF[5] base fixe
+-3.25896773962619E+0000   Tor_CinF[6] base fixe
+-1.84783519602345E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-6.78014369103239E+0000   Tor_CinM[4] base mobile
+ 1.21279955989587E+0001   Tor_CinM[5] base mobile
+-7.10463439692928E+0000   Tor_CinM[6] base mobile
+ 6.81168799554933E+0000   Lø[1]  vites allongt v‚rin
+-1.49396508503372E+0001   Lø[2]  vites allongt v‚rin
+-2.82638600609554E+0001   Lø[3]  vites allongt v‚rin
+-1.90867457775350E+0001   Lø[4]  vites allongt v‚rin
+ 1.45984158525697E+0001   Lø[5]  vites allongt v‚rin
+ 2.71726404150360E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø22
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.74572504543550E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.11145092333470E+0001   qAct[4] mm
+ 1.73257415057470E+0001   qAct[5] mm
+ 9.48425473030358E+0001   qAct[6] mm
+ 4.30474766206610E+0002   Lg vérin 1
+ 4.22402465505651E+0002   Lg vérin 2
+ 4.61939361377421E+0002   Lg vérin 3
+ 4.69546580982239E+0002   Lg vérin 4
+ 3.83837723549090E+0002   Lg vérin 5
+ 3.83575365961371E+0002   Lg vérin 6
+ 2.74572504543550E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.11145092333470E+0001   dOrig[1] mm
+ 1.73257415057470E+0001   dOrig[2] mm
+ 9.48425473030358E+0001   dOrig[3] mm
+-2.15131492314105E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.07565746157052E-0001   Tor_CinF[1] base fixe
+-1.86309337498072E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.41319153629811E+0001   Tor_CinF[4] base fixe
+ 1.04404592168359E+0000   Tor_CinF[5] base fixe
+-3.79420521233765E+0000   Tor_CinF[6] base fixe
+-2.15131492314105E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-6.16178739059502E+0000   Tor_CinM[4] base mobile
+ 1.12538794144271E+0001   Tor_CinM[5] base mobile
+-7.11193582542849E+0000   Tor_CinM[6] base mobile
+ 6.35425875185262E+0000   Lø[1]  vites allongt v‚rin
+-1.52914913124723E+0001   Lø[2]  vites allongt v‚rin
+-3.33332904971690E+0001   Lø[3]  vites allongt v‚rin
+-2.31481332792246E+0001   Lø[4]  vites allongt v‚rin
+ 1.89213110031583E+0001   Lø[5]  vites allongt v‚rin
+ 3.03819038495388E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø23
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.50107407329018E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.25564762526233E+0001   qAct[4] mm
+ 1.74399451762211E+0001   qAct[5] mm
+ 9.44110642208834E+0001   qAct[6] mm
+ 4.31045433975489E+0002   Lg vérin 1
+ 4.20893744030072E+0002   Lg vérin 2
+ 4.57717007844722E+0002   Lg vérin 3
+ 4.66416243566291E+0002   Lg vérin 4
+ 3.86306358365849E+0002   Lg vérin 5
+ 3.87094267471355E+0002   Lg vérin 6
+ 2.50107407329018E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.25564762526233E+0001   dOrig[1] mm
+ 1.74399451762211E+0001   dOrig[2] mm
+ 9.44110642208834E+0001   dOrig[3] mm
+-2.43042082895460E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.21521041447730E-0001   Tor_CinF[1] base fixe
+-2.10480617976152E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.28727263420060E+0001   Tor_CinF[4] base fixe
+ 1.07666088126542E+0000   Tor_CinF[5] base fixe
+-4.28645535723306E+0000   Tor_CinF[6] base fixe
+-2.43042082895460E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-5.50394749656620E+0000   Tor_CinM[4] base mobile
+ 1.02618926843977E+0001   Tor_CinM[5] base mobile
+-7.04557323061238E+0000   Tor_CinM[6] base mobile
+ 5.84076019678393E+0000   Lø[1]  vites allongt v‚rin
+-1.54473278121227E+0001   Lø[2]  vites allongt v‚rin
+-3.80000242331757E+0001   Lø[3]  vites allongt v‚rin
+-2.71459617469863E+0001   Lø[4]  vites allongt v‚rin
+ 2.29541106458782E+0001   Lø[5]  vites allongt v‚rin
+ 3.33881361685955E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø24
+ 0.00000000000000E+0000   qAct[1] rd
+ 2.22808660244129E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.38561817623932E+0001   qAct[4] mm
+ 1.75550520249672E+0001   qAct[5] mm
+ 9.39296049637304E+0001   qAct[6] mm
+ 4.31570421089010E+0002   Lg vérin 1
+ 4.19352573318139E+0002   Lg vérin 2
+ 4.52986145689793E+0002   Lg vérin 3
+ 4.62855831600838E+0002   Lg vérin 4
+ 3.89209229515356E+0002   Lg vérin 5
+ 3.90949100638853E+0002   Lg vérin 6
+ 2.22808660244129E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.38561817623932E+0001   dOrig[1] mm
+ 1.75550520249672E+0001   dOrig[2] mm
+ 9.39296049637304E+0001   dOrig[3] mm
+-2.68199071838053E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.34099535919026E-0001   Tor_CinF[1] base fixe
+-2.32267209483161E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-1.14676927827994E+0001   Tor_CinF[4] base fixe
+ 1.06066201696593E+0000   Tor_CinF[5] base fixe
+-4.73014111214490E+0000   Tor_CinF[6] base fixe
+-2.68199071838053E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-4.81528613987798E+0000   Tor_CinM[4] base mobile
+ 9.15782145178445E+0000   Tor_CinM[5] base mobile
+-6.92492182367741E+0000   Tor_CinM[6] base mobile
+ 5.27607362741659E+0000   Lø[1]  vites allongt v‚rin
+-1.54029048053969E+0001   Lø[2]  vites allongt v‚rin
+-4.21961350824943E+0001   Lø[3]  vites allongt v‚rin
+-3.10304274497883E+0001   Lø[4]  vites allongt v‚rin
+ 2.66356129896209E+0001   Lø[5]  vites allongt v‚rin
+ 3.61488837897286E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø25
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.92985550774465E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.49989004476865E+0001   qAct[4] mm
+ 1.76658482085126E+0001   qAct[5] mm
+ 9.34036243358793E+0001   qAct[6] mm
+ 4.32044111860067E+0002   Lg vérin 1
+ 4.17797163696867E+0002   Lg vérin 2
+ 4.47802266455479E+0002   Lg vérin 3
+ 4.58890892859455E+0002   Lg vérin 4
+ 3.92508252404350E+0002   Lg vérin 5
+ 3.95115667999436E+0002   Lg vérin 6
+ 1.92985550774465E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.49989004476865E+0001   dOrig[1] mm
+ 1.76658482085126E+0001   dOrig[2] mm
+ 9.34036243358793E+0001   dOrig[3] mm
+-2.90317437201841E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.45158718600921E-0001   Tor_CinF[1] base fixe
+-2.51422275778388E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-9.93273333889285E+0000   Tor_CinF[4] base fixe
+ 9.96472749239025E-0001   Tor_CinF[5] base fixe
+-5.12023563642382E+0000   Tor_CinF[6] base fixe
+-2.90317437201841E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-4.10339595442651E+0000   Tor_CinM[4] base mobile
+ 7.94928976409354E+0000   Tor_CinM[5] base mobile
+-6.77051669975842E+0000   Tor_CinM[6] base mobile
+ 4.66466530496290E+0000   Lø[1]  vites allongt v‚rin
+-1.51570502077819E+0001   Lø[2]  vites allongt v‚rin
+-4.58579749180375E+0001   Lø[3]  vites allongt v‚rin
+-3.47417397014407E+0001   Lø[4]  vites allongt v‚rin
+ 2.99101635632502E+0001   Lø[5]  vites allongt v‚rin
+ 3.86156438593982E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø26
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.60975966754635E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.59716856121659E+0001   qAct[4] mm
+ 1.77672838311866E+0001   qAct[5] mm
+ 9.28390815568264E+0001   qAct[6] mm
+ 4.32461313225218E+0002   Lg vérin 1
+ 4.16246236071813E+0002   Lg vérin 2
+ 4.42227474936991E+0002   Lg vérin 3
+ 4.54552425976217E+0002   Lg vérin 4
+ 3.96159159203758E+0002   Lg vérin 5
+ 3.99563723881235E+0002   Lg vérin 6
+ 1.60975966754635E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.59716856121659E+0001   dOrig[1] mm
+ 1.77672838311866E+0001   dOrig[2] mm
+ 9.28390815568264E+0001   dOrig[3] mm
+-3.09146583837265E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.54573291918633E-0001   Tor_CinF[1] base fixe
+-2.67728795096248E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-8.28523868925756E+0000   Tor_CinF[4] base fixe
+ 8.86739942018572E-0001   Tor_CinF[5] base fixe
+-5.45231926369537E+0000   Tor_CinF[6] base fixe
+-3.09146583837265E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-3.37468002829035E+0000   Tor_CinM[4] base mobile
+ 6.64619215027200E+0000   Tor_CinM[5] base mobile
+-6.60294917626405E+0000   Tor_CinM[6] base mobile
+ 4.01071147565266E+0000   Lø[1]  vites allongt v‚rin
+-1.47119097585533E+0001   Lø[2]  vites allongt v‚rin
+-4.89286574321983E+0001   Lø[3]  vites allongt v‚rin
+-3.82121068676010E+0001   Lø[4]  vites allongt v‚rin
+ 3.27299133463667E+0001   Lø[5]  vites allongt v‚rin
+ 4.07359840159753E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø27
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.27142568189702E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.67635158607249E+0001   qAct[4] mm
+ 1.78547087866722E+0001   qAct[5] mm
+ 9.22423727449025E+0001   qAct[6] mm
+ 4.32817272375044E+0002   Lg vérin 1
+ 4.14718797336224E+0002   Lg vérin 2
+ 4.36330004153293E+0002   Lg vérin 3
+ 4.49877349943049E+0002   Lg vérin 4
+ 4.00112148390021E+0002   Lg vérin 5
+ 4.04256211113793E+0002   Lg vérin 6
+ 1.27142568189702E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.67635158607249E+0001   dOrig[1] mm
+ 1.78547087866722E+0001   dOrig[2] mm
+ 9.22423727449025E+0001   dOrig[3] mm
+-3.24473182561106E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.62236591280553E-0001   Tor_CinF[1] base fixe
+-2.81002018944704E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-6.54387450657478E+0000   Tor_CinF[4] base fixe
+ 7.36259950507937E-0001   Tor_CinF[5] base fixe
+-5.72262957549526E+0000   Tor_CinF[6] base fixe
+-3.24473182561106E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-2.63431743235844E+0000   Tor_CinM[4] base mobile
+ 5.26094514040098E+0000   Tor_CinM[5] base mobile
+-6.44171478925589E+0000   Tor_CinM[6] base mobile
+ 3.31828995961393E+0000   Lø[1]  vites allongt v‚rin
+-1.40731148105754E+0001   Lø[2]  vites allongt v‚rin
+-5.13606302669418E+0001   Lø[3]  vites allongt v‚rin
+-4.13684859410703E+0001   Lø[4]  vites allongt v‚rin
+ 3.50570072894038E+0001   Lø[5]  vites allongt v‚rin
+ 4.24562677337218E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø28
+ 0.00000000000000E+0000   qAct[1] rd
+ 9.18686784145528E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.73654199689398E+0001   qAct[4] mm
+ 1.79240947216626E+0001   qAct[5] mm
+ 9.16202584509670E+0001   qAct[6] mm
+ 4.33107711529923E+0002   Lg vérin 1
+ 4.13233879955054E+0002   Lg vérin 2
+ 4.30183471189670E+0002   Lg vérin 3
+ 4.44908795195000E+0002   Lg vérin 4
+ 4.04312786077141E+0002   Lg vérin 5
+ 4.09148948516754E+0002   Lg vérin 6
+ 9.18686784145528E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.73654199689398E+0001   dOrig[1] mm
+ 1.79240947216626E+0001   dOrig[2] mm
+ 9.16202584509670E+0001   dOrig[3] mm
+-3.36123587118940E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.68061793559470E-0001   Tor_CinF[1] base fixe
+-2.91091565256154E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-4.72836998016845E+0000   Tor_CinF[4] base fixe
+ 5.51791292293414E-0001   Tor_CinF[5] base fixe
+-5.92810402846201E+0000   Tor_CinF[6] base fixe
+-3.36123587118940E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-1.88631971337108E+0000   Tor_CinM[4] base mobile
+ 3.80851140744061E+0000   Tor_CinM[5] base mobile
+-6.30407903426178E+0000   Tor_CinM[6] base mobile
+ 2.59161476609489E+0000   Lø[1]  vites allongt v‚rin
+-1.32498535727446E+0001   Lø[2]  vites allongt v‚rin
+-5.31180867218330E+0001   Lø[3]  vites allongt v‚rin
+-4.41359072534461E+0001   Lø[4]  vites allongt v‚rin
+ 3.68654741736328E+0001   Lø[5]  vites allongt v‚rin
+ 4.37247630440854E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø29
+ 0.00000000000000E+0000   qAct[1] rd
+ 5.55539411432842E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.77705785246372E+0001   qAct[4] mm
+ 1.79722309795359E+0001   qAct[5] mm
+ 9.09797870631790E+0001   qAct[6] mm
+ 4.33328882589646E+0002   Lg vérin 1
+ 4.11810248394584E+0002   Lg vérin 2
+ 4.23865849843928E+0002   Lg vérin 3
+ 4.39696164228013E+0002   Lg vérin 4
+ 4.08703132986842E+0002   Lg vérin 5
+ 4.14190816585701E+0002   Lg vérin 6
+ 5.55539411432842E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.77705785246372E+0001   dOrig[1] mm
+ 1.79722309795359E+0001   dOrig[2] mm
+ 9.09797870631790E+0001   dOrig[3] mm
+-3.43965801550639E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.71982900775320E-0001   Tor_CinF[1] base fixe
+-2.97883122175930E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-2.85929428957955E+0000   Tor_CinF[4] base fixe
+ 3.41757001659070E-0001   Tor_CinF[5] base fixe
+-6.06641465213203E+0000   Tor_CinF[6] base fixe
+-3.43965801550639E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-1.13367689943182E+0000   Tor_CinM[4] base mobile
+ 2.30617633087152E+0000   Tor_CinM[5] base mobile
+-6.20403705927277E+0000   Tor_CinM[6] base mobile
+ 1.83528528012367E+0000   Lø[1]  vites allongt v‚rin
+-1.22548200163974E+0001   Lø[2]  vites allongt v‚rin
+-5.41789632468423E+0001   Lø[3]  vites allongt v‚rin
+-4.64411305820425E+0001   Lø[4]  vites allongt v‚rin
+ 3.81425964914867E+0001   Lø[5]  vites allongt v‚rin
+ 4.44948691232080E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø30
+ 0.00000000000000E+0000   qAct[1] rd
+ 1.86097926130705E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.79744011900055E+0001   qAct[4] mm
+ 1.79968831705245E+0001   qAct[5] mm
+ 9.03282149506495E+0001   qAct[6] mm
+ 4.33477641488315E+0002   Lg vérin 1
+ 4.10466079020278E+0002   Lg vérin 2
+ 4.17458158954358E+0002   Lg vérin 3
+ 4.34294922682297E+0002   Lg vérin 4
+ 4.13223046736644E+0002   Lg vérin 5
+ 4.19324438362762E+0002   Lg vérin 6
+ 1.86097926130705E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.79744011900055E+0001   dOrig[1] mm
+ 1.79968831705245E+0001   dOrig[2] mm
+ 9.03282149506495E+0001   dOrig[3] mm
+-3.47910975669218E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.73955487834609E-0001   Tor_CinF[1] base fixe
+-3.01299743184973E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+-9.57823561276623E-0001   Tor_CinF[4] base fixe
+ 1.15848604530821E-0001   Tor_CinF[5] base fixe
+-6.13599442422056E+0000   Tor_CinF[6] base fixe
+-3.47910975669218E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+-3.78583946121643E-0001   Tor_CinM[4] base mobile
+ 7.73087182135584E-0001   Tor_CinM[5] base mobile
+-6.15144575301862E+0000   Tor_CinM[6] base mobile
+ 1.05451949230108E+0000   Lø[1]  vites allongt v‚rin
+-1.11040227127968E+0001   Lø[2]  vites allongt v‚rin
+-5.45362938616289E+0001   Lø[3]  vites allongt v‚rin
+-4.82163543967653E+0001   Lø[4]  vites allongt v‚rin
+ 3.88895747560273E+0001   Lø[5]  vites allongt v‚rin
+ 4.47281774962618E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø31
+ 0.00000000000000E+0000   qAct[1] rd
+-1.85451998780979E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.79745787088916E+0001   qAct[4] mm
+ 1.79969047687653E+0001   qAct[5] mm
+ 8.96729242507248E+0001   qAct[6] mm
+ 4.33551539028437E+0002   Lg vérin 1
+ 4.09218623916079E+0002   Lg vérin 2
+ 4.11042892454885E+0002   Lg vérin 3
+ 4.28766098705471E+0002   Lg vérin 4
+ 4.17811590164452E+0002   Lg vérin 5
+ 4.24487304578679E+0002   Lg vérin 6
+-1.85451998780979E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.79745787088916E+0001   dOrig[1] mm
+ 1.79969047687653E+0001   dOrig[2] mm
+ 8.96729242507248E+0001   dOrig[3] mm
+-3.47914411709630E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.73957205854815E-0001   Tor_CinF[1] base fixe
+-3.01302718883258E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 9.54499051179686E-0001   Tor_CinF[4] base fixe
+-1.15447690882314E-0001   Tor_CinF[5] base fixe
+-6.13605502456458E+0000   Tor_CinF[6] base fixe
+-3.47914411709630E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 3.77268892477506E-0001   Tor_CinM[4] base mobile
+-7.70404357977374E-0001   Tor_CinM[5] base mobile
+-6.15139928638156E+0000   Tor_CinM[6] base mobile
+ 2.55341955875636E-0001   Lø[1]  vites allongt v‚rin
+-9.81644698897493E+0000   Lø[2]  vites allongt v‚rin
+-5.41987460387255E+0001   Lø[3]  vites allongt v‚rin
+-4.94026920590100E+0001   Lø[4]  vites allongt v‚rin
+ 3.91213613362482E+0001   Lø[5]  vites allongt v‚rin
+ 4.43970963013833E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø32
+ 0.00000000000000E+0000   qAct[1] rd
+-5.54900802266814E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.77711090700541E+0001   qAct[4] mm
+ 1.79722947691071E+0001   qAct[5] mm
+ 8.90213392313492E+0001   qAct[6] mm
+ 4.33548922101428E+0002   Lg vérin 1
+ 4.08083872324157E+0002   Lg vérin 2
+ 4.04702246706428E+0002   Lg vérin 3
+ 4.23175488190768E+0002   Lg vérin 4
+ 4.22408464687407E+0002   Lg vérin 5
+ 4.29613252504550E+0002   Lg vérin 6
+-5.54900802266814E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.77711090700541E+0001   dOrig[1] mm
+ 1.79722947691071E+0001   dOrig[2] mm
+ 8.90213392313492E+0001   dOrig[3] mm
+-3.43976070742457E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.71988035371229E-0001   Tor_CinF[1] base fixe
+-2.97892015556921E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 2.85600744529069E+0000   Tor_CinF[4] base fixe
+-3.41374727717690E-0001   Tor_CinF[5] base fixe
+-6.06659576657839E+0000   Tor_CinF[6] base fixe
+-3.43976070742457E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 1.13236453623183E+0000   Tor_CinM[4] base mobile
+-2.30352952459463E+0000   Tor_CinM[5] base mobile
+-6.20390213605537E+0000   Tor_CinM[6] base mobile
+-5.55298308885724E-0001   Lø[1]  vites allongt v‚rin
+-8.41357667908054E+0000   Lø[2]  vites allongt v‚rin
+-5.31902389840394E+0001   Lø[3]  vites allongt v‚rin
+-4.99531501236147E+0001   Lø[4]  vites allongt v‚rin
+ 3.88656178761411E+0001   Lø[5]  vites allongt v‚rin
+ 4.34868073859112E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø33
+ 0.00000000000000E+0000   qAct[1] rd
+-9.18062728433834E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.73662975299502E+0001   qAct[4] mm
+ 1.79241977377738E+0001   qAct[5] mm
+ 8.83808421761001E+0001   qAct[6] mm
+ 4.33469036876382E+0002   Lg vérin 1
+ 4.07076225626305E+0002   Lg vérin 2
+ 3.98516229799053E+0002   Lg vérin 3
+ 4.17592584799462E+0002   Lg vérin 4
+ 4.26955384179222E+0002   Lg vérin 5
+ 4.34634180747170E+0002   Lg vérin 6
+-9.18062728433834E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.73662975299502E+0001   dOrig[1] mm
+ 1.79241977377738E+0001   dOrig[2] mm
+ 8.83808421761001E+0001   dOrig[3] mm
+-3.36140573114974E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.68070286557487E-0001   Tor_CinF[1] base fixe
+-2.91106275560228E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 4.72515804075227E+0000   Tor_CinF[4] base fixe
+-5.51445361471453E-0001   Tor_CinF[5] base fixe
+-5.92840360503260E+0000   Tor_CinF[6] base fixe
+-3.36140573114974E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 1.88501332854277E+0000   Tor_CinM[4] base mobile
+-3.80593520120958E+0000   Tor_CinM[5] base mobile
+-6.30386879593378E+0000   Tor_CinM[6] base mobile
+-1.36949730352744E+0000   Lø[1]  vites allongt v‚rin
+-6.91879480989488E+0000   Lø[2]  vites allongt v‚rin
+-5.15486357782121E+0001   Lø[3]  vites allongt v‚rin
+-4.98348932971476E+0001   Lø[4]  vites allongt v‚rin
+ 3.81608380938004E+0001   Lø[5]  vites allongt v‚rin
+ 4.19963931191034E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø34
+ 0.00000000000000E+0000   qAct[1] rd
+-1.27082325002357E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.67647304947978E+0001   qAct[4] mm
+ 1.78548462536451E+0001   qAct[5] mm
+ 8.77586897448937E+0001   qAct[6] mm
+ 4.33312124055358E+0002   Lg vérin 1
+ 4.06208202637522E+0002   Lg vérin 2
+ 3.92560762852940E+0002   Lg vérin 3
+ 4.12089274838159E+0002   Lg vérin 4
+ 4.31397309469538E+0002   Lg vérin 5
+ 4.39481869564557E+0002   Lg vérin 6
+-1.27082325002357E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.67647304947978E+0001   dOrig[1] mm
+ 1.78548462536451E+0001   dOrig[2] mm
+ 8.77586897448937E+0001   dOrig[3] mm
+-3.24496692914577E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.62248346457288E-0001   Tor_CinF[1] base fixe
+-2.81022379508061E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 6.54077386244373E+0000   Tor_CinF[4] base fixe
+-7.35966252980633E-0001   Tor_CinF[5] base fixe
+-5.72304422006784E+0000   Tor_CinF[6] base fixe
+-3.24496692914577E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 2.63302145981259E+0000   Tor_CinM[4] base mobile
+-5.25847140086991E+0000   Tor_CinM[5] base mobile
+-6.44145020227627E+0000   Tor_CinM[6] base mobile
+-2.17846077554649E+0000   Lø[1]  vites allongt v‚rin
+-5.35669413799081E+0000   Lø[2]  vites allongt v‚rin
+-4.93235944607494E+0001   Lø[3]  vites allongt v‚rin
+-4.90306528388335E+0001   Lø[4]  vites allongt v‚rin
+ 3.70537633513516E+0001   Lø[5]  vites allongt v‚rin
+ 3.99390550918801E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø35
+ 0.00000000000000E+0000   qAct[1] rd
+-1.60918568490275E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.59732235578229E+0001   qAct[4] mm
+ 1.77674493998931E+0001   qAct[5] mm
+ 8.71619307579745E+0001   qAct[6] mm
+ 4.33079495858704E+0002   Lg vérin 1
+ 4.05490191258749E+0002   Lg vérin 2
+ 3.86905900913569E+0002   Lg vérin 3
+ 4.06738356172421E+0002   Lg vérin 4
+ 4.35683475367368E+0002   Lg vérin 5
+ 4.44089778101519E+0002   Lg vérin 6
+-1.60918568490275E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.59732235578229E+0001   dOrig[1] mm
+ 1.77674493998931E+0001   dOrig[2] mm
+ 8.71619307579745E+0001   dOrig[3] mm
+-3.09176352182169E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.54588176091085E-0001   Tor_CinF[1] base fixe
+-2.67754575239163E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 8.28228446987830E+0000   Tor_CinF[4] base fixe
+-8.86511790660578E-0001   Tor_CinF[5] base fixe
+-5.45284427845808E+0000   Tor_CinF[6] base fixe
+-3.09176352182169E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 3.37340050347266E+0000   Tor_CinM[4] base mobile
+-6.64384903932416E+0000   Tor_CinM[5] base mobile
+-6.60265771533876E+0000   Tor_CinM[6] base mobile
+-2.97266161954574E+0000   Lø[1]  vites allongt v‚rin
+-3.75233710568122E+0000   Lø[2]  vites allongt v‚rin
+-4.65737482849082E+0001   Lø[3]  vites allongt v‚rin
+-4.75392216209997E+0001   Lø[4]  vites allongt v‚rin
+ 3.55962911788565E+0001   Lø[5]  vites allongt v‚rin
+ 3.73414400010835E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø36
+ 0.00000000000000E+0000   qAct[1] rd
+-1.92931647740035E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.50007442804157E+0001   qAct[4] mm
+ 1.76660342678579E+0001   qAct[5] mm
+ 8.65973263346710E+0001   qAct[6] mm
+ 4.32773585100307E+0002   Lg vérin 1
+ 4.04930260231006E+0002   Lg vérin 2
+ 3.81614306908855E+0002   Lg vérin 3
+ 4.01611955459426E+0002   Lg vérin 4
+ 4.39768159496007E+0002   Lg vérin 5
+ 4.48394704346415E+0002   Lg vérin 6
+-1.92931647740035E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.50007442804157E+0001   dOrig[1] mm
+ 1.76660342678579E+0001   dOrig[2] mm
+ 8.65973263346710E+0001   dOrig[3] mm
+-2.90353126270812E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.45176563135406E-0001   Tor_CinF[1] base fixe
+-2.51453183418754E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 9.92995901477895E+0000   Tor_CinF[4] base fixe
+-9.96320271177206E-0001   Tor_CinF[5] base fixe
+-5.12086507310020E+0000   Tor_CinF[6] base fixe
+-2.90353126270812E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 4.10214084224461E+0000   Tor_CinM[4] base mobile
+-7.94710113563537E+0000   Tor_CinM[5] base mobile
+-6.77023066558426E+0000   Tor_CinM[6] base mobile
+-3.74207739011096E+0000   Lø[1]  vites allongt v‚rin
+-2.13050949292649E+0000   Lø[2]  vites allongt v‚rin
+-4.33634517531102E+0001   Lø[3]  vites allongt v‚rin
+-4.53750689349263E+0001   Lø[4]  vites allongt v‚rin
+ 3.38421281882514E+0001   Lø[5]  vites allongt v‚rin
+ 3.42421774728831E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø37
+ 0.00000000000000E+0000   qAct[1] rd
+-2.22758863146560E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.38583105920640E+0001   qAct[4] mm
+ 1.75552500689165E+0001   qAct[5] mm
+ 8.60712732917269E+0001   qAct[6] mm
+ 4.32397958485330E+0002   Lg vérin 1
+ 4.04534041043279E+0002   Lg vérin 2
+ 3.76740103182400E+0002   Lg vérin 3
+ 3.96779927256173E+0002   Lg vérin 4
+ 4.43611163230998E+0002   Lg vérin 5
+ 4.52338217438131E+0002   Lg vérin 6
+-2.22758863146560E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.38583105920640E+0001   dOrig[1] mm
+ 1.75552500689165E+0001   dOrig[2] mm
+ 8.60712732917269E+0001   dOrig[3] mm
+-2.68240277283508E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.34120138641754E-0001   Tor_CinF[1] base fixe
+-2.32302894445700E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.14651297862993E+0001   Tor_CinF[4] base fixe
+-1.06059172930289E+0000   Tor_CinF[5] base fixe
+-4.73086783938623E+0000   Tor_CinF[6] base fixe
+-2.68240277283508E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 4.81406551252970E+0000   Tor_CinM[4] base mobile
+-9.15580667955397E+0000   Tor_CinM[5] base mobile
+-6.92467642813729E+0000   Tor_CinM[6] base mobile
+-4.47648698152896E+0000   Lø[1]  vites allongt v‚rin
+-5.15012383934015E-0001   Lø[2]  vites allongt v‚rin
+-3.97593691801393E+0001   Lø[3]  vites allongt v‚rin
+-4.25671902274780E+0001   Lø[4]  vites allongt v‚rin
+ 3.18434630053387E+0001   Lø[5]  vites allongt v‚rin
+ 3.06898094550824E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø38
+ 0.00000000000000E+0000   qAct[1] rd
+-2.50062280356073E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.25588659601664E+0001   qAct[4] mm
+ 1.74401462056473E+0001   qAct[5] mm
+ 8.55897316690819E+0001   qAct[6] mm
+ 4.31957288928579E+0002   Lg vérin 1
+ 4.04304685350182E+0002   Lg vérin 2
+ 3.72328199896087E+0002   Lg vérin 3
+ 3.92308320571221E+0002   Lg vérin 4
+ 4.47177997560618E+0002   Lg vérin 5
+ 4.55867801465723E+0002   Lg vérin 6
+-2.50062280356073E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.25588659601664E+0001   dOrig[1] mm
+ 1.74401462056473E+0001   dOrig[2] mm
+ 8.55897316690819E+0001   dOrig[3] mm
+-2.43088337870750E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.21544168935374E-0001   Tor_CinF[1] base fixe
+-2.10520675959804E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.28704037111828E+0001   Tor_CinF[4] base fixe
+-1.07667546392943E+0000   Tor_CinF[5] base fixe
+-4.28727114141441E+0000   Tor_CinF[6] base fixe
+-2.43088337870750E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 5.50277355219714E+0000   Tor_CinM[4] base mobile
+-1.02600669114640E+0001   Tor_CinM[5] base mobile
+-7.04540458660687E+0000   Tor_CinM[6] base mobile
+-5.16579976346014E+0000   Lø[1]  vites allongt v‚rin
+ 1.07196677159747E+0000   Lø[2]  vites allongt v‚rin
+-3.58271927554768E+0001   Lø[3]  vites allongt v‚rin
+-3.91573713675340E+0001   Lø[4]  vites allongt v‚rin
+ 2.96479303507089E+0001   Lø[5]  vites allongt v‚rin
+ 2.67403424277086E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø39
+ 0.00000000000000E+0000   qAct[1] rd
+-2.74532558971735E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-1.11171327440165E+0001   qAct[4] mm
+ 1.73259364438361E+0001   qAct[5] mm
+ 8.51581572042177E+0001   qAct[6] mm
+ 4.31457284964944E+0002   Lg vérin 1
+ 4.04242898058527E+0002   Lg vérin 2
+ 3.68414159118204E+0002   Lg vérin 3
+ 3.88257992389997E+0002   Lg vérin 4
+ 4.50439788728919E+0002   Lg vérin 5
+ 4.58937681360747E+0002   Lg vérin 6
+-2.74532558971735E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-1.11171327440165E+0001   dOrig[1] mm
+ 1.73259364438361E+0001   dOrig[2] mm
+ 8.51581572042177E+0001   dOrig[3] mm
+-2.15182272762759E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-1.07591136381379E-0001   Tor_CinF[1] base fixe
+-1.86353314656622E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.41298594126194E+0001   Tor_CinF[4] base fixe
+-1.04414418538822E+0000   Tor_CinF[5] base fixe
+-3.79510081084292E+0000   Tor_CinF[6] base fixe
+-2.15182272762759E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 6.16067431654971E+0000   Tor_CinM[4] base mobile
+-1.12522541647347E+0001   Tor_CinM[5] base mobile
+-7.11187896707641E+0000   Tor_CinM[6] base mobile
+-5.80038791103958E+0000   Lø[1]  vites allongt v‚rin
+ 2.61037051481413E+0000   Lø[2]  vites allongt v‚rin
+-3.16287578075787E+0001   Lø[3]  vites allongt v‚rin
+-3.51980866055491E+0001   Lø[4]  vites allongt v‚rin
+ 2.72961064297821E+0001   Lø[5]  vites allongt v‚rin
+ 2.24546768018988E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø40
+ 0.00000000000000E+0000   qAct[1] rd
+-2.95892457297398E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-9.54944539441962E+0000   qAct[4] mm
+ 1.72177611915186E+0001   qAct[5] mm
+ 8.47814395201146E+0001   qAct[6] mm
+ 4.30904578857011E+0002   Lg vérin 1
+ 4.04347041100634E+0002   Lg vérin 2
+ 3.65024601481803E+0002   Lg vérin 3
+ 3.84683433722507E+0002   Lg vérin 4
+ 4.53372938311952E+0002   Lg vérin 5
+ 4.61509331577514E+0002   Lg vérin 6
+-2.95892457297398E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-9.54944539441962E+0000   dOrig[1] mm
+ 1.72177611915186E+0001   dOrig[2] mm
+ 8.47814395201146E+0001   dOrig[3] mm
+-1.84838250195496E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-9.24191250977480E-0002   Tor_CinF[1] base fixe
+-1.60074620260364E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.52292275951763E+0001   Tor_CinF[4] base fixe
+-9.64759703035061E-0001   Tor_CinF[5] base fixe
+-3.25993300556463E+0000   Tor_CinF[6] base fixe
+-1.84838250195496E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 6.77910738621228E+0000   Tor_CinM[4] base mobile
+-1.21265796512009E+0001   Tor_CinM[5] base mobile
+-7.10472143298606E+0000   Tor_CinM[6] base mobile
+-6.37139348618260E+0000   Lø[1]  vites allongt v‚rin
+ 4.08265131255236E+0000   Lø[2]  vites allongt v‚rin
+-2.72197782753415E+0001   Lø[3]  vites allongt v‚rin
+-3.07502606136138E+0001   Lø[4]  vites allongt v‚rin
+ 2.48197236883225E+0001   Lø[5]  vites allongt v‚rin
+ 1.78961612278599E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø41
+ 0.00000000000000E+0000   qAct[1] rd
+-3.13899973411697E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-7.87356538874403E+0000   qAct[4] mm
+ 1.71204589789489E+0001   qAct[5] mm
+ 8.44638467271339E+0001   qAct[6] mm
+ 4.30306578434698E+0002   Lg vérin 1
+ 4.04613298348996E+0002   Lg vérin 2
+ 3.62178105184048E+0002   Lg vérin 3
+ 3.81631852966549E+0002   Lg vérin 4
+ 4.55958588517562E+0002   Lg vérin 5
+ 4.63551694379684E+0002   Lg vérin 6
+-3.13899973411697E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-7.87356538874403E+0000   dOrig[1] mm
+ 1.71204589789489E+0001   dOrig[2] mm
+ 8.44638467271339E+0001   dOrig[3] mm
+-1.52400059809307E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-7.62000299046537E-0002   Tor_CinF[1] base fixe
+-1.31982323333128E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.61560527120898E+0001   Tor_CinF[4] base fixe
+-8.42341321116752E-0001   Tor_CinF[5] base fixe
+-2.68783103333280E+0000   Tor_CinF[6] base fixe
+-1.52400059809307E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 7.34853737330043E+0000   Tor_CinM[4] base mobile
+-1.28785456245702E+0001   Tor_CinM[5] base mobile
+-7.00671641140834E+0000   Tor_CinM[6] base mobile
+-6.87098573394817E+0000   Lø[1]  vites allongt v‚rin
+ 5.47400198847235E+0000   Lø[2]  vites allongt v‚rin
+-2.26483619549570E+0001   Lø[3]  vites allongt v‚rin
+-2.58811083111462E+0001   Lø[4]  vites allongt v‚rin
+ 2.22407270329698E+0001   Lø[5]  vites allongt v‚rin
+ 1.31284856667384E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø42
+ 0.00000000000000E+0000   qAct[1] rd
+-3.28351086984935E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-6.10847999814471E+0000   qAct[4] mm
+ 1.70383567670921E+0001   qAct[5] mm
+ 8.42089770664726E+0001   qAct[6] mm
+ 4.29671290689010E+0002   Lg vérin 1
+ 4.05035888559430E+0002   Lg vérin 2
+ 3.59886492533860E+0002   Lg vérin 3
+ 3.79142536100580E+0002   Lg vérin 4
+ 4.58181955011857E+0002   Lg vérin 5
+ 4.65041154896278E+0002   Lg vérin 6
+-3.28351086984935E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-6.10847999814471E+0000   dOrig[1] mm
+ 1.70383567670921E+0001   dOrig[2] mm
+ 8.42089770664726E+0001   dOrig[3] mm
+-1.18235217604475E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-5.91176088022375E-0002   Tor_CinF[1] base fixe
+-1.02394702067456E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.68998340832702E+0001   Tor_CinF[4] base fixe
+-6.82552123291028E-0001   Tor_CinF[5] base fixe
+-2.08527665611025E+0000   Tor_CinF[6] base fixe
+-1.18235217604475E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 7.85880956345803E+0000   Tor_CinM[4] base mobile
+-1.35043576135067E+0001   Tor_CinM[5] base mobile
+-6.80368178763604E+0000   Tor_CinM[6] base mobile
+-7.29255042049319E+0000   Lø[1]  vites allongt v‚rin
+ 6.77243425225961E+0000   Lø[2]  vites allongt v‚rin
+-1.79543909104565E+0001   Lø[3]  vites allongt v‚rin
+-2.06622255651963E+0001   Lø[4]  vites allongt v‚rin
+ 1.95712216646490E+0001   Lø[5]  vites allongt v‚rin
+ 8.21407164663602E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø43
+ 0.00000000000000E+0000   qAct[1] rd
+-3.39082070774723E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-4.27418716687153E+0000   qAct[4] mm
+ 1.69750869453679E+0001   qAct[5] mm
+ 8.40197181430544E+0001   qAct[6] mm
+ 4.29007127408520E+0002   Lg vérin 1
+ 4.05607310924531E+0002   Lg vérin 2
+ 3.58156354971049E+0002   Lg vérin 3
+ 3.77246476564292E+0002   Lg vérin 4
+ 4.60031595926055E+0002   Lg vérin 5
+ 4.65961333662064E+0002   Lg vérin 6
+-3.39082070774723E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-4.27418716687153E+0000   dOrig[1] mm
+ 1.69750869453679E+0001   dOrig[2] mm
+ 8.40197181430544E+0001   dOrig[3] mm
+-8.27308020834641E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-4.13654010417320E-0002   Tor_CinF[1] base fixe
+-7.16469762797425E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.74521448651924E+0001   Tor_CinF[4] base fixe
+-4.92620025506958E-0001   Tor_CinF[5] base fixe
+-1.45909665344406E+0000   Tor_CinF[6] base fixe
+-8.27308020834641E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.29945097609425E+0000   Tor_CinM[4] base mobile
+-1.40003736262559E+0001   Tor_CinM[5] base mobile
+-6.48518694795519E+0000   Tor_CinM[6] base mobile
+-7.63080099385365E+0000   Lø[1]  vites allongt v‚rin
+ 7.96871260074037E+0000   Lø[2]  vites allongt v‚rin
+-1.31697755023422E+0001   Lø[3]  vites allongt v‚rin
+-1.51680459449108E+0001   Lø[4]  vites allongt v‚rin
+ 1.68142919232790E+0001   Lø[5]  vites allongt v‚rin
+ 3.21304877125354E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø44
+ 0.00000000000000E+0000   qAct[1] rd
+-3.45971345611737E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-2.39146894092241E+0000   qAct[4] mm
+ 1.69334370511511E+0001   qAct[5] mm
+ 8.38982142097406E+0001   qAct[6] mm
+ 4.28322704497597E+0002   Lg vérin 1
+ 4.06318606878531E+0002   Lg vérin 2
+ 3.56990639708661E+0002   Lg vérin 3
+ 3.75966243279634E+0002   Lg vérin 4
+ 4.61498686768107E+0002   Lg vérin 5
+ 4.66302763807926E+0002   Lg vérin 6
+-3.45971345611737E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-2.39146894092241E+0000   dOrig[1] mm
+ 1.69334370511511E+0001   dOrig[2] mm
+ 8.38982142097406E+0001   dOrig[3] mm
+-4.62890687552687E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-2.31445343776343E-0002   Tor_CinF[1] base fixe
+-4.00875094595872E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.78067275247740E+0001   Tor_CinF[4] base fixe
+-2.81010172966256E-0001   Tor_CinF[5] base fixe
+-8.16385476883433E-0001   Tor_CinF[6] base fixe
+-4.62890687552687E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.66000181387635E+0000   Tor_CinM[4] base mobile
+-1.43626602476272E+0001   Tor_CinM[5] base mobile
+-6.04511011484531E+0000   Tor_CinM[6] base mobile
+-7.88180993673835E+0000   Lø[1]  vites allongt v‚rin
+ 9.05615892741295E+0000   Lø[2]  vites allongt v‚rin
+-8.31951773587464E+0000   Lø[3]  vites allongt v‚rin
+-9.47471168961280E+0000   Lø[4]  vites allongt v‚rin
+ 1.39656066516187E+0001   Lø[5]  vites allongt v‚rin
+-1.81716825879435E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø45
+ 0.00000000000000E+0000   qAct[1] rd
+-3.48940857859113E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+-4.81656013033908E-0001   qAct[4] mm
+ 1.69152365414103E+0001   qAct[5] mm
+ 8.38458418735201E+0001   qAct[6] mm
+ 4.27626646947969E+0002   Lg vérin 1
+ 4.07159622172774E+0002   Lg vérin 2
+ 3.56390113566149E+0002   Lg vérin 3
+ 3.75316036627666E+0002   Lg vérin 4
+ 4.62576367000530E+0002   Lg vérin 5
+ 4.66062519687315E+0002   Lg vérin 6
+-3.48940857859113E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+-4.81656013033908E-0001   dOrig[1] mm
+ 1.69152365414103E+0001   dOrig[2] mm
+ 8.38458418735201E+0001   dOrig[3] mm
+-9.32289268833902E-0003   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+-4.66144634416951E-0003   Tor_CinF[1] base fixe
+-8.07386190485779E-0003   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.79595647355464E+0001   Tor_CinF[4] base fixe
+-5.70635516890622E-0002   Tor_CinF[5] base fixe
+-1.64424871745533E-0001   Tor_CinF[6] base fixe
+-9.32289268833902E-0003   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.93036388238033E+0000   Tor_CinM[4] base mobile
+-1.45867119481000E+0001   Tor_CinM[5] base mobile
+-5.48203363261262E+0000   Tor_CinM[6] base mobile
+-8.04296696937362E+0000   Lø[1]  vites allongt v‚rin
+ 1.00303493882862E+0001   Lø[2]  vites allongt v‚rin
+-3.42345632827736E+0000   Lø[3]  vites allongt v‚rin
+-3.65933949329110E+0000   Lø[4]  vites allongt v‚rin
+ 1.10156732765838E+0001   Lø[5]  vites allongt v‚rin
+-6.82175991606230E+0000   Lø[6]  vites allongt v‚rin
+*********************************** Position nø46
+ 0.00000000000000E+0000   qAct[1] rd
+-3.47956963739224E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.43361394834857E+0000   qAct[4] mm
+ 1.69212834818201E+0001   qAct[5] mm
+ 8.38631944989210E+0001   qAct[6] mm
+ 4.26927410741091E+0002   Lg vérin 1
+ 4.08119254781636E+0002   Lg vérin 2
+ 3.56354532911907E+0002   Lg vérin 3
+ 3.75301872078241E+0002   Lg vérin 4
+ 4.63259215589475E+0002   Lg vérin 5
+ 4.65243857228208E+0002   Lg vérin 6
+-3.47956963739224E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.43361394834857E+0000   dOrig[1] mm
+ 1.69212834818201E+0001   dOrig[2] mm
+ 8.38631944989210E+0001   dOrig[3] mm
+ 2.77489092532488E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.38744546266244E-0002   Tor_CinF[1] base fixe
+ 2.40312603406226E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.79089248928880E+0001   Tor_CinF[4] base fixe
+ 1.69385661731109E-0001   Tor_CinF[5] base fixe
+ 4.89398623106470E-0001   Tor_CinF[6] base fixe
+ 2.77489092532488E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 9.10115473253997E+0000   Tor_CinM[4] base mobile
+-1.46673716057165E+0001   Tor_CinM[5] base mobile
+-4.79947768491409E+0000   Tor_CinM[6] base mobile
+-8.11287793530518E+0000   Lø[1]  vites allongt v‚rin
+ 1.08887294829368E+0001   Lø[2]  vites allongt v‚rin
+ 1.50148449304648E+0000   Lø[3]  vites allongt v‚rin
+ 2.20039841343659E+0000   Lø[4]  vites allongt v‚rin
+ 7.95256195497920E+0000   Lø[5]  vites allongt v‚rin
+-1.17479593836529E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø47
+ 0.00000000000000E+0000   qAct[1] rd
+-3.43030810508664E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 3.33264144805323E+0000   qAct[4] mm
+ 1.69513128164157E+0001   qAct[5] mm
+ 8.39500754853499E+0001   qAct[6] mm
+ 4.26233131314569E+0002   Lg vérin 1
+ 4.09185676679324E+0002   Lg vérin 2
+ 3.56883381041773E+0002   Lg vérin 3
+ 3.75921830990106E+0002   Lg vérin 4
+ 4.63542900639332E+0002   Lg vérin 5
+ 4.63855914711331E+0002   Lg vérin 6
+-3.43030810508664E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 3.33264144805323E+0000   dOrig[1] mm
+ 1.69513128164157E+0001   dOrig[2] mm
+ 8.39500754853499E+0001   dOrig[3] mm
+ 6.45063234925779E-0002   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 3.22531617462889E-0002   Tor_CinF[1] base fixe
+ 5.58641148493094E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.76553817326394E+0001   Tor_CinF[4] base fixe
+ 3.88403710617754E-0001   Tor_CinF[5] base fixe
+ 1.13767736276812E+0000   Tor_CinF[6] base fixe
+ 6.45063234925779E-0002   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 9.16405834663879E+0000   Tor_CinM[4] base mobile
+-1.45989691501202E+0001   Tor_CinM[5] base mobile
+-4.00597125833776E+0000   Tor_CinM[6] base mobile
+-8.09122362131227E+0000   Lø[1]  vites allongt v‚rin
+ 1.16301761488093E+0001   Lø[2]  vites allongt v‚rin
+ 6.43875600961418E+0000   Lø[3]  vites allongt v‚rin
+ 8.02650346094658E+0000   Lø[4]  vites allongt v‚rin
+ 4.76489322808878E+0000   Lø[5]  vites allongt v‚rin
+-1.65442539933652E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø48
+ 0.00000000000000E+0000   qAct[1] rd
+-3.34218210162815E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 5.19391101364442E+0000   qAct[4] mm
+ 1.70040068890680E+0001   qAct[5] mm
+ 8.41055004945236E+0001   qAct[6] mm
+ 4.25551505780936E+0002   Lg vérin 1
+ 4.10346520698842E+0002   Lg vérin 2
+ 3.57976081973697E+0002   Lg vérin 3
+ 3.77166327621918E+0002   Lg vérin 4
+ 4.63424033212062E+0002   Lg vérin 5
+ 4.61913507222669E+0002   Lg vérin 6
+-3.34218210162815E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 5.19391101364442E+0000   dOrig[1] mm
+ 1.70040068890680E+0001   dOrig[2] mm
+ 8.41055004945236E+0001   dOrig[3] mm
+ 1.00532898381110E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 5.02664491905551E-0002   Tor_CinF[1] base fixe
+ 8.70640439141210E-0002   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.72018078308303E+0001   Tor_CinF[4] base fixe
+ 5.90352990884592E-0001   Tor_CinF[5] base fixe
+ 1.77306652292489E+0000   Tor_CinF[6] base fixe
+ 1.00532898381110E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 9.11216460272131E+0000   Tor_CinM[4] base mobile
+-1.43756732113661E+0001   Tor_CinM[5] base mobile
+-3.11495588577093E+0000   Tor_CinM[6] base mobile
+-7.97860097744375E+0000   Lø[1]  vites allongt v‚rin
+ 1.22545372055396E+0001   Lø[2]  vites allongt v‚rin
+ 1.13695892949553E+0001   Lø[3]  vites allongt v‚rin
+ 1.37408429776932E+0001   Lø[4]  vites allongt v‚rin
+ 1.44486742226588E+0000   Lø[5]  vites allongt v‚rin
+-2.11595244434555E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø49
+ 0.00000000000000E+0000   qAct[1] rd
+-3.21619007100907E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 6.99633495995695E+0000   qAct[4] mm
+ 1.70770479974913E+0001   qAct[5] mm
+ 8.43277086027581E+0001   qAct[6] mm
+ 4.24889713050008E+0002   Lg vérin 1
+ 4.11589027294938E+0002   Lg vérin 2
+ 3.59631657512421E+0002   Lg vérin 3
+ 3.79018358731387E+0002   Lg vérin 4
+ 4.62900238595798E+0002   Lg vérin 5
+ 4.59437030057296E+0002   Lg vérin 6
+-3.21619007100907E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 6.99633495995695E+0000   dOrig[1] mm
+ 1.70770479974913E+0001   dOrig[2] mm
+ 8.43277086027581E+0001   dOrig[3] mm
+ 1.35420462484210E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 6.77102312421052E-0002   Tor_CinF[1] base fixe
+ 1.17277560703563E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.65533420581635E+0001   Tor_CinF[4] base fixe
+ 7.66281382287772E-0001   Tor_CinF[5] base fixe
+ 2.38836731474239E+0000   Tor_CinF[6] base fixe
+ 1.35420462484210E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.94029017258999E+0000   Tor_CinM[4] base mobile
+-1.39920293831113E+0001   Tor_CinM[5] base mobile
+-2.14451492267431E+0000   Tor_CinM[6] base mobile
+-7.77636996755910E+0000   Lø[1]  vites allongt v‚rin
+ 1.27621789194414E+0001   Lø[2]  vites allongt v‚rin
+ 1.62705801838977E+0001   Lø[3]  vites allongt v‚rin
+ 1.92654637959842E+0001   Lø[4]  vites allongt v‚rin
+-2.00888886122540E+0000   Lø[5]  vites allongt v‚rin
+-2.55423213603125E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø50
+ 0.00000000000000E+0000   qAct[1] rd
+-3.05375946915740E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 8.71949230691534E+0000   qAct[4] mm
+ 1.71672118356754E+0001   qAct[5] mm
+ 8.46141822517620E+0001   qAct[6] mm
+ 4.24254372630132E+0002   Lg vérin 1
+ 4.12900149841101E+0002   Lg vérin 2
+ 3.61847856792608E+0002   Lg vérin 3
+ 3.81453724089306E+0002   Lg vérin 4
+ 4.61970440691121E+0002   Lg vérin 5
+ 4.56452467265908E+0002   Lg vérin 6
+-3.05375946915740E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 8.71949230691534E+0000   dOrig[1] mm
+ 1.71672118356754E+0001   dOrig[2] mm
+ 8.46141822517620E+0001   dOrig[3] mm
+ 1.68773749054071E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 8.43868745270353E-0002   Tor_CinF[1] base fixe
+ 1.46162354172765E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.57173313579873E+0001   Tor_CinF[4] base fixe
+ 9.08295738233748E-0001   Tor_CinF[5] base fixe
+ 2.97660854521359E+0000   Tor_CinF[6] base fixe
+ 1.68773749054071E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.64527286245322E+0000   Tor_CinM[4] base mobile
+-1.34436397527473E+0001   Tor_CinM[5] base mobile
+-1.11692073504957E+0000   Tor_CinM[6] base mobile
+-7.48652754410407E+0000   Lø[1]  vites allongt v‚rin
+ 1.31535718279737E+0001   Lø[2]  vites allongt v‚rin
+ 2.11116803699793E+0001   Lø[3]  vites allongt v‚rin
+ 2.45231689572724E+0001   Lø[4]  vites allongt v‚rin
+-5.58887450476813E+0000   Lø[5]  vites allongt v‚rin
+-2.96404624641391E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø51
+ 0.00000000000000E+0000   qAct[1] rd
+-2.85673059124390E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.03438601437631E+0001   qAct[4] mm
+ 1.72704995948921E+0001   qAct[5] mm
+ 8.49616757718966E+0001   qAct[6] mm
+ 4.23651539452433E+0002   Lg vérin 1
+ 4.14266620861038E+0002   Lg vérin 2
+ 3.64619848147095E+0002   Lg vérin 3
+ 3.84441228880004E+0002   Lg vérin 4
+ 4.60635337905136E+0002   Lg vérin 5
+ 4.52991482754163E+0002   Lg vérin 6
+-2.85673059124390E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.03438601437631E+0001   dOrig[1] mm
+ 1.72704995948921E+0001   dOrig[2] mm
+ 8.49616757718966E+0001   dOrig[3] mm
+ 2.00214874295987E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.00107437147993E-0001   Tor_CinF[1] base fixe
+ 1.73391167355833E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.47032475073972E+0001   Tor_CinF[4] base fixe
+ 1.00990818724766E+0000   Tor_CinF[5] base fixe
+ 3.53112559890678E+0000   Tor_CinF[6] base fixe
+ 2.00214874295987E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 8.22622989934501E+0000   Tor_CinM[4] base mobile
+-1.27279231599820E+0001   Tor_CinM[5] base mobile
+-5.79955379614289E-0002   Tor_CinM[6] base mobile
+-7.11162614806899E+0000   Lø[1]  vites allongt v‚rin
+ 1.34289431422032E+0001   Lø[2]  vites allongt v‚rin
+ 2.58547922558254E+0001   Lø[3]  vites allongt v‚rin
+ 2.94384621301523E+0001   Lø[4]  vites allongt v‚rin
+-9.27685741757136E+0000   Lø[5]  vites allongt v‚rin
+-3.34010965821705E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø52
+ 0.00000000000000E+0000   qAct[1] rd
+-2.62733572163120E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.18510348184076E+0001   qAct[4] mm
+ 1.73823051624713E+0001   qAct[5] mm
+ 8.53662521547431E+0001   qAct[6] mm
+ 4.23086728873045E+0002   Lg vérin 1
+ 4.15674985090718E+0002   Lg vérin 2
+ 3.67938615618415E+0002   Lg vérin 3
+ 3.87942898382634E+0002   Lg vérin 4
+ 4.58898033055481E+0002   Lg vérin 5
+ 4.49091554271722E+0002   Lg vérin 6
+-2.62733572163120E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.18510348184076E+0001   dOrig[1] mm
+ 1.73823051624713E+0001   dOrig[2] mm
+ 8.53662521547431E+0001   dOrig[3] mm
+ 2.29387618690446E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.14693809345222E-0001   Tor_CinF[1] base fixe
+ 1.98655505099544E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.35225798045411E+0001   Tor_CinF[4] base fixe
+ 1.06634152453812E+0000   Tor_CinF[5] base fixe
+ 4.04563594627160E+0000   Tor_CinF[6] base fixe
+ 2.29387618690446E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 7.68476875163079E+0000   Tor_CinM[4] base mobile
+-1.18448855177421E+0001   Tor_CinM[5] base mobile
+ 1.00371078127270E+0000   Tor_CinM[6] base mobile
+-6.65474802938534E+0000   Lø[1]  vites allongt v‚rin
+ 1.35880207823291E+0001   Lø[2]  vites allongt v‚rin
+ 3.04531220180911E+0001   Lø[3]  vites allongt v‚rin
+ 3.39389105089734E+0001   Lø[4]  vites allongt v‚rin
+-1.30427687339227E+0001   Lø[5]  vites allongt v‚rin
+-3.67713260365196E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø53
+ 0.00000000000000E+0000   qAct[1] rd
+-2.36817384269042E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.32239404458639E+0001   qAct[4] mm
+ 1.74976122660337E+0001   qAct[5] mm
+ 8.58233276583521E+0001   qAct[6] mm
+ 4.22564963353586E+0002   Lg vérin 1
+ 4.17111608245822E+0002   Lg vérin 2
+ 3.71789240451062E+0002   Lg vérin 3
+ 3.91914248298047E+0002   Lg vérin 4
+ 4.56764766320462E+0002   Lg vérin 5
+ 4.44796096620174E+0002   Lg vérin 6
+-2.36817384269042E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.32239404458639E+0001   dOrig[1] mm
+ 1.74976122660337E+0001   dOrig[2] mm
+ 8.58233276583521E+0001   dOrig[3] mm
+ 2.55961462864775E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.27980731432388E-0001   Tor_CinF[1] base fixe
+ 2.21669129230723E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.21887048979510E+0001   Tor_CinF[4] base fixe
+ 1.07477784545322E+0000   Tor_CinF[5] base fixe
+ 4.51431032301454E+0000   Tor_CinF[6] base fixe
+ 2.55961462864775E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 7.02513736656272E+0000   Tor_CinM[4] base mobile
+-1.07978254982954E+0001   Tor_CinM[5] base mobile
+ 2.03791110899725E+0000   Tor_CinM[6] base mobile
+-6.11953910711793E+0000   Lø[1]  vites allongt v‚rin
+ 1.36298891268477E+0001   Lø[2]  vites allongt v‚rin
+ 3.48513881447661E+0001   Lø[3]  vites allongt v‚rin
+ 3.79569121483171E+0001   Lø[4]  vites allongt v‚rin
+-1.68444590436906E+0001   Lø[5]  vites allongt v‚rin
+-3.96994112812073E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø54
+ 0.00000000000000E+0000   qAct[1] rd
+-2.08218118902775E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.44470223734538E+0001   qAct[4] mm
+ 1.76112146269793E+0001   qAct[5] mm
+ 8.63277237398114E+0001   qAct[6] mm
+ 4.22090830463978E+0002   Lg vérin 1
+ 4.18562672590557E+0002   Lg vérin 2
+ 3.76149266147293E+0002   Lg vérin 3
+ 3.96304658583557E+0002   Lg vérin 4
+ 4.54245690174541E+0002   Lg vérin 5
+ 4.40154510741267E+0002   Lg vérin 6
+-2.08218118902775E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.44470223734538E+0001   dOrig[1] mm
+ 1.76112146269793E+0001   dOrig[2] mm
+ 8.63277237398114E+0001   dOrig[3] mm
+ 2.79635332289021E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.39817666144511E-0001   Tor_CinF[1] base fixe
+ 2.42171301557995E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.07167352327021E+0001   Tor_CinF[4] base fixe
+ 1.03453347578751E+0000   Tor_CinF[5] base fixe
+ 4.93183877410027E+0000   Tor_CinF[6] base fixe
+ 2.79635332289021E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 6.25429988744848E+0000   Tor_CinM[4] base mobile
+-9.59390356144302E+0000   Tor_CinM[5] base mobile
+ 3.01371110521174E+0000   Tor_CinM[6] base mobile
+-5.51029777292653E+0000   Lø[1]  vites allongt v‚rin
+ 1.35529697097757E+0001   Lø[2]  vites allongt v‚rin
+ 3.89869140929744E+0001   Lø[3]  vites allongt v‚rin
+ 4.14317852811520E+0001   Lø[4]  vites allongt v‚rin
+-2.06283688215929E+0001   Lø[5]  vites allongt v‚rin
+-4.21365074924728E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø55
+ 0.00000000000000E+0000   qAct[1] rd
+-1.77259798073354E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.55064234108504E+0001   qAct[4] mm
+ 1.77179503619108E+0001   qAct[5] mm
+ 8.68737257267483E+0001   qAct[6] mm
+ 4.21668541003757E+0002   Lg vérin 1
+ 4.20014171647979E+0002   Lg vérin 2
+ 3.80987340873878E+0002   Lg vérin 3
+ 4.01057894145352E+0002   Lg vérin 4
+ 4.51355619324309E+0002   Lg vérin 5
+ 4.35222091158725E+0002   Lg vérin 6
+-1.77259798073354E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.55064234108504E+0001   dOrig[1] mm
+ 1.77179503619108E+0001   dOrig[2] mm
+ 8.68737257267483E+0001   dOrig[3] mm
+ 3.00141008369655E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.50070504184827E-0001   Tor_CinF[1] base fixe
+ 2.59929737965599E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 9.12334783046142E+0000   Tor_CinF[4] base fixe
+ 9.47143886521671E-0001   Tor_CinF[5] base fixe
+ 5.29349081411890E+0000   Tor_CinF[6] base fixe
+ 3.00141008369655E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 5.38192458199760E+0000   Tor_CinM[4] base mobile
+-8.24451170411620E+0000   Tor_CinM[5] base mobile
+ 3.90083538884975E+0000   Tor_CinM[6] base mobile
+-4.83210586517495E+0000   Lø[1]  vites allongt v‚rin
+ 1.33551314620632E+0001   Lø[2]  vites allongt v‚rin
+ 4.27915580526993E+0001   Lø[3]  vites allongt v‚rin
+ 4.43120335478040E+0001   Lø[4]  vites allongt v‚rin
+-2.43310970538166E+0001   Lø[5]  vites allongt v‚rin
+-4.40388098761595E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø56
+ 0.00000000000000E+0000   qAct[1] rd
+-1.44293171255742E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.63901408283290E+0001   qAct[4] mm
+ 1.78129402215223E+0001   qAct[5] mm
+ 8.74551475630360E+0001   qAct[6] mm
+ 4.21301976326144E+0002   Lg vérin 1
+ 4.21451916493474E+0002   Lg vérin 2
+ 3.86262303005703E+0002   Lg vérin 3
+ 4.06112803151343E+0002   Lg vérin 4
+ 4.48114687501762E+0002   Lg vérin 5
+ 4.30059726474037E+0002   Lg vérin 6
+-1.44293171255742E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.63901408283290E+0001   dOrig[1] mm
+ 1.78129402215223E+0001   dOrig[2] mm
+ 8.74551475630360E+0001   dOrig[3] mm
+ 3.17246167294329E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.58623083647164E-0001   Tor_CinF[1] base fixe
+ 2.74743240130137E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 7.42659534330340E+0000   Tor_CinF[4] base fixe
+ 8.16345114217732E-0001   Tor_CinF[5] base fixe
+ 5.59516902241724E+0000   Tor_CinF[6] base fixe
+ 3.17246167294329E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 4.42027327881956E+0000   Tor_CinM[4] base mobile
+-6.76539678226355E+0000   Tor_CinM[5] base mobile
+ 4.67089334573078E+0000   Tor_CinM[6] base mobile
+-4.09098196133832E+0000   Lø[1]  vites allongt v‚rin
+ 1.30339250750179E+0001   Lø[2]  vites allongt v‚rin
+ 4.61943562309737E+0001   Lø[3]  vites allongt v‚rin
+ 4.65575907463421E+0001   Lø[4]  vites allongt v‚rin
+-2.78817796403472E+0001   Lø[5]  vites allongt v‚rin
+-4.53699211920718E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø57
+ 0.00000000000000E+0000   qAct[1] rd
+-1.09691741493311E-0001   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.70881623444775E+0001   qAct[4] mm
+ 1.78918180348814E+0001   qAct[5] mm
+ 8.80654018951505E+0001   qAct[6] mm
+ 4.20994715394290E+0002   Lg vérin 1
+ 4.22861564955819E+0002   Lg vérin 2
+ 3.91922827852158E+0002   Lg vérin 3
+ 4.11404205208420E+0002   Lg vérin 4
+ 4.44548846889493E+0002   Lg vérin 5
+ 4.24733336897721E+0002   Lg vérin 6
+-1.09691741493311E-0001   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.70881623444775E+0001   dOrig[1] mm
+ 1.78918180348814E+0001   dOrig[2] mm
+ 8.80654018951505E+0001   dOrig[3] mm
+ 3.30757012198377E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.65378506099189E-0001   Tor_CinF[1] base fixe
+ 2.86443975043634E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 5.64570152200223E+0000   Tor_CinF[4] base fixe
+ 6.47943368807208E-0001   Tor_CinF[5] base fixe
+ 5.83345546577616E+0000   Tor_CinF[6] base fixe
+ 3.30757012198377E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 3.38398617860183E+0000   Tor_CinM[4] base mobile
+-5.17651046298601E+0000   Tor_CinM[5] base mobile
+ 5.29861830343926E+0000   Tor_CinM[6] base mobile
+-3.29403207874073E+0000   Lø[1]  vites allongt v‚rin
+ 1.25869254368484E+0001   Lø[2]  vites allongt v‚rin
+ 4.91246861578148E+0001   Lø[3]  vites allongt v‚rin
+ 4.81418192662262E+0001   Lø[4]  vites allongt v‚rin
+-3.12051189855647E+0001   Lø[5]  vites allongt v‚rin
+-4.61032096095653E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø58
+ 0.00000000000000E+0000   qAct[1] rd
+-7.38475337085069E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.75925795626598E+0001   qAct[4] mm
+ 1.79509411769873E+0001   qAct[5] mm
+ 8.86975747051204E+0001   qAct[6] mm
+ 4.20750034599109E+0002   Lg vérin 1
+ 4.24228682759898E+0002   Lg vérin 2
+ 3.97907692901034E+0002   Lg vérin 3
+ 4.16863960098294E+0002   Lg vérin 4
+ 4.40690154910922E+0002   Lg vérin 5
+ 4.19313009356205E+0002   Lg vérin 6
+-7.38475337085069E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.75925795626598E+0001   dOrig[1] mm
+ 1.79509411769873E+0001   dOrig[2] mm
+ 8.86975747051204E+0001   dOrig[3] mm
+ 3.40520468831343E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.70260234415671E-0001   Tor_CinF[1] base fixe
+ 2.94899376516530E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 3.80084341608933E+0000   Tor_CinF[4] base fixe
+ 4.49571713902448E-0001   Tor_CinF[5] base fixe
+ 6.00565042267786E+0000   Tor_CinF[6] base fixe
+ 3.40520468831343E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 2.28976223310710E+0000   Tor_CinM[4] base mobile
+-3.50158193016371E+0000   Tor_CinM[5] base mobile
+ 5.76300922272115E+0000   Tor_CinM[6] base mobile
+-2.44957060187590E+0000   Lø[1]  vites allongt v‚rin
+ 1.20121559327684E+0001   Lø[2]  vites allongt v‚rin
+ 5.15157014056332E+0001   Lø[3]  vites allongt v‚rin
+ 4.90530332306091E+0001   Lø[4]  vites allongt v‚rin
+-3.42248459435241E+0001   Lø[5]  vites allongt v‚rin
+-4.62239043031445E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø59
+ 0.00000000000000E+0000   qAct[1] rd
+-3.71666531655700E-0002   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.78976775710301E+0001   qAct[4] mm
+ 1.79875691900831E+0001   qAct[5] mm
+ 8.93445036444964E+0001   qAct[6] mm
+ 4.20570876694186E+0002   Lg vérin 1
+ 4.25538842364901E+0002   Lg vérin 2
+ 4.04146654061771E+0002   Lg vérin 3
+ 4.22422186317782E+0002   Lg vérin 4
+ 4.36576806693302E+0002   Lg vérin 5
+ 4.13871814213541E+0002   Lg vérin 6
+-3.71666531655700E-0002   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.78976775710301E+0001   dOrig[1] mm
+ 1.79875691900831E+0001   dOrig[2] mm
+ 8.93445036444964E+0001   dOrig[3] mm
+ 3.46425919847194E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.73212959923597E-0001   Tor_CinF[1] base fixe
+ 3.00013647117062E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 1.91292277329173E+0000   Tor_CinF[4] base fixe
+ 2.30341265001231E-0001   Tor_CinF[5] base fixe
+ 6.10980297042676E+0000   Tor_CinF[6] base fixe
+ 3.46425919847194E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 1.15594277367677E+0000   Tor_CinM[4] base mobile
+-1.76743319668211E+0000   Tor_CinM[5] base mobile
+ 6.04830547935756E+0000   Tor_CinM[6] base mobile
+-1.56718523779931E+0000   Lø[1]  vites allongt v‚rin
+ 1.13085599421946E+0001   Lø[2]  vites allongt v‚rin
+ 5.33077563266003E+0001   Lø[3]  vites allongt v‚rin
+ 4.92953428448211E+0001   Lø[4]  vites allongt v‚rin
+-3.68673526999281E+0001   Lø[5]  vites allongt v‚rin
+-4.57306843981429E+0001   Lø[6]  vites allongt v‚rin
+*********************************** Position nø60
+ 0.00000000000000E+0000   qAct[1] rd
+-6.46844067784415E-0005   qAct[2] rd
+ 0.00000000000000E+0000   qAct[3] rd
+ 1.79999996909513E+0001   qAct[4] mm
+ 1.79999999623433E+0001   qAct[5] mm
+ 8.99988591818394E+0001   qAct[6] mm
+ 4.20459789014461E+0002   Lg vérin 1
+ 4.26777761296894E+0002   Lg vérin 2
+ 4.10561865483357E+0002   Lg vérin 3
+ 4.28008580188548E+0002   Lg vérin 4
+ 4.32252888873177E+0002   Lg vérin 5
+ 4.08484317023139E+0002   Lg vérin 6
+-6.46844067784415E-0005   dTéta[1] rd
+ 0.00000000000000E+0000   dTéta[2] rd
+ 0.00000000000000E+0000   dTéta[3] rd
+ 1.79999996909513E+0001   dOrig[1] mm
+ 1.79999999623433E+0001   dOrig[2] mm
+ 8.99988591818394E+0001   dOrig[3] mm
+ 3.50380114457318E-0001   q°[1] base mobile
+ 0.00000000000000E+0000   q°[2] base mobile
+ 0.00000000000000E+0000   q°[3] base mobile
+ 1.75190057228659E-0001   Tor_CinF[1] base fixe
+ 3.03438080100937E-0001   Tor_CinF[2] base fixe
+ 0.00000000000000E+0000   Tor_CinF[3] base fixe
+ 8.77230082824271E-0003   Tor_CinF[4] base fixe
+ 3.11904483534136E-0003   Tor_CinF[5] base fixe
+ 6.17954183403506E+0000   Tor_CinF[6] base fixe
+ 3.50380114457318E-0001   Tor_CinM[1] base mobile
+ 0.00000000000000E+0000   Tor_CinM[2] base mobile
+ 0.00000000000000E+0000   Tor_CinM[3] base mobile
+ 7.08732247706962E-0003   Tor_CinM[4] base mobile
+-6.43723293401446E-0003   Tor_CinM[5] base mobile
+ 6.17954143057429E+0000   Tor_CinM[6] base mobile
+-6.62800995545580E-0001   Lø[1]  vites allongt v‚rin
+ 1.05384104846619E+0001   Lø[2]  vites allongt v‚rin
+ 5.47577334840593E+0001   Lø[3]  vites allongt v‚rin
+ 4.91665515344441E+0001   Lø[4]  vites allongt v‚rin
+-3.92829041619675E+0001   Lø[5]  vites allongt v‚rin
+-4.48929336925600E+0001   Lø[6]  vites allongt v‚rin

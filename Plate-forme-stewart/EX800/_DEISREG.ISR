@@ -1,0 +1,3 @@
+[Admin Install]
+Admin=1
+Error=Cette installation ne peut être désinstallée que par un utilisateur ayant les privilèges d'administration. La désinstallation va être fermée.

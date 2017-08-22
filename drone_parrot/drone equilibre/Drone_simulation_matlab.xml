@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/01/15||19:34:05" using="SimMechanics Link Version 4.5" from="SolidWorks 22.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Drone_simulation_matlab" uid="Drone_simulation_matlab" version="447">
+<AssemblyFile name="Drone_simulation_matlab.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Chassis_Drone-2" uid="Chassis_Drone-2" grounded="true" entityUid="Chassis_Drone*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.03679999999999968</Translation>
+</Transform>
+</Instance>
+<Instance name="Bloc helice-3" uid="Bloc helice-3" entityUid="Bloc helice*:*Défaut">
+<Transform>
+<Rotation>-1.1102230246150631e-016 1 0 -1 1.1102230246150628e-016 0 0 0 1</Rotation>
+<Translation>-0.17200000000000001 -2.1415938031264564e-015 0.070000000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="Bloc helice-4" uid="Bloc helice-4" entityUid="Bloc helice*:*Défaut">
+<Transform>
+<Rotation>2.3348698237720032e-016 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>0.17199999999999999 0 0.070000000000000007</Translation>
+</Transform>
+</Instance>
+<Instance name="Bloc helice CR-5" uid="Bloc helice CR-5" entityUid="Bloc helice CR*:*Défaut">
+<Transform>
+<Rotation>-1.0000000000000002 0 0 0 -1 -3.0420110874729251e-014 0 -3.0420110874729251e-014 1.0000000000000002</Rotation>
+<Translation>8.5784728509646913e-016 -0.1720000000000021 0.069999999999994775</Translation>
+</Transform>
+</Instance>
+<Instance name="Bloc helice CR-6" uid="Bloc helice CR-6" entityUid="Bloc helice CR*:*Défaut">
+<Transform>
+<Rotation>-1 1.1102230246271038e-016 -6.9388939039072292e-015 1.1102230246250213e-016 -1 -3.0466370167421962e-014 -6.9388939039072252e-015 -3.0466370167421981e-014 1</Rotation>
+<Translation>-1.0172780354459111e-015 0.17199999999999785 0.070000000000005252</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>-0.17199999999999999 1.0249960602504166e-015 0.01820000000000032</Position>
+<Axis>0 -3.0420110874729264e-014 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bloc helice-3</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>0 3.8633540810907139e-016 0.012700000000000322</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bloc helice-3</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>0.17199999999999999 -3.6569835499274012e-016 0.018200000000000327</Position>
+<Axis>0 -6.8099461255263533e-015 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bloc helice-4</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>0 3.8633540810907139e-016 0.012700000000000322</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bloc helice-4</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>-6.3597936485290747e-016 -0.17199999999999999 0.018200000000000348</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bloc helice CR-5</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>0 3.8633540810907139e-016 0.012700000000000322</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bloc helice CR-5</Uid>
+</InstancePath>
+<Position>0 0 -0.020500000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>5.8872428994777982e-016 0.17199999999999999 0.01820000000000032</Position>
+<Axis>6.8562054182190679e-015 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bloc helice CR-6</Uid>
+</InstancePath>
+<Position>0 0 -0.020499999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis_Drone-2</Uid>
+</InstancePath>
+<Position>0 3.8633540810907139e-016 0.012700000000000322</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bloc helice CR-6</Uid>
+</InstancePath>
+<Position>0 0 -0.020499999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Bloc helice CR" uid="Bloc helice CR*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bloc helice CR.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0047232577755476658</Mass>
+<CenterOfMass>0 0 -0.0049165281531214217</CenterOfMass>
+<Inertia>4.113910207776614e-007 1.0409957264142701e-005 1.0210860831537611e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bloc helice CR_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bloc helice" uid="Bloc helice*:*Défaut" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bloc helice.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0047232577755476693</Mass>
+<CenterOfMass>0 0 -0.0049165281531214269</CenterOfMass>
+<Inertia>4.1139102077766182e-007 1.0409957264142704e-005 1.0210860831537612e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bloc helice_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Chassis_Drone" uid="Chassis_Drone*:*Défaut" version="317">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chassis_Drone.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.35160737765432903</Mass>
+<CenterOfMass>0 0 0.0012526957676780384</CenterOfMass>
+<Inertia>0.0020156472220849105 0.0020156472220849101 0.0039875001141419508 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis_Drone_Défaut_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

@@ -1,0 +1,22 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 09/15/10 by Jeannot
+' ******************************************************************************
+
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+Set swApp = CreateObject ("SldWorks.Application")
+Set Part = swApp.OpenDoc4 ("J:\Prepa PTSI\Communication Technique\Solidworks\pince robot ericc 3\Pince.SLDASM", 2, 0, "", longstatus)
+Set Part = swApp.ActivateDoc ("Pince.SLDASM")
+Part.ShowNamedView2 "*Isométrique", 7
+Part.Save2 FALSE
+swApp.ExitApp
+End Sub

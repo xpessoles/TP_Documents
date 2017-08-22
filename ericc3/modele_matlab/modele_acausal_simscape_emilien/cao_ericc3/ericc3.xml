@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/18/17||19:38:03" using="Simscape Multibody Link Version 4.9" from="SolidWorks 24.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="ericc3" uid="ericc3" version="245">
+<AssemblyFile name="ericc3.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="bras-1" uid="bras-1" entityUid="bras*:*Défaut">
+<Transform>
+<Rotation>0.9308988047850153 0.36495621457521304 -0.015309366177650503 -0.36490687082436452 0.93102468358413104 0.006001181736913672 0.016443566371102569 2.1293730667615307e-016 0.99986479542236073</Rotation>
+<Translation>0.00088794323830207488 -0.00034806854074540374 7.8418655033556727e-006</Translation>
+</Transform>
+</Instance>
+<Instance name="avant bras-1" uid="avant bras-1" entityUid="avant bras*:*Défaut">
+<Transform>
+<Rotation>0.93089880478501508 0.36495621457521299 -0.015309366177650597 -0.36490687082436446 0.93102468358413093 0.006001181736913737 0.016443566371102683 1.8218806254735329e-016 0.99986479542236062</Rotation>
+<Translation>0.36337783542272145 -0.14244197991173035 -0.030594073772581689</Translation>
+</Transform>
+</Instance>
+<Instance name="sphere-1" uid="sphere-1" entityUid="sphere*:*Défaut">
+<Transform>
+<Rotation>0.93089880478501486 -0.12911383073713276 -0.34169728410131361 -0.36490687082436518 -0.28659876229821835 -0.88583526971683579 0.016443566371102752 0.94931068052640821 -0.31390896923070988</Rotation>
+<Translation>0.61012761970568752 -0.23916644791669076 0.07377808173336986</Translation>
+</Transform>
+</Instance>
+<Instance name="poignet-1" uid="poignet-1" entityUid="poignet*:*Défaut">
+<Transform>
+<Rotation>0.36495621457521282 -0.93089880478501497 -0.015309366177650569 0.93102468358413093 0.36490687082436452 0.0060011817369137197 1.8614916699437527e-016 -0.016443566371102652 0.99986479542236062</Rotation>
+<Translation>0.55868620811572089 -0.21900171632868745 0.027863326222581891</Translation>
+</Transform>
+</Instance>
+<Instance name="chaise-1" uid="chaise-1" entityUid="chaise*:*Défaut">
+<Transform>
+<Rotation>0.93089880478501486 0.015309366177650607 0.3649562145752136 -0.36490687082436513 -0.0060011817369137466 0.93102468358413071 0.016443566371102947 -0.99986479542236073 2.6132944704682805e-016</Rotation>
+<Translation>-0.12882954374505212 -0.32865171330520254 0.058000000000000128</Translation>
+</Transform>
+</Instance>
+<Instance name="bati-1" uid="bati-1" grounded="true" entityUid="bati*:*Défaut">
+<Transform>
+<Rotation>0.93102467868769145 -9.5485141353396718e-005 -0.36495621457521288 -0.3649562126558375 3.7429615294605478e-005 -0.93102468358413082 0.00010255919422645791 0.99999999474080581 -1.7897902650498783e-016</Rotation>
+<Translation>-0.12882954374505215 -0.3286517133052026 0.058000000000000149</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chaise-1</Uid>
+</InstancePath>
+<Position>0 0 0.064000000000000057</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bati-1</Uid>
+</InstancePath>
+<Position>0 0 0.14999999999999991</Position>
+<Axis>-1.1100394651777386e-016 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chaise-1</Uid>
+</InstancePath>
+<Position>0 -0.14100000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bati-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.1100394651777386e-016 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coïncidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bras-1</Uid>
+</InstancePath>
+<Position>0.28200000000000008 0 0.126</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>chaise-1</Uid>
+</InstancePath>
+<Position>0 -0.06800000000000006 0.35300000000000009</Position>
+<Axis>-2.4980018054066022e-016 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>bras-1</Uid>
+</InstancePath>
+<Position>0.28200000000000008 0 0.126</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>avant bras-1</Uid>
+</InstancePath>
+<Position>-0.10678924731182793 0 0.19999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bras-1</Uid>
+</InstancePath>
+<Position>0 0 0.063</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>avant bras-1</Uid>
+</InstancePath>
+<Position>0 0 0.099999999999999978</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>avant bras-1</Uid>
+</InstancePath>
+<Position>0.21071075268817197 0 0.048000000000000015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>poignet-1</Uid>
+</InstancePath>
+<Position>0 0 0.089999999999999969</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>avant bras-1</Uid>
+</InstancePath>
+<Position>0 0 0.099999999999999978</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>poignet-1</Uid>
+</InstancePath>
+<Position>0 0 0.044999999999999991</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>sphere-1</Uid>
+</InstancePath>
+<Position>-0.011897715053763358 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>poignet-1</Uid>
+</InstancePath>
+<Position>0 0.033999999999999919 0.044999999999999991</Position>
+<Axis>-2.1898364874263383e-016 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>sphere-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>poignet-1</Uid>
+</InstancePath>
+<Position>0.039999999999999938 -0.05600000000000005 0.089999999999999997</Position>
+<Axis>-2.1898364874263383e-016 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bras-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>chaise-1</Uid>
+</InstancePath>
+<Position>0 0.092999999999999972 0.35300000000000004</Position>
+<Axis>2.4980018054066022e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="avant bras" uid="avant bras*:*Défaut" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="avant bras.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.8424860004287908</Mass>
+<CenterOfMass>0.01866334498603869 -1.9380608295110745e-007 0.099829651664470373</CenterOfMass>
+<Inertia>0.0036635450553416131 0.023143368394426194 0.022600516490455087 -3.8243779380794966e-009 6.1225255676957779e-005 5.5603542153021405e-008</Inertia>
+</MassProperties>
+<GeometryFile name="avant bras_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bati" uid="bati*:*Défaut" version="145">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bati.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>10.948971951767058</Mass>
+<CenterOfMass>0 0 0.088626543346207648</CenterOfMass>
+<Inertia>0.049284971751952525 0.049284971751952525 0.0426962785874049 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bati_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bras" uid="bras*:*Défaut" version="170">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bras.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.5649661309075009</Mass>
+<CenterOfMass>0.01394732922226017 0.0017221923273403458 0.073969728157571163</CenterOfMass>
+<Inertia>0.030005693205382912 0.15186758537026579 0.14364943768189153 -0.00081055924681529832 -0.0088587046326783631 -0.0013922465229587123</Inertia>
+</MassProperties>
+<GeometryFile name="bras_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="chaise" uid="chaise*:*Défaut" version="461">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="chaise.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.374025527242805</Mass>
+<CenterOfMass>-0.026709066453346666 -0.11644799269584385 0.2361091741894096</CenterOfMass>
+<Inertia>0.26062083334554303 0.24017191051588135 0.1368909372365214 0.034425123712696376 0.016094054994755115 -0.022328889822980227</Inertia>
+</MassProperties>
+<GeometryFile name="chaise_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="poignet" uid="poignet*:*Défaut" version="131">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="poignet.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10857522424716801</Mass>
+<CenterOfMass>0 -0.036461525852781597 0.044999999999999998</CenterOfMass>
+<Inertia>0.0002029651918762318 0.00020587251486464458 0.00010555857071799551 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="poignet_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="sphere" uid="sphere*:*Défaut" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="sphere.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12615401081623093</Mass>
+<CenterOfMass>0.048468831011126451 0 0</CenterOfMass>
+<Inertia>1.1900019072577345e-005 0.00020354028757091217 0.00020354028757091217 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="sphere_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

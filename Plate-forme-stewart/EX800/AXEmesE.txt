@@ -1,0 +1,69 @@
+001:'ATTENTION!!!  L''application doit être exécutée dans un mode écran > 800*600 '
+002:'Si vous continuez, une partie des écrans et des menus ne sera pas visible'
+003:'Mechanism not defined yet.. File/New or File/Open'
+004:'Actuator drawing'
+005:'This file already exist... Do you wish remplace it ? Yes  No '
+006:'File .sgn not found...'
+007:'Curves piloting results'
+008:'Piloting if : '
+009:'Position n°'
+010:'Position in mm'
+011:'Trial no'
+012:'Trial no 1: Position in mm as a function of time'
+013:'Square signal'
+014:'Sinus signal'
+015:'Ramp signal'
+016:'Trapeze signal'
+017:'Computation done: '
+018:' pas de calcul'
+019:'File .acq not found'
+020:'Reference, Position, Velocity, and Torque curves as a function of time. Differents y scales'
+021:'Le signal lg du verin est hors limites '
+022:'carre'
+023:'sinus'
+024:'trapeze'
+025:'ramp'
+026:'Signal '
+027:'Recopy reference'
+028:'Position reference in mm'
+029:'Position'
+030:'Position en mm'
+031:'Speed'
+032:'Motor speed in tr/min'
+033:'Torque'
+034:'Motor torque in mNm'
+035:'Power'
+036:'Motor power in en mW'
+037:'Efficiency'
+038:'Motor efficiency'
+039:' as a function of time'
+040:'Trial'
+041:'No of position';
+042:'Time in seconds';
+043:'Reference in mm';
+044:'Position in mm';
+045:'Motor speed in tr/min';
+046:'Motor torque in mNm';
+047:'Motor power in mW';
+048:'Motor efficiency';
+049:'All components have null values'
+050:'as a function of'
+051:'5 trials max......'
+052:'Terminated...'
+053:'File '
+054:' impossible to read'
+055:' ipossible to write'
+056:'Acquisition interface can not be found....'
+057:'Wait for stop and OK for beginning'
+058:'Lgth in mm'
+059:'UNIQUE TRIAL'
+060:'CONSECUTIVES'
+061:'Forced delay'
+062:'Auto delay'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+
+

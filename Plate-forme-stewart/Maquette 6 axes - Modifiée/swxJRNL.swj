@@ -1,0 +1,45 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 11/30/02 by daddy
+' ******************************************************************************
+
+Dim swApp As Object
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long
+Dim Annotation As Object
+Dim Gtol As Object
+Dim DatumTag As Object
+Dim FeatureData As Object
+Dim Feature As Object
+Dim Component As Object
+Sub main()
+Set swApp = CreateObject ("SldWorks.Application")
+Set Part = swApp.OpenDoc4 ("C:\Sauvegarde D\DELTALAB PRODUITS\Deltalab_Plateforme EX 800  7_07_02\EX 806 (Plateforme 6 axes)\Modèle SW_MECA3D\plateforme.SLDASM", 2, 0, "", longstatus)
+Set Part = swApp.ActivateDoc ("plateforme.SLDASM")
+swApp.ActiveDoc.ActiveView.FrameLeft = 0
+swApp.ActiveDoc.ActiveView.FrameTop = 0
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ActiveDoc.ActiveView.FrameState = 1
+Part.ActiveView().RotateAboutCenter -0.1326, -0.217591
+Part.ActiveView().RotateAboutCenter -0.1734, -0.236241
+Part.ActiveView().RotateAboutCenter -0.1836, -0.310844
+Part.ActiveView().RotateAboutCenter -0.1224, -0.335711
+Part.ActiveView().RotateAboutCenter -0.00509999, -0.00621687
+Part.ActiveView().RotateAboutCenter 0.00509999, -0.0124337
+Part.ActiveView().RotateAboutCenter 0.1938, -0.273542
+Part.ActiveView().RotateAboutCenter 0.153, -0.161639
+Part.ActiveView().RotateAboutCenter 0.214199, -0.124337
+Part.ActiveView().RotateAboutCenter 0.204, -0.0124337
+Part.ActiveView().RotateAboutCenter 0.00509999, 0
+Part.ActiveView().RotateAboutCenter 0.0153, 0.385446
+Part.ActiveView().RotateAboutCenter -0.0102, 0.0435181
+Part.ActiveView().RotateAboutCenter -0.0509999, 0.211374
+Part.ActiveView().RotateAboutCenter -0.0917998, 0.186506
+Part.ActiveView().RotateAboutCenter -0.1122, 0.149205
+Part.ActiveView().RotateAboutCenter -0.102, 0.0683856
+Part.ActiveView().RotateAboutCenter -0.0102, 0
+Part.SetPickMode
+Part.SetPickMode
+swApp.ActiveDoc.ActiveView.FrameState = 1
+swApp.ExitApp
+End Sub
